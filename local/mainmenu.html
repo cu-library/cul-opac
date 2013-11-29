@@ -1,0 +1,256 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html lang="en" xml:lang="en" xmlns="http://www.w3.org/1999/xhtml"><!-- Rel 2009B Example Set --><!-- Updated: 09 June 2010 --><head>
+<link href="/scripts/ProStyles.css" type="text/css" rel="stylesheet">
+<link href="/screens/styles.css" type="text/css" rel="stylesheet">
+<script src="/scripts/elcontent.js" type="text/javascript"></script>
+<script src="/scripts/common.js" type="text/javascript"></script>
+<title>Millennium Web Catalog</title>
+<meta content="IE=8;FF=3;OtherUA=4" http-equiv="X-UA-Compatible">
+<link media="print" href="/screens/styles_print.css" type="text/css" rel="stylesheet">
+<!--<link rel="stylesheet" type="text/css" href="/screens/stylesmain.css" > Un-comment to offer a larger logo on mainmenu.-->
+<script type="text/javascript">/* &lt;![CDATA[ */
+function iiiSearchValidate() {
+	try{
+	  if (document.getElementById('search').searcharg.value==null||document.getElementById('search').searcharg.value=="") {
+		return false;
+		}
+	}
+	catch(err) {
+	}
+  return true;
+}
+
+function iiiDoSubmit_1()
+{
+//getFormHandleForm() is in common.js
+var obj = getFormHandleForm(1);
+if(iiiSearchValidate()){
+obj.submit();
+}
+}
+/* ]]&gt; */
+</script>
+<script src="/screens/iiilangswitch.js" type="text/javascript"></script> 
+</head>
+<body class="bodybg">
+<!-- begin toplogo.html file -->
+<!-- Rel 2009B Example Set -->
+<!-- Updated: 06 Oct 2010 -->
+<script type="text/javascript">
+if (document.body){document.body.className = "bodybg";}
+</script>
+
+<div class="minHeight">
+<div class="fullPage">
+
+<div id="skipNav"><a tabindex="1" href="#content">Skip to content</a></div>
+<div class="topLogo">
+
+<div class="topLinks">
+<ul id="topLinksList">
+<li><a tabindex="120" href="/patroninfo">Login</a></li>
+<li><a tabindex="115" href="/help">Help</a></li>
+<li><a tabindex="110" onclick="window.print();" href="#"><span class="buttonTopLinks"><img alt="" src="/screens/ico_printer.gif"><span class="buttonTopLinksText">Print</span></span></a></li>
+<li><a tabindex="105" href="/search/">New Search</a></li>
+</ul>
+</div>
+
+<div class="topLogoSmall">
+<a tabindex="10" href="/"><img height="40" width="280" alt="Catalog Home Page" src="/screens/logo_sm.jpg"></a>
+</div>
+
+</div><!--topLogo-->
+
+
+<div class="topMyLibrary">
+<div id="topMyLibraryHeader"><h1>My Library</h1></div>
+
+<ul id="toplogoMoreNav">
+<!-- Toplogo alt links. -->
+<!--<li><a href="/acquire">Suggest a purchase</a></li>
+<li><a href="/suggest">Leave Comments</a></li>
+-->
+
+<!-- Dropdown menus -->
+	<li id="first">
+		<div><a href="/patroninfo">My Library</a></div>
+		<ul>
+            <li><a href="/patroninfo">My Account</a></li>
+            <!--<li><a href="/selfreg">Create an account</a></li> -->
+            <li><a href="/libinfo">About the library</a></li>
+            <li><a href="/acquire">Suggest a purchase</a></li>
+            <li><a href="/suggest">Comments</a></li>
+		</ul>
+	</li>
+
+	<li>
+		<div><a href="/help">Help Topics</a></div>
+		<ul>
+			<li><a href="/help#searching">Searching</a></li>
+			<li><a href="/help#searchtips">Advanced Keyword Search Tips</a></li>
+			<li><a href="/help#prefsearch">Saving your searches</a></li>
+			<li><a href="/help#renewals">Renewals</a></li>
+			<li><a href="/help#feepay">Fee Payment</a></li>
+			<li><a href="/help#rpro">Research Pro</a></li>
+			<li><a href="/help#programs">Library Events and Community Programs</a></li>
+		</ul>
+	</li>
+<!--
+	<li id="last">
+		<div><a href="#">Features</a></div>
+		<ul>
+            <li><a href="<encore IP/iii/encore>">Search Encore</a></li>
+            <li><a href="/iii/calendar/month">Program Calendar</a></li>
+            <li><a href="/ftlist">Featured Lists</a></li>
+            <li><a href="/rpro">Research Pro</a></li>
+            <li><a href="/search/y">Find e-resources</a></li>
+            <li><a href="/illb">Interlibrary Loan</a></li>
+		</ul>
+	</li> -->
+<!-- End dropdown menus -->    
+    
+</ul>
+
+<script type="text/javascript">&lt;!--//--&gt;&lt;![CDATA[//&gt;&lt;!--
+
+//Enable optional dropdown menu for additional navigation options.
+if (document.all&amp;&amp;document.getElementById) {
+	navRoot = document.getElementById("toplogoMoreNav");
+	for (i=0; i&lt;navRoot.childNodes.length; i++) {
+		node = navRoot.childNodes[i];
+		if (node.nodeName=="LI") {
+			node.onmouseover=function() {
+				this.className+=" over";
+			}
+			node.onmouseout=function() {
+				this.className=this.className.replace(" over", "");
+			}
+		}
+	}
+}
+
+//--&gt;&lt;!]]&gt;</script>
+
+</div><!--myLibrary-->
+<div class="topNavClear"></div>
+
+<div class="searchNav">
+<script language="JavaScript"> 
+&lt;!--
+function GotoURL() { 
+//top.location.href = dl.specializedSearch.options[dl.specializedSearch.selectedIndex].value;
+window.location.assign(document.getElementById("specializedSearch").value);
+return false;
+} 
+// --&gt;
+</script>
+<div id="searchNavMenu">
+<select id="specializedSearch" name="specializedSearch">
+<option value=" " selected="selected">(More Searches)</option>
+<option value="/search/X">Advanced Keyword</option>
+<option value="/search/t">Title</option>
+<option value="/search/s">Journal Title</option>
+<option value="/search/a">Author</option>
+<option value="/search/d">Subject</option>
+<option value="/search/y">Resource Name</option>
+<option value="/search/c">Call Number</option>
+<option value="/search/i">ISBN</option>
+<option value="/search/g">Government Document #</option>
+<option value="/search/q">Author and Title</option>
+<!--<option value="/search/p">Instructor</option>
+<option value="/search/r">Course</option> -->
+</select>
+<input type="image" onclick="GotoURL();" value="Go" class="searchNavBut" src="/screens/ico_go.gif">
+</div>
+
+</div><!--searchNav-->
+<div class="clear"></div>
+<div class="pageContent"><!-- content container -->
+<a id="content" name="content"></a>
+<!--end toplogo.html-->
+
+<div class="pageContentInner mainSearch">
+
+<h1 class="accessibleAddInfo">Search</h1>
+
+<div class="form1Part" id="accessibleForm">
+<div class="browseSearchtool">
+<form onsubmit="return iiiSearchValidate();" id="search" name="search" method="get" action="/search/">
+
+
+<input type="hidden" id="iiiFormHandle_1">
+
+<!-- Optional legend:
+<fieldset>
+<legend>Type the search term you want to find.</legend>-->
+<div class="formEntryArea">
+<label class="accessibleAddInfo" for="searchtype">Search type</label>
+<select id="searchtype" name="searchtype">
+<option selected="selected" value="X">Keyword</option>
+<option value="t">Title</option>
+<option value="s">Journal Title</option>
+<option value="a">Author</option>
+<option value="d">Subject</option>
+<option value="y">Resource Name</option>
+</select>
+<input type="hidden" value="D" id="SORT" name="SORT">
+<label class="accessibleAddInfo" for="searcharg">Search term</label>
+<input size="20" name="searcharg" maxlength="75">
+<label class="accessibleAddInfo" for="scope">Location</label>
+<label style="display:none;" for="searchscope">Search Scope</label><select id="searchscope" name="searchscope">
+<option value="1"> Books</option> <option value="2"> Journals</option> <option value="3"> E-books</option> <option value="4"> E-journals</option> <option value="5"> All E-resources</option> <option value="6"> Government information</option> <option value="7"> Audio</option> <option value="8"> Video</option> <option selected="selected" value="9"> View Entire Collection</option> </select>
+
+<span class="nowrap formButtonArea">
+
+  <!--{submit}-->
+
+<input type="hidden" id="iiiFormHandle_1">
+<a onclick="iiiDoSubmit_1();" href="#"><div onmouseup="this.className='';" onmouseout="this.className='';" onmousedown="this.className='pressedState';" class=""><div class="buttonSpriteDiv"><span class="buttonSpriteSpan1"><span class="buttonSpriteSpan2">Submit</span></span></div></div></a>
+
+<input type="submit" class="submitHidden">
+
+</span>
+</div><!-- formEntryArea -->
+<!--</fieldset> optional-->
+</form>
+</div><!-- browseSearchtool -->
+</div><!-- form1Part -->
+
+<div class="mainMenuContent">
+<div class="mainMenuContentLeft">
+<img height="249" width="355" src="/screens/main.jpg">
+</div>
+<div class="mainMenuContentRight">
+<ul>
+<li><a href="[encore IP/iii/encore]">Search Encore</a></li>
+<li><a href="/iii/calendar/month">Program Calendar</a></li>
+<li><a href="/ftlist">Featured Lists</a></li>
+<li><a href="/rpro">Research Pro</a></li>
+<li><a href="/search/y">Find e-resources</a></li>
+<li><a href="/illb">Interlibrary Loan</a></li>
+<li><a href="[WebPAC IP:2090]">KidsOnline</a></li>
+</ul>
+</div>
+</div>
+
+</div><!--pageContentInner -->
+
+
+<!-- begin botlogo.html file -->
+<!-- Rel 2009B Example Set -->
+<!-- Updated: Sept 2009 -->
+</div><!-- pageContent  -->
+<div style="clear:both"></div>
+</div><!-- fullPage -->
+</div><!-- min-height -->
+<!-- end botlogo.html file -->
+
+<script type="text/javascript">&lt;!--//--&gt;&lt;![CDATA[//&gt;&lt;!--
+try { document.forms[0].searcharg.focus(); }
+catch(err) {}
+//--&gt;&lt;!]]&gt;</script>
+<span style="font-family: Verdana, Geneva, Arial, Helvetica, sans-serif; visibility: visible; font-size: 85%; text-align: center; display: block; ">WebPAC PRO &copy; Innovative Interfaces, Inc.</span>
+
+
+
+</body></html>
