@@ -1,5 +1,5 @@
-/*<!-- Rel 2009B Example Set -->*/
-/*<!-- This File Last Changed: April 29 2010-->*/
+/*<!-- WebPAC Pro: Carleton University Library -->*/
+/*<!-- Based on Example Set release 2009B -->*/
 /* *******************************************************************
 Organization:
 Section 1 - Global tag styles
@@ -34,26 +34,22 @@ For 10pt, apply .7353em
 /* Stylesheet to use for dynamic Web pages */
 /* is set by Web Option STYLESHEET */
 
-
 /* Section 1 */
-/*Global tag styles*/
-
-body { font-family:"Trebuchet MS",Verdana,Arial,Helvetica,sans-serif; font-size:85%; font-style:normal; font-weight: normal; height:100%; text-align:center; width:100%; margin-top:0px; background:#FFFFFF }
-
-body.bodybg { background:url(background.gif) 2% 0% repeat-x #4D4D4D; color: #444444; }
+/* Global tag styles*/
+body { background: none repeat scroll 0 0 #E6E6E6; font: 14px/170% arial,helvetica,sans-serif; height: 100%; width: 100%; margin: 0; padding: 0; }
 
 /* Generated popup body */
-body > font { background:#FFFFFF; font-size:1.3em; line-height:2em; margin-left:3px; }
+body > font { font-size:1.3em; line-height:2em; margin-left:3px; }
 
 body > br { line-height:0px; }
 
-body > div { background:#FFFFFF; padding-bottom:10px; padding-top:10px; }
+body > div { padding-bottom:10px; padding-top:10px; }
 
 body > div.mylistsSavePage { background:none; padding-bottom:0px; padding-top:0px; }
 
 body > span { margin-top:-20px; }
 
-body > a, body > p, body > h1, body > h2, body > h3, body > h4 { margin-left:3px; }
+body > a, body > p, body > h1, body > h2, body > h3, body > h4 { margin-left: 3px; }
 
 body > * { text-align:left;}
 
@@ -63,12 +59,19 @@ div center table { border-color:#D3D3D3; margin-top:10px; margin-bottom:10px; }
 
 div.pageContent > a:link, div.pageContent > a:visited, div.pageContent > a:active, div.pageContent > a:hover { margin:10px; }
 
-html { height:100%; width:100%;}
+html { height:100%; width:100%; }
+
+h1, h2, h3, h4, h5, h6 { font-family: arial,helvetica,sans-serif; font-weight: normal; margin: 0; padding: 0; }
+h1 { font-size: 170%; }
+h2 { font-size: 160%; font-weight: bold; line-height: 130%; }
+h3 { font-size: 140%; }
+h4 { font-size: 130%; }
+h5 { font-size: 120%; }
+h6 { font-size: 110%; }
 
 form a { display:table-cell; display:inline-block; }
 
-/* This rule causes search form elements to resize along with the rest of the text on the page if the user resizes text. */
-input, select, textarea { font-size:.97em; }
+input, select, textarea { font: 12px/160% arial,helvetica,sans-serif; }
 
 /* This rule uses CSS2 to give a nicer effect in compliant browsers, while avoiding an annoying display effect in Internet Explorer 6 */
 input[type="checkbox"] { background-color: #FFF8EF; }
@@ -101,14 +104,208 @@ td { font-family:"Trebuchet MS",Verdana,Arial,Helvetica,sans-serif; font-style: 
 
 th { font-family:"Trebuchet MS",Verdana,Arial,Helvetica,sans-serif; }
 
-/* traditional link colors are suggested for better usability */
-a:link { color: #014184; }
-a:active { color: #7C14B8; }
-a:visited { color: #7C14B8; }
-a:hover  { color: #7C14B8; }
+a:link, a:visited { color: #186D92; text-decoration: none; }
+a:hover { text-decoration: underline; }
+a:active, a.active { }
+
+/* Section 1.1. 
+ * Named styles modified to resemble CUL website's 'Drupal 6 theme, listed in 
+ * hierarchy order (more or less)
+ */
+.minHeight { height:100%; } /* Sets containter height to push display of TM notice to bottom of screen. May be removed later. */
+
+.fullPage { margin: 0 auto; padding: 0; width: 984px; }
+
+#container { margin: 0 auto; padding: 0 20px; }
+
+#header { height: 80px; }
+
+#logoFloater { position: absolute; margin-top: 0.75em; }
+
+#logoFloater h1 a {    
+  background: url("cu-logo.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+  color: #181818;
+  display: block;
+  font-family: Georgia,"Times New Roman",Times,serif;
+  font-size: 45px;
+  font-weight: 500;
+  height: 60px;
+  line-height: 60px;
+  margin: 0;
+  padding: 0 0 0 55px;
+  text-shadow: 1px 1px #FFFFFF;
+  text-decoration: none;
+}
+
+.topLinks {     
+  float: right;
+  margin-right: 3px;
+  margin-top: 7px;
+  text-align: right;
+  width: 550px;
+}
+
+#topLinksList {
+  float: right;
+  height: 14px;
+  list-style-type: none;
+  margin: 0 !important;
+  padding: 0 0 12px 116px;
+}
+
+#topLinksList li {
+  display: inline;
+  list-style-type: none;
+  padding-left: 0;
+  padding-right: 1em;  
+}
+
+#topLinksList a {
+  color: #616161;
+  font-size: 13px;
+  font-weight: bold;
+  padding: 2px 7px 3px;
+  font-size: 11px;
+}
+
+#topLinksList a:hover {
+  color: #000000;
+  text-decoration: none;
+}
+
+#topLinksList li.last a {
+  background: none repeat scroll 0 0 #5E5E5E;
+  border-radius: 10px;
+  color: #EFEFEF !important;
+}
+
+#searchNav {
+  display: inline-block;
+  float: right;
+  height: 27px;
+  margin-right: 3px;
+  margin-top: 4px;
+  padding: 1px 15px 1px 5px;
+  clear: both;  
+}
+
+#searchNavMenu { clear:both; float:right; width:100%; }
+
+.searchNavBut { vertical-align:bottom; margin:3px 0 3px 5px; }
+
+.pageContent { background: none repeat scroll 0 0 #FFFFFF; }
+
+#banner {
+  background: url("ban-under.png") no-repeat scroll center bottom rgba(0, 0, 0, 0);
+  clear: both;
+  height: 62px;
+  left: -13px;
+  margin: 0 auto;
+  padding-bottom: 13px;
+  position: relative;
+  width: 971px;
+}
+
+
+#innerBannerWrapper {
+  background: none repeat scroll 0 0 #C70E3A;
+  overflow: hidden;
+  width: 971px;
+}
+
+#title {
+  float: left;
+  height: 62px;
+  z-index: 0;
+}
+
+#title h2, #title h1 {
+    color: #FFFFFF;
+    float: left;
+    font-family: Arial,sans-serif,Georgia,"Times New Roman",Times,serif;
+    font-size: 33px;
+    font-weight: 100;
+    padding: 10px 0 0 30px;
+    text-shadow: 0 0 0 #000000;
+}
+
+#footerAbove {
+    background: url("ban-under.png") no-repeat scroll center top rgba(0, 0, 0, 0);
+    clear: both;
+    height: 12px;
+}
+
+#footer {
+    background: none repeat scroll 0 0 #1A1A1A;
+    border-bottom: 5px solid #C70E3A;
+    color: #DEDFD7;
+    font-size: 11px;
+    line-height: 1.65em;
+    margin: 0 auto;
+    padding: 9px 20px 20px;
+    text-align: left;
+    width: 931px;
+}
+
+#footer p { /* revise & use throughout */
+  line-height: 1.6em;
+  margin: 0.6em 0 1.2em 0.6em;
+  padding: 0;
+}
+
+#contact {
+  float: left;
+  padding-left: 10px;
+}
+
+#footerMenu {
+  float: left;
+  margin-left: 3.5em;  
+}
+
+/* Very Drupalish. Copied first, will revise later */
+#footer .block .content {
+  margin: 0.5em 0;
+}
+#footer .content {
+  position: relative;
+}
+
+#footer ul.menu {
+  text-align: left;
+  padding-left: 0;
+  margin: 0.35em 0 0 -0.5em;
+}
+
+#footer ul.menu li {
+  float: left;
+  margin: 0 0 0 1.5em;
+  padding: 0;
+  width: 170px;
+ list-style-type: none;  
+}
+
+#footer ul.menu li a {
+  color: #888888;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+#footer ul.menu li ul li {
+  clear: both;
+  float: right;
+  margin: 0;
+}
+
+#footer ul.menu li ul li a {
+  color: #A7A7A7;
+  font-size: 100%;
+  font-weight: bold;
+}
 
 /* Section 2 */
-/* named styles listed in alphabetical order */
+/* named styles listed in alphabetical order UNLESS they've been redefined above */
+
 #accessibleForm { font-family:"Trebuchet MS",Verdana,Arial,Helvetica,sans-serif; }
 #accessibleForm fieldset { border: 1px solid #CCCCCC; }
 #accessibleForm form legend { font-weight:bold; }
@@ -614,8 +811,6 @@ div .bibResourceSidebar { display:none; }
 
 .formMultiSelect { display:inline; }
 
-.fullPage { background:#ffffff; padding:0px; text-align:left; }
-
 .pageContent div.helpContent { padding-bottom:12em; }
 
 .pageContent > table .browseSearchtool em { margin-left:0px; }
@@ -700,7 +895,6 @@ div .bibResourceSidebar { display:none; }
 
 .mainSearch .form1Part, .mainMenuContent { width:600px; margin-left:auto; margin-right:auto;  }
 
-.minHeight { height:100%; width:97%; margin-left:auto; margin-right:auto; background:#ffffff; padding-bottom:0; padding-top:0; }
 
 .msg td { padding-top:3px; }
 
@@ -945,12 +1139,7 @@ div.rssChannelEntries { border:none; background:#FFFFFF; }
 
 #searcharg { }
 
-/*Relative position allows this bg color to show in older IE.*/
-.searchNav { background:#3B77B6; margin:0; position:relative; }
 
-#searchNavMenu { margin:0; text-align:right; }
-
-.searchNavBut { vertical-align:bottom; margin:3px 10px 3px 5px; }
 
 #sectionContent { clear:both; }
 
@@ -986,14 +1175,7 @@ div.rssChannelEntries { border:none; background:#FFFFFF; }
 
 .tipsTable caption { margin-top:10px; }
 
-.topLinks a { float:right; }
-
-.topLogo { }
-
-.topLogoSmall img { border:0; margin-top:5px; }
-
-.topLogoSmall a:link, .topLogoSmall a:visited { background:#FFFFFF; padding:0; }
-
+/*
 .topLinks { float: right; height: auto; margin:0; padding:0; width: 50%; }
 
 #topLinksList a:link, #topLinksList a:visited  { color: #1367A7; font-family:Arial,"Arial Unicode MS",Helvetica,Verdana,sans-serif; font-weight:bold; padding:6px 15px 3px 15px; text-decoration:none; width:auto; }
@@ -1003,6 +1185,7 @@ div.rssChannelEntries { border:none; background:#FFFFFF; }
 #topLinksList li { list-style:none; padding:0; display:inline; }
 
 #topLinksList  { float:right; margin:0px; padding:0px; font-size:.9em; display:inline; }
+*/
 
 #topMyLibraryList { display:inline; line-height:2.4em; margin:0px 10px 0px 0px; padding:0px; }
 
@@ -1051,7 +1234,7 @@ div.rssChannelEntries { border:none; background:#FFFFFF; }
 
 #topMyLibraryHeader { float:left; }
 
-div#searchNavMenu { clear:both; float:right; background:#3B77B6; width:100%; }
+
 
 /*Special treatment for IE6, using the JS-activated "li.over"*/
 #toplogoMoreNav li.over ul { margin:0; }
@@ -1138,3 +1321,16 @@ tr.highlight { background:#FFFFE4; }
 .programconfirm .formButtonArea { clear:both; margin-bottom:1em; }
 
 .programregister .formRight { width:460px; }
+
+
+#footer {
+    background: none repeat scroll 0 0 #1A1A1A;
+    border-bottom: 5px solid #C70E3A;
+    color: #DEDFD7;
+    font-size: 11px;
+    line-height: 1.65em;
+    margin: 0 auto;
+    padding: 9px 20px 20px;
+    text-align: left;
+    width: 931px;
+}

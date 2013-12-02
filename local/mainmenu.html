@@ -36,139 +36,70 @@ obj.submit();
 </head>
 <body class="bodybg">
 <!-- begin toplogo.html file -->
-<!-- Rel 2009B Example Set -->
-<!-- Updated: 06 Oct 2010 -->
 <script type="text/javascript">
 if (document.body){document.body.className = "bodybg";}
 </script>
 
 <div class="minHeight">
 <div class="fullPage">
+<div id="container">
+  <div id="skipNav"><a tabindex="1" href="#content">Skip to content</a></div>
+  <div id="header">
+    <div id="logoFloater">
+      <h1><a tabindex="10" title="Carleton University Library" href="/">Library</a></h1>
+    </div>
+    <div class="topLinks">
+      <ul id="topLinksList">
+        <li><a tabindex="115" href="/help">Help</a></li>
+        <li><a tabindex="105" href="/search/">New Search</a></li>
+        <li class="last"><a tabindex="120" href="/patroninfo">Login</a></li>        
+      </ul>
+    </div>
+    <div id="searchNav">
+      <script language="JavaScript"> 
+        &lt;!--
+        function GotoURL() { 
+          //top.location.href = dl.specializedSearch.options[dl.specializedSearch.selectedIndex].value;
+          window.location.assign(document.getElementById("specializedSearch").value);
+          return false;
+        } 
+        // --&gt;
+      </script>
+      <div id="searchNavMenu">
+        <select id="specializedSearch" name="specializedSearch">
+          <option value=" " selected="selected">(More Searches)</option>
+          <option value="/search/X">Advanced Keyword</option>
+          <option value="/search/t">Title</option>
+          <option value="/search/s">Journal Title</option>
+          <option value="/search/a">Author</option>
+          <option value="/search/d">Subject</option>
+          <option value="/search/y">Resource Name</option>
+          <option value="/search/c">Call Number</option>
+          <option value="/search/i">ISBN</option>
+          <option value="/search/g">Government Document #</option>
+          <option value="/search/q">Author and Title</option>
+        </select>
+        <input type="button" class="searchNavBut" value="Go" id="" name="More" onclick="GotoURL();"/>        
+<!--        <input type="image" onclick="GotoURL();" value="Go" class="searchNavBut" src="/screens/ico_next.gif">-->
+      </div><!-- #searchNavMenu -->
+    </div><!--.searchNav-->    
+  </div><!-- #header -->
 
-<div id="skipNav"><a tabindex="1" href="#content">Skip to content</a></div>
-<div class="topLogo">
-
-<div class="topLinks">
-<ul id="topLinksList">
-<li><a tabindex="120" href="/patroninfo">Login</a></li>
-<li><a tabindex="115" href="/help">Help</a></li>
-<li><a tabindex="110" onclick="window.print();" href="#"><span class="buttonTopLinks"><img alt="" src="/screens/ico_printer.gif"><span class="buttonTopLinksText">Print</span></span></a></li>
-<li><a tabindex="105" href="/search/">New Search</a></li>
-</ul>
-</div>
-
-<div class="topLogoSmall">
-<a tabindex="10" href="/"><img height="40" width="280" alt="Catalog Home Page" src="/screens/logo_sm.jpg"></a>
-</div>
-
-</div><!--topLogo-->
-
-
-<div class="topMyLibrary">
-<div id="topMyLibraryHeader"><h1>My Library</h1></div>
-
-<ul id="toplogoMoreNav">
-<!-- Toplogo alt links. -->
-<!--<li><a href="/acquire">Suggest a purchase</a></li>
-<li><a href="/suggest">Leave Comments</a></li>
--->
-
-<!-- Dropdown menus -->
-	<li id="first">
-		<div><a href="/patroninfo">My Library</a></div>
-		<ul>
-            <li><a href="/patroninfo">My Account</a></li>
-            <!--<li><a href="/selfreg">Create an account</a></li> -->
-            <li><a href="/libinfo">About the library</a></li>
-            <li><a href="/acquire">Suggest a purchase</a></li>
-            <li><a href="/suggest">Comments</a></li>
-		</ul>
-	</li>
-
-	<li>
-		<div><a href="/help">Help Topics</a></div>
-		<ul>
-			<li><a href="/help#searching">Searching</a></li>
-			<li><a href="/help#searchtips">Advanced Keyword Search Tips</a></li>
-			<li><a href="/help#prefsearch">Saving your searches</a></li>
-			<li><a href="/help#renewals">Renewals</a></li>
-			<li><a href="/help#feepay">Fee Payment</a></li>
-			<li><a href="/help#rpro">Research Pro</a></li>
-			<li><a href="/help#programs">Library Events and Community Programs</a></li>
-		</ul>
-	</li>
-<!--
-	<li id="last">
-		<div><a href="#">Features</a></div>
-		<ul>
-            <li><a href="<encore IP/iii/encore>">Search Encore</a></li>
-            <li><a href="/iii/calendar/month">Program Calendar</a></li>
-            <li><a href="/ftlist">Featured Lists</a></li>
-            <li><a href="/rpro">Research Pro</a></li>
-            <li><a href="/search/y">Find e-resources</a></li>
-            <li><a href="/illb">Interlibrary Loan</a></li>
-		</ul>
-	</li> -->
-<!-- End dropdown menus -->    
+  <div class="topNavClear"></div>
+  <div class="clear"></div>
+  
+  <div class="pageContent">
+    <!-- content container -->
+    <div id="banner">
+      <div id="innerBannerWrapper">
+        <div id="title">
+          <h2>MacOdrum Library Catalogue</h2>
+        </div>  
+        <div class="clear"></div>
+      </div>
+    </div><!-- #banner -->
     
-</ul>
-
-<script type="text/javascript">&lt;!--//--&gt;&lt;![CDATA[//&gt;&lt;!--
-
-//Enable optional dropdown menu for additional navigation options.
-if (document.all&amp;&amp;document.getElementById) {
-	navRoot = document.getElementById("toplogoMoreNav");
-	for (i=0; i&lt;navRoot.childNodes.length; i++) {
-		node = navRoot.childNodes[i];
-		if (node.nodeName=="LI") {
-			node.onmouseover=function() {
-				this.className+=" over";
-			}
-			node.onmouseout=function() {
-				this.className=this.className.replace(" over", "");
-			}
-		}
-	}
-}
-
-//--&gt;&lt;!]]&gt;</script>
-
-</div><!--myLibrary-->
-<div class="topNavClear"></div>
-
-<div class="searchNav">
-<script language="JavaScript"> 
-&lt;!--
-function GotoURL() { 
-//top.location.href = dl.specializedSearch.options[dl.specializedSearch.selectedIndex].value;
-window.location.assign(document.getElementById("specializedSearch").value);
-return false;
-} 
-// --&gt;
-</script>
-<div id="searchNavMenu">
-<select id="specializedSearch" name="specializedSearch">
-<option value=" " selected="selected">(More Searches)</option>
-<option value="/search/X">Advanced Keyword</option>
-<option value="/search/t">Title</option>
-<option value="/search/s">Journal Title</option>
-<option value="/search/a">Author</option>
-<option value="/search/d">Subject</option>
-<option value="/search/y">Resource Name</option>
-<option value="/search/c">Call Number</option>
-<option value="/search/i">ISBN</option>
-<option value="/search/g">Government Document #</option>
-<option value="/search/q">Author and Title</option>
-<!--<option value="/search/p">Instructor</option>
-<option value="/search/r">Course</option> -->
-</select>
-<input type="image" onclick="GotoURL();" value="Go" class="searchNavBut" src="/screens/ico_go.gif">
-</div>
-
-</div><!--searchNav-->
-<div class="clear"></div>
-<div class="pageContent"><!-- content container -->
-<a id="content" name="content"></a>
+    <a id="content" name="content"></a>
 <!--end toplogo.html-->
 
 <div class="pageContentInner mainSearch">
@@ -232,27 +163,72 @@ return false;
 <li><a href="/illb">Interlibrary Loan</a></li>
 <li><a href="[WebPAC IP:2090]">KidsOnline</a></li>
 </ul>
-</div>
-</div>
+</div><!-- .mainMenuContentRight -->
+  <div class="clear"></div>
+</div><!-- .mainMenuContent -->
 
 </div><!--pageContentInner -->
 
 
 <!-- begin botlogo.html file -->
-<!-- Rel 2009B Example Set -->
-<!-- Updated: Sept 2009 -->
 </div><!-- pageContent  -->
+
 <div style="clear:both"></div>
-</div><!-- fullPage -->
-</div><!-- min-height -->
+
+</div><!-- #container -->
+</div><!-- .fullPage -->
+
+<div id="footerAbove"><br/></div>
+
+<div id="footer">
+  
+  <div id="contact" class="clear-block block block-block">
+    <div class="content">
+      <p>Carleton University Library<br/>
+        1125 Colonel By Drive<br/>
+        Ottawa, Ontario <br/>
+        K1S 5B6 Canada <br/>
+        Phone: 613-520-2735 </p>
+      <p><a href="contact#feedback">Feedback</a><br/></p>
+    </div>
+  </div>
+  <div id="footerMenu" class="clear-block block block-menu_block">
+    <div class="content"><div class="menu-block-3 menu-name-menu-secondary-links parent-mlid-0 menu-level-1">
+        <ul class="menu"><li class="expanded first menu-mlid-38522"><a title="" href="/about">About the Library</a><ul class="menu"><li class="leaf first menu-mlid-38532"><a href="/library-news">Library News</a></li>
+              <li class="leaf menu-mlid-58372"><a title="" href="/about/policies">Policies</a></li>
+              <li class="leaf menu-mlid-38557"><a href="/about/projects">Projects</a></li>
+              <li class="leaf last menu-mlid-38524"><a href="/about/support-the-library">Support the Library</a></li>
+            </ul></li>
+          <li class="expanded menu-mlid-58368 active"><a class="active" title="" href="/">Hours &amp; Locations</a><ul class="menu"><li class="leaf first menu-mlid-57431"><a href="/hours">Hours</a></li>
+              <li class="leaf menu-mlid-58369"><a href="/floor-maps">Floor Maps</a></li>
+              <li class="leaf last menu-mlid-38493"><a title="" href="/contact/service-points">Service Points</a></li>
+            </ul></li>
+          <li class="expanded menu-mlid-38489 active active-trail"><a class="active-trail active" href="/">Site Navigation</a><ul class="menu"><li class="leaf first menu-mlid-38490"><a href="/find">Find</a></li>
+              <li class="leaf menu-mlid-38492"><a href="/research">Research</a></li>
+              <li class="leaf menu-mlid-38491"><a href="/services">Services</a></li>
+              <li class="leaf menu-mlid-38495"><a href="/help">Help</a></li>
+              <li class="leaf menu-mlid-38547"><a href="/contact">Contact</a></li>
+              <li class="leaf last menu-mlid-58371"><a title="" href="/siteindex">A-Z Index</a></li>
+            </ul></li>
+          <li class="expanded last menu-mlid-38526 active"><a class="active" href="/">Quick Links</a><ul class="menu"><li class="leaf first menu-mlid-64034"><a href="/services/library-reserves-faculty-and-instructors/ares">Ares</a></li>
+              <li class="leaf menu-mlid-83301"><a href="/services/refworks">RefWorks</a></li>
+              <li class="leaf menu-mlid-38552"><a href="/services/interlibrary-loans">RACER</a></li>
+              <li class="leaf menu-mlid-63514"><a href="/copyright">Copyright at Carleton</a></li>
+              <li class="leaf menu-mlid-83302"><a href="/forms/student-job-application">Student Job Application</a></li>
+              <li class="leaf last menu-mlid-64032"><a href="/help/citation-management">Citation Management</a></li>
+            </ul></li>
+        </ul></div>
+    </div>
+  </div>
+  <div style="clear: both;"></div>
+</div><!-- #footer -->
+
+</div><!-- .minHeight -->
 <!-- end botlogo.html file -->
 
 <script type="text/javascript">&lt;!--//--&gt;&lt;![CDATA[//&gt;&lt;!--
 try { document.forms[0].searcharg.focus(); }
 catch(err) {}
 //--&gt;&lt;!]]&gt;</script>
-<span style="font-family: Verdana, Geneva, Arial, Helvetica, sans-serif; visibility: visible; font-size: 85%; text-align: center; display: block; ">WebPAC PRO &copy; Innovative Interfaces, Inc.</span>
-
-
 
 </body></html>
