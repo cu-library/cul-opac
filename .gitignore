@@ -2,7 +2,7 @@
 # See http://csdirect.iii.com/documentation/screens.shtml for a complete list
 intermediate.crt*
 webpac.crt*
-webpub.*
+webpub*
 wwwoptions*
 forward
 wam_filter
@@ -23,6 +23,13 @@ new_wr
 nt
 subjectNewTitle
 
+# Backups of local certificate? Still needed?
+entrustL1Bchain.crt.*
+intermediate.ca.*
+
 # Ignore the web options file, for now, although it should be tracked eventually
 wwwoptions*
 
+# Backup directory of staging/screens directory. Keep this while we're working
+# on the new example site. God knows what's in there.
+_stagingScreensBackup-2012-12-03
