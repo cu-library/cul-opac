@@ -1,2 +1,28 @@
-# Backup files
-*~
+# System files not in the example set 
+# See http://csdirect.iii.com/documentation/screens.shtml for a complete list
+intermediate.crt*
+webpac.crt*
+webpub.*
+wwwoptions*
+forward
+wam_filter
+wam_ip_unverified
+wam_ip_verified
+webproxy.patterns
+
+# Scripts & directories that may be needed by local processes
+scopes.sh
+buildpages
+
+# Symbolic links that may be needed by local processes
+missingCallno
+inprocess
+subjectJournals
+wr
+new_wr
+nt
+subjectNewTitle
+
+# Ignore the web options file, for now, although it should be tracked eventually
+wwwoptions*
+
