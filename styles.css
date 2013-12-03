@@ -100,9 +100,9 @@ strong .button { display:block; font-weight:normal; margin-top:15px; }
 
 table { border-collapse:collapse; }
 
-td { font-family:"Trebuchet MS",Verdana,Arial,Helvetica,sans-serif; font-style: normal; font-weight : normal; }
+td { }
 
-th { font-family:"Trebuchet MS",Verdana,Arial,Helvetica,sans-serif; }
+th { }
 
 a:link, a:visited { color: #186D92; text-decoration: none; }
 a:hover { text-decoration: underline; }
@@ -306,7 +306,7 @@ a:active, a.active { }
 /* Section 2 */
 /* named styles listed in alphabetical order UNLESS they've been redefined above */
 
-#accessibleForm { font-family:"Trebuchet MS",Verdana,Arial,Helvetica,sans-serif; }
+#accessibleForm { }
 #accessibleForm fieldset { border: 1px solid #CCCCCC; }
 #accessibleForm form legend { font-weight:bold; }
 #accessibleForm h2 { margin-left:15px; margin-bottom:0; margin-top:12px }
@@ -351,7 +351,7 @@ a:active, a.active { }
 
 #bibDisplayBody a:active,#bibDisplayBody a:hover,#formLinks a:active,#formLinks a:hover, .recordPager a:active, .recordPager a:hover, .actionButtonArea a:active, .actionButtonArea a:hover, .bibPager a:active, .bibPager a:hover { text-decoration:underline; }
 
-#bibDisplayBody .bibVol a:link, #bibDisplayBody .bibVol a:visited { font-family:"Trebuchet MS",Verdana,Arial,Helvetica,sans-serif; }
+#bibDisplayBody .bibVol a:link, #bibDisplayBody .bibVol a:visited { }
 
 .bibDisplayContent { padding:10px 0 10px 10px; }
 
@@ -455,7 +455,7 @@ table.bibResourceTable { border:0; }
 
 .bibVol { margin:10px; }
 
-.bibVol td { padding-right: 10px; font-family:"Trebuchet MS",Verdana,Arial,Helvetica,sans-serif; }
+.bibVol td { padding-right: 10px; }
 
 .bibVol th, .bibVol td { text-align:left; padding-left: 4px; padding-right:4px; }
 
