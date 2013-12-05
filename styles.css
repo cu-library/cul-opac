@@ -879,9 +879,9 @@ div .bibResourceSidebar { display:none; }
 
 .letterTabs li { list-style:none; padding:0; display:inline; }
 
-.mainMenuContent { margin-top:45px; text-align:left; }
+.mainMenuContent { margin: 40px 0; text-align:left; }
 
-.mainMenuContentLeft { float:left; margin-right:15px; margin-left:30px; }
+.mainMenuContentLeft { float:left; margin: 0 15px; }
 
 .mainMenuContentRight { float:left; }
 
