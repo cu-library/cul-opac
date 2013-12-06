@@ -179,6 +179,10 @@ a:active, a.active { }
   color: #EFEFEF !important;
 }
 
+#topLinksList li.last a:hover {
+  background: none repeat scroll 0 0 #000000;
+}
+
 #searchNav {
   display: inline-block;
   float: right;
