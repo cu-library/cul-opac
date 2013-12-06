@@ -474,7 +474,7 @@ MFFAVS_ALL=TRUE
 BROWSE50=true
 ICON_SPELLCHECK_MORE=<span class="spellcheckToolMore">more&nbsp;&raquo;</span>
 ICON_SPELLCHECK_SEARCH=<img src="/screens/ico_go.gif" class="button" border="0" alt="Search">
-INNOVATIVE_FOOTER=center|a
+INNOVATIVE_FOOTER=center|b
 SPELLCHECK=<span class="spellcheckTool">Did you mean %a? %s </span>
 
 # Research Pro
