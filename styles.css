@@ -253,6 +253,12 @@ a:active, a.active { }
   padding: 0;
 }
 
+#footer p a {
+  color: #A7A7A7;
+  font-size: 100%;
+  font-weight: bold;
+}
+
 #contact {
   float: left;
   padding-left: 10px;
