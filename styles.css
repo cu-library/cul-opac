@@ -920,7 +920,7 @@ div .bibResourceSidebar { display:none; }
 
 .navigationRow a:active,.navigationRow a:hover   { text-decoration:underline; }
 
-.navigationRow { margin:0; }
+.navigationRow { margin: 0 0 10px; }
 
 .navigationRow, .navigationRowRecord { clear:both; text-align:center; }
 
@@ -928,7 +928,7 @@ div .bibResourceSidebar { display:none; }
 
 .navigationRow noscript h2, .bibSearchHistory noscript h2 { font-size:1em; margin:-3px 10px 0 0; color:#FF0000; }
 
-.navigationRow select { font-size:.83333em; width:200px; }
+.navigationRow select { font-size:.83333em; width:200px; vertical-align: baseline; }
 
 .pageContent { clear:both; }
 
