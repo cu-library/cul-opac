@@ -195,7 +195,15 @@ a:active, a.active { }
 
 #searchNavMenu { clear:both; float:right; width:100%; }
 
-.searchNavBut { vertical-align:bottom; margin:3px 0 3px 5px; }
+#searchNavMenu label { 
+  display: block;
+  float: left;
+  text-align: right;    
+  margin: 3px 5px;  
+  color: #616161;
+}
+
+.searchNavBut { margin: 3px 0 3px 5px; }
 
 .pageContent { background: none repeat scroll 0 0 #FFFFFF; }
 
@@ -1155,7 +1163,7 @@ div.rssChannelEntries { border:none; background:#FFFFFF; }
 
 #skipNav a:active, #skipNav a:focus { position:static; width:auto; height:auto; margin-bottom:3px; background:#FFFFFF; }
 
-#specializedSearch { vertical-align:bottom; margin-bottom:3px; }
+#specializedSearch { vertical-align: middle; margin: 0 0 3px 3px; }
 
 .submitHidden { position:absolute; left:-999px; top:-999px; }
 
