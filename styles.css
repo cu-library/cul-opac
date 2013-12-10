@@ -142,7 +142,7 @@ a:active, a.active { }
   margin-right: 3px;
   margin-top: 7px;
   text-align: right;
-  width: 650px;
+  width: 600px;
 }
 
 #topLinksList {
@@ -158,6 +158,11 @@ a:active, a.active { }
   list-style-type: none;
   padding-left: 0;
   padding-right: .2em;  
+}
+
+#topLinksList li.last {
+  padding-left: .2em;
+  padding-right: 0;
 }
 
 #topLinksList a {
@@ -189,7 +194,7 @@ a:active, a.active { }
   height: 27px;
   margin-right: 3px;
   margin-top: 4px;
-  padding: 1px 15px 1px 5px;
+  padding: 1px 5px;
   clear: both;  
 }
 
