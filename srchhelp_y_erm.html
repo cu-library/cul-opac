@@ -17,6 +17,16 @@ startTimeout(600000, "/");
 </noscript>
 <meta http-equiv="X-UA-Compatible" content="IE=8;FF=3;OtherUA=4">
 <link rel="stylesheet" type="text/css" href="/screens/styles_print.css" media="print">
+<!-- Important note - this section must be in file to work properly with a variety of browsers -->
+<script language="JavaScript" type="text/javascript">
+<!--
+function submitSubject() {
+window.location="/search/m?" + document.subjectSearch.subjectSearchSelect.options[document.subjectSearch.subjectSearchSelect.selectedIndex].value;
+return true;
+}
+//-->
+</script>
+<!-- end of note -->
 <script type="text/javascript" src="/screens/iiilangswitch.js"></script> 
 </head>
 <body>
@@ -25,8 +35,9 @@ startTimeout(600000, "/");
 
 <h1 class="pageHeader">Electronic Resources</h1>
 
-<div class="form1Part" id="accessibleForm">
+<div class="formsTogether" id="accessibleForm">
 
+<div class="form1Part">
 <h2>Database Search</h2>
 <!--{formbegin}-->
 <fieldset>
@@ -53,6 +64,37 @@ startTimeout(600000, "/");
 </fieldset>
 </form>
 </div><!--form1Part -->
+
+<div class="clear"></div>
+
+<div class="form1Part">
+<h2>Search databases by subject</h2>
+<form action="javascript:submitSubject();" onSubmit="submitSubject();" method="get" name="subjectSearch">
+<fieldset>
+<legend>Select a subject and click <strong>Submit Subject Search</strong>.</legend>
+
+<div class="formEntryArea">
+<span class="formLabel">
+<label for="subjectSearchSelect">Search for:</label>
+</span>
+<!-- Insert the resource subject terms you would like to -->
+<!-- make available into the following select statement. -->
+<!-- The actual text to be searched should be included as -->
+<!-- the value attribute of each option tag. -->
+<select name="subjectSearchSelect">
+<option value="((insert_text_to_be_searched))" selected>See HTML comments above about subject headings</option>
+</select>
+</div>
+
+<div class="formButtonArea">
+<input type="submit" name="Submit2" value="Submit Subject Search">
+</div>
+
+</fieldset>
+</form>
+</div><!--form1Part -->
+
+</div><!--formsTogether-->
 
 <div class="clear"></div>
 
