@@ -112,7 +112,7 @@ a:active, a.active { }
  * Named styles modified to resemble CUL website's 'Drupal 6 theme, listed in 
  * hierarchy order (more or less)
  */
-.minHeight { height:100%; } /* Sets containter height to push display of TM notice to bottom of screen. May be removed later. */
+.minHeight { min-height:100%; } /* Sets containter height to push display of TM notice to bottom of screen. May be removed later. */
 
 .fullPage { margin: 0 auto; padding: 0; width: 984px; }
 
@@ -524,7 +524,7 @@ div.bookingsVerify { padding:0; margin-top:18px; }
 
 .briefcitClear { clear:both; }
 
-.briefcitDetail, .briefcitAuthDetail  { display:inline; float:left; padding:0px 0 0px 3px; width:65%; }
+.briefcitDetail, .briefcitAuthDetail  { display:inline; float:left; padding:0px 0 0px 0px; width:75%; }
 
 .briefcitAuthDetail { margin-bottom:12px; }
 
@@ -532,19 +532,19 @@ div.bookingsVerify { padding:0; margin-top:18px; }
 
 .briefcitEntryNum { color:#767C70; float:right; font-size:.7em; padding-left:2px; }
 
-.briefcitActions { margin-bottom:10px; }
+.briefcitActions { margin-bottom:0px; }
 
 .briefcitLeft, .briefcitResourceLeft { display:inline; float:left; margin-bottom:30px; padding:0; text-align:left; width:41px; }
 
 .briefcitResourceLeft { margin-bottom:20px; }
 
-.briefcitItems  { border-top:1px solid #ECECEC; clear:both; margin:8px 0 8px 0; padding-left:10px; width:90%; }
+.briefcitItems  { border-top:1px solid #ECECEC; clear:both; margin:8px 0 8px 0; padding-left:0px; width:96%; }
 
 .briefcitItems em { font-size:.9em; }
 
 .briefcitItems table { border:0; border-collapse:collapse; padding:8px 0 0 0; }
 
-.briefcitItems th { border:0; color:#767C70; font-size:.75em; padding:0; text-align:left; }
+.briefcitItems th { border:0; color:#000000; font-size:.75em; padding:0; text-align:left; }
 
 .briefcitItems td { border-top:1px solid #ECECEC; }
 
@@ -552,7 +552,7 @@ div.bookingsVerify { padding:0; margin-top:18px; }
 
 .briefcitItemsHeader h2 { color:#F7960C; font-size:1em; margin:0; }
 
-.briefcitItemsMain { float:left; width:85%; }
+.briefcitItemsMain { float:left; width:100%; }
 
 .briefcitMark { float:right; }
 
@@ -1356,3 +1356,4 @@ tr.highlight { background:#FFFFE4; }
     text-align: left;
     width: 931px;
 }
+
