@@ -405,6 +405,8 @@ a:active, a.active { }
 
 .bibDisplayJacket  { float:left; margin:0 0 1em 5%; display:inline; width:6em; }
 
+.bibExportRefworks { margin: 0 0 1em; }
+
 .bibLinks th { text-align:center; }
 
 .bibMedia  { margin-left:auto; margin-right:auto; }

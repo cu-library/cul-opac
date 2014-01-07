@@ -22,15 +22,28 @@
 <div class="bibClear"></div>
 
 <div class="bibResourceSidebar">
-<!--{ifhasresourcetable}-->
-<!--{resourcetable}-->
-<!--{xif}-->
-<!--Optional INNReach resources.-->
-<!--{innreach}-->
-<!--{relsearch}-->
+<!-- Replaced resourcetable tokens with HTML to allow multiple links --> 
+<table width="100%"  class="bibResourceTable" cellpadding="0" cellspacing="0" border="0">
+  <tr class="bibResourceTableHeader">
+    <td class="bibResourceTableHeader">Quick Links</td>
+  </tr>
+  <tr class="bibResourceTableEntry">
+    <td class="bibResourceTableEntry">
+      <a href="http://carletonu.summon.serialssolutions.com"><span class="button"><span class="buttonText">Broaden your search</br> in Summon</span></span></a>
+    </td>
+  </tr>
+  <tr class="bibResourceTableEntry">
+    <td class="bibResourceTableEntry"><a href="http://www.library.carleton.ca/forms/purchase-suggestion"><span class="button"><span class="buttonText">Suggest a Purchase</span></span></a></td>
+  </tr>
+  <tr class="bibResourceTableEntry">
+    <td class="bibResourceTableEntry"><a href="http://www.library.carleton.ca/contact/missing-item-report"><span class="button"><span class="buttonText">Report a missing item</span></span></a></td>
+  </tr>
+</table>
+<!-- end resourcetable replacement -->
 </div>
 
 <div class="bibDisplayJacket">
+  <div class="bibExportRefworks"><a href="javascript:open_refworks_win('http://proxy.library.carleton.ca/login?url=http://refworks.scholarsportal.info/express/expressimport.asp?vendor=Carleton%20University&filter=Refworks%20Tagged%20Format&url=http://refworks.library.carleton.ca/cgi-bin/refworks/refworks.php?recordnum');"><img src="/screens/refworks2.gif" alt="Export to Refworks" border="0"></a></div>
 <!--{bibimage}-->
 <div class="bibMedia">
 <!--{media}-->
@@ -66,19 +79,17 @@
 <!--{imagelinks}-->
 <!--{artthumb}-->
 <!--{xmlframe}-->
-<!--{ifTOC}-->
-<!--{TOC}-->
-<!--{xif}-->
 <!--{holds}-->
 <!--{holdings}-->
-
 <div class="bibDisplayItems">
 <div class="bibDisplayItemsMain">
 <!--{items}-->
 </div>
 </div>
-
 <!--{orders}-->
+<!--{ifTOC}-->
+<!--{TOC}-->
+<!--{xif}-->
 
 <div class="bibDisplayContentMore">
 <!--{recordinfo:#}-->
