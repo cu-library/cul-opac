@@ -34,7 +34,7 @@
 # WebPAC Pro
 # Research Pro
 # Program Registration
-
+# Copy Location Codes Links
 
 # General Display and Behavior
 AVAILLIM=<span class="availLimMessage">Limit search to available items</span>|<span class="availLimMessage">Search results limited to available items</span>
@@ -54,8 +54,8 @@ ICON_CLEAR_ALL=<div onmousedown="this.className='pressedState';" onmouseout="thi
 ICON_CLEAR_FORM=<div onmousedown="this.className='pressedState';" onmouseout="this.className='';" onmouseup="this.className='';"><div class="buttonSpriteDiv"><span class="buttonSpriteSpan1"><span class="buttonSpriteSpan2">Clear Form</span></span></div></div>
 ICON_DELETE_SELECTED=<div onmousedown="this.className='pressedState';" onmouseout="this.className='';" onmouseup="this.className='';"><div class="buttonSpriteDiv"><span class="buttonSpriteSpan1"><span class="buttonSpriteSpan2">Delete Selected</span></span></div></div>
 ICON_SELECT_ALL=<div onmousedown="this.className='pressedState';" onmouseout="this.className='';" onmouseup="this.className='';"><div class="buttonSpriteDiv"><span class="buttonSpriteSpan1"><span class="buttonSpriteSpan2">Save All</span></span></div></div>
-RESOURCETABLE=valign="top"|cellpadding="0" cellspacing="0" border="0"||Resources
-INSERTTAG_INHEAD=<meta http-equiv="X-UA-Compatible" content="IE=8;FF=3;OtherUA=4"><link rel="icon" href="/screens/CU_icon.gif" type="image/gif"/><script type="text/javascript" src="/screens/iiilangswitch.js"></script><link rel="stylesheet" type="text/css" href="/screens/styles_print.css" media="print"><script type="text/javascript" src="/screens/bibdisplay.js"></script>
+# RESOURCETABLE=valign="top"|cellpadding="0" cellspacing="0" border="0"||Quick Links
+INSERTTAG_INHEAD=<meta http-equiv="X-UA-Compatible" content="IE=8;FF=3;OtherUA=4"><link rel="icon" href="/screens/CU_icon.gif" type="image/gif"/><script type="text/javascript" src="/screens/iiilangswitch.js"></script><link rel="stylesheet" type="text/css" href="/screens/styles_print.css" media="print"><script type="text/javascript" src="/screens/bibdisplay.js"></script><script type="text/javascript" src="/screens/refworks.js"></script>
 INSERTTAG_HTML=<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd"><html lang="en">
 RIGHT_CELL_WIDTH=18|25
 # SSLPORT=80:443|2082:444
@@ -72,14 +72,15 @@ XSTARTOVER=/search
 # Staff
 ICON_BUT_PUBLIC=<span class="button"><img src="/screens/ico_patron.gif" alt=""><span class="buttonText">Patron View</span></span>
 ICON_BUT_STAFF=<span class="button"><img src="/screens/ico_gear.gif" alt=""><span class="buttonText">Staff View</span></span>
-STAFF=1
+STAFF=99
 STAFF_LOGGEDIN_MSG=<span class="loggedInMessage">You are logged into staff mode at %s as %s</span>
 
 # General and Phrase Searching
 ICON_BUT_ANOTHER=<span class="button"><img src="/screens/ico_magnifyingglass.gif" alt=""><span class="buttonText">Another Search</span></span>
 ICON_BUT_NEWSRCH=<span class="button"><img src="/screens/ico_startover.gif" alt=""><span class="buttonText">New Search</span></span>
 ICON_BUT_WORDSRCH=<span class="button"><img src="/screens/ico_magnifyingglass.gif" alt=""><span class="buttonText">Search as Words</span></span>
-DROP_DOWN=Xatdc
+# Indexes available on the drop down search menu (X for advanced keyword)
+DROP_DOWN=Xtadchi
 FRAMEURL=0
 IBROWSE_MAX=10000
 KEYWORD_COLOR=Y|all|red
@@ -91,7 +92,7 @@ OFFER_HISTORY=true
 AVS_MODIFY_TAG=X
 AVS_TAG=XYZ
 ICON_BUT_MODIFY=<span class="button"><img src="/screens/ico_magnifyingglass_modify.gif" alt=""><span class="buttonText">Modify Search</span></span>
-ICON_BUT_SHOWSIM=<span class="button"><img src="/screens/ico_more.gif" alt=""><span class="buttonText">More Like This</span></span>
+ICON_BUT_SHOWSIM=<span class="button"><img src="/screens/ico_more.gif" alt=""><span class="buttonText">Show similar items</span></span>
 ICON_REL_GROUP_1=<img src="/screens/relevance5.gif" alt="Most relevant">&nbsp;<h1 class="browseSuperEntryTitle">Most relevant titles</h1>&nbsp;
 ICON_REL_GROUP_2=<img src="/screens/relevance4.gif" alt="Highly relevant">&nbsp;<h1 class="browseSuperEntryTitle">Highly relevant titles</h1>&nbsp;
 ICON_REL_GROUP_3=<img src="/screens/relevance3.gif" alt="Very relevant">&nbsp;<h1 class="browseSuperEntryTitle">Very relevant titles</h1>&nbsp;
@@ -110,7 +111,7 @@ RELSEARCH=restable||<span class="button"><img src="/screens/ico_magnifyingglass.
 # Search Results
 AUTHMSG=<h2 class="briefcitTitle"><em>%u</em> -- See %w <strong>%a</strong></h2><span class="authPublicNote">%p</span>|<h2 class="briefcitTitle">%u -- See Also %w %a </h2><span class="authPublicNote">%p</span>
 AUTHMSG_SR=athe later heading|bthe earlier heading|dthe full form of the heading|fa musical composition based on this work|gthe narrower term|hthe broader term
-BODYPARAM=bgcolor="#FFFFFF"
+BODYPARAM=onLoad="get_recordnum()"
 BRIEF=A
 BROWSE_t=245/abhnp/0|240/afklmnopr/0|700/tmnr/0|970/t/0|/abhnpv/0
 BROWSE_HEADERS=Mark|Media
@@ -124,8 +125,8 @@ EXTENDED=CT
 HEADING_LENGTH=100
 ICON_856LINK=<img src="/screens/bullet.gif" alt="" border="0" style="margin-right:5px">Connect online
 ICON_962LINK=<img src="/screens/bullet.gif" alt="" border="0" style="margin-right:5px">Digital Image
-# ICON_BOOKCART=<span class="button"><img src="/screens/ico_bag_add.gif" alt=""><span class="buttonText">Add to Bag</span></span>
-ICON_BOOKCART_SAVED=<span class="button"><img src="/screens/ico_bag_minus.gif" alt=""><span class="buttonText">Remove From Bag</span></span>
+# ICON_BOOKCART=<span class="button"><img src="/screens/ico_bag_add.gif" alt=""><span class="buttonText">Save Marked Records</span></span>
+ICON_BOOKCART_SAVED=<span class="button"><img src="/screens/ico_bag_minus.gif" alt=""><span class="buttonText">Unsave this record</span></span>
 ICON_FULLRECORD=See Full Record
 ICON_LOCATEINRESULTS=<div onmousedown="this.className='pressedState';" onmouseout="this.className='';" onmouseup="this.className='';"><div class="buttonSpriteDiv"><span class="buttonSpriteSpan1"><span class="buttonSpriteSpan2">Locate in results</span></span></div></div>
 ICON_PAGING_CAPTION=Result Page&nbsp;
@@ -133,8 +134,8 @@ ICON_PAGING_NEXT=Next
 ICON_PAGING_PREV=Prev
 ICON_PROGRAM=<img src="/screens/media_program.gif" border="0" alt="Library Event">
 ICON_RESOURCE=<img src="/screens/media_resource.gif" alt="Internet Resource">
-ICON_SAVEALLPAGE=<span class="button"><img src="/screens/ico_bag_add.gif" alt=""><span class="buttonText">Add All On Page</span></span>
-ICON_SAVEMARKED=<span class="button"><img src="/screens/ico_bag_add.gif" alt=""><span class="buttonText">Add Marked to Bag</span></span>
+ICON_SAVEALLPAGE=<span class="button"><img src="/screens/ico_bag_add.gif" alt=""><span class="buttonText">Save All On Page</span></span>
+ICON_SAVEMARKED=<span class="button"><img src="/screens/ico_bag_add.gif" alt=""><span class="buttonText">Save Marked Records</span></span>
 IMAGE_MATTYPE-=/screens/media_book.gif
 IMAGE_MATTYPEa=/screens/media_book.gif
 IMAGE_MATTYPEb=/screens/media_archive.gif
@@ -181,7 +182,7 @@ ICON_BIB_HOLDINGS_ITEMS=View Copies
 ICON_BIB_PAGING_CAPTION= 
 ICON_BIB_PAGING_NEXT=<span class="button"><span class="buttonText" id="buttonNextRecord">Next Record</span><img src="/screens/ico_next.gif" alt=""></span>
 ICON_BIB_PAGING_PREV=<span class="button"><img src="/screens/ico_previous.gif" alt=""><span class="buttonText">Previous Record</span></span>
-ICON_RECORDLINK=<a href="%s"><span class="button"><img src="/screens/ico_bookmark.gif" alt=""><span class="buttonText">Permanent Link</span></span></a>
+ICON_RECORDLINK=Link to this record: <span class="bibRecordLink"><a id="recordnum" href="%s">%s</a></span>
 LINK856TEXT=Connect to
 MARC=yes
 SHOWOREC=no_cdate
@@ -245,25 +246,25 @@ ICON_MYLISTS_RECORD=<span class="button"><img src="/screens/ico_list_add.gif" al
 
 # Saving and Exporting
 # BRIEF_EXPORT=c|a|t|p
-ICON_BUT_BIBEXPORT=<span class="button"><img src="/screens/ico_bag_add.gif" alt=""><span class="buttonText">Add to Bag</span></span>
-ICON_BUT_CLEAR_MARKED=<span class="button"><img src="/screens/ico_bag_clear.gif" alt=""><span class="buttonText">Empty Bag</span></span>
+ICON_BUT_BIBEXPORT=<span class="button"><img src="/screens/ico_bag_add.gif" alt=""><span class="buttonText">Save Marked Records</span></span>
+ICON_BUT_CLEAR_MARKED=<span class="button"><img src="/screens/ico_bag_clear.gif" alt=""><span class="buttonText">Clear Saved Records</span></span>
 ICON_BUT_EXPORT_MULTI=<span class="button"><img src="/screens/ico_disc.gif" alt=""><span class="buttonText">Export Saved</span></span>
-ICON_BUT_EXPORT_VIEW_SAVES=<span class="button"><img src="/screens/ico_bag.gif" alt=""><span class="buttonText">View Bag</span></span>
-ICON_BUT_VIEW_SAVES=<span class="button"><img src="/screens/ico_bag.gif" alt=""><span class="buttonText">View Bag</span></span>
+ICON_BUT_EXPORT_VIEW_SAVES=<span class="button"><img src="/screens/ico_bag.gif" alt=""><span class="buttonText">View/Export Saved Records</span></span>
+ICON_BUT_VIEW_SAVES=<span class="button"><img src="/screens/ico_bag.gif" alt=""><span class="buttonText">View/Export Saved Records</span></span>
 EMAILOP=From the library catalog|exporter|
 EXPORT_SELECT_TABLE=Sendto:browser,email,local|Format:full,brief,marc,procite,endnote
 XRECTYPE=boi
 
 # Requesting
 BIBREQUEST=true
-ICON_BUT_REQUEST=<span class="button"><img src="/screens/ico_checkmark.gif" alt=""><span class="buttonText">Place hold</span></span>
+ICON_BUT_REQUEST=<span class="button"><img src="/screens/ico_checkmark.gif" alt=""><span class="buttonText">Hold/Request</span></span>
 ICON_BUT_REQUEST_ALL=<div onmousedown="this.className='pressedState';" onmouseout="this.className='';" onmouseup="this.className='';"><div class="buttonSpriteDiv"><span class="buttonSpriteSpan1"><span class="buttonSpriteSpan2">Request Available</span></span></div></div>
 ICON_BUT_REQUEST_MULTI=<span class="button"><img src="/screens/ico_request_multi.gif" alt=""><span class="buttonText">Request Saved</span></span>
 ICON_BUT_REQUEST_RESET=<div onmousedown="this.className='pressedState';" onmouseout="this.className='';" onmouseup="this.className='';"><div class="buttonSpriteDiv"><span class="buttonSpriteSpan1"><span class="buttonSpriteSpan2">Reset Form</span></span></div></div>
 ICON_BUT_REQUEST_SELECTED=<div onmousedown="this.className='pressedState';" onmouseout="this.className='';" onmouseup="this.className='';"><div class="buttonSpriteDiv"><span class="buttonSpriteSpan1"><span class="buttonSpriteSpan2">Request Selected</span></span></div></div>
-ICON_REQUEST=<img src="/screens/bullet.gif" alt="" border="0" style="margin-right:5px">Place hold
+ICON_REQUEST=<img src="/screens/bullet.gif" alt="" border="0" style="margin-right:5px">Hold/Request
 # REQFILLTIME=14|<br>Request available in approximately %d days|<br>Current estimated availability: approximately %d days|<br>This material may be immediately available
-REQUEST=Hold this item|bib|ask|Y
+REQUEST=Place a hold on this item|item|home
 REQUEST_ARTICLE_IFCHKIN=Y
 # REQUEST_INSTRUCTION=Please enter any special instructions: 
 REQUEST_MULTI=Request All Items in Book Cart|bib|ask
@@ -301,9 +302,9 @@ ICON_SORTREQDATE=<div onmousedown="this.className='pressedState';" onmouseout="t
 MIN_PIN_LENGTH=6
 MODIFY_PFLDS=z
 # MODIFY_PFLDS=ahtpzHx
-MY_WEBPAC=false,2,0-255
+MY_WEBPAC=false,3,0-4,8-10,33,99
 NEWPIN_MSG=Please enter a Personal Identification Number (PIN)
-PATRON_FIELDS=n/a|a/a|t/a|F/43
+PATRON_FIELDS=n/a|b/a|t/a|z/a
 # Note that in the PATRON_MSG web option you should replace z with the field tag used on your system for messages.
 # PATRON_MSG=z|Message from the library
 # PATRON_NOTICES=apz
@@ -336,11 +337,21 @@ ICON_READING_HISTORY_EXPORT=<span class="button"><img src="/screens/ico_disc.gif
 LOGGEDIN_MSG=<span class="loggedInMessage">You are logged in <span class="loggedInMoreInfo">to %s</span> as %s</span>
 NO_REVERIFY=acq,book,ill,media,mmf,req,wam,z39,mfrpro
 PATRONVIEW_START=holds,ill,mylists,fines,chkouts,bookings,psearch,mffavs,readhist,patrate,patreview,programs,irnr
-PREF_SEARCHES=25|Y
 PREFTEXT=Save as preferred search
 READING_HISTORY=optin|true|
 TOPLOGO_LOGGEDIN=Y
-
+PREF_SEARCHES_P0=15|Y
+PREF_SEARCHES_P1=15|Y
+PREF_SEARCHES_P2=20|Y
+PREF_SEARCHES_P3=20|Y
+PREF_SEARCHES_P4=20|Y
+PREF_SEARCHES_P8=15|Y
+PREF_SEARCHES_P9=20|Y
+PREF_SEARCHES_P10=20|Y
+PREF_SEARCHES_P33=20|Y
+PREF_SEARCHES_P34=15|Y
+PREFTEXT=Save Search
+#
 # Patron Ratings
 ICON_PATRATE=<span class="button"><img src="/screens/patrate.gif" alt=""><span class="buttonText">My Ratings</span></span>
 ICON_RATE_GROUP=<img src="/screens/rate_group.gif" border="0" width="15" height="14" alt="Rated %d stars out of 5 based on %n ratings" title="Rated %d stars out of 5 based on %n ratings">
@@ -372,7 +383,7 @@ BOOKINGS=no|true|true|false
 BOOKINGS_DAY_LEGEND=<span class="bookingsLegend">Library closed on <span id="closed">X</span> hours. No items available on <span id="unavailable">grayed out</span> hours.</span>
 BOOKINGS_MONTH_LEGEND=<span class="bookingsLegend">Library closed on <span id="closed">X</span> days. No items available on <span id="unavailable">grayed out</span> days.</span>
 BOOKINGS_REPEAT=true
-ICON_BOOKINGS_HEADER=<span class="button"><img src="/screens/ico_checkbox.gif" alt=""><span class="buttonText">Book This Material</span></span>
+ICON_BOOKINGS_HEADER=<span class="button"><img src="/screens/ico_checkbox.gif" alt=""><span class="buttonText">Book This Title</span></span>
 ICON_DAILYCAL=View Daily Calendar
 ICON_HOURLYCAL=View Hourly Calendar
 ICON_NEXTCAL=Next
@@ -412,7 +423,7 @@ ICON_BUT_RET2FEAT=<span class="button"><img src="/screens/ico_back.gif" alt=""><
 BIBIMAGE=https://secure.syndetics.com/index.aspx?isbn=%s/SC.GIF&client=carletonu|i|https://secure.syndetics.com/index.aspx?isbn=%s/LC.GIF&client=carletonu
 BUT_ENCYCPD=/screens/encycpd.gif
 BUT_FULL_TEXT=/screens/full_text.gif
-WEBADDRESS=http://carletonu.summon.serialssolutions.com/#!/search?ho=t&q=%s&l=en|I|http://carletonu.summon.serialssolutions.com/#!/search?ho=t&q=ISBN:%s|<span class="buttonText">Broaden your search in Summon</span></span>|<span class="buttonText">Broaden your search in Summon</span></span>|-1
+# WEBADDRESS=http://carletonu.summon.serialssolutions.com/#!/search?ho=t&q=%s&l=en|I|http://carletonu.summon.serialssolutions.com/#!/search?ho=t&q=ISBN:%s|<span class="button"><span class="buttonText">Broaden your search in Summon</span></span>|<span class="button"><span class="buttonText">Broaden your search in Summon</span></span>|-1
 
 # WebBridge/Pathfinder Pro
 ICON_BUT_CLOSEFRAME=<span class="button"><img src="/screens/ico_x.gif" alt=""><span class="buttonText">Close Frame</span></span>
@@ -524,3 +535,71 @@ ICON_VIEW_ADDITIONAL_SESSIONS=<span class="button"><span class="buttonText">View
 ICON_HIDE_ADDITIONAL_SESSIONS=<span class="button"><span class="buttonText">Hide Additional Sessions</span></span>
 ICON_PROGRAM_CAL=<span class="button"><img src="/screens/ico_calendar.gif" alt=""><span class="buttonText">Events Calendar</span></span>
 TABLEPARAM_PROG_SECTIONS=width="100%" border="0" cellspacing="0" align="center"
+# WEBADDRESS=
+#
+# Copy Location Codes (Links)
+LOC_flr5=http://www.library.carleton.ca/floor-maps?quicktabs_floor_maps=4#quicktabs-floor_maps" target="_blank
+LOC_vid=http://www.library.carleton.ca/floor-maps?quicktabs_floor_maps=1#quicktabs-floor_maps" target="_blank
+# LOC_itv=http://www2.library.carleton.ca/help/FloorPages/CampusLoeb.html
+# LOC_itc=
+# LOC_ite=http://www2.library.carleton.ca/help/FloorPages/CampusLoeb.html
+LOC_flr1=http://www.library.carleton.ca/floor-maps?quicktabs_floor_maps=0#quicktabs-floor_maps" target="_blank
+LOC_fol1=http://www.library.carleton.ca/floor-maps?quicktabs_floor_maps=2#quicktabs-floor_maps" target="_blank
+LOC_nsm=http://www.library.carleton.ca/floor-maps?quicktabs_floor_maps=1#quicktabs-floor_maps" target="_blank
+LOC_ser1=http://www.library.carleton.ca/floor-maps?quicktabs_floor_maps=0#quicktabs-floor_maps" target="_blank
+LOC_mcr=http://www.library.carleton.ca/floor-maps?quicktabs_floor_maps=0#quicktabs-floor_maps" target="_blank
+LOC_mfi=http://www.library.carleton.ca/floor-maps?quicktabs_floor_maps=0#quicktabs-floor_maps" target="_blank
+LOC_mfl=http://www.library.carleton.ca/floor-maps?quicktabs_floor_maps=1#quicktabs-floor_maps" target="_blank
+LOC_stw=http://www.library.carleton.ca/floor-maps?quicktabs_floor_maps=1#quicktabs-floor_maps" target="_blank
+LOC_rsv=http://www.library.carleton.ca/floor-maps?quicktabs_floor_maps=1#quicktabs-floor_maps" target="_blank
+LOC_ref=http://www.library.carleton.ca/floor-maps?quicktabs_floor_maps=1#quicktabs-floor_maps" target="_blank
+LOC_rrf=http://www.library.carleton.ca/floor-maps?quicktabs_floor_maps=1#quicktabs-floor_maps" target="_blank
+LOC_mdc=http://www.library.carleton.ca/floor-maps?quicktabs_floor_maps=0#quicktabs-floor_maps" target="_blank
+LOC_mdr=http://www.library.carleton.ca/floor-maps?quicktabs_floor_maps=0#quicktabs-floor_maps" target="_blank
+LOC_mrr=http://www.library.carleton.ca/floor-maps?quicktabs_floor_maps=1#quicktabs-floor_maps" target="_blank
+LOC_ddr=http://www.library.carleton.ca/floor-maps?quicktabs_floor_maps=0#quicktabs-floor_maps" target="_blank
+LOC_mpt=http://www.library.carleton.ca/floor-maps?quicktabs_floor_maps=0#quicktabs-floor_maps" target="_blank
+LOC_mde=http://www.library.carleton.ca/floor-maps?quicktabs_floor_maps=0#quicktabs-floor_maps" target="_blank
+LOC_ddv=http://www.library.carleton.ca/floor-maps?quicktabs_floor_maps=0#quicktabs-floor_maps" target="_blank
+LOC_ddn=http://www.library.carleton.ca/floor-maps?quicktabs_floor_maps=1#quicktabs-floor_maps" target="_blank
+LOC_ddf=http://www.library.carleton.ca/floor-maps?quicktabs_floor_maps=0#quicktabs-floor_maps" target="_blank
+LOC_ddm=http://www.library.carleton.ca/floor-maps?quicktabs_floor_maps=1#quicktabs-floor_maps" target="_blank
+LOC_mpm=http://www.library.carleton.ca/floor-maps?quicktabs_floor_maps=0#quicktabs-floor_maps" target="_blank
+LOC_mph=http://www.library.carleton.ca/floor-maps?quicktabs_floor_maps=0#quicktabs-floor_maps" target="_blank
+LOC_mpl=http://www.library.carleton.ca/floor-maps?quicktabs_floor_maps=0#quicktabs-floor_maps" target="_blank
+LOC_mpa=http://www.library.carleton.ca/floor-maps?quicktabs_floor_maps=0#quicktabs-floor_maps" target="_blank
+LOC_mpg=http://www.library.carleton.ca/floor-maps?quicktabs_floor_maps=0#quicktabs-floor_maps" target="_blank
+LOC_mpf=http://www.library.carleton.ca/floor-maps?quicktabs_floor_maps=0#quicktabs-floor_maps" target="_blank
+LOC_mpp=http://www.library.carleton.ca/floor-maps?quicktabs_floor_maps=0#quicktabs-floor_maps" target="_blank
+LOC_flr3=http://www.library.carleton.ca/floor-maps?quicktabs_floor_maps=2#quicktabs-floor_maps" target="_blank
+LOC_fol3=http://www.library.carleton.ca/floor-maps?quicktabs_floor_maps=2#quicktabs-floor_maps" target="_blank
+LOC_flr4=http://www.library.carleton.ca/floor-maps?quicktabs_floor_maps=3#quicktabs-floor_maps" target="_blank
+LOC_fol4=http://www.library.carleton.ca/floor-maps?quicktabs_floor_maps=3#quicktabs-floor_maps" target="_blank
+LOC_flr5=http://www.library.carleton.ca/floor-maps?quicktabs_floor_maps=4#quicktabs-floor_maps" target="_blank
+LOC_fol5=http://www.library.carleton.ca/floor-maps?quicktabs_floor_maps=4#quicktabs-floor_maps" target="_blank
+LOC_vid2=http://www.library.carleton.ca/floor-maps?quicktabs_floor_maps=1#quicktabs-floor_maps" target="_blank
+LOC_nsp=http://www.library.carleton.ca/floor-maps?quicktabs_floor_maps=2#quicktabs-floor_maps" target="_blank
+LOC_arc=http://www.library.carleton.ca/floor-maps?quicktabs_floor_maps=4#quicktabs-floor_maps" target="_blank
+LOC_raf=http://www.library.carleton.ca/floor-maps?quicktabs_floor_maps=4#quicktabs-floor_maps" target="_blank
+LOC_rar=http://www.library.carleton.ca/floor-maps?quicktabs_floor_maps=4#quicktabs-floor_maps" target="_blank
+LOC_sco=http://www.library.carleton.ca/floor-maps?quicktabs_floor_maps=4#quicktabs-floor_maps" target="_blank
+LOC_spc=http://www.library.carleton.ca/floor-maps?quicktabs_floor_maps=4#quicktabs-floor_maps" target="_blank
+LOC_ltp=http://www.library.carleton.ca/floor-maps?quicktabs_floor_maps=1#quicktabs-floor_maps" target="_blank
+LOC_acq=http://www.library.carleton.ca/floor-maps?quicktabs_floor_maps=1#quicktabs-floor_maps" target="_blank
+LOC_cat=http://www.library.carleton.ca/floor-maps?quicktabs_floor_maps=1#quicktabs-floor_maps" target="_blank
+LOC_ddo=http://www.library.carleton.ca/floor-maps?quicktabs_floor_maps=1#quicktabs-floor_maps" target="_blank
+LOC_ill=http://www.library.carleton.ca/floor-maps?quicktabs_floor_maps=1#quicktabs-floor_maps" target="_blank
+LOC_lof=http://www.library.carleton.ca/floor-maps?quicktabs_floor_maps=1#quicktabs-floor_maps" target="_blank
+LOC_mdo=http://www.library.carleton.ca/floor-maps?quicktabs_floor_maps=0#quicktabs-floor_maps" target="_blank
+LOC_reo=http://www.library.carleton.ca/floor-maps?quicktabs_floor_maps=1#quicktabs-floor_maps" target="_blank
+LOC_sdo=http://www.library.carleton.ca/floor-maps?quicktabs_floor_maps=1#quicktabs-floor_maps" target="_blank
+LOC_sys=http://www.library.carleton.ca/floor-maps?quicktabs_floor_maps=1#quicktabs-floor_maps" target="_blank
+LOC_cdm=http://www.library.carleton.ca/floor-maps?quicktabs_floor_maps=2#quicktabs-floor_maps" target="_blank
+LOC_stg=http://www.library.carleton.ca/services/storage-facility/storage-facility-appointment-request "target="_blank
+LOC_ths=http://www.library.carleton.ca/forms/thesis-storage-retrieval-request "target="_blank
+# LOC_stv=http://www.library.carleton.ca/floor-maps?quicktabs_floor_maps=1#quicktabs-floor_maps" target="_blank
+LOC_stp=http://www.library.carleton.ca/services/interlibrary-loans/racer-eligibility
+LOC_stm=http://www.library.carleton.ca/floor-maps?quicktabs_floor_maps=1#quicktabs-floor_maps" target="_blank
+LOC_ors=http://www2.library.carleton.ca/help/FloorPages/OrderRec.html
+LOC_orm=http://www2.library.carleton.ca/help/FloorPages/OrderRec.html
+
