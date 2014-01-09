@@ -231,6 +231,22 @@ a:active, a.active { }
   width: 971px;
 }
 
+.breadcrumb {
+  margin-left: 0;
+  padding: 0 20px 10px;
+  font-size: 0.92em;
+}
+.breadcrumb, .breadcrumb a {
+  color: #767676;
+}
+.breadcrumb a {
+  font-weight: bold;
+}
+
+.breadcrumb a.active {
+  font-weight: normal;
+}
+
 #title {
   float: left;
   height: 62px;
