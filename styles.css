@@ -459,7 +459,7 @@ table.bibItems { clear:both; }
 
 table.bibResourceTable { border:0; }
 
-.bibResourceTableEntry  { background:transparent url('tile_hr.gif') repeat-x top right; padding: 5px 5px 7px 5px; text-align:center; }
+.bibResourceTableEntry  { padding: 5px 5px 7px 5px; text-align: center; font-size: 0.9em; }
 
 .bibResourceTableEntry form  { font-size:.8088em; font-weight:normal;  }
 
