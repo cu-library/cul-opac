@@ -705,7 +705,9 @@ h1.browseSuperEntryTitle { font-size:1.1em; display:inline; }
 
 .confirmationprompt { margin:20px 10px 12px; }
 
-.clear { clear:both; height:1px; margin:0; overflow:hidden; }
+.clear, .clearcontent { clear:both; height:1px; margin:0; overflow:hidden; }
+
+.clearcontent { background-color: #ffffff; } /* ridiculous clear div added to botlogo.html to work around broken HTML in course reserves search */
 
 .confirmationprompt { margin:5px 20px 0; }
 
@@ -965,7 +967,7 @@ div .bibResourceSidebar { display:none; }
 
 .pageContent { clear:both; }
 
-.pageContent > br { display:none; }
+.pageContent > br, .pageContent + br { display:none; }
 
 .pageContentInner > br { display:none; }
 
