@@ -47,7 +47,7 @@ body > div { padding-bottom:10px; padding-top:10px; }
 
 body > div.mylistsSavePage { background:none; padding-bottom:0px; padding-top:0px; }
 
-body > span { margin-top:-20px; }
+body > span { display: none !important; } /* do not display 'Powered by Sierra' message */
 
 body > a, body > p, body > h1, body > h2, body > h3, body > h4 { margin-left: 3px; }
 
@@ -112,11 +112,11 @@ a:active, a.active { }
  * Named styles modified to resemble CUL website's 'Drupal 6 theme, listed in 
  * hierarchy order (more or less)
  */
-.minHeight { min-height:100%; padding: 0; }
+.minHeight { padding: 0; }
 
 .fullPage { margin: 0 auto; padding: 0; width: 984px; }
 
-#container { margin: 0 20px; background-color: #ffffff; }
+#container { margin: 0 auto; padding: 0 20px; }
 
 #header { height: 80px; }
 
@@ -705,7 +705,7 @@ h1.browseSuperEntryTitle { font-size:1.1em; display:inline; }
 
 .confirmationprompt { margin:20px 10px 12px; }
 
-.clear { clear:both; height:1px; margin:0; overflow:hidden; }
+.clear { clear:both; height:0; margin:0; overflow:hidden; }
 
 .confirmationprompt { margin:5px 20px 0; }
 
