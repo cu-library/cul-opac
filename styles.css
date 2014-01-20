@@ -112,11 +112,11 @@ a:active, a.active { }
  * Named styles modified to resemble CUL website's 'Drupal 6 theme, listed in 
  * hierarchy order (more or less)
  */
-.minHeight { min-height:100%; } /* Sets containter height to push display of TM notice to bottom of screen. May be removed later. */
+.minHeight { min-height:100%; padding: 0; }
 
 .fullPage { margin: 0 auto; padding: 0; width: 984px; }
 
-#container { margin: 0 auto; padding: 0 20px; }
+#container { margin: 0 20px; background-color: #ffffff; }
 
 #header { height: 80px; }
 
@@ -267,6 +267,7 @@ a:active, a.active { }
     background: url("ban-under.png") no-repeat scroll center top rgba(0, 0, 0, 0);
     clear: both;
     height: 12px;
+    padding: 0;
 }
 
 #footer {
