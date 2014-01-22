@@ -47,9 +47,6 @@ obj.submit();
 
 <input type="hidden" id="iiiFormHandle_1">
 
-<!-- Optional legend:
-<fieldset>
-<legend>Type the search term you want to find.</legend>-->
 <div class="formEntryArea">
 <label for="searchtype" class="accessibleAddInfo">Search type</label>
 <select name="searchtype" id="searchtype">
@@ -63,17 +60,10 @@ obj.submit();
 </select>
 <!--{nosort}-->
 <label for="searcharg" class="accessibleAddInfo">Search term</label>
-<input maxlength="75" name="searcharg" size="20" >
-<label for="scope" class="accessibleAddInfo">Location</label>
+<input type="text" id="searcharg" name="searcharg" size="20" maxlength="75"/>
+<label for="searchscope" class="accessibleAddInfo">Location</label>
 <!--{scope}-->
-<span class="nowrap formButtonArea">
-
-<input type="hidden" id="iiiFormHandle_1"/>
-<a href="#" onclick="iiiDoSubmit_1();"><div onmousedown="this.className='pressedState';" onmouseout="this.className='';" onmouseup="this.className='';"><div class="buttonSpriteDiv"><span class="buttonSpriteSpan1"><span class="buttonSpriteSpan2">Submit</span></span></div></div></a>
-
-<input type="submit" class="submitHidden">
-
-</span>
+<input type="submit" value="Submit"/>
 </div><!-- formEntryArea -->
 <!--</fieldset> optional-->
 </form>
