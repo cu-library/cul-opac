@@ -470,6 +470,13 @@ table.bibResourceTable { border:0; }
 
 .bibResourceTableEntry select { display:block; width:100%; margin:2px 0px; }
 
+/* HTML replacement for inaccessible, single-link-permitting resource table in sidebar */
+.bibResourceList { }
+.bibResourceList h3 { background:#E7E7E7; color:#767C70; line-height:41px; text-align:center; }
+.bibResourceList ul { list-style-type: none; padding: 5px; margin: 0; text-align: center; }
+.bibResourceList li { font-size: 0.9em; padding: 5px 0;	}
+
+
 .bibHistoryRow, .resourceHistoryRow { font-size:.83333em; }
 
 .bibHoldings { border:none; margin:10px 0 5px; }
