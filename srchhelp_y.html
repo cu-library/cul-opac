@@ -31,13 +31,13 @@ startTimeout(600000, "/");
 <h2>Database Search</h2>
 <!--{formbegin}-->
 <fieldset>
-<legend>Type the name of the database you want, then click <strong>Submit Search</strong>.</legend>
+  <legend>Type the name of the database you want, then click <strong>Submit Search</strong>.</legend>
 
 <div class="formEntryArea">
-<span class="formLabel">
-<label for="searcharg">Search for:</label>
-</span>
-<!--{search}-->
+  <span class="formLabel"><label for="searcharg">Search for:</label></span>
+  <!-- begin {search} replacement -->  
+  <input id="SEARCH" name="SEARCH" size="48" value="" type="text"/>
+  <!-- end {search} replacement -->
 </div>
 
 <div class="formEntryArea formScopeSearch">
@@ -48,7 +48,9 @@ startTimeout(600000, "/");
 </div>
 
 <div class="formButtonArea">
-<input type="submit" value="Submit Search" name="submit">
+  <!-- begin {submit} replacement -->
+  <input type="submit" value="Submit"/>
+  <!-- end {submit} replacement -->
 </div>
 
 </fieldset>
