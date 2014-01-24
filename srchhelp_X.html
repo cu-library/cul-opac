@@ -31,20 +31,88 @@ startTimeout(600000, "/");
 <!--{advancedsearchformbegin}-->
 <div class="form3PartAbove">
 <fieldset>
-<legend>Enter Search Terms</legend>
+<legend>Enter search terms</legend>
 <div class="formEntryArea">
-<!--{advancedsearch}-->
+  <!-- replacment for {advancedsearch} token-->
+  <div>
+    <select name="fieldLimit1" title="Field limit 1">
+      <option value="" selected="selected">Any field</option>
+      <option value="a:">Author</option>
+      <option value="t:">Title</option>
+      <option value="d:">Subject</option>
+      <option value="N:">Note</option>
+    </select>
+    <input type="text" maxlength="75" size="35" name="searchText1" title="Search text 1"/>
+    <select name="boolean1" title="Boolean 1">
+      <option value="%20and%20" selected="selected">And</option>
+      <option value="%20and%20not%20">And not</option>
+      <option value="%20or%20">Or</option>
+    </select>
+  </div>
+  <div>
+    <select name="fieldLimit2" title="Field limit 2">
+      <option value="" selected="selected">Any field</option>
+      <option value="a:">Author</option>
+      <option value="t:">Title</option>
+      <option value="d:">Subject</option>
+      <option value="N:">Note</option>
+    </select>
+    <input type="text" maxlength="75" size="35" name="searchText2" title="Search text 2"/>
+    <select name="boolean2" title="Boolean 2">
+      <option value="%20and%20" selected="selected">And</option>
+      <option value="%20and%20not%20">And not</option>
+      <option value="%20or%20">Or</option>
+    </select>
+  </div>
+  <div>
+    <select name="fieldLimit3" title="Field limit 3">
+      <option value="" selected="selected">Any field</option>
+      <option value="a:">Author</option>
+      <option value="t:">Title</option>
+      <option value="d:">Subject</option>
+      <option value="N:">Note</option>
+    </select>
+    <input type="text" maxlength="75" size="35" name="searchText3" title="Search text 3"/>
+    <select name="boolean3" title="Boolean 3">
+      <option value="%20and%20" selected="selected">And</option>
+      <option value="%20and%20not%20">And not</option>
+      <option value="%20or%20">Or</option>
+    </select>
+  </div>
+  <div>
+    <select name="fieldLimit4" title="Field limit 4">
+      <option value="" selected="selected">Any field</option>
+      <option value="a:">Author</option>
+      <option value="t:">Title</option>
+      <option value="d:">Subject</option>
+      <option value="N:">Note</option>
+    </select>
+    <input type="text" maxlength="75" size="35" name="searchText4" title="Search text 4"/>
+    <select name="boolean4" title="Boolean 4">
+      <option value="%20and%20" selected="selected">And</option>
+      <option value="%20and%20not%20">And not</option>
+      <option value="%20or%20">Or</option>
+    </select>
+  </div>
+  <!-- end {advancedsearch} replacement -->
 </div>
-<input type="hidden" name="startLimit" >
+<input type="hidden" name="startLimit"/>
 <div class="formEntryArea">
-<!--{availlim}-->
+  <!-- replacement for {availlim} token -->
+  <input name="availlim" id="availlim" value="1" type="checkbox">
+  <span class="availLimMessage"><label for="availlim">Limit search to available items</label></span>
+  <!-- end {availlim} token -->
 </div>
 <div class="formButtonArea">
 <span>
-<!--{advancedsubmit}-->
+  <!-- replacement for {advancedsubmit} -->
+  <input type="submit" value="submit"/>
+  <!-- end replacement for {advancedsubmit} -->
 </span>
 <span>
-<!--{clearform}-->
+  <!-- replacement for {clearform}-->
+  <input type="reset" value="Clear form"/>
+  <!-- end replacement for {clearform}-->
 </span>
 </div>
 </fieldset>
@@ -54,16 +122,7 @@ startTimeout(600000, "/");
 
 <div class="formLeft advancedSearch">
 <fieldset>
-<legend>Add Limits (Optional)</legend>
-
-<!-- Optional Scopes section
-<div class="formEntryArea">
-<table><tr>
-<td><label for="searchscope">Location:</label></td>
-<td> -->
- <!--{scope}-->
-<!--</td></tr></table>
-</div> -->
+<legend>Add limits (optional)</legend>
 
 <div class="formEntryArea">
 <!--{branch}-->
@@ -74,17 +133,39 @@ startTimeout(600000, "/");
 <div class="formEntryArea">
 <!--{lang}-->
 </div>
-<div class="formEntryArea">
-<!--{DOCDATE}-->
+<div class="formEntryArea noTables">
+  <!-- begin {DOCDATE} replacement -->
+  <fieldset>
+    <legend>Year published</legend>
+    <div>
+      <label for="Da">After:</label>
+      <input size="10" name="Da" id="Da" value="" type="text">
+    </div>
+    <div>
+      <label for="Db">Before:</label>
+      <input size="10" name="Db" id="Db" value="" type="text">
+    </div>
+  </fieldset>
+  <!-- end {DOCDATE} replacement -->
 </div>
-<div class="formEntryArea">
-<!--{publish}-->
+<div class="formEntryArea noTables">
+  <!-- begin {publish} replacement -->
+  <label for="p">Publisher:</label>
+  <input type="text" id="p" name="p" value="" size="20"/>
+  <!-- end {publish} replacement -->
 </div>
-<div class="formEntryArea" id="form3PartAdvLimitSort">
-<!--{sort}-->
+<div class="formEntryArea noTables">
+  <!-- begin {sort} replacement -->
+  <label for="SORT">Sort by:</label>
+  <select name="SORT" id="SORT">
+    <option value="D" selected="selected">Relevance</option>
+    <option value="DX">Date</option>
+    <option value="AX">Title</option>
+  </select>
+  <!-- end {sort} replacement -->
 </div>
 </fieldset>
-<input type="hidden" name="endLimit" >
+<input type="hidden" name="endLimit"/>
 </div> <!-- formLeft -->
 
 <div class="formRight">
