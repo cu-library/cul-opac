@@ -29,15 +29,13 @@ startTimeout(600000, "/");
 <div class="formLeft">
 <form method="get">
 <fieldset>
-<!-- Optional legend:
-<legend>Type the title you want to find, then press the Enter key or click Submit.</legend>
--->
-<div class="formEntryArea">
-<span class="formLabel">
-<label for="SEARCH">Search for:</label>
-</span>
-<!--{search}-->
-</div>
+  <legend class="accessibleAddInfo">Type the title you want to find, then press the Enter key or click Submit.</legend>
+  <div class="formEntryArea">
+    <span class="formLabel"><label for="SEARCH">Search for:</label></span>
+    <!-- begin {search} replacement -->  
+    <input id="SEARCH" name="SEARCH" size="48" value="" type="text"/>
+    <!-- end {search} replacement -->
+  </div>
 <div class="formEntryArea">
 <span class="formLabel">
 <label for="sortdropdown">Sort by:</label>
@@ -52,7 +50,9 @@ startTimeout(600000, "/");
 </div>
 
 <div class="formButtonArea">
-<!--{submit}-->
+  <!-- begin {submit} replacement -->
+  <input type="submit" value="Submit"/>
+  <!-- end {submit} replacement -->
 </div>
 </fieldset>
 </form>
