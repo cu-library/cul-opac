@@ -374,9 +374,9 @@ a:active, a.active { }
 
 .advancedSearch label { text-align:right; }
 
-.advancedSearch fieldset fieldset { border:none; padding:0; text-align:left; margin:0 0 6px 0; }
+#accessibleForm .advancedSearch fieldset fieldset { border:none; padding:0; text-align:left; margin:0 0 6px 0; }
 
-.advancedSearch fieldset fieldset legend { font-weight: normal; }
+#accessibleForm .advancedSearch fieldset fieldset legend { font-weight: normal; color: #CCCCCC; }
 
 .availLimMessage { font-style:normal; }
 
