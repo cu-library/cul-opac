@@ -599,7 +599,7 @@ LOC_stg=http://www.library.carleton.ca/services/storage-facility/storage-facilit
 LOC_ths=http://www.library.carleton.ca/forms/thesis-storage-retrieval-request "target="_blank
 # LOC_stv=http://www.library.carleton.ca/floor-maps?quicktabs_floor_maps=1#quicktabs-floor_maps" target="_blank
 LOC_stp=http://www.library.carleton.ca/services/interlibrary-loans/racer-eligibility
-LOC_stm=http://www.library.carleton.ca/floor-maps?quicktabs_floor_maps=1#quicktabs-floor_maps" target="_blank
+LOC_stm=http://www.library.carleton.ca/forms/storage-facility-microfilm-request" target="_blank
 LOC_ors=http://www2.library.carleton.ca/help/FloorPages/OrderRec.html
 LOC_orm=http://www2.library.carleton.ca/help/FloorPages/OrderRec.html
 
