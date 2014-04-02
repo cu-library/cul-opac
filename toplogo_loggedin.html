@@ -1,9 +1,4 @@
 <!-- begin toplogo_loggedin.html file -->
-<script type="text/javascript">
-  if (document.body) {
-    document.body.className = "bodybg";
-  }
-</script>
 <div class="minHeight">
   <div class="fullPage">
     <div id="container">
@@ -24,15 +19,6 @@
           </ul>
         </div>
         <div id="searchNav">
-          <script language="JavaScript">
-            <!--
-                    function GotoURL() {
-                      //top.location.href = dl.specializedSearch.options[dl.specializedSearch.selectedIndex].value;
-                      window.location.assign(document.getElementById("specializedSearch").value);
-                      return false;
-                    }
-            // -->
-          </script>
           <div id="searchNavMenu">
             <label for="specializedSearch">Search</label>
             <select id="specializedSearch" name="specializedSearch">
@@ -42,7 +28,7 @@
               <option value="/search/d">Subject</option>
               <option value="/screens/numbers.html">Number</option>
             </select>
-            <input type="button" class="searchNavBut" value="Go" name="More searches" onclick="GotoURL();"/>        
+            <input type="button" class="searchNavBut" value="Go" name="More searches" onclick="iiiGotoURL();"/>
           </div><!-- #searchNavMenu -->
         </div><!--.searchNav-->    
       </div><!-- #header -->
