@@ -56,7 +56,7 @@ ICON_DELETE_SELECTED=<div onmousedown="this.className='pressedState';" onmouseou
 ICON_SELECT_ALL=<div onmousedown="this.className='pressedState';" onmouseout="this.className='';" onmouseup="this.className='';"><div class="buttonSpriteDiv"><span class="buttonSpriteSpan1"><span class="buttonSpriteSpan2">Save All</span></span></div></div>
 # RESOURCETABLE=valign="top"|cellpadding="0" cellspacing="0" border="0"||Quick Links
 INSERTTAG_HTML=<!DOCTYPE html><html lang="en">
-INSERTTAG_INHEAD=<script src="/screens/iii.js"></script><script src="/screens/bibdisplay.js"></script><script src="/screens/refworks.js"/></script><link rel="stylesheet" href="/screens/styles_print.css" media="print"/><link rel="icon" href="/screens/CU_icon.gif"/>
+INSERTTAG_INHEAD=<meta charset="utf-8"/><script src="/screens/iii.js"></script><script src="/screens/bibdisplay.js"></script><script src="/screens/refworks.js"/></script><link rel="stylesheet" href="/screens/styles_print.css" media="print"/><link rel="icon" href="/screens/CU_icon.gif"/>
 RIGHT_CELL_WIDTH=18|25
 # SSLPORT=80:443|2082:444
 CUSTOM_MESSAGES=T
