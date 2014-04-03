@@ -33,9 +33,20 @@ time, mark, audio, video {
   vertical-align:baseline;
   background:transparent;
 }
-body {
-  line-height:1;
+
+html {
+  height:100%;
+  line-height:1.5;
+  overflow-y:scroll;
 }
+
+body {
+  min-height: 100%;
+  font-size: 87.5%;
+  font-family: 'open_sansregular',Helvetica,Arial,sans-serif;  
+  background: none repeat scroll 0 0 #E6E6E6;  
+}
+
 article,aside,details,figcaption,figure,
 footer,header,hgroup,menu,nav,section { 
   display:block;
@@ -95,8 +106,167 @@ input, select {
   vertical-align:middle;
 }
 
-/**
- * Styles based on Drosophila theme for Drupal 7
- * Created by Kevin Bowrin
- * https://github.com/CUDevMaxwell/drosophila
- */
+/* =============================================================================
+ *   Styles based on Drosophila theme for Drupal 7
+ *   Created by Kevin Bowrin
+ *   https://github.com/CUDevMaxwell/drosophila
+   ========================================================================== */
+
+/* =============================================================================
+ *   Layout Helpers 
+   ========================================================================== */
+
+/* Center layout be default */
+.container {
+  margin: 0 auto;
+}
+
+/* Prevent the layout from collapsing if there is nothing in the content column */
+.content-inner {
+  min-height: 1px;
+}
+
+.lt-ie7 .content-inner {
+  height: 1px;
+}
+
+/* Ensure the content column is always the full width of its container */
+#content-column,
+.content-column {
+  width: 100%;
+}
+
+/* Compass clearfix */
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.clearfix {
+  zoom: 1;
+}
+
+
+/* =============================================================================
+    Misc helpers, Accessibility classes etc
+   ========================================================================== */
+
+/* More robust element-invisible and element-focuable classes */
+.element-invisible {
+  border: 0;
+  clip: rect(1px 1px 1px 1px);
+  /* IE6, IE7 */
+  clip: rect(1px, 1px, 1px, 1px);
+  height: 1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+}
+
+.element-invisible.element-focusable:active,
+.element-invisible.element-focusable:focus {
+  clip: auto;
+  height: auto;
+  overflow: visible;
+  position: static;
+  width: auto;
+}
+
+/* =============================================================================
+ *   Skip Navigation
+ * ========================================================================== */
+
+#skip-link {
+  left: 50%;
+  margin-left: -6.5em;
+  margin-top: 0;
+  padding: 0 0.5em;
+  position: absolute;
+  width: 12em;
+  z-index: 50;
+}
+
+#skip-link a {
+  background: #444;
+  background: rgba(0,0,0,0.6);
+  color: #fff;
+  display: block;
+  line-height: 2;
+  padding: 0;
+  text-align: center;
+  text-decoration: none;
+}
+
+#skip-link a:link,
+#skip-link a:visited {
+  background: #444;
+  background: rgba(0,0,0,0.6);
+  color: #fff;
+  display: block;
+  line-height: 2;
+  padding: 0;
+  text-align: center;
+  text-decoration: none;
+}
+
+#skip-link a:hover,
+#skip-link a:focus,
+#skip-link a:active {
+  outline: 0;
+}
+
+/* =============================================================================
+ *   Leaderboard
+ * ========================================================================== */
+
+#leaderboard-wrapper {
+ background: none repeat scroll 0 0 #1A1A1A;
+ height: 40px;
+}
+
+#leaderboard-wrapper .clearfix {
+  overflow: auto;
+}
+#leaderboard-wrapper ul {
+  padding: 0rem;
+  margin: 0.4rem 0.2rem 0.4rem 0.5rem;
+}
+
+#leaderboard-wrapper li {
+  list-style: none;
+  display: inline;
+}
+
+#leaderboard-wrapper a {
+  color: #FFF;
+  padding: 0.25rem 0.45rem;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 3%/15%;
+}
+
+#leaderboard-wrapper a:hover {
+  color: #1A1A1A;
+  background-color: #EFEFEF;
+}
+
+#leaderboard-left {
+  float: left;
+}
+
+#leaderboard-left a {
+  background-color: #393939;
+  color: #EFEFEF;
+}
+    
+#leaderboard-left a:hover {
+  text-decoration: none;
+  background-color: #FFFFFF;
+  color: #1A1A1A;
+}
+
+#leaderboard-right {
+  float: right;
+}
