@@ -29,7 +29,6 @@ time, mark, audio, video {
   padding:0;
   border:0;
   outline:0;
-  font-size:100%;
   vertical-align:baseline;
   background:transparent;
 }
@@ -43,7 +42,7 @@ html {
 body {
   min-height: 100%;
   font-size: 87.5%;
-  font-family: 'open_sansregular',Helvetica,Arial,sans-serif;  
+  font-family: 'Open Sans',Helvetica,Arial,sans-serif;
   background: none repeat scroll 0 0 #E6E6E6;  
 }
 
@@ -54,6 +53,7 @@ footer,header,hgroup,menu,nav,section {
 nav ul {
   list-style:none;
 }
+
 blockquote, q {
   quotes:none;
 }
@@ -65,7 +65,6 @@ q:before, q:after {
 a {
   margin:0;
   padding:0;
-  font-size:100%;
   vertical-align:baseline;
   background:transparent;
 }
@@ -105,6 +104,10 @@ hr {
 input, select {
   vertical-align:middle;
 }
+img {
+  height: auto;
+  max-width: 100%;
+}
 
 /* =============================================================================
  *   Styles based on Drosophila theme for Drupal 7
@@ -119,6 +122,8 @@ input, select {
 /* Center layout be default */
 .container {
   margin: 0 auto;
+  max-width: 1140px;
+  width: 100%;  
 }
 
 /* Prevent the layout from collapsing if there is nothing in the content column */
@@ -138,6 +143,9 @@ input, select {
 
 /* Compass clearfix */
 .clearfix:after {
+  display: block;
+  height: 0;
+  visibility: hidden;  
   content: "";
   display: table;
   clear: both;
@@ -235,8 +243,7 @@ input, select {
 }
 
 #leaderboard-wrapper li {
-  list-style: none;
-  display: inline;
+  display: inline-block;
 }
 
 #leaderboard-wrapper a {
@@ -270,3 +277,77 @@ input, select {
 #leaderboard-right {
   float: right;
 }
+
+/* =============================================================================
+ *   Header
+ * ========================================================================== */
+
+#header {
+  padding-left: 5px;  
+  text-align: center;
+}
+
+#header a {
+  color: #000000;
+}
+#header a:link, #header a:visited {
+  text-decoration: none;
+}
+#header a:hover, #header a:focus {
+  text-decoration: underline;
+}
+
+#header li.highlight a {
+  background: none repeat scroll 0 0 #3D6477;
+  border-radius: 3% / 15%;
+  color: #EFEFEF;
+  padding: 0.25rem 0.45rem;
+}
+#header li.highlight a:hover {
+  background: none repeat scroll 0 0 #BBD3DF;
+  color: #1A1A1A;
+  text-decoration: none;  
+}
+#branding {
+  float: left;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+#logo {
+  float: left;
+  height: 1px;
+  margin-right: 0.3rem;
+  padding-bottom: 0;
+  text-align: center;
+}
+#logo a {
+  position: static;
+  padding: 0;
+  top: -3.2em;
+}
+#logo img {
+  width: 60px;
+  vertical-align: bottom;
+}
+#site-name {
+  float: left;
+  font-weight: 400;
+  font-size: 2.4rem;
+  line-height: 34px;
+  padding-top: 10px;
+  line-height: 2.8rem;
+  margin: 0;  
+}
+#header-right {
+  float: right;
+}
+#header-right ul.menu {
+  margin-bottom: 0.5rem;
+  margin-top: 0.5rem;
+}
+#header-right li {
+  display: inline-block;
+  margin-right: 1rem;
+}
+
+
