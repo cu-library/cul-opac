@@ -7,6 +7,28 @@
  */
 
 /**
+ * Local copies of Google web fonts, because WebPAC is amazing.
+ */
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Open Sans Light'), local('OpenSans-Light'), url(/screens/OpenSansLight.woff) format('woff');
+}
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Open Sans'), local('OpenSans'), url(/screens/OpenSans.woff) format('woff');
+}
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 600;
+  src: local('Open Sans Semibold'), local('OpenSans-Semibold'), url(/screens/OpenSansSemibold.woff) format('woff');
+} 
+
+/**
  * html5doctor.com Reset Stylesheet v1.6.1
  * Last Updated: 2010-09-17
  * Author: Richard Clark - http://richclarkdesign.com 
