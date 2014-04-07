@@ -355,3 +355,36 @@ img {
   min-height: 1rem;
 }
 
+/* =============================================================================
+ *   Content
+ * ========================================================================== */
+#content-wrapper #columns {
+  border-top: 1rem solid #5A1E17;
+  border-left: 1rem solid #E6E6E6;
+  border-right: 1rem solid #E6E6E6;
+  border-bottom: 1rem solid #090909;
+  background: none repeat scroll #FFFFFF;
+}
+
+#content-wrapper div.container {
+  padding-top: 0px;
+  background: white;
+}
+
+#content-wrapper div.columns-inner {
+  position: relative;
+  top: -1rem;
+  background: white;
+  padding-top: 0.3rem;
+}
+
+.content-inner {
+  min-height: 1px;
+  overflow: visible;
+  word-wrap: break-word;    
+}
+
+#main-content {
+  margin-left: 10px;
+  margin-right: 10px;
+}
