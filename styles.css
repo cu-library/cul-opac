@@ -121,6 +121,45 @@ img {
    ========================================================================== */
 
 /* =============================================================================
+    Typography
+   ========================================================================== */
+/*
+ * Headings
+ *
+ * Addresses font sizes and margins set differently in IE6/7
+ * Addresses font sizes within 'section' and 'article' in FF4+, Chrome, S5
+ */
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+h2 {
+  font-size: 1.5em;
+  margin: 0.83em 0;
+}
+
+h3 {
+  font-size: 1.17em;
+  margin: 1em 0;
+}
+
+h4 {
+  font-size: 1em;
+  margin: 1.33em 0;
+}
+
+h5 {
+  font-size: 0.83em;
+  margin: 1.67em 0;
+}
+
+h6 {
+  font-size: 0.75em;
+  margin: 2.33em 0;
+}
+
+/* =============================================================================
  *   Layout Helpers 
    ========================================================================== */
 
@@ -315,8 +354,7 @@ img {
 }
 #header-left {
   float: left;
-  margin-left: 10px;
-  margin-right: 10px;
+  margin: 10px 10px 20px 10px;
 }
 #logo {
   float: left;
@@ -339,7 +377,7 @@ img {
   font-weight: 400;
   font-size: 2.4rem;
   line-height: 34px;
-  padding-top: 10px;
+  padding-top: 5px;
   line-height: 2.8rem;
   margin: 0;  
 }
@@ -348,7 +386,7 @@ img {
 }
 #header-right ul.menu {
   margin-bottom: 0.5rem;
-  margin-top: 0.5rem;
+  margin-top: 2.5rem;
 }
 #header-right li {
   display: inline-block;
@@ -445,12 +483,15 @@ img {
 
 #footer .branding h1 {
   font-weight: 400;  
+  line-height: 34px;  
+  margin: 0;
 }
 
 #footer .branding h2 {
   font-family: 'open sans',Helvetica,Arial,sans-serif; 
   font-weight: normal;
-  font-style: italic;  
+  font-style: italic; 
+  margin: 0;
 }
 
 
