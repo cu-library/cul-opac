@@ -350,4 +350,8 @@ img {
   margin-right: 1rem;
 }
 
+#nav-wrapper div.container {
+  background: none repeat scroll 0 0 #B9212C;
+  min-height: 1rem;
+}
 
