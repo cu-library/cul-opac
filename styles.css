@@ -14,7 +14,7 @@
  * Modified for use with WebPAC Pro at Carleton University Library
  */
 html, body, div, span, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+h1, h2, h3, h4, h5, h6, blockquote, 
 abbr, address, cite, code,
 del, dfn, em, img, ins, kbd, q, samp,
 small, strong, sub, sup, var,
@@ -62,6 +62,11 @@ q:before, q:after {
   content:'';
   content:none;
 }
+
+p, pre {
+  margin: 0 0 1.5em;
+}
+
 a {
   margin:0;
   padding:0;
@@ -308,7 +313,7 @@ img {
   color: #1A1A1A;
   text-decoration: none;  
 }
-#branding {
+#header-left {
   float: left;
   margin-left: 10px;
   margin-right: 10px;
@@ -388,3 +393,65 @@ img {
   margin-left: 10px;
   margin-right: 10px;
 }
+
+/* =============================================================================
+ *   Footer
+ * ========================================================================== */
+#footer-wrapper .container {
+  background: none repeat scroll 0 0 #1A1A1A;
+  border-bottom: 0.2rem solid #B9212C;
+}
+
+#footer-wrapper a {
+  color: #DEDFD7;      
+  text-decoration: none;
+}
+
+#footer-wrapper a:hover {
+  text-decoration: underline;
+}
+
+#footer-wrapper a.title {
+  font-size: 120%;
+}
+
+#footer {
+  position: relative;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  top: -1rem;
+  background: white;
+  font-size: 95%;  
+  color: #DEDFD7;    
+}
+
+#footer .region-footer {
+  position: relative;
+  top: 1rem;
+  background: none repeat scroll 0 0 #1A1A1A;
+  padding: 0.5rem 0.5rem 0;
+}
+
+#footer div.address {
+  float: left; 
+  width: 40%;
+}
+
+#footer div.branding {
+  float: right;
+  width: 60%;
+  text-align: right;
+}
+
+#footer .branding h1 {
+  font-weight: 400;  
+}
+
+#footer .branding h2 {
+  font-family: 'open sans',Helvetica,Arial,sans-serif; 
+  font-weight: normal;
+  font-style: italic;  
+}
+
+
+
