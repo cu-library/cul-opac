@@ -188,7 +188,8 @@ h6 {
 /* Center layout be default */
 .container {
   margin: 0 auto;
-  width: 1140px;
+  max-width: 1140px;
+  min-width: 984px;
 }
 
 /* Prevent the layout from collapsing if there is nothing in the content column */
