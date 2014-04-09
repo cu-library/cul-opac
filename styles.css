@@ -591,5 +591,5 @@ div.sidebar .block-title {
   margin: 0;
 }
 
-
-
+/* Do not display 'Powered by Sierra' message */
+body > span { display: none !important; }
