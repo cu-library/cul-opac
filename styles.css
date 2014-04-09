@@ -72,7 +72,7 @@ article,aside,details,figcaption,figure,
 footer,header,hgroup,menu,nav,section { 
   display:block;
 }
-nav ul {
+nav ul, ul.menu {
   list-style:none;
 }
 
@@ -202,7 +202,7 @@ h6 {
 .content-column {
   width: 100%;
 }
-
+#content-column, .content-column, div.sidebar {float: left; clear: none}
 /* Compass clearfix */
 .clearfix:after {
   display: block;
@@ -217,6 +217,10 @@ h6 {
   zoom: 1;
 }
 
+.sidebar {
+  width: 25%; 
+  margin-left: -25%;
+}
 
 /* =============================================================================
     Misc helpers, Accessibility classes etc
@@ -450,6 +454,81 @@ h6 {
   margin-right: 10px;
 }
 
+/* =============================================================================
+ *   Main, OPAC menu search options
+ * ========================================================================== */
+ul.tabs, #tab-wrapper { 
+  width: 70%;
+}
+
+ul.tabs {
+  float: left;
+  height: 32px;
+  margin: 10px 0 0 10px; 
+  border-bottom: 1px solid #aaa;
+}
+
+ul.tabs li {
+    border: 1px solid #AAAAAA;
+    float: left;
+    height: 28px;
+    line-height: 28px;
+    margin: 0 0 -1px;
+    overflow: hidden;
+    padding: 0;
+    position: relative;
+    top: 3px;
+}
+ul.tabs li.active {
+  height: 31px;
+  line-height: 31px;
+  top: 0px;
+  border-left: 1px solid #aaa;
+  border-bottom: 1px solid #fff;
+}
+ul.tabs li a { 
+  text-decoration:none;
+  color:#000;
+  display:block;
+  font-size: 130%;
+  padding: 0 10px;
+  outline: none;
+}
+ul.tabs li a:hover {
+  background: #EFEFEF;
+  border-left:none
+}
+ul.tabs li a:focus {
+  text-decoration: underline;
+}
+ul.tabs li.active a:hover {
+  background: #ffffff;
+}
+#tab-wrapper { 
+  border: 1px solid #aaa;
+  border-top: none;
+  overflow:hidden;
+  clear:both;
+  float:left;
+  margin: 0 10px 10px 10px;
+}
+#tab-content {
+  margin: 10px 10px 20px 10px;
+}
+
+/* =============================================================================
+ *   Sidebar: other searches & related resources
+ * ========================================================================== */
+div.sidebar {
+  float: left;
+  clear: none;
+}
+div.sidebar .block {
+  margin-bottom: 20px;
+}
+div.sidebar .block-title {
+  margin: 0;
+}
 /* =============================================================================
  *   Footer
  * ========================================================================== */
