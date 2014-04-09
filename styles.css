@@ -36,7 +36,7 @@
  * Modified for use with WebPAC Pro at Carleton University Library
  */
 html, body, div, span, object, iframe,
-h1, h2, h3, h4, h5, h6, blockquote, 
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 abbr, address, cite, code,
 del, dfn, em, img, ins, kbd, q, samp,
 small, strong, sub, sup, var,
@@ -85,7 +85,7 @@ q:before, q:after {
   content:none;
 }
 
-p, pre {
+p, pre, form {
   margin: 0 0 1.5em;
 }
 

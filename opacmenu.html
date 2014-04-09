@@ -2,62 +2,88 @@
 <html lang="en">
   <head>
     <meta charset="utf-8"/>
-    <title>Catalogue | Carleton University Library</title>
+    <title>Catalogue | MacOdrum Library</title>
     <meta name="robots" content="noindex" />
     <script src="/screens/iii.js"></script>
-    <link rel="stylesheet" href="/screens/styles_print.css" media="print" />    
     <link rel="icon" href="/screens/CU_icon.gif"/>
   </head>
 <body>
 <!--{toplogo}-->
-<div class="pageContentInner mainSearch">
-
-<h1 class="accessibleAddInfo">Search</h1>
-
-<div id="accessibleForm" class="form1Part">
-<div class="browseSearchtool">
-<form action="/search/" method="get" name="search" id="search" onSubmit="return iiiSearchValidate();">
-<input type="hidden" id="iiiFormHandle_1">
-
-<div class="formEntryArea">
-<label for="searchtype" class="accessibleAddInfo">Search type</label>
-<select name="searchtype" id="searchtype">
-<option value="X" selected="selected">Keyword</option>
-<option value="t">Title</option>
-<option value="a">Author</option>
-<option value="d">Subject</option>
-<option value="screens/numbers.html">Number</option>
-</select>
-<!--{nosort}-->
-<label for="searcharg" class="accessibleAddInfo">Search term</label>
-<input type="text" id="searcharg" name="searcharg" maxlength="75" size="20" autofocus/>
-<label for="searchscope" class="accessibleAddInfo">Location</label>
-<!--{scope}-->
-<input type="submit" value="Submit"/>
-</div><!-- formEntryArea -->
-<!--</fieldset> optional-->
-</form>
-</div><!-- browseSearchtool -->
-</div><!-- form1Part -->
-
-<div class="mainMenuContent">
-  <div class="mainMenuContentLeft">
-    <img src="/screens/lib_ext_night1.jpg" height="249" width="355" alt=""/>
+<div id="content">
+  <div id="search-box" style="margin: 10px">
+    <h2>Search the Catalogue</h2>
+    <p>Something about what you can expect to find in the Catalogue.</p>
+    <form method="get" action="/search/X">
+      <select id="searchtype" name="searchtype">
+        <option selected="selected" value="X">Keyword</option>
+        <option value="t">Title</option>
+        <option value="a">Author</option>
+        <option value="d">Subject</option>
+        <option value="c">Call Number</option>
+        <option value="#">CODOC Number</option>
+        <option value="#">ISBN/ISSN</option>
+      </select>        
+      <input type="text" value="" size="30" name="SEARCH" autofocus/>
+      <select id="searchscope" name="searchscope">
+        <option value="1"> Books</option> 
+        <option value="2"> Journals</option> 
+        <option value="3"> E-books</option> 
+        <option value="4"> E-journals</option> 
+        <option value="5"> All E-resources</option> 
+        <option value="6"> Government information</option> 
+        <option value="7"> Audio</option> 
+        <option value="8"> Video</option> 
+        <option selected="selected" value="9">Entire Collection</option> 
+      </select>
+      <input type="submit" value="Submit" name="submit">
+    </form>
   </div>
-  <div class="mainMenuContentRight">
-    <ul>
-     <li><a href="/patroninfo">Library Account (renewals, etc.)</a></li>
-      <li><a href="http://catalogue.library.carleton.ca/screens/nt/nt.html">New Titles</a></li>
-      <li><a href="http://www.library.carleton.ca/services/reserves">Course Reserves</a></li>
-      <li><a href="http://www.library.carleton.ca/services/interlibrary-loans">Interlibrary Loans</a></li>
-      <li><a href="http://www.library.carleton.ca/help/library-catalogue/other-library-catalogues">Other Library Catalogues</a></li>
-    </ul>
-  </div>
-  <div class="clear"></div>
 </div>
-<div class="clear"></div>
-</div><!--pageContentInner -->
-
-<!--{botlogo}-->
-</body>
+<!-- Use page-specific footer instead of {botlogo} -->
+                    </div><!-- /end #main-content -->
+                  </div><!-- /end .content-inner -->
+                </div><!-- /end #content-column -->
+                <div class="sidebar">
+                  <div class="block">
+                    <h2 class="block-title">More Searches</h2>
+                    <ul class="menu">
+                      <li><a href="#">Subject Headings</a></li>                      
+                      <li><a href="#">Call & Other Numbers</a></li>                      
+                    </ul>
+                  </div>
+                  <div class="block">
+                    <h2 class="block-title">Related Resources</h2>
+                    <ul class="menu">
+                      <li><a href="#">New Titles</a></li>
+                      <li><a href="#">Interlibrary Loans</a></li>                    
+                      <li><a href="#">Other Library Catalogues</a></li>                                        
+                    </ul>
+                  </div>
+                </div><!-- /end .sidebar -->
+              </div><!-- /end .columns-inner -->
+            </div><!-- /end #columns -->
+          </div><!-- /end .container -->
+        </div><!-- /end #content-wrapper -->
+        <div id="footer-wrapper">
+          <div class="container clearfix">
+            <!-- sets width on footer -->
+            <footer role="contentinfo" class="clearfix" id="footer">
+              <div class="region region-footer">
+                <div class="region-inner clearfix">
+                  <div class="address">
+                    <p><a href="http://www.carleton.ca" class="title">Carleton University Library</a><br/>1125 Colonel By Drive, Ottawa, ON K1S 5B6 Canada</p>
+                    <p><a href="http://www.library.carleton.ca/contact#feedback">Feedback</a></p>
+                  </div>
+                  <div class="branding">
+                    <h1><a href="http://www.library.carleton.ca/">MacOdrum Library</a></h1>
+                    <h2>You're smarter here.</h2>
+                  </div>
+                </div>
+              </div>
+            </footer>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
 </html>
