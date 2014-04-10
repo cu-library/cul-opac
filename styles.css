@@ -442,7 +442,8 @@ h6 {
 .content-inner {
   min-height: 1px;
   overflow: visible;
-  word-wrap: break-word;    
+  word-wrap: break-word;  
+  margin-right: 25%;
 }
 
 #main-content {
@@ -463,6 +464,10 @@ form, fieldset legend {
 
 form div {
   margin: 0 0 1em;
+}
+
+div.search-limits {
+  width: 60%;
 }
 
 div.search-limits label {
