@@ -527,18 +527,30 @@ div.browseSearchtool .availLimMessage, div.browseSearchtoolMessage i {
 div.browseSearchtoolMessage {
   margin: 0 0 1em;
 }
-
-
-
 /* =============================================================================
  *   Search results: header, mark/save options
  * ========================================================================== */
 .browseSaveJump form {
   display: block;
+  padding-left: 5px; /* pad to align with .browseHeader */
+  margin: 1em 0 .4em; 
+}
+.browseSaveJum form:before {
+  content: "Save search results: ";
 }
 /* trounce hard-coded style attribute */
 .browseSaveJump form a:hover {
   text-decoration: underline !important;
+}
+/* =============================================================================
+ *   Search results: header, search type & number of results
+ * ========================================================================== */
+.browseHeaderData {
+  background: #e8f2f9; 
+  border-bottom: 1px dotted #ECECEC;
+  font-weight: normal; /* undo ProStyles */
+  padding-left: 10px; /* align with .browseSaveJump */
+  text-align: left; 
 }
 
 /* =============================================================================
