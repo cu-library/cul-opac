@@ -496,7 +496,7 @@ div.search-limits legend {
  * ========================================================================== */
 .button {
   vertical-align: baseline;
-  margin: 0 10px;
+  margin: 0 5px;
 }
 
 /* =============================================================================
@@ -535,7 +535,10 @@ div.browseSearchtoolMessage {
  * ========================================================================== */
 .browseSaveJump form {
   display: block;
-  text-align: center;
+}
+/* trounce hard-coded style attribute */
+.browseSaveJump form a:hover {
+  text-decoration: underline !important;
 }
 
 /* =============================================================================
