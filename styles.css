@@ -94,6 +94,10 @@ a {
   padding:0;
   vertical-align:baseline;
   background:transparent;
+  text-decoration:none;
+}
+a:hover, a:focus {
+  text-decoration: underline;
 }
 /* change colours to suit your needs */
 ins {
@@ -270,7 +274,6 @@ h6 {
   line-height: 2;
   padding: 0;
   text-align: center;
-  text-decoration: none;
 }
 
 #skip-link a:link,
@@ -282,7 +285,6 @@ h6 {
   line-height: 2;
   padding: 0;
   text-align: center;
-  text-decoration: none;
 }
 
 #skip-link a:hover,
@@ -355,12 +357,6 @@ h6 {
 
 #header a {
   color: #000000;
-}
-#header a:link, #header a:visited {
-  text-decoration: none;
-}
-#header a:hover, #header a:focus {
-  text-decoration: underline;
 }
 
 #header li.highlight a {
@@ -544,11 +540,6 @@ div.sidebar .block-title {
 
 #footer-wrapper a {
   color: #DEDFD7;      
-  text-decoration: none;
-}
-
-#footer-wrapper a:hover {
-  text-decoration: underline;
 }
 
 #footer-wrapper a.title {
