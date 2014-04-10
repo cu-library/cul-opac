@@ -535,7 +535,7 @@ div.browseSearchtoolMessage {
   padding-left: 5px; /* pad to align with .browseHeader */
   margin: 1em 0 .4em; 
 }
-.browseSaveJum form:before {
+.browseSaveJump form:before {
   content: "Save search results: ";
 }
 /* trounce hard-coded style attribute */
