@@ -492,6 +492,14 @@ div.search-limits legend {
 }
 
 /* =============================================================================
+ *   Search results: "buttons"
+ * ========================================================================== */
+.button {
+  vertical-align: baseline;
+  margin: 0 10px;
+}
+
+/* =============================================================================
  *   Search results: header, navigation row (new search, modify search, etc.)
  * ========================================================================== */
 .navigationRow select {
@@ -514,6 +522,10 @@ div.browseSearchtool form div {
 /* undo ProStyles */
 div.browseSearchtool .availLimMessage, div.browseSearchtoolMessage i {
   font-style: normal;
+}
+/* Result count message */
+div.browseSearchtoolMessage {
+  margin: 0 0 1em;
 }
 
 

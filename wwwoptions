@@ -134,8 +134,8 @@ ICON_PAGING_NEXT=Next
 ICON_PAGING_PREV=Prev
 ICON_PROGRAM=<img src="/screens/media_program.gif" border="0" alt="Library Event">
 ICON_RESOURCE=<img src="/screens/media_resource.gif" alt="Internet Resource">
-ICON_SAVEALLPAGE=<span class="button"><img src="/screens/ico_bag_add.gif" alt=""><span class="buttonText">Save All On Page</span></span>
-ICON_SAVEMARKED=<span class="button"><img src="/screens/ico_bag_add.gif" alt=""><span class="buttonText">Save Marked Records</span></span>
+ICON_SAVEALLPAGE=<span class="button">Save All On Page</span>
+ICON_SAVEMARKED=<span class="button">Save Marked Records</span>
 IMAGE_MATTYPE-=/screens/media_book.gif
 IMAGE_MATTYPEa=/screens/media_book.gif
 IMAGE_MATTYPEb=/screens/media_archive.gif
@@ -239,7 +239,7 @@ ICON_MYLISTS_REQUEST=<span class="button"><img src="/screens/ico_checkmark_16px.
 ICON_MYLISTS_REMOVE_DUPLICATES=<div onmousedown="this.className='pressedState';" onmouseout="this.className='';" onmouseup="this.className='';"><div class="buttonSpriteDiv"><span class="buttonSpriteSpan1"><span class="buttonSpriteSpan2">Remove Duplicates</span></span></div></div>
 ICON_MYLISTS_RENAME=<div onmousedown="this.className='pressedState';" onmouseout="this.className='';" onmouseup="this.className='';"><div class="buttonSpriteDiv"><span class="buttonSpriteSpan1"><span class="buttonSpriteSpan2">Change Name/Description</span></span></div></div>
 ICON_MYLISTS_SAVE=<span class="button"><img src="/screens/ico_list_add.gif" alt=""><span class="buttonText">Add to My Lists</span></span>
-ICON_MYLISTS_SAVE_TO_LIST=<span class="button"><img src="/screens/ico_list_add.gif" alt=""><span class="buttonText">Add Marked to My Lists</span></span>
+ICON_MYLISTS_SAVE_TO_LIST=<span class="button">Add Marked to My Lists</span>
 ICON_MYLISTS_BRIEF=<span class="button"><img src="/screens/ico_list_add.gif" alt=""><span class="buttonText">Add to My Lists</span></span>
 ICON_BACK_TO_MYLISTS=<div onmousedown="this.className='pressedState';" onmouseout="this.className='';" onmouseup="this.className='';"><div class="buttonSpriteDiv"><span class="buttonSpriteSpan1"><span class="buttonSpriteSpan2">Back to My Lists</span></span></div></div>
 ICON_MYLISTS_RECORD=<span class="button"><img src="/screens/ico_list_add.gif" alt=""><span class="buttonText">Add to My Lists</span></span>
