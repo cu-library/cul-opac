@@ -104,21 +104,16 @@
         <div class="language">
 <!--{lang}-->
         </div>
-        <div class="published">
-          <!-- begin {DOCDATE} replacement -->
-          <fieldset>
-            <legend>Year published</legend>
-            <div>
-              <label for="Da">After:</label>
-              <input size="20" name="Da" id="Da" value="" type="text">
-            </div>
-            <div>
-              <label for="Db">Before:</label>
-              <input size="20" name="Db" id="Db" value="" type="text">
-            </div>
-          </fieldset>
-          <!-- end {DOCDATE} replacement -->
+        <!-- begin {DOCDATE} replacement -->
+        <div class="published-after">
+          <label for="Da">After:</label>
+          <input size="20" name="Da" id="Da" value="" type="text" placeholder="YYYY">
         </div>
+        <div class="published-before">
+          <label for="Db">Before:</label>
+          <input size="20" name="Db" id="Db" value="" type="text" placeholder="YYYY">
+        </div>
+        <!-- end {DOCDATE} replacement -->
         <div class="publisher">
           <!-- begin {publish} replacement -->
           <label for="p">Publisher:</label>

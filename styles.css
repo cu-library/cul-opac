@@ -455,7 +455,7 @@ h6 {
  * ========================================================================== */
 #form-wrapper {
   margin: 10px;
-  width: 70%;
+  width: 60%;
 }
 
 form, fieldset legend {
@@ -468,19 +468,19 @@ form div {
 
 div.search-limits label {
   display: inline-block;
-  min-width: 100px;
+  min-width: 125px;
 }
 
 div.search-limits select {
   min-width: 180px;
 }
 
-div.search-limits > fieldset {
+div.search-limits fieldset {
   border: 1px solid #CCCCCC;
   padding: 10px;
 }
 
-div.search-limits > fieldset > legend {
+div.search-limits legend {
   margin: 0 0 0 1em;
   font-weight: 600;
 }
