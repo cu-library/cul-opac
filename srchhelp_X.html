@@ -16,7 +16,7 @@
 <div id="form-wrapper">
 <!--{advancedsearchformbegin}--> <!-- generates opening <form> tag & <script/> -->
   <fieldset>
-    <legend>Enter one or more search terms. For help, go <a href="#">here</a>.</legend>
+    <legend>Enter one or more search terms. See <a href="#search-help">Search Help</a> for advanced search tips.</legend>
     <!-- accessible replacement for {advancedsearch} token-->
     <div>
       <select name="fieldLimit1" title="Field limit 1">
@@ -133,24 +133,28 @@
     </fieldset>
     <input type="hidden" name="endLimit"/>
   </div> <!-- /end .search-limits -->
-  <div class="search-help">
+<!--{advancedsearchformend}-->
+  </div> <!-- /end form-wrapper -->
+  <div id="search-help">
     <h3>Search Help</h3>
     <h4>Wildcards</h4>
     <p>Words may be right-hand truncated using an asterisk ('*') in place of other characters. 
       The '*' wildcard may also be embedded in a search string. You may use '?' to replace a 
       single character anywhere within a word.</p>
-    <p>Try these searches: <span class="search-example"><a href="#">environment* polic*</a>, <a href="#">wom?n</a></span></p>
+    <p>Try these searches: <a href="/search/?searchtype=X&searcharg=environment*+polic*">environment* polic*</a>, 
+        <a href="/search/?searchtype=X&searcharg=wom%3Fn">wom?n</a></p>
     <h4>Boolean Operators</h4>
     <p>Use "and" or "or" to specify multiple words in any field, any order. Use "and not" to exclude words.</p>
-    <p>Try these searches: <span class="search-example"><a href="#">stocks and bonds</a>, <a href="#">(alaska or canada) and (adventure and not vacation)</a></p>
+    <p>Try these searches: <a href="/search/?searchtype=X&searcharg=stocks+and+bonds">stocks and bonds</a>, 
+      <a href="/search/?searchtype=X&searcharg=(alaska+or+canada)+and+(adventure+and+not+vacation)">(Alaska or Canada) and (adventure and not vacation)</a></p>
     <h4>Field limits</h4>
     <p>A field limit causes the system to search only the specified field for the specified word(s).</p>
     <h4>Grouping</h4>
     <p>Keyword search results are usually grouped by relevance to bring the most likely titles to the top of the list. 
       Each group represents a similar level of relevance and results are sorted within the group by date or title. 
       To get an ungrouped result set, use boolean operators to form a complex query.</p>
-  </div> <!-- /end .search-help -->
-<!--{advancedsearchformend}-->
-  </div> <!-- /end form-wrapper -->
+    <h4>Need More Help?</h4>
+    <p>See the library guide to using <a href="http://www.library.carleton.ca/help/library-catalogue/keyword-and-advanced-keyword-searching">advanced keyword searches</a> in the catalogue.</p>
+  </div> <!-- /end .search-help -->  
 </div><!-- /end #content -->
 <!--{botlogo}-->
