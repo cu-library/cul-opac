@@ -465,6 +465,9 @@ form div {
   margin: 0 0 1em;
 }
 
+/* =============================================================================
+ *   Forms: Advanced Search
+ * ========================================================================== */
 div.search-limits {
   width: 45%;
 }
@@ -487,6 +490,53 @@ div.search-limits legend {
   margin: 0 0 0 1em;
   font-weight: 600;
 }
+
+/* =============================================================================
+ *   Search results: header, navigation row (new search, modify search, etc.)
+ * ========================================================================== */
+.navigationRow select {
+  vertical-align: baseline;
+}
+
+/* =============================================================================
+ *   Search results: header, browse/search options
+ * ========================================================================== */
+/* undo ProStyles */
+.browseSearchtool {
+  border: none;
+  margin: 0;
+  padding: 0;
+}
+/* flip margins to add top margin to divs below un-addressable form elements */
+div.browseSearchtool form div {
+  margin: 1em 0 0;
+}
+/* undo ProStyles */
+div.browseSearchtool .availLimMessage, div.browseSearchtoolMessage i {
+  font-style: normal;
+}
+
+
+
+/* =============================================================================
+ *   Search results: header, mark/save options
+ * ========================================================================== */
+.browseSaveJump form {
+  display: block;
+  text-align: center;
+}
+
+/* =============================================================================
+ *   Search results: extended display (keyword)
+ * ========================================================================== */
+
+/* =============================================================================
+ *   Search results: extended display (browseable)
+ * ========================================================================== */
+
+/* =============================================================================
+ *   Search results: compact display
+ * ========================================================================== */
 
 /* =============================================================================
  *   Sidebar: other searches & related resources
