@@ -85,7 +85,7 @@ q:before, q:after {
   content:none;
 }
 
-p, pre, form {
+p, pre {
   margin: 0 0 1.5em;
 }
 
@@ -451,11 +451,27 @@ h6 {
 }
 
 /* =============================================================================
- *   Main, OPAC menu search options
+ *   Forms
  * ========================================================================== */
-#search-box {
+#form-wrapper {
   margin: 10px;
   width: 70%;
+}
+
+form, fieldset legend {
+  margin: 0 0 1.5em;  
+}
+
+form div {
+  margin: 0 0 1em;
+}
+
+div.search-limits select {
+  min-width: 180px;
+}
+
+div.search-limits > fieldset {
+  border: 1px solid #1A1A1A;
 }
 
 /* =============================================================================
