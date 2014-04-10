@@ -443,7 +443,6 @@ h6 {
   min-height: 1px;
   overflow: visible;
   word-wrap: break-word;  
-  margin-right: 25%;
 }
 
 #main-content {
@@ -467,7 +466,7 @@ form div {
 }
 
 div.search-limits {
-  width: 60%;
+  width: 45%;
 }
 
 div.search-limits label {
