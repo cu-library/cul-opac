@@ -466,12 +466,23 @@ form div {
   margin: 0 0 1em;
 }
 
+div.search-limits label {
+  display: inline-block;
+  min-width: 100px;
+}
+
 div.search-limits select {
   min-width: 180px;
 }
 
 div.search-limits > fieldset {
-  border: 1px solid #1A1A1A;
+  border: 1px solid #CCCCCC;
+  padding: 10px;
+}
+
+div.search-limits > fieldset > legend {
+  margin: 0 0 0 1em;
+  font-weight: 600;
 }
 
 /* =============================================================================

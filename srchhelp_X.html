@@ -90,8 +90,10 @@
     <fieldset>
       <legend>Add limits (optional)</legend>
         <!-- replacement for {availlim} token -->
-        <input name="availlim" id="availlim" value="1" type="checkbox">
-        <label for="availlim">Limit search to available items</label>
+        <div class="limit-available">
+          <input name="availlim" id="availlim" value="1" type="checkbox">
+          <label for="availlim">Limit search to available items</label>
+        </div>
         <!-- end {availlim} token -->
         <div class="location">
 <!--{branch}-->
@@ -108,11 +110,11 @@
             <legend>Year published</legend>
             <div>
               <label for="Da">After:</label>
-              <input size="10" name="Da" id="Da" value="" type="text">
+              <input size="20" name="Da" id="Da" value="" type="text">
             </div>
             <div>
               <label for="Db">Before:</label>
-              <input size="10" name="Db" id="Db" value="" type="text">
+              <input size="20" name="Db" id="Db" value="" type="text">
             </div>
           </fieldset>
           <!-- end {DOCDATE} replacement -->
