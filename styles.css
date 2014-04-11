@@ -572,6 +572,32 @@ h1.browseSuperEntryTitle {
 /* =============================================================================
  *   Search results: extended display (keyword)
  * ========================================================================== */
+.briefcitCell {
+  border-bottom: 1px solid #ECECEC;
+}
+.briefcitLeft { /* wraps div.briefcitEntryNum, div.briefcitMark, div.briefcitMedia */
+  width: 5%;
+  float: left;
+  margin: 1em 2em 0 1em;
+}
+.briefcitEntryNum, .briefcitMark {
+  float: right;
+  width: 48%;
+  min-height: 30px;
+  margin: 0 0 1em 0;
+}
+.briefcitEntryNum {
+  color:#767C70;
+  margin-top: 1px;
+}
+.briefcitMedia {
+  clear: right;
+}
+.briefcitJacket { /* book jacket */
+  width: 100px;	
+  float: right;
+  text-align: center;
+}
 
 /* =============================================================================
  *   Search results: extended display (browseable)
