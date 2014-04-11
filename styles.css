@@ -557,7 +557,18 @@ div.browseSearchtoolMessage {
   padding-left: 10px; /* align with .browseSaveJump */
   text-align: left; 
 }
-
+/* =============================================================================
+ *   Search results: header, relevancy sorting notice
+ * ========================================================================== */
+.browseSuperEntry {
+  background: #FFFFFF url('tile_browsesuperentry.jpg') repeat-x bottom left; 
+  border-bottom:1px solid #D3D3D3; 
+  text-align:center; 
+}  
+h1.browseSuperEntryTitle { 
+  font-size: 1.1em; 
+  display: inline; 
+}
 /* =============================================================================
  *   Search results: extended display (keyword)
  * ========================================================================== */
