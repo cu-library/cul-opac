@@ -576,25 +576,32 @@ h1.browseSuperEntryTitle {
   border-bottom: 1px solid #ECECEC;
 }
 .briefcitLeft { /* wraps div.briefcitEntryNum, div.briefcitMark, div.briefcitMedia */
-  width: 5%;
+  width: 8%;
   float: left;
   margin: 1em 2em 0 1em;
 }
 .briefcitEntryNum, .briefcitMark {
   float: right;
-  width: 48%;
+  width: 46%;
   min-height: 30px;
-  margin: 0 0 1em 0;
+  margin: 0 1px 1em 1px;
+}
+.briefcitMark {
+  text-align: right;
 }
 .briefcitEntryNum {
   color:#767C70;
   margin-top: 1px;
+  word-wrap: normal;
 }
-.briefcitMedia {
+.briefcitMedia { /* Media icons for books, etc.	*/
   clear: right;
+  padding-left: 15px;
+}
+.briefcitResourceMedia { /* Media icons for electronic resources */
 }
 .briefcitJacket { /* book jacket */
-  width: 100px;	
+  width: 100px;
   float: right;
   text-align: center;
 }
