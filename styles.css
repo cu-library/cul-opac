@@ -678,11 +678,6 @@ h1.browseSuperEntryTitle {
 tr.odd, td.odd { /* table striping */
   background: #F8F8F8; 
 }
-td.highlight, tr.browseEntry:hover { 
-/* class added by iii Javascript on mouseover;
-     :hover used where iii hasn't added classes */
-  background: #FFFFE4;
-}
 .briefcitClear { /* always empty, clears floating content */
 }
 
