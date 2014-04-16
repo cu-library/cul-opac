@@ -446,8 +446,6 @@ h6 {
 }
 
 #main-content {
-  margin-left: 10px;
-  margin-right: 10px;
 }
 
 /* =============================================================================
@@ -573,12 +571,12 @@ h1.browseSuperEntryTitle {
  *   Search results: extended display (keyword)
  * ========================================================================== */
 .briefcitCell {
-  border-bottom: 1px solid #ECECEC;
+  border-bottom: 1px solid #D3D3D3;
 }
 .briefcitLeft { /* wraps div.briefcitEntryNum, div.briefcitMark, div.briefcitMedia */
   width: 8%;
   float: left;
-  margin: 1em 2em 0 1em;
+  margin: 0 2em 0 1em;
 }
 .briefcitEntryNum, .briefcitMark {
   float: right;
@@ -590,7 +588,7 @@ h1.browseSuperEntryTitle {
   text-align: right;
 }
 .briefcitEntryNum {
-  color:#767C70;
+  color: #767C70;
   margin-top: 1px;
   word-wrap: normal;
 }
@@ -604,6 +602,66 @@ h1.browseSuperEntryTitle {
   width: 100px;
   float: right;
   text-align: center;
+}
+.briefcitDetail { /* Wraps .briefcitDetailMain, .briefcitItems */
+  border: 2px solid orange;  
+}
+
+.briefcitDetailMain { 
+  /* Wraps:
+    h2.briefcitTitle
+    some HTML
+    briefcitRatings
+    briefcitRequest
+    briefcitStatus
+    briefcitActions */
+  border: 1px solid red;
+}
+.briefcitTitle { /* h2-level bibrecord title*/
+  font-size: 1em;
+  margin: 1em 0 0;
+}
+.briefcitRatings { /* @todo do we ever display ratings? */
+  display: none;
+}
+.briefcitRequest { /* wraps Hold/Request link */
+  margin: 1em 0 .2em 12%;  
+}
+.briefcitStatus { 
+  /* 
+    @todo is this field ever populated? span.briefcitStatus is between
+    request & actions, so needs to be block display & formatted the same
+  */  
+  font-weight: 400;  
+}
+.briefcitActions { /* 'Connect online,' etc. */
+  text-align: left; /* undo ProStyles */
+  margin: .2em 0 1em 12%; /* align with .briefcitRequest */
+}
+
+.briefcitItems {
+  /* wraps .briefcitItemsMain */
+}
+.briefcitItemsMain {
+  /* wraps table.bibItems */
+}
+.briefcitItems table { /* two tables: item locations & 'additional copies' notice */
+  margin: 0 0 1em 12%; /* align with .briefcitRequest, .briefcitActions */
+  width: 88%;
+}
+.bibItemsHeader {
+  text-align: left;
+}
+.bibItemsHeader th {
+  padding: 0 5px;
+}
+td.odd { /* table striping */
+  background: #F8F8F8; 
+}
+td.highlight { /* class added by iii Javascript on mouseover */
+  background: #FFFFE4; 
+}
+.briefcitClear { /* always empty, clears floating content */
 }
 
 /* =============================================================================
