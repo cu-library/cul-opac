@@ -656,10 +656,12 @@ h1.browseSuperEntryTitle {
 .bibItemsHeader th {
   padding: 0 5px;
 }
-td.odd { /* table striping */
+tr.odd, td.odd { /* table striping */
   background: #F8F8F8; 
 }
-td.highlight { /* class added by iii Javascript on mouseover */
+td.highlight, tr.browseEntry:hover { 
+  /* class added by iii Javascript on mouseover; 
+     :hover used where iii hasn't added classes */
   background: #FFFFE4; 
 }
 .briefcitClear { /* always empty, clears floating content */
@@ -672,6 +674,10 @@ td.highlight { /* class added by iii Javascript on mouseover */
 /* =============================================================================
  *   Search results: compact display
  * ========================================================================== */
+.browseEntry td {
+  border-top: 1px solid #CFCFCF;
+  padding: 5px 0;
+}
 
 /* =============================================================================
  *   Sidebar: other searches & related resources
