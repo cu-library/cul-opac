@@ -598,10 +598,11 @@ h1.browseSuperEntryTitle {
 }
 .briefcitResourceMedia { /* Media icons for electronic resources */
 }
-.briefcitJacket { /* book jacket */
+.briefcitJacket { /* Book jacket images. Inconsistently sized. */
   width: 100px;
   float: right;
-  text-align: center;
+  text-align: right;    
+  padding-right: 1em;
 }
 .briefcitDetail { /* Wraps .briefcitDetailMain, .briefcitItems */
 }
