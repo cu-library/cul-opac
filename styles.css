@@ -445,7 +445,8 @@ h6 {
   word-wrap: break-word;  
 }
 
-#main-content { /* last div added by toplogo */
+#main-content a { /* last div added by toplogo */
+  color: #186D92;
 }
 
 #content { /* wraps custom (i.e., non-iii generated) content inside toplogo */
@@ -678,9 +679,9 @@ tr.odd, td.odd { /* table striping */
   background: #F8F8F8; 
 }
 td.highlight, tr.browseEntry:hover { 
-  /* class added by iii Javascript on mouseover; 
+/* class added by iii Javascript on mouseover;
      :hover used where iii hasn't added classes */
-  background: #FFFFE4; 
+  background: #FFFFE4;
 }
 .briefcitClear { /* always empty, clears floating content */
 }
