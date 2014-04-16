@@ -445,7 +445,11 @@ h6 {
   word-wrap: break-word;  
 }
 
-#main-content {
+#main-content { /* last div added by toplogo */
+}
+
+#content { /* wraps custom (i.e., non-iii generated) content inside toplogo */
+  margin: 0 20px;
 }
 
 /* =============================================================================
@@ -500,6 +504,9 @@ div.search-limits legend {
 /* =============================================================================
  *   Search results: header, navigation row (new search, modify search, etc.)
  * ========================================================================== */
+.navigationRow { 
+  margin: 1em 0;
+}
 .navigationRow select {
   vertical-align: baseline;
 }
