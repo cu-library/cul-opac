@@ -604,7 +604,6 @@ h1.browseSuperEntryTitle {
   text-align: center;
 }
 .briefcitDetail { /* Wraps .briefcitDetailMain, .briefcitItems */
-  border: 2px solid orange;  
 }
 
 .briefcitDetailMain { 
@@ -615,7 +614,6 @@ h1.browseSuperEntryTitle {
     briefcitRequest
     briefcitStatus
     briefcitActions */
-  border: 1px solid red;
 }
 .briefcitTitle { /* h2-level bibrecord title*/
   font-size: 1em;
@@ -651,6 +649,9 @@ h1.browseSuperEntryTitle {
 }
 .bibItemsHeader {
   text-align: left;
+}
+.bibItems {
+  border: none; /* undo ProStyles */
 }
 .bibItemsHeader th {
   padding: 0 5px;
