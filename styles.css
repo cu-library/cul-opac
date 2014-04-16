@@ -645,16 +645,26 @@ h1.browseSuperEntryTitle {
 }
 .briefcitItems table { /* two tables: item locations & 'additional copies' notice */
   margin: 0 0 1em 12%; /* align with .briefcitRequest, .briefcitActions */
-  width: 88%;
-}
-.bibItemsHeader {
-  text-align: left;
+  width: 78%;
 }
 .bibItems {
   border: none; /* undo ProStyles */
 }
+
+.bibItemsHeader {
+  border-bottom: 1px solid #CECECE;
+  border-top: 1px solid #CECECE;
+}
 .bibItemsHeader th {
-  padding: 0 5px;
+  font-size: 0.8em;
+  padding: 5px;
+  text-align: left;
+}
+.bibItemsEntry {
+  border-bottom: 1px solid #CECECE;
+}
+.bibItemsEntry td {
+  padding: 3px 0;
 }
 tr.odd, td.odd { /* table striping */
   background: #F8F8F8; 
