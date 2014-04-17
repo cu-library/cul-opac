@@ -128,7 +128,8 @@ ICON_962LINK=<img src="/screens/bullet.gif" alt="" border="0" style="margin-righ
 # ICON_BOOKCART=<span class="button"><img src="/screens/ico_bag_add.gif" alt=""><span class="buttonText">Save Marked Records</span></span>
 ICON_BOOKCART_SAVED=<span class="button"><img src="/screens/ico_bag_minus.gif" alt=""><span class="buttonText">Unsave this record</span></span>
 ICON_FULLRECORD=See Full Record
-ICON_LOCATEINRESULTS=<div onmousedown="this.className='pressedState';" onmouseout="this.className='';" onmouseup="this.className='';"><div class="buttonSpriteDiv"><span class="buttonSpriteSpan1"><span class="buttonSpriteSpan2">Locate in results</span></span></div></div>
+# Use default submit button instead of links / image-based buttons
+# ICON_LOCATEINRESULTS=<div onmousedown="this.className='pressedState';" onmouseout="this.className='';" onmouseup="this.className='';"><div class="buttonSpriteDiv"><span class="buttonSpriteSpan1"><span class="buttonSpriteSpan2">Locate in results</span></span></div></div>
 ICON_PAGING_CAPTION=Result Page&nbsp;
 ICON_PAGING_NEXT=Next
 ICON_PAGING_PREV=Prev
