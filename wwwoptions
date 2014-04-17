@@ -76,7 +76,7 @@ STAFF=99
 STAFF_LOGGEDIN_MSG=<span class="loggedInMessage">You are logged into staff mode at %s as %s</span>
 
 # General and Phrase Searching
-ICON_BUT_ANOTHER=<span class="button"><img src="/screens/ico_magnifyingglass.gif" alt=""><span class="buttonText">Another Search</span></span>
+ICON_BUT_ANOTHER=<span class="button">Another Search</span>
 ICON_BUT_NEWSRCH=<span class="button">New Search</span>
 ICON_BUT_WORDSRCH=<span class="button"><img src="/screens/ico_magnifyingglass.gif" alt=""><span class="buttonText">Search as Words</span></span>
 # Indexes available on the drop down search menu (X for advanced keyword)
@@ -208,7 +208,7 @@ BIB_RESOURCE_FIELDS=:VeT|:VeE|:Vek
 BIB_RESOURCE_FIELDS_BRIEF=:VcY|:Vch|:VeE
 BIB_RESOURCE_NUM_BRIEF=A
 ICON_BIB_RESOURCE_DETAILS=<span class="button"><span class=buttonText">Full Details</span></span>
-ICON_RESOURCE_RECORD=<span class="button"><span class=buttonText">View Resource Record</span></span>
+ICON_RESOURCE_RECORD=View Resource Record
 RESOURCE_ADVISORY=k
 RESOURCE_HOLDINGS_FIELDS=Title:VbT|Coverage:Vch|Full Text:VcY
 RESOURCE_HOLDINGS_MAX=12
@@ -263,7 +263,7 @@ ICON_BUT_REQUEST_ALL=<div onmousedown="this.className='pressedState';" onmouseou
 ICON_BUT_REQUEST_MULTI=<span class="button"><img src="/screens/ico_request_multi.gif" alt=""><span class="buttonText">Request Saved</span></span>
 ICON_BUT_REQUEST_RESET=<div onmousedown="this.className='pressedState';" onmouseout="this.className='';" onmouseup="this.className='';"><div class="buttonSpriteDiv"><span class="buttonSpriteSpan1"><span class="buttonSpriteSpan2">Reset Form</span></span></div></div>
 ICON_BUT_REQUEST_SELECTED=<div onmousedown="this.className='pressedState';" onmouseout="this.className='';" onmouseup="this.className='';"><div class="buttonSpriteDiv"><span class="buttonSpriteSpan1"><span class="buttonSpriteSpan2">Request Selected</span></span></div></div>
-ICON_REQUEST=Hold/Request
+ICON_REQUEST=<img style="margin-right:5px" alt=" " src="/screens/bullet.gif">Hold/Request
 # REQFILLTIME=14|<br>Request available in approximately %d days|<br>Current estimated availability: approximately %d days|<br>This material may be immediately available
 REQUEST=Place a hold on this item|item|home
 REQUEST_ARTICLE_IFCHKIN=Y
