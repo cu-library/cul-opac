@@ -599,7 +599,8 @@ h1.browseSuperEntryTitle {
 .briefcitCell {
   border-bottom: 1px solid #D3D3D3;
 }
-.briefcitLeft { /* wraps div.briefcitEntryNum, div.briefcitMark, div.briefcitMedia */
+.briefcitLeft, .briefcitResourceLeft { 
+  /* wraps div.briefcitEntryNum, div.briefcitMark, div.briefcitMedia */
   width: 8%;
   float: left;
   margin: 0 2em 0 1em;
@@ -618,11 +619,12 @@ h1.browseSuperEntryTitle {
   margin-top: 1px;
   word-wrap: normal;
 }
-.briefcitMedia { /* Media icons for books, etc.	*/
+.briefcitMedia, .briefcitResourceMedia { /* Media icons for books, etc. */
   clear: right;
   padding-left: 15px;
 }
-.briefcitResourceMedia { /* Media icons for electronic resources */
+.briefcitResourceMedia {
+  margin: 0 0 1em;
 }
 .briefcitJacket { /* Book jacket images. Inconsistently sized. */
   width: 100px;
@@ -642,6 +644,11 @@ h1.browseSuperEntryTitle {
     briefcitStatus
     briefcitActions */
 }
+.briefcitDetailMain > br+br { 
+  /* do not	display	<br/> added to delimit an empty field */
+  display: none;
+}
+
 .briefcitTitle { /* h2-level bibrecord title*/
   font-size: 1em;
   margin: 1em 0 0;
