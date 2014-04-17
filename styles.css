@@ -544,10 +544,19 @@ div.browseSearchtoolMessage {
 /* =============================================================================
  *   Search results: header, mark/save options
  * ========================================================================== */
+td.browseSaveJump { /* Header, footer mark save links wrapped in td */
+  padding-left: 5px; /* pad table cell to align with .browseHeader */
+}
 .browseSaveJump form {
-  display: block;
-  padding-left: 5px; /* pad to align with .browseHeader */
-  margin: 1em 0 .4em; 
+  border: 1px solid green;
+  display: inline-block; /* undo ProStyles */
+  /* shrink width to allow dynamic, unnamed 'Locate in results' form in footer
+     to display inline with mark/save links */
+  width: 40%;
+}
+#export_form { /* mark/save links in header wrapped in form #export_form */
+  margin: 1em 0 .4em 0;
+  width: 100%; /* reset width; 'Locate in results' form not present in header */
 }
 /* trounce hard-coded style attribute */
 .browseSaveJump a:hover {
