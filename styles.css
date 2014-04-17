@@ -452,11 +452,11 @@ h6 {
 #content, #bibDisplayBody {
   /* #content wraps custom (i.e., non-iii generated) content inside toplogo */
   /* #bibDisplayBody added by iii */
-  margin: 0 20px;
+  margin: 1em 20px;
 }
 /* =============================================================================
  *   Forms
- * ========================================================================== */
+ * ========================================================================== */ 
 #form-wrapper {
   margin: 10px;
 }
@@ -507,7 +507,6 @@ div.search-limits legend {
  *   Search results: header, navigation row (new search, modify search, etc.)
  * ========================================================================== */
 .navigationRow, .navigationRowRecord { /* nav row classes on result, record pages */
-  margin: 1em 0;
   text-align: center;
 }
 .navigationRow select {
@@ -530,6 +529,14 @@ div.bibSearch form div {        /* bib display */
 }
 .availLimMessage, div.browseSearchtoolMessage i { /* undo ProStyles */
   font-style: normal;
+}
+.bibSearchHistory, /* search history, bib item display */
+.bibHistoryRow {   /* search history, resource item display */
+  margin: 1em 0;
+}
+.bibHistoryRow {
+  /* search history, resource item display */
+  text-align: center;
 }
 /* Result count message */
 div.browseSearchtoolMessage {
@@ -628,7 +635,9 @@ h1.browseSuperEntryTitle {
 .briefcitResourceMedia {
   margin: 0 0 1em;
 }
-.briefcitJacket { /* Book jacket images. Inconsistently sized. */
+.briefcitJacket,    /* search results */
+.bibDisplayJacket { /* Bib display */
+  /* Book jacket images are inconsistently sized; float & pad right */
   width: 100px;
   float: right;
   text-align: right;    
@@ -719,7 +728,6 @@ tr.odd, td.odd { /* table striping */
   border-top: 1px solid #CFCFCF;
   padding: 5px 0;
 }
-
 /* =============================================================================
  *   Bib record display
  * ========================================================================== */
@@ -730,6 +738,31 @@ tr.odd, td.odd { /* table striping */
   /* zero out margin on empty div wrapping hidden inputs */
   margin: 0;
 }
+/* =============================================================================
+ *   Sidebar: Bib record display, "Quick Links"
+ * ========================================================================== */
+.bibResourceSidebar, .bibDisplayJacket {
+  /* @todo put these back */
+  display: none;
+}
+
+/*
+.bibResourceSidebar { background:#FFFFFF url('tile_vgradient.jpg') repeat-x top left; display:inline; float:right; margin-right:10px; width:192px; }
+.bibResourceSidebar .button { margin:1% 3%; }
+table.bibResourceTable { border:0; }
+.bibResourceTableEntry  { padding: 5px 5px 7px 5px; text-align: center; font-size: 0.9em; }
+.bibResourceTableEntry form  { font-size:.8088em; font-weight:normal;  }
+.bibResourceTableHeader { background:#E7E7E7; color:#767C70; line-height:41px; text-align:center; }
+.bibResourceTableEntry form { padding:0; margin:0;}
+.bibResourceTableEntry select { display:block; width:100%; margin:2px 0px; }
+
+HTML replacement for inaccessible, single-link-permitting resource table in sidebar
+.bibResourceList { }
+.bibResourceList h3 { background:#E7E7E7; color:#767C70; line-height:41px; text-align:center; }
+.bibResourceList ul { list-style-type: none; padding: 5px; margin: 0; text-align: center; }
+.bibResourceList li { font-size: 0.9em; padding: 5px 0;	}
+*/
+
 /* =============================================================================
  *   Sidebar: other searches & related resources
  * ========================================================================== */
