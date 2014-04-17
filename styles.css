@@ -530,7 +530,9 @@ div.browseSearchtool form div,  /* search results */
 div.bibSearch form div {        /* bib display */
   margin: 1em 0 0;
 }
-.availLimMessage, div.browseSearchtoolMessage i { /* undo ProStyles */
+.availLimMessage, 
+div.browseSearchtoolMessage i,
+div.bibSearchtoolMessage i { /* undo ProStyles */
   font-style: normal;
 }
 .bibSearchHistory, /* search history, bib item display */
@@ -822,6 +824,9 @@ span.loggedInMessage { /* undo ProStyles */
 }
 span.loggedInMessage:after { /* undo ProStyles */
   content: ".";
+}
+span.loggedInMessage + br { /* drop line break after span */
+  display: none;
 }
 
 /* =============================================================================
