@@ -548,20 +548,29 @@ td.browseSaveJump { /* Header, footer mark save links wrapped in td */
   padding-left: 5px; /* pad table cell to align with .browseHeader */
 }
 .browseSaveJump form {
-  border: 1px solid green;
   display: inline-block; /* undo ProStyles */
   /* shrink width to allow dynamic, unnamed 'Locate in results' form in footer
      to display inline with mark/save links */
   width: 40%;
 }
+.browseSaveJump span {
+  /* link text wrapped in spans wrapped in anchors wrapped in spans */
+  display: inline-block;
+}
 #export_form { /* mark/save links in header wrapped in form #export_form */
   margin: 1em 0 .4em 0;
   width: 100%; /* reset width; 'Locate in results' form not present in header */
+}
+#save_page_btn2	{
+  /* add margin via the only element with an ID in 'Locate in results' form
+     in footer */
+  margin-top: .4em;
 }
 /* trounce hard-coded style attribute */
 .browseSaveJump a:hover {
   text-decoration: underline !important;
 }
+
 /* =============================================================================
  *   Search results: header, search type & number of results
  * ========================================================================== */
