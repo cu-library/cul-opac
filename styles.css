@@ -811,6 +811,20 @@ HTML replacement for inaccessible, single-link-permitting resource table in side
 */
 
 /* =============================================================================
+ *   Login / My Account
+ * ========================================================================== */
+span.loggedInMessage { /* undo ProStyles */
+  display: block;
+  color: #000;
+  font-style: normal;
+  text-align: right;
+  margin: 1em;
+}
+span.loggedInMessage:after { /* undo ProStyles */
+  content: ".";
+}
+
+/* =============================================================================
  *   Sidebar: other searches & related resources
  * ========================================================================== */
 div.sidebar {
