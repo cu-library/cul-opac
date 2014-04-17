@@ -92,7 +92,7 @@ OFFER_HISTORY=true
 AVS_MODIFY_TAG=X
 AVS_TAG=XYZ
 ICON_BUT_MODIFY=<span class="button">Modify Search</span>
-ICON_BUT_SHOWSIM=<span class="button"><img src="/screens/ico_more.gif" alt=""><span class="buttonText">Show similar items</span></span>
+ICON_BUT_SHOWSIM=<span class="button">Show similar items</span>
 ICON_REL_GROUP_1=<img src="/screens/relevance5.gif" alt="Most relevant">&nbsp;<h1 class="browseSuperEntryTitle">Most relevant titles</h1>&nbsp;
 ICON_REL_GROUP_2=<img src="/screens/relevance4.gif" alt="Highly relevant">&nbsp;<h1 class="browseSuperEntryTitle">Highly relevant titles</h1>&nbsp;
 ICON_REL_GROUP_3=<img src="/screens/relevance3.gif" alt="Very relevant">&nbsp;<h1 class="browseSuperEntryTitle">Very relevant titles</h1>&nbsp;
@@ -126,7 +126,7 @@ HEADING_LENGTH=100
 ICON_856LINK=<img src="/screens/bullet.gif" alt="" border="0" style="margin-right:5px">Connect online
 ICON_962LINK=<img src="/screens/bullet.gif" alt="" border="0" style="margin-right:5px">Digital Image
 # ICON_BOOKCART=<span class="button"><img src="/screens/ico_bag_add.gif" alt=""><span class="buttonText">Save Marked Records</span></span>
-ICON_BOOKCART_SAVED=<span class="button"><img src="/screens/ico_bag_minus.gif" alt=""><span class="buttonText">Unsave this record</span></span>
+ICON_BOOKCART_SAVED=<span class="button">Unsave this record</span>
 ICON_FULLRECORD=See Full Record
 # Use default submit button instead of links / image-based buttons
 # ICON_LOCATEINRESULTS=<div onmousedown="this.className='pressedState';" onmouseout="this.className='';" onmouseup="this.className='';"><div class="buttonSpriteDiv"><span class="buttonSpriteSpan1"><span class="buttonSpriteSpan2">Locate in results</span></span></div></div>
@@ -174,7 +174,7 @@ TABLEPARAM_BROWSE=width="100%" cellpadding="0" cellspacing="0" border="0"|align=
 BIB_TOC_HEADER=<strong>Table of Contents</strong>
 ICON_BUT_MARC_DISPLAY=<span class="button">MARC Display</span>
 ICON_BUT_REGULAR_DISPLAY=<span class="button"><img src="/screens/ico_back.gif" alt=""><span class="buttonText">Regular Display</span></span>
-ICON_BUT_RTRNTB=<span class="button"><img src="/screens/ico_back.gif" alt=""><span class="buttonText">Return to Browse</span></span>
+ICON_BUT_RTRNTB=<span class="button">Return to Browse</span>
 DISPLAY_856=z|true
 HOLDINGS_POS=atpR
 # HOTLINK=i^020,c^09,n^505
