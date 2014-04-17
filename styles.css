@@ -755,6 +755,20 @@ h1.bibDisplayTitle {
   font-size: 1em;
   margin: 0;
 }
+.bibDisplayItems {
+  margin: 1em 0;
+}
+.bibTOC {
+  margin: 1em 0 1em 30px; /* undo ProStyles */
+  padding: 0;
+}
+.bibTOC, .bibTOC th, .bibTOC td { /* table of contents */
+  border: none;                   /* undo ProStyles */
+}
+.bibTOC td {
+  border-top: 1px solid #CECECE;
+  padding: 3px 0;
+}
 .bibDisplayUrls table {
   border: none;
   border-top: 1px solid #CECECE;
