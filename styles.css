@@ -123,6 +123,9 @@ table {
   border-collapse:collapse;
   border-spacing:0;
 }
+th, td { /* undo ProStyles */
+ font-family: 'Open Sans',Helvetica,Arial,sans-serif;
+}
 /* change border colour to suit your needs */
 hr {
   display:block;
@@ -733,11 +736,41 @@ tr.odd, td.odd { /* table striping */
  * ========================================================================== */
 .bibSearch {
   text-align: center;
+  margin: 1em 0;
 }
 .bibSearch > form > div+div {
   /* zero out margin on empty div wrapping hidden inputs */
   margin: 0;
 }
+.bibDisplayContentMain, .bibDisplayContentMore {
+  border-top: 1px solid #CECECE;
+}
+.bibInfoLabel,         /* Bib display: metadata label */
+.resourceInfoLabel {   /* Resource display: metadata label */
+  color: #1A1A1A;
+  text-align: right; 
+  padding: .7em .7em 0 0; 
+}
+h1.bibDisplayTitle {
+  font-size: 1em;
+  margin: 0;
+}
+.bibDisplayUrls table {
+  border: none;
+  border-top: 1px solid #CECECE;
+  margin: 1em 0;
+}
+.bibDisplayUrls table th {
+  padding: 1em 0 .4em 0;
+}
+.bibDisplayContentMore {
+  margin: 1em 0;
+}
+.bibDisplayPermLink {
+  margin: 1em 0;
+  font-weight:bold;
+}
+
 /* =============================================================================
  *   Sidebar: Bib record display, "Quick Links"
  * ========================================================================== */
