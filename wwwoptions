@@ -247,11 +247,11 @@ ICON_MYLISTS_RECORD=<span class="button"><img src="/screens/ico_list_add.gif" al
 
 # Saving and Exporting
 # BRIEF_EXPORT=c|a|t|p
-ICON_BUT_BIBEXPORT=<span class="button"><img src="/screens/ico_bag_add.gif" alt=""><span class="buttonText">Save Marked Records</span></span>
-ICON_BUT_CLEAR_MARKED=<span class="button"><img src="/screens/ico_bag_clear.gif" alt=""><span class="buttonText">Clear Saved Records</span></span>
-ICON_BUT_EXPORT_MULTI=<span class="button"><img src="/screens/ico_disc.gif" alt=""><span class="buttonText">Export Saved</span></span>
-ICON_BUT_EXPORT_VIEW_SAVES=<span class="button"><img src="/screens/ico_bag.gif" alt=""><span class="buttonText">View/Export Saved Records</span></span>
-ICON_BUT_VIEW_SAVES=<span class="button"><img src="/screens/ico_bag.gif" alt=""><span class="buttonText">View/Export Saved Records</span></span>
+ICON_BUT_BIBEXPORT=<span class="button">Save Marked Records</span>
+ICON_BUT_CLEAR_MARKED=<span class="button">Clear Saved Records</span>
+ICON_BUT_EXPORT_MULTI=<span class="button">Export Saved</span>
+ICON_BUT_EXPORT_VIEW_SAVES=<span class="button">View/Export Saved Records</span>
+ICON_BUT_VIEW_SAVES=<span class="button">View/Export Saved Records</span>
 EMAILOP=From the library catalog|exporter|
 EXPORT_SELECT_TABLE=Sendto:browser,email,local|Format:full,brief,marc,procite,endnote
 XRECTYPE=boi
