@@ -180,9 +180,9 @@ HOLDINGS_POS=atpR
 # HOTLINK=i^020,c^09,n^505
 ICON_BIB_HOLDINGS_ITEMS=View Copies
 # ICON_NEARBY=<img src="/screens/bullet.gif" alt="Nearby on shelf" border="0">
-ICON_BIB_PAGING_CAPTION= 
-ICON_BIB_PAGING_NEXT=<span class="button"><span class="buttonText" id="buttonNextRecord">Next Record</span><img src="/screens/ico_next.gif" alt=""></span>
-ICON_BIB_PAGING_PREV=<span class="button"><img src="/screens/ico_previous.gif" alt=""><span class="buttonText">Previous Record</span></span>
+ICON_BIB_PAGING_CAPTION=Browse search results: 
+ICON_BIB_PAGING_NEXT=<span class="button browseNext">Next &raquo;</span>
+ICON_BIB_PAGING_PREV=<span class="button browsePrevious">&laquo; Previous</span>
 ICON_RECORDLINK=Link to this record: <span class="bibRecordLink"><a id="recordnum" href="%s">%s</a></span>
 LINK856TEXT=Connect to
 MARC=yes

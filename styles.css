@@ -747,6 +747,9 @@ tr.odd, td.odd { /* table striping */
 .bibDisplayContentMain, .bibDisplayContentMore {
   border-top: 1px solid #CECECE;
 }
+.bibPager {
+  margin: 1em 0;
+}
 .bibInfoLabel,         /* Bib display: metadata label */
 .resourceInfoLabel {   /* Resource display: metadata label */
   color: #1A1A1A;
@@ -764,6 +767,7 @@ h1.bibDisplayTitle {
   margin: 1em 0 1em 30px; /* undo ProStyles */
   padding: 0;
 }
+.bibOrder,                        /* bib order status */
 .bibTOC, .bibTOC th, .bibTOC td { /* table of contents */
   border: none;                   /* undo ProStyles */
 }
@@ -785,6 +789,9 @@ h1.bibDisplayTitle {
 .bibDisplayPermLink {
   margin: 1em 0;
   font-weight:bold;
+}
+.bibRecordLink {
+  font-style: normal;
 }
 
 /* =============================================================================
