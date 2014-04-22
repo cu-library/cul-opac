@@ -202,7 +202,7 @@ TABLEPARAM_BIB_TOC=border="0" cellspacing="0"
 
 # Electronic Resource Management
 # BIB_LICENSE_FIELDS=Permitted:Vlw|Restricted:Vlx
-BIB_LICENSE_FIELDS_BRIEF=Authorized Users,Vlu|Terms of Use,Vlt
+BIB_LICENSE_FIELDS_BRIEF=<span class="label">Authorized Users</span>,Vlu|<span class="label>Terms of Use</span>,Vlt
 BIB_RESOURCE_CAPTION=This title is available electronically via:
 BIB_RESOURCE_FIELDS=:VeT|:VeE|:Vek
 BIB_RESOURCE_FIELDS_BRIEF=:VcY|:Vch|:VeE
