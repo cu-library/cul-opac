@@ -795,6 +795,14 @@ h1.bibDisplayTitle {
 }
 
 /* =============================================================================
+ *   Eresource record: details
+ * ========================================================================== */
+.bibResourceCaption td,
+.bibResourceLicense .label { /* span.label added via BIB_LICENSE_FIELDS_BRIEF */
+  font-weight: bold;
+}
+
+/* =============================================================================
  *   Sidebar: Bib record display, "Quick Links"
  * ========================================================================== */
 .bibResourceSidebar, .bibDisplayJacket {
