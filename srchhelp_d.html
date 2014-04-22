@@ -18,10 +18,13 @@
 <form method="get" action="/search/d">
   <p>
     Library of Congress Subject headings are assigned to the majority of items in the library's collection.
-    Try these searches: <a href="/search/d?SEARCH=canada--history--1663-1713+(new+france)">canada--history--1663-1713 (new france)</a>, 
-    <a href="/search/d?SEARCH=indians+of+north+america--canada">indians of north america--canada</a>,
-    <a href="/search/d?SEARCH=shakespeare%2C+william%2C+1564-1616+v">shakespeare, william, 1564-1616 v</a>
+    Try these searches:
   </p>
+  <ul>
+    <li><a href="/search/d?SEARCH=canada--history--1663-1713+(new+france)">canada--history--1663-1713 (new france)</a></li>
+    <li><a href="/search/d?SEARCH=indians+of+north+america--canada">indians of north america--canada</a></li>
+    <li><a href="/search/d?SEARCH=shakespeare%2C+william%2C+1564-1616+v">shakespeare, william, 1564-1616 v</a></li>
+  </ul>
   <p>If don't know which Library of Congress subject heading to search for, try a <a href="/search/X">keyword search</a>.</p>
   <!-- {search} token replaced with accessible text box -->  
   <input id="SEARCH-loc" name="SEARCH" size="48" value="" type="text" title="Search for"/>
@@ -31,6 +34,22 @@
   <!--{submit} token replaced with accessible submit button -->
   <input type="submit" value="Submit"/>
 </form>
+
+<h3>Government Document Subject Headings</h3>
+<form method="get" action="/search/m">
+  <p>
+    Search subject headings assigned to government documents located in the
+    <a href="http://www.library.carleton.ca/help/codoc-call-numbers">Maps, Data and Government Information Centre (MADGIC)</a>. 
+  </p>
+  <!-- {search} token replaced with accessible text box -->  
+  <input id="SEARCH-govdocs" name="SEARCH" size="48" value="" type="text" title="Search for"/>
+  <!-- end {search} replacement -->
+<!--{indexsort}-->
+<!--{scope}-->
+  <!--{submit} token replaced with accessible submit button -->
+  <input type="submit" value="Submit"/>
+</form>
+
 </div><!-- /end #content -->
 <!--{botlogo}-->
 
