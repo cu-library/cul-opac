@@ -1,34 +1,21 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<!DOCTYPE html>
 <html lang="en">
-<!--
-  Custom page combines search forms for call numbers, ISBNs, ISSNs,
-  publisher numbers, and III record numbers. 
--->
-<head>
-<title>MacOdrum Library Catalogue | Carleton University Library</title>
-<meta name="robots" content="noindex" />
-<script language="JavaScript">
-<!-- Hide the JS
-startTimeout(600000, "/");
-// -->
-
-</script>
-<noscript>
-<meta http-equiv="Refresh" content="600;URL=/" />
-</noscript>
-<meta http-equiv="X-UA-Compatible" content="IE=8;FF=3;OtherUA=4">
-<link rel="icon" href="/screens/CU_icon.gif" type="image/gif"/>
-<link rel="stylesheet" type="text/css" href="/screens/styles_print.css" media="print">
-<script type="text/javascript" src="/screens/iiilangswitch.js"></script> 
-</head>
+  <head>
+    <meta charset="utf-8"/>
+    <title>Number Search | MacOdrum Library Catalogue</title>
+    <meta name="robots" content="noindex" />
+    <script src="/screens/iii.js"></script>
+    <link rel="icon" href="/screens/CU_icon.gif"/>    
+  </head>
 <body>
 <!--{toplogo}-->
-<div class="pageContentInner">
+<div id="content">
 
 <h1 class="pageHeader">Number Search</h1>
 <p>Search the catalogue by call number, ISBN, ISSN, publisher number, or catalogue record number.</p>
 
 <h2>Call Number</h2>
+
 <form method="get" action="/search/c">
   <p><label for="SEARCH-loc">Search Library of Congress (LC) call numbers.</label> Most items in the library are shelved by <a href="http://www.library.carleton.ca/help/lc-call-numbers">LC call numbers</a>.</p>
   <p class="examples">Try these searches: <a href="/search/c?SEARCH=QA+402">QA 402</a>, <a href="/search/c?SEARCH=QA+402.6.Y36">QA 402.6.Y36 2005</a>.</p> 
@@ -88,8 +75,5 @@ startTimeout(600000, "/");
   <!-- {submit} token replaced with accessible submit button -->
   <input type="submit" value="Search"/>
 </form>
-
-
-<div class="clear"></div>
-</div><!--pageContentInner -->
+</div><!-- /end #content -->
 <!--{botlogo}-->
