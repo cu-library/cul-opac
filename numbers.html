@@ -11,14 +11,14 @@
 <!--{toplogo}-->
 <div id="content">
 
-<h1 class="pageHeader">Number Search</h1>
+<h2>Number Search</h2>
 <p>Search the catalogue by call number, ISBN, ISSN, publisher number, or catalogue record number.</p>
 
 <h2>Call Number</h2>
 
 <form method="get" action="/search/c">
   <p><label for="SEARCH-loc">Search Library of Congress (LC) call numbers.</label> Most items in the library are shelved by <a href="http://www.library.carleton.ca/help/lc-call-numbers">LC call numbers</a>.</p>
-  <p class="examples">Try these searches: <a href="/search/c?SEARCH=QA+402">QA 402</a>, <a href="/search/c?SEARCH=QA+402.6.Y36">QA 402.6.Y36 2005</a>.</p> 
+  <p>Try these searches: <a href="/search/c?SEARCH=QA+402">QA 402</a>, <a href="/search/c?SEARCH=QA+402.6.Y36">QA 402.6.Y36 2005</a>.</p> 
   <!-- {search} token replaced with accessible text box -->
   <input id="SEARCH-loc" name="SEARCH" size="48" value="" type="text"/>
 <!--{indexsort}-->
@@ -27,10 +27,10 @@
   <input type="submit" value="Search"/>
 </form>
 
-<h2>Government Document Call Number</h2>
+<h3>Government Document Call Number</h3>
 <form method="get" action="/search/h">
   <p><label for="SEARCH-codoc">Search government documents by <a href="http://www.library.carleton.ca/help/codoc-call-numbers">CODOC number</a>.</label> Government documents are located in the <a href="http://www.library.carleton.ca/contact/service-points/maps-data-and-government-information-centre">Maps, Data, and Government Information Centre (MADGIC)</a>.</p>
-  <p class="examples">Try these searches: <a href="/search/h?SEARCH=CA1+BSC+1996+95-253">CA1 BSC 1996 95-253</a>, <a href="/search/h?SEARCH=UN%2FST%2FECA%2F171">UN/ST/ECA/171</a>. When searching CODOC numbers, type punctuation exactly as it appears.</p>
+  <p>Try these searches: <a href="/search/h?SEARCH=CA1+BSC+1996+95-253">CA1 BSC 1996 95-253</a>, <a href="/search/h?SEARCH=UN%2FST%2FECA%2F171">UN/ST/ECA/171</a>. When searching CODOC numbers, type punctuation exactly as it appears.</p>
   <!-- {search} token replaced with accessible text box -->
   <input id="SEARCH-codoc" name="SEARCH" size="48" value="" type="text"/>
 <!--{indexsort}-->
@@ -39,10 +39,10 @@
   <input type="submit" value="Search"/>
 </form>
 
-<h2>Other Call Number</h2>
+<h3>Other Call Number</h3>
 <form method="get" action="/search/j">
   <p><label for="SEARCH-other">Search call numbers assigned to special items</label>. These include theses, cassettes, compact discs, maps, DVDs, computer games, and selected reserve materials.</p>
-  <p class="examples">Try these searches: <a href="/search/j?SEARCH=GVD">GVD</a> (board games), <a href="/search/j?SEARCH=1336.H332">1336.H332</a> (maps), <a href="/search/j?SEARCH=M.M.S.+2000">M.M.S 2000</a> (theses).</p>
+  <p>Try these searches: <a href="/search/j?SEARCH=GVD">GVD</a> (board games), <a href="/search/j?SEARCH=1336.H332">1336.H332</a> (maps), <a href="/search/j?SEARCH=M.M.S.+2000">M.M.S 2000</a> (theses).</p>
   <!-- {search} token replaced with accessible text box -->
   <input id="SEARCH-other" name="SEARCH" size="48" value="" type="text"/>
 <!--{indexsort}-->
@@ -51,10 +51,10 @@
   <input type="submit" value="Search"/>
 </form>
 
-<h2>ISBN, ISSN, or Publisher Number</h2>
+<h3>ISBN, ISSN, or Publisher Number</h3>
 <form method="get" action="/search/i">
   <p><label for="SEARCH-isbn">Search for an International Standard Book Number (ISBN), International Standard Serial Number (ISSN), or publisher number.</label></p>
-  <p class="examples">Try these searches: <a href="/search/i?SEARCH=0773500545">0773500545</a> (ISBN), <a href="/search/i?SEARCH=07735">07735</a> (publisher number).</p>
+  <p>Try these searches: <a href="/search/i?SEARCH=0773500545">0773500545</a> (ISBN), <a href="/search/i?SEARCH=07735">07735</a> (publisher number).</p>
   <!-- {search} token replaced with accessible text box -->
   <input id="SEARCH-isbn" name="SEARCH" size="48" value="" type="text"/>
 <!--{indexsort}-->
@@ -63,10 +63,10 @@
   <input type="submit" value="Search"/>
 </form>
 
-<h2>Record Number</h2>
+<h3>Record Number</h3>
 <form method="get" action="/search/a?a">
   <p><label for="SEARCH-iii">Search catalogue by record number.</label></p>
-  <p class="examples">Record number format is a letter followed by 7 numbers: <a href="/search/a?searchtype=.&searcharg=b1000098">b1000098</a>, <a href="/search/a?searchtype=.&searcharg=e1000541">e1000541</a>.</p>
+  <p>Record number format is a letter followed by 7 numbers: <a href="/search/a?searchtype=.&searcharg=b1000098">b1000098</a>, <a href="/search/a?searchtype=.&searcharg=e1000541">e1000541</a>.</p>
   <input type="hidden" name="searchtype" value="."/>   
   <!-- {search} token replaced with accessible text box -->
   <input id="SEARCH-iii" name="searcharg" size="48" value="" type="text"/>
