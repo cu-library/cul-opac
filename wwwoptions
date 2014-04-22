@@ -78,7 +78,7 @@ STAFF_LOGGEDIN_MSG=<span class="loggedInMessage">You are logged into staff mode 
 # General and Phrase Searching
 ICON_BUT_ANOTHER=<span class="button">Another Search</span>
 ICON_BUT_NEWSRCH=<span class="button">New Search</span>
-ICON_BUT_WORDSRCH=<span class="button"><img src="/screens/ico_magnifyingglass.gif" alt=""><span class="buttonText">Search as Words</span></span>
+ICON_BUT_WORDSRCH=<span class="button">Search as Words</span>
 # Indexes available on the drop down search menu (X for advanced keyword)
 DROP_DOWN=Xtadchi
 FRAMEURL=0
@@ -115,11 +115,11 @@ BODYPARAM=onLoad="get_recordnum()"
 BRIEF=A
 BROWSE_t=245/abhnp/0|240/afklmnopr/0|700/tmnr/0|970/t/0|/abhnpv/0
 BROWSE_HEADERS=Mark|Media
-ICON_BUT_BRIEF=<span class="button"><img src="/screens/ico_browse_brief.gif" alt=""><span class="buttonText">Brief Display</span></span>
-ICON_BUT_EXTENDED=<span class="button"><img src="/screens/ico_browse_ext.gif" alt=""><span class="buttonText">Extended Display</span></span>
-ICON_BUT_LIMAVAIL=<span class="button"><img src="/screens/ico_list.gif" alt=""><span class="buttonText">Limit to Available</span></span>
-ICON_BUT_LIMIT=<span class="button"><img src="/screens/ico_gear.gif" alt=""><span class="buttonText">Limit/Sort Search</span></span>
-ICON_BUT_UNLIMAVAIL=<span class="button"><img src="/screens/ico_list.gif" alt=""><span class="buttonText">Show All</span></span>
+ICON_BUT_BRIEF=<span class="button">Brief Display</span>
+ICON_BUT_EXTENDED=<span class="button">Extended Display</span>
+ICON_BUT_LIMAVAIL=<span class="button">Limit to Available</span>
+ICON_BUT_LIMIT=<span class="button">Limit/Sort Search</span>
+ICON_BUT_UNLIMAVAIL=<span class="button">Show All</span>
 DISPLAY_245=atd
 EXTENDED=CT
 HEADING_LENGTH=100
