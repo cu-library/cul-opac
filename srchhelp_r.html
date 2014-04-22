@@ -13,8 +13,9 @@
 
   <h2>Library Reserves Search</h2>
 
-  <p>Search for <strong>physical materials</strong> (books, professors' copies, videos and CDs) 
-    available at the Circulation Desk. <strong>Electronic reserves</strong> are available 
+  <p>Search for <strong>physical materials</strong> (books, instructors' copies, videos and CDs) 
+    available at the <a href="http://www.library.carleton.ca/contact/service-points/library-services-desk">Library Services Desk</a>. 
+    <strong>Electronic reserves</strong> are available 
     through <a href="http://libares01.carleton.ca/">Ares</a>.</p>
 
   <h3>Course Number Search</h3>
@@ -27,5 +28,16 @@
     <!--{submit} token replaced with accessible submit button -->
     <input type="submit" value="Submit"/>    
   </form>
+  
+  <h4>Instructor Search</h4>
+  <p>Search by instructor name. Type the last name first, e.g., 
+    <a href="/search/p?SEARCH=Bennett">Bennett</a> or <a href="/search/p?SEARCH=Bennett%2C+S">Bennett, S</a></p>
+  <form method="get" action="/search/p">
+    <!-- {search} token replaced with accessible text box -->  
+    <input id="SEARCH-name" name="SEARCH" size="48" value="" type="text" title="Search course code"/>
+    <!-- end {search} replacement -->
+    <!--{submit} token replaced with accessible submit button -->
+    <input type="submit" value="Submit"/>    
+  </form>  
 </div><!-- /end #content -->
 <!--{botlogo}-->
