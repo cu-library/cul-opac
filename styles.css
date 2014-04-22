@@ -664,11 +664,6 @@ h1.browseSuperEntryTitle {
     briefcitStatus
     briefcitActions */
 }
-.briefcitDetailMain > br+br { 
-  /* do not	display	<br/> added to delimit an empty field */
-  display: none;
-}
-
 .briefcitTitle { /* h2-level bibrecord title*/
   font-size: 1em;
   margin: 1em 0 0;

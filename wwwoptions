@@ -208,7 +208,7 @@ BIB_RESOURCE_FIELDS=:VeT|:VeE|:Vek
 BIB_RESOURCE_FIELDS_BRIEF=:VcY|:Vch|:VeE
 BIB_RESOURCE_NUM_BRIEF=A
 ICON_BIB_RESOURCE_DETAILS=<span class="button"><span class=buttonText">Full Details</span></span>
-ICON_RESOURCE_RECORD=View Resource Record
+ICON_RESOURCE_RECORD=<img style="margin-right:5px" alt=" " src="/screens/bullet.gif">View Resource Record
 RESOURCE_ADVISORY=k
 RESOURCE_HOLDINGS_FIELDS=Title:VbT|Coverage:Vch|Full Text:VcY
 RESOURCE_HOLDINGS_MAX=12
