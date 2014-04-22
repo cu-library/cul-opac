@@ -749,6 +749,10 @@ tr.odd, td.odd { /* table striping */
 .bibPager {
   margin: 1em 0;
 }
+.bibDetail {
+ /* limit width of bib detail table to allow room for book jacket, media icon */
+ max-width: 90%;
+}
 .bibInfoLabel,         /* Bib display: metadata label */
 .resourceInfoLabel {   /* Resource display: metadata label */
   color: #1A1A1A;
@@ -759,6 +763,10 @@ h1.bibDisplayTitle {
   font-size: 1em;
   margin: 0;
 }
+.bibDisplayItems, .bibDisplayUrls {
+  clear: right; /* clear book jacket and/or media icon */
+}
+
 .bibDisplayItems {
   margin: 1em 0;
 }
@@ -804,11 +812,12 @@ h1.bibDisplayTitle {
 /* =============================================================================
  *   Sidebar: Bib record display, "Quick Links"
  * ========================================================================== */
-.bibResourceSidebar, .bibDisplayJacket {
-  /* @todo put these back */
+.bibResourceSidebar {
   display: none;
 }
-
+#bibDisplayContent .bibDisplayJacket { /* wraps linked jacket image (no classes!) and .bibMedia */
+  padding: 20px 0 0; /* top padding = #bibDisplayBody padding right */
+}
 /*
 .bibResourceSidebar { background:#FFFFFF url('tile_vgradient.jpg') repeat-x top left; display:inline; float:right; margin-right:10px; width:192px; }
 .bibResourceSidebar .button { margin:1% 3%; }
