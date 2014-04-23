@@ -912,10 +912,10 @@ span.loggedInMessage + br + br { /* drop line breaks after span */
   padding: 1em 0;
   margin: 0;
 } 
-.patFunc { /* patron function table */
+table.patFunc { /* patron function table */
   margin: 1em 0;
 }
-.patFunc {
+table.patFunc {
   border: 1px solid #CECECE; /* undo ProStyles */
 }
 .patFunc th.patFuncTitle,
