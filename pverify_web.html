@@ -24,15 +24,19 @@
 
 <!--{ifextpat}-->
 <h3>Students, Staff, and Faculty</h3>
-<p>Please enter your <a href="http://www1.carleton.ca/mycarletonone/">MyCarletonOne</a> username and password.</p>
-<div class="formEntryArea">
-  <label for="extpatid"><span class="formLabel">Username:</span></label>
+<fieldset>
+  <legend>Please enter your <a href="http://www1.carleton.ca/mycarletonone/">MyCarletonOne</a> username and password.</legend>
+  <div class="formEntryArea">
+    <label for="extpatid">Username:</label>
 <!--{extpatid}-->
-  <label for="extpatpw"><span class="formLabel">Password:</span></label>
+    <label for="extpatpw">Password:</label>
 <!--{extpatpw}-->
-</div><!-- /end .formEntryArea -->
+  </div><!-- /end .formEntryArea -->
+</fieldset>
 
 <h3>Other Library Users</h3>
+<fieldset>
+  <legend>Please enter your library card barcode and PIN.</legend>
 <!--{xif}-->
 <!--{ifneedpatronname}-->
 <div class="formEntryArea">
@@ -79,20 +83,16 @@
 <!--{xif}-->
 <!--{xif}-->
 
-    <!--{ifalternate_id}-->
-    <!--{user_name}-->
-    <!--{xif}-->
-
+<!--{ifalternate_id}-->
+<!--{user_name}-->
+<!--{xif}-->
+</fieldset>
 <div class="formButtonArea">
   <input type="submit" value="submit"/>
 </div>
-<div class="formEntryArea">
-  <a href="/screens/login_help.html">Need help with your library account?</a>
-</div>    
-
 <!--{formend}-->
 
-</div>
+  <p><a href="/screens/login_help.html">Need help with your library account?</a></p>
 
 </div><!-- /end #content -->
 <!--{botlogo}-->
