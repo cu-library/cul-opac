@@ -736,13 +736,8 @@ tr.odd, td.odd { /* table striping */
 }
 .briefcitClear { /* always empty, clears floating content */
 }
-
 /* =============================================================================
- *   Search results: extended display (browseable)
- * ========================================================================== */
-
-/* =============================================================================
- *   Search results: compact display
+ *   Search results: compact display (browseable)
  * ========================================================================== */
 .browseHeader .browseHeaderData {
   background: #FFFFFF;
@@ -753,10 +748,16 @@ tr.odd, td.odd { /* table striping */
   text-align: center;
   width: 7%;
 }
-
 .browseEntry td {
   border-top: 1px solid #CFCFCF;
-  padding: 5px 0;
+  padding: 10px 0;
+}
+/* =============================================================================
+ *   Search results: extended display (browseable)
+ * ========================================================================== */
+.browseSubEntry .browseSubEntryMedia, 
+.browseSubEntry .browseSubEntryYear {
+  vertical-align: top;
 }
 /* =============================================================================
  *   Bib record display
