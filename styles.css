@@ -477,7 +477,7 @@ form div {
 }
 
 /* =============================================================================
- *   Forms: Advanced Search
+ *   Forms: Advanced search, patron login
  * ========================================================================== */
 div.search-limits {
   width: 45%;
@@ -493,6 +493,7 @@ div.search-limits select {
 }
 
 div.search-limits fieldset {
+  /* Fieldset, legend styles can probably be applied more generally. */
   border: 1px solid #CCCCCC;
   padding: 10px;
 }
@@ -501,6 +502,20 @@ div.search-limits legend {
   margin: 0 0 0 1em;
   font-weight: 600;
 }
+
+div.patronLogin form {
+ width: 45%;
+ float: left;
+ margin: 0 2em 1em 0em;
+ border: 1px solid #CECECE;
+ padding: 0 0 1em 1em;
+}
+
+div.patronLogin form label {
+  display: inline-block;
+  min-width: 80px;
+}
+
 
 /* =============================================================================
  *   Search results: "buttons"

@@ -11,7 +11,11 @@
 -->
 <!-- End phishing warning notice -->
 
-<!--{formbegin}-->
+<div class="patronLogin">
+  <!-- replace {formbegin} token -->
+  <form action="/patroninfo" method="POST" target="_self" name="patform">
+  <!-- end replace {formbegin} token -->  
+
 <!--{iferrmsg}-->
 <span class="errormessage">
 <!--{iferrmsgisPIN}-->
@@ -24,8 +28,7 @@
 
 <!--{ifextpat}-->
 <h3>Students, Staff, and Faculty</h3>
-<fieldset>
-  <legend>Please enter your <a href="http://www1.carleton.ca/mycarletonone/">MyCarletonOne</a> username and password.</legend>
+<p>Please enter your <a href="http://www1.carleton.ca/mycarletonone/">MyCarletonOne</a> username and password.</p>
   <div class="formEntryArea">
     <label for="extpatid">Username:</label>
 <!--{extpatid}-->
@@ -34,11 +37,16 @@
     <label for="extpatpw">Password:</label>
 <!--{extpatpw}-->
   </div><!-- /end .formEntryArea -->
-</fieldset>
+  <div class="formButtonArea">
+    <input type="submit" value="Login"/>
+  </div>
+</form><!-- /end Carleton login form -->
 
+<!-- replace {formbegin} token -->
+<form action="/patroninfo" method="POST" target="_self" name="patform">
+<!-- end replace {formbegin} token -->
 <h3>Other Library Users</h3>
-<fieldset>
-  <legend>Please enter your library card barcode and PIN.</legend>
+  <p>Please enter your library card barcode and PIN.</p>
 <!--{xif}-->
 <!--{ifneedpatronname}-->
 <div class="formEntryArea">
@@ -90,12 +98,13 @@
 <!--{xif}-->
 </fieldset>
 <div class="formButtonArea">
-  <input type="submit" value="submit"/>
+  <input type="submit" value="Login"/>
 </div>
-<!--{formend}-->
-
+</form><!-- /end external users login form -->
+  </div><!-- /end #patronLogin -->
+  
+  <div class="clearfix"></div>
   <p><a href="/screens/login_help.html">Need help with your library account?</a></p>
-
 </div><!-- /end #content -->
 <!--{botlogo}-->
 
