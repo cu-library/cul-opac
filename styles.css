@@ -746,9 +746,6 @@ tr.odd, td.odd { /* table striping */
 .bibDisplayContentMain, .bibDisplayContentMore {
   border-top: 1px solid #CECECE;
 }
-.bibPager {
-  margin: 1em 0;
-}
 .bibDetail {
  /* limit width of bib detail table to allow room for book jacket, media icon */
  max-width: 90%;
@@ -812,8 +809,23 @@ h1.bibDisplayTitle {
 /* =============================================================================
  *   Sidebar: Bib record display, "Quick Links"
  * ========================================================================== */
-.bibResourceSidebar {
-  display: none;
+.bibActions { 
+  /* custom div wraps hard-coded replacement for resource table & iii-generated 
+     .bibPager */
+  margin: 1.5em 0 .5em;
+}
+.bibResourceList {
+  float: right;
+  width: 70%;
+  text-align: right;
+}
+.bibResourceList .label,
+.bibResourceList ul.menu,
+.bibResourceList ul.menu li {
+  display: inline-block;
+}
+.bibPager {
+  width: 30%;
 }
 #bibDisplayContent .bibDisplayJacket { /* wraps linked jacket image (no classes!) and .bibMedia */
   padding: 20px 0 0; /* top padding = #bibDisplayBody padding right */
