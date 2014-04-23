@@ -283,7 +283,7 @@ ICON_BUT_PAT_MSGS=<span class="button"><img src="/screens/ico_browse_brief.gif" 
 ICON_BUT_PAT_PIN=<span class="button"><img src="/screens/ico_pin.gif" alt=""><span class="buttonText">Modify PIN</span></span>
 ICON_BUT_PAT_RENEWALL=<span class="button">Renew All</span>
 ICON_BUT_PAT_RENEWMARK=<span class="button">Renew Marked</span>
-ICON_BUT_PAT_SORTBYCHKOUT=<div onmousedown="this.className='pressedState';" onmouseout="this.className='';" onmouseup="this.className='';"><div class="buttonSpriteDiv"><span class="buttonSpriteSpan1"><span class="buttonSpriteSpan2">Sort by Checkout</span></span></div></div>
+ICON_BUT_PAT_SORTBYCHKOUT=<span class="button">Sort by Checkout</span>
 ICON_BUT_PAT_SORTBYDUE=<span class="button">Sort by Due Date</span>
 ICON_BUT_PAT_SUBMIT=<div onmousedown="this.className='pressedState';" onmouseout="this.className='';" onmouseup="this.className='';"><div class="buttonSpriteDiv"><span class="buttonSpriteSpan1"><span class="buttonSpriteSpan2">Submit</span></span></div></div>
 ICON_BUT_PSTARTOVER=<span class="button"><img src="/screens/ico_startover.gif" alt=""><span class="buttonText">Start Over</span></span>
@@ -435,7 +435,7 @@ RESLINK=bibresourcetop|browseresourcetop||
 
 # Patron Feeds
 RSS_MIN_TTL=10
-ICON_PATFEED=<span class="button"><img src="/screens/ico_rss.gif" alt=""><span class="buttonText">My Record Feeds</span></span>
+ICON_PATFEED=<span class="button">My Record Feeds</span>
 PATFEED_CONFIG=Your Library Record News|Follow links to library record for full details.
 PATFEED_FINES_INCURRED_RECENTLY=You have new fines or fees
 PATFEED_HOLDS_READY=Your materials are ready to be picked up

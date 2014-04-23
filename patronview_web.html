@@ -3,25 +3,23 @@
 <div id="content">
 <h2>My Library Account</h2>
 <div class="pat">
-  <div class="patFloat">
-    <div class="patTop">
-      <div class="patNameAddress">
+  <div class="patTop">
+    <div class="patNameAddress">
 <!--{ifpatimage}-->
 <!--{patimage}-->
 <!--{xif}-->
 <!--{patroninfo}-->
-      </div><!--/end .patNameAddress-->
-    </div><!-- /end .patTop -->
-
+    </div><!--/end .patNameAddress-->
+  </div><!-- /end .patTop -->
+  <div class="patFloat">
+    <h3>Account Options</h3>
     <div class="patActionsLinks">
-      <ul id="patActionsLinksList">
-<!--{ifholds}-->
+      <ul id="patActionsLinksList" class="menu">
         <li class="patActionItem" id="patButHolds">
           <span class="button">
 <!--{holdsbtn}-->
           </span>
         </li>
-<!--{xif}-->
 
 <!--{ifill}-->
         <li class="patActionItem" id="patButIll">
@@ -37,13 +35,13 @@
         </li>
 <!--{xif}-->
 
-<!--{ifchkouts}-->
+
         <li class="patActionItem" id="patButChkouts">
           <span class="button">
 <!--{chkoutsbtn}-->
           </span>
         </li>
-<!--{xif}-->
+
 
 <!--{ifprograms}-->
         <li class="patActionItem">
@@ -116,7 +114,6 @@
     <div class="patFuncArea">
 <!--{patfunc}-->
     </div>
-    <div class="clearfix"></div>
   </div> <!--/end .patFloat-->
 </div> <!-- /end pat -->
 </div><!-- /end #content -->

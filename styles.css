@@ -879,11 +879,48 @@ span.loggedInMessage + br,
 span.loggedInMessage + br + br { /* drop line breaks after span */
   display: none;
 }
+
 .patNameAddress {
   /* undo ProStyles */
   border: none;
   float: none;
   width: 100%;
+}
+.patActionsLinks {
+  /* undo ProStyles */
+  clear: none;
+  text-align: left;
+  padding: 0;
+  float: left;
+  width: 22%;
+}
+
+#content .patActionsLinks ul {
+  list-style: none;
+  margin: 0; /* fix this: undone by #content ul */
+}
+
+.patFuncArea {
+  float: left;
+  width: 77%;
+  border: none;
+}
+.patFuncArea form {
+  display: block;  /* Undo ProStyles */
+}
+.patFuncArea form {
+  padding: 1em 0;
+  margin: 0;
+} 
+.patFunc { /* patron function table */
+  margin: 1em 0;
+}
+.patFunc {
+  border: 1px solid #CECECE; /* undo ProStyles */
+}
+.patFunc th.patFuncTitle,
+.patFunc td {
+  border-bottom: 1px solid #CECECE; /* undo ProStyles */
 }
 
 
