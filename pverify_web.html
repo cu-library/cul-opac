@@ -1,6 +1,6 @@
 <!--{toplogo}-->
-<div class="pageContentInner">
-<h1 class="pageHeader">Login</h1>
+<div id="content">
+  <h2>Library Account Login</h2>
 <!-- Begin phishing warning notice. Uncomment & display as needed. -->
 <!-- 
 <div class="notice">
@@ -10,7 +10,7 @@
 </div>
 -->
 <!-- End phishing warning notice -->
-<div class="form1Part formLogin" id="accessibleForm">
+
 <!--{formbegin}-->
 <!--{iferrmsg}-->
 <span class="errormessage">
@@ -22,26 +22,18 @@
 </span>
 <!--{xif}-->
 
-<fieldset>
-<legend>
-<!--{enterinfo}-->
-</legend>
-
 <!--{ifextpat}-->
-<h2>Students, Staff, and Faculty</h2>
+<h3>Students, Staff, and Faculty</h3>
+<p>Please enter your <a href="http://www1.carleton.ca/mycarletonone/">MyCarletonOne</a> username and password.</p>
 <div class="formEntryArea">
-<label for="extpatid"><span class="formLabel">
-<a href="http://www1.carleton.ca/mycarletonone/">MyCarletonOne</a> username:
-</span></label>
+  <label for="extpatid"><span class="formLabel">Username:</span></label>
 <!--{extpatid}-->
-<label for="extpatpw"><span class="formLabel">
-<a href="http://www1.carleton.ca/mycarletonone/">MyCarletonOne</a> password:
-</span></label>
+  <label for="extpatpw"><span class="formLabel">Password:</span></label>
 <!--{extpatpw}-->
-</div>
-<h2>Other library users</h2>
-<!--{xif}-->
+</div><!-- /end .formEntryArea -->
 
+<h3>Other Library Users</h3>
+<!--{xif}-->
 <!--{ifneedpatronname}-->
 <div class="formEntryArea">
 <!--{nameprompt}-->
@@ -59,37 +51,30 @@
 <span class="formLabelExample">
 <!--{barcodeexample}-->
 </span>
-</div>
+</div><!-- /end .formEntryArea -->
 
 <!--{ifneedspin}-->
-
 <!--{iferrmsgisPIN}-->
 <p>
 <!--{newpinmsg}-->
 </p>
 <div class="formEntryArea">
-<!-- <label for="pin1"> -->
 <span class="formLabel">
 <!--{pin1prompt}-->
 </span>
 <!--{pin1}-->
-<!-- </label> -->
 </div>
 <div class="formEntryArea">
-<!-- <label for="pin2"> -->
 <span class="formLabel">
 <!--{pin2prompt}-->
 </span>
 <!--{pin2}-->
-<!-- </label> -->
 </div>
-
 <!--{else}-->
 <div class="formEntryArea">
 <!--{pinprompt}-->
 <!--{pin}-->
 </div>
-
 <!--{xif}-->
 <!--{xif}-->
 <!--{xif}-->
@@ -104,14 +89,11 @@
 <div class="formEntryArea">
   <a href="/screens/login_help.html">Need help with your library account?</a>
 </div>    
-</fieldset>
+
 <!--{formend}-->
 
 </div>
 
-</div><!-- pageContentInner -->
+</div><!-- /end #content -->
 <!--{botlogo}-->
-<script type="text/javascript"><!--//--><![CDATA[//><!--
-try { document.forms[0].elements[1].focus(); }
-catch(err) {}
-//--><!]]></script>
+
