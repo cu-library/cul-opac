@@ -12,19 +12,19 @@
 <!-- End phishing warning notice -->
 
 <div class="patronLogin">
-  <!-- replace {formbegin} token -->
-  <form action="/patroninfo" method="POST" target="_self" name="patform">
-  <!-- end replace {formbegin} token -->  
-
 <!--{iferrmsg}-->
-<span class="errormessage">
+<p><span class="errormessage">
 <!--{iferrmsgisPIN}-->
 <!--{newpinmsg}-->
 <!--{else}-->
 <!--{errmsg}-->
 <!--{xif}-->
-</span>
-<!--{xif}-->
+  </span></p>
+<!--{xif}-->  
+  
+  <!-- replace {formbegin} token -->
+  <form action="/patroninfo" method="POST" target="_self" name="patform">
+  <!-- end replace {formbegin} token -->  
 
 <!--{ifextpat}-->
 <h3>Students, Staff, and Faculty</h3>
