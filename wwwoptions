@@ -329,12 +329,12 @@ ICON_BUT_PAT_GETPSAVEDRECS=<span class="button">Preferred Searches</span>
 CIRC_HIST_LIMIT_TEXT=Limit to titles which aren't in my Reading History
 HAS_ALTERNATE_ID=false
 ALTERNATE_ID_EMAIL=username@replacesitename.com|Your login name has changed
-ICON_PAT_DELETE_ALL=<div onmousedown="this.className='pressedState';" onmouseout="this.className='';" onmouseup="this.className='';"><div class="buttonSpriteDiv"><span class="buttonSpriteSpan1"><span class="buttonSpriteSpan2">Delete All</span></span></div></div>
-ICON_PAT_DELETE_MARKED=<div onmousedown="this.className='pressedState';" onmouseout="this.className='';" onmouseup="this.className='';"><div class="buttonSpriteDiv"><span class="buttonSpriteSpan1"><span class="buttonSpriteSpan2">Delete Marked</span></span></div></div>
+ICON_PAT_DELETE_ALL=<span class="button">Delete All</span>
+ICON_PAT_DELETE_MARKED=<span class="button">Delete Marked</span>
 ICON_READING_HISTORY=<span class="button">Reading History</span>
-ICON_READING_HISTORY_OPTIN=<div onmousedown="this.className='pressedState';" onmouseout="this.className='';" onmouseup="this.className='';"><div class="buttonSpriteDiv"><span class="buttonSpriteSpan1"><span class="buttonSpriteSpan2">Opt In</span></span></div></div>
-ICON_READING_HISTORY_OPTOUT=<div onmousedown="this.className='pressedState';" onmouseout="this.className='';" onmouseup="this.className='';"><div class="buttonSpriteDiv"><span class="buttonSpriteSpan1"><span class="buttonSpriteSpan2">Opt Out</span></span></div></div>
-ICON_READING_HISTORY_EXPORT=<span class="button"><img src="/screens/ico_disc.gif" alt=""><span class="buttonText">Export My Reading List</span></span>
+ICON_READING_HISTORY_OPTIN=<span class="button">Opt In</span>
+ICON_READING_HISTORY_OPTOUT=<span class="button">Opt Out</span>
+ICON_READING_HISTORY_EXPORT=<span class="button">Export My Reading List</span>
 LOGGEDIN_MSG=<span class="loggedInMessage">You are logged in <span class="loggedInMoreInfo">to %s</span> as %s</span>
 NO_REVERIFY=acq,book,ill,media,mmf,req,wam,z39,mfrpro
 PATRONVIEW_START=holds,ill,mylists,fines,chkouts,bookings,psearch,mffavs,readhist,patrate,patreview,programs,irnr
