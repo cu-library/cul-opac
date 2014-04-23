@@ -384,7 +384,7 @@ BOOKINGS=no|true|true|false
 BOOKINGS_DAY_LEGEND=<span class="bookingsLegend">Library closed on <span id="closed">X</span> hours. No items available on <span id="unavailable">grayed out</span> hours.</span>
 BOOKINGS_MONTH_LEGEND=<span class="bookingsLegend">Library closed on <span id="closed">X</span> days. No items available on <span id="unavailable">grayed out</span> days.</span>
 BOOKINGS_REPEAT=true
-ICON_BOOKINGS_HEADER=<span class="button"><img src="/screens/ico_checkbox.gif" alt=""><span class="buttonText">Book This Title</span></span>
+ICON_BOOKINGS_HEADER=<span class="button">Book This Title</span>
 ICON_DAILYCAL=View Daily Calendar
 ICON_HOURLYCAL=View Hourly Calendar
 ICON_NEXTCAL=Next
