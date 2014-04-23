@@ -22,18 +22,6 @@ function get_recordnum(){
            bibno = bibno.toString();
            var start = bibno.lastIndexOf('b');
            bibno = bibno.substr(start,8);
-
-           newImg.src = '/screens/buttons/refworks2.gif';
-           for (var m=0; m < document.images.length; m++) {
-               if (
-                   (document.images[m].src == "http://134.117.10.42/screens/images/blank.gif") ||
-                   (document.images[m].src == "http://catalogue.library.carleton.ca/screens/images/blank.gif") ||
-                   (document.images[m].src == "/screens/images/blank.gif")
-                  ) {
-                     document.images[m].src=newImg.src;
-                     document.images[m].alt="Export to RefWorks";
-                } // end if
-           } // end for
        }
    }
    //document.forms.refworks.bibnum.value=bibno;
