@@ -747,6 +747,12 @@ tr.odd, td.odd { /* table striping */
   vertical-align: top;
 }
 /* =============================================================================
+ *   Search results: view/save marked results
+ * ========================================================================== */
+.savedList .deleteSelected { /* .deleteSelected wraps all nav options */
+  margin: 1em 0;
+}
+/* =============================================================================
  *   Bib record display
  * ========================================================================== */
 .bibSearch {
