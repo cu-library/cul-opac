@@ -50,10 +50,10 @@ ICON_OK=<div onmousedown="this.className='pressedState';" onmouseout="this.class
 ICON_PREVPAGE=<span class="button"><img src="/screens/ico_back.gif" alt=""><span class="buttonText">Previous Screen</span></span>
 ICON_SUBMIT=<div onmousedown="this.className='pressedState';" onmouseout="this.className='';" onmouseup="this.className='';"><div class="buttonSpriteDiv"><span class="buttonSpriteSpan1"><span class="buttonSpriteSpan2">Submit</span></span></div></div>
 ICON_UPDATELIST=<div onmousedown="this.className='pressedState';" onmouseout="this.className='';" onmouseup="this.className='';"><div class="buttonSpriteDiv"><span class="buttonSpriteSpan1"><span class="buttonSpriteSpan2">Update List</span></span></div></div>
-ICON_CLEAR_ALL=<div onmousedown="this.className='pressedState';" onmouseout="this.className='';" onmouseup="this.className='';"><div class="buttonSpriteDiv"><span class="buttonSpriteSpan1"><span class="buttonSpriteSpan2">Clear All</span></span></div></div>
+ICON_CLEAR_ALL=<span class="button">Clear All</span>
 ICON_CLEAR_FORM=<div onmousedown="this.className='pressedState';" onmouseout="this.className='';" onmouseup="this.className='';"><div class="buttonSpriteDiv"><span class="buttonSpriteSpan1"><span class="buttonSpriteSpan2">Clear Form</span></span></div></div>
-ICON_DELETE_SELECTED=<div onmousedown="this.className='pressedState';" onmouseout="this.className='';" onmouseup="this.className='';"><div class="buttonSpriteDiv"><span class="buttonSpriteSpan1"><span class="buttonSpriteSpan2">Delete Selected</span></span></div></div>
-ICON_SELECT_ALL=<div onmousedown="this.className='pressedState';" onmouseout="this.className='';" onmouseup="this.className='';"><div class="buttonSpriteDiv"><span class="buttonSpriteSpan1"><span class="buttonSpriteSpan2">Save All</span></span></div></div>
+ICON_DELETE_SELECTED=<span class="button">Delete Selected</span>
+ICON_SELECT_ALL=<span class="button">Save All</span>
 # RESOURCETABLE=valign="top"|cellpadding="0" cellspacing="0" border="0"||Quick Links
 INSERTTAG_HTML=<!DOCTYPE html><html lang="en">
 INSERTTAG_INHEAD=<meta charset="utf-8"/><script src="/screens/iii.js"></script><script src="/screens/bibdisplay.js"></script><script src="/screens/refworks.js"/></script><link rel="icon" href="/screens/CU_icon.gif"/>
@@ -260,7 +260,7 @@ XRECTYPE=boi
 BIBREQUEST=true
 ICON_BUT_REQUEST=<span class="button">Hold/Request</span>
 ICON_BUT_REQUEST_ALL=<div onmousedown="this.className='pressedState';" onmouseout="this.className='';" onmouseup="this.className='';"><div class="buttonSpriteDiv"><span class="buttonSpriteSpan1"><span class="buttonSpriteSpan2">Request Available</span></span></div></div>
-ICON_BUT_REQUEST_MULTI=<span class="button"><img src="/screens/ico_request_multi.gif" alt=""><span class="buttonText">Request Saved</span></span>
+ICON_BUT_REQUEST_MULTI=<span class="button">Request Saved</span>
 ICON_BUT_REQUEST_RESET=<div onmousedown="this.className='pressedState';" onmouseout="this.className='';" onmouseup="this.className='';"><div class="buttonSpriteDiv"><span class="buttonSpriteSpan1"><span class="buttonSpriteSpan2">Reset Form</span></span></div></div>
 ICON_BUT_REQUEST_SELECTED=<div onmousedown="this.className='pressedState';" onmouseout="this.className='';" onmouseup="this.className='';"><div class="buttonSpriteDiv"><span class="buttonSpriteSpan1"><span class="buttonSpriteSpan2">Request Selected</span></span></div></div>
 ICON_REQUEST=<img style="margin-right:5px" alt=" " src="/screens/bullet.gif">Hold/Request
@@ -415,8 +415,8 @@ RSRV_FORMAT=true
 TABLEPARAM_RSRV_BIBS=width="100%" border="0" cellpadding="0" cellspacing="0"
 
 # Featured Lists
-ICON_BUT_PREVSCRN=<span class="button"><img src="/screens/ico_back.gif" alt=""><span class="buttonText">Back</span></span>
-ICON_BUT_RET2FEAT=<span class="button"><img src="/screens/ico_back.gif" alt=""><span class="buttonText">Back</span></span>
+ICON_BUT_PREVSCRN=<span class="button">Back</span>
+ICON_BUT_RET2FEAT=<span class="button">Back</span>
 # FEATURED_LIST=01,02,03|FEATURED LISTS|CATEGORY|# of Titles
 
 # Content Linking and Other Resources
