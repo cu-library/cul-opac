@@ -747,10 +747,21 @@ tr.odd, td.odd { /* table striping */
   vertical-align: top;
 }
 /* =============================================================================
- *   Search results: view/save marked results
+ *   Search results: view/save/export marked results
  * ========================================================================== */
-.savedList .deleteSelected { /* .deleteSelected wraps all nav options */
-  margin: 1em 0;
+.browseList .deleteSelected { /* .deleteSelected wraps all nav options */
+  margin: 1em .5em;
+}
+/* Select records for export: screen is	not customizable and source has	few
+ * IDs or classes. */
+#main-content > center > table > tbody > tr > th {
+  padding: 1em;
+  text-align: left;
+}
+#main-content > center > table input[type="radio"],
+#main-content > center > table input[type="text"],
+#main-content > center > table input[type="submit"] {
+  margin: .5em 1em;
 }
 /* =============================================================================
  *   Bib record display
