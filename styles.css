@@ -824,7 +824,11 @@ h1.bibDisplayTitle {
 .bibRecordLink {
   font-style: normal;
 }
-
+#main-content pre {
+  /* MARC display. It's not possible create a more specific selector */
+  font-size: 120%;
+  margin: 1em 1.5em;  
+}
 /* =============================================================================
  *   Eresource record: details
  * ========================================================================== */
@@ -832,7 +836,6 @@ h1.bibDisplayTitle {
 .bibResourceLicense .label { /* span.label added via BIB_LICENSE_FIELDS_BRIEF */
   font-weight: bold;
 }
-
 /* =============================================================================
  *   Sidebar: Bib record display, "Quick Links"
  * ========================================================================== */
@@ -857,23 +860,6 @@ h1.bibDisplayTitle {
 #bibDisplayContent .bibDisplayJacket { /* wraps linked jacket image (no classes!) and .bibMedia */
   padding: 20px 0 0; /* top padding = #bibDisplayBody padding right */
 }
-/*
-.bibResourceSidebar { background:#FFFFFF url('tile_vgradient.jpg') repeat-x top left; display:inline; float:right; margin-right:10px; width:192px; }
-.bibResourceSidebar .button { margin:1% 3%; }
-table.bibResourceTable { border:0; }
-.bibResourceTableEntry  { padding: 5px 5px 7px 5px; text-align: center; font-size: 0.9em; }
-.bibResourceTableEntry form  { font-size:.8088em; font-weight:normal;  }
-.bibResourceTableHeader { background:#E7E7E7; color:#767C70; line-height:41px; text-align:center; }
-.bibResourceTableEntry form { padding:0; margin:0;}
-.bibResourceTableEntry select { display:block; width:100%; margin:2px 0px; }
-
-HTML replacement for inaccessible, single-link-permitting resource table in sidebar
-.bibResourceList { }
-.bibResourceList h3 { background:#E7E7E7; color:#767C70; line-height:41px; text-align:center; }
-.bibResourceList ul { list-style-type: none; padding: 5px; margin: 0; text-align: center; }
-.bibResourceList li { font-size: 0.9em; padding: 5px 0;	}
-*/
-
 /* =============================================================================
  *   Login / My Account
  * ========================================================================== */
