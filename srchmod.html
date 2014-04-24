@@ -13,8 +13,9 @@
       <h2>Limit/Sort Search</h2>
       <p>You searched for the
 <!--{searchtypeindex}-->
-
+        <strong>
 <!--{searchterm}-->
+        </strong>
 -
 <!--{entriesfoundnum}-->
       entries found.</p>
@@ -27,11 +28,9 @@
       </div>
 <!--{xif}-->
 
-<div class="form1Part" id="accessibleForm">
+      <div class="limitSortSearch">
 <!--{formbegin}-->
-
-<fieldset>
-<legend>Please select criteria to limit by:</legend>
+<p>Please select criteria to limit or sort your search.</p>
 
 <div class="formEntryArea">
 <span class="formLabel">
@@ -54,41 +53,36 @@
 <!--{LANGUAGE_select}-->
 </div>
 
+<!-- Replace {YEAR_select} with inputs consistent w/ advanced search limits -->
 <div class="formEntryArea">
-<fieldset class="formFieldsetInner">
-<legend>Year of publication:</legend>
+  <span class="formLabel"><label for="Ya">Published after:</label></span>
+  <input type="text" value="" name="Ya" size="10" placeholder="YYYY">
+</div>
 <div class="formEntryArea">
-<!--<span class="formLabel">
-<label for="Ya">Year of publication:</label>
-</span> -->
-<!--{YEAR_select}-->
+  <span class="formLabel"><label for="Yb">Published before:</label></span>
+  <input type="text" value="" name="Yb" size="10" placeholder="YYYY">
 </div>
-</fieldset>
-</div>
+<!-- end replace {YEAR_select} -->
 
 <div class="formEntryArea">
-<label for="NAME" class="accessibleAddInfo">Limit type:</label>
-<span class="formLabel"><label for="VALUE">Enter limits:</label></span>
+  <span class="formLabel"><label for="VALUE">Enter limits:</label></span>
 <!--{TITLE_label}-->
 <!--{TITLE_select}-->
 </div>
 
 <div class="formEntryArea">
-<span class="formLabel">
-<label for="sortdropdown">Sort By:</label>
-</span>
+<span class="formLabel"><label for="sortdropdown">Sort By:</label></span>
 <!--{sort}-->
 </div>
 
           <div class="formButtonArea">
-            <!-- replace {submit}, {cancel} tokens -->
+            <!-- replace {submit} token with button -->
             <input type="submit" value="Submit"/>
-            <input type="button" value="Cancel"/>
+            <!-- Cancel token generates link back to search, fine for now -->
+<!--{cancel}-->
           </div>
-
-        </fieldset>
 <!--{formend}-->
-      </div> <!-- /end form1Part -->
+      </div> <!-- /end .limitSortSearch -->
     </div><!-- /end #content -->
 <!--{botlogo}-->
 

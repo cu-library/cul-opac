@@ -45,7 +45,7 @@ ICON_BUT_CLOSEWINDOW=<span class="button"><img src="/screens/ico_x.gif" alt=""><
 ICON_BUT_RET2CAT=<span class="button"><img src="/screens/ico_back.gif" alt=""><span class="buttonText">Return to Catalog</span></span>
 ICON_BUT_STARTOVER=<span class="button">New Search</span>
 FORM_FOCUS=true
-ICON_CANCEL=<div onmousedown="this.className='pressedState';" onmouseout="this.className='';" onmouseup="this.className='';"><div class="buttonSpriteDiv"><span class="buttonSpriteSpan1"><span class="buttonSpriteSpan2">Cancel</span></span></div></div>
+ICON_CANCEL=<span class="button">Cancel</span>
 ICON_OK=<div onmousedown="this.className='pressedState';" onmouseout="this.className='';" onmouseup="this.className='';"><div class="buttonSpriteDiv"><span class="buttonSpriteSpan1"><span class="buttonSpriteSpan2">OK</span></span></div></div>
 ICON_PREVPAGE=<span class="button"><img src="/screens/ico_back.gif" alt=""><span class="buttonText">Previous Screen</span></span>
 ICON_SUBMIT=<div onmousedown="this.className='pressedState';" onmouseout="this.className='';" onmouseup="this.className='';"><div class="buttonSpriteDiv"><span class="buttonSpriteSpan1"><span class="buttonSpriteSpan2">Submit</span></span></div></div>

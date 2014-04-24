@@ -467,42 +467,36 @@ h6 {
 #form-wrapper {
   margin: 10px;
 }
-
 form, fieldset legend {
   margin: 0 0 1.5em;  
 }
-
 form div {
   margin: 0 0 1em;
 }
-
 /* =============================================================================
- *   Forms: Advanced search, patron login
+ *   Forms: Advanced search, limit/sort search, patron login
  * ========================================================================== */
-div.search-limits {
+div.search-limits { /* .search-limits: advanced search optional limits */
   width: 45%;
 }
-
-div.search-limits label {
+div.search-limits label,
+div.limitSortSearch label { /* .limitSortSearch: limit/sort search results */
   display: inline-block;
   min-width: 125px;
 }
-
 div.search-limits select {
   min-width: 180px;
 }
-
 div.search-limits fieldset {
   /* Fieldset, legend styles can probably be applied more generally. */
   border: 1px solid #CCCCCC;
   padding: 10px;
 }
-
 div.search-limits legend {
   margin: 0 0 0 1em;
   font-weight: 600;
 }
-
+/* Patron login */
 div.patronLogin form {
  width: 45%;
  float: left;
@@ -510,13 +504,10 @@ div.patronLogin form {
  border: 1px solid #CECECE;
  padding: 0 0 1em 1em;
 }
-
 div.patronLogin form label {
   display: inline-block;
   min-width: 80px;
 }
-
-
 /* =============================================================================
  *   Search results: "buttons"
  * ========================================================================== */
@@ -524,7 +515,6 @@ div.patronLogin form label {
   vertical-align: baseline;
   margin: 0 5px;
 }
-
 /* =============================================================================
  *   Search results: header, navigation row (new search, modify search, etc.)
  * ========================================================================== */
@@ -535,7 +525,6 @@ div.patronLogin form label {
 .navigationRow select {
   vertical-align: baseline;
 }
-
 /* =============================================================================
  *   Search results: header, browse/search options
  * ========================================================================== */
@@ -567,14 +556,12 @@ div.bibSearchtoolMessage i { /* undo ProStyles */
 div.browseSearchtoolMessage {
   margin: 0 0 1em;
 }
-
 /* =============================================================================
  *   Search results: header, page browser
  * ========================================================================== */
 .browsePager a, .browsePager strong {
   margin: 0 3px;
 }
-
 /* =============================================================================
  *   Search results: header, mark/save options
  * ========================================================================== */
