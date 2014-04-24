@@ -1,43 +1,30 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<!DOCTYPE html>
 <html lang="en">
-<!-- Rel 2009B Example Set -->
-<!-- This File Last Changed: 23 Mar 2010 -->
-<head>
-<title>MacOdrum Library Catalogue | Carleton University Library</title>
-<meta name="robots" content="noindex" />
-<script language="JavaScript">
-<!-- Hide the JS
-startTimeout(600000, "/");
-// -->
-
-</script>
-<noscript>
-<meta http-equiv="Refresh" content="600;URL=/" />
-</noscript>
-<meta http-equiv="X-UA-Compatible" content="IE=8;FF=3;OtherUA=4">
-<link rel="icon" href="/screens/CU_icon.gif" type="image/gif"/>
-<link rel="stylesheet" type="text/css" href="/screens/styles_print.css" media="print">
-<script type="text/javascript" src="/screens/iiilangswitch.js"></script> 
-</head>
-<body>
+  <head>
+    <meta charset="utf-8"/>
+    <title>Limit/Sort Search | MacOdrum Library Catalogue</title>
+    <meta name="robots" content="noindex" />
+    <script src="/screens/iii.js"></script>
+    <link rel="icon" href="/screens/CU_icon.gif"/>    
+  </head>
+  <body>
 <!--{toplogo}-->
-<div class="pageContentInner">
-<h1 class="pageHeader">Limit/Sort Search</h1>
-
-<p>
-You searched for the
+    <div id="content">
+      <h2>Limit/Sort Search</h2>
+      <p>You searched for the
 <!--{searchtypeindex}-->
 
 <!--{searchterm}-->
 -
 <!--{entriesfoundnum}-->
- entries found.
-</p>
+      entries found.</p>
 
 <!--{iferr}-->
-<div><span class="errormessage">
+      <div>
+        <span class="errormessage">
 <!--{errmsg}-->
-</span></div>
+        </span>
+      </div>
 <!--{xif}-->
 
 <div class="form1Part" id="accessibleForm">
@@ -93,17 +80,15 @@ You searched for the
 <!--{sort}-->
 </div>
 
-<div class="formButtonArea">
-<!--{submit}-->
-<!--{cancel}-->
-</div>
+          <div class="formButtonArea">
+            <!-- replace {submit}, {cancel} tokens -->
+            <input type="submit" value="Submit"/>
+            <input type="button" value="Cancel"/>
+          </div>
 
-</fieldset>
+        </fieldset>
 <!--{formend}-->
-</div> <!-- form1Part -->
-
-
-</div><!-- pageContentInner -->
+      </div> <!-- /end form1Part -->
+    </div><!-- /end #content -->
 <!--{botlogo}-->
-</body>
-</html>
+
