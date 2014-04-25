@@ -234,15 +234,15 @@ SUPPRESS_CARD=UI
 # My Lists
 MY_LISTS=true
 ICON_MYLISTS=<span class="button">My Lists</span>
-ICON_MYLISTS_EXPORT=<div onmousedown="this.className='pressedState';" onmouseout="this.className='';" onmouseup="this.className='';"><div class="buttonSpriteDiv"><span class="buttonSpriteSpan1"><span class="buttonSpriteSpan2">Export List</span></span></div></div>
-ICON_MYLISTS_MOVE=<div onmousedown="this.className='pressedState';" onmouseout="this.className='';" onmouseup="this.className='';"><div class="buttonSpriteDiv"><span class="buttonSpriteSpan1"><span class="buttonSpriteSpan2">Move Marked</span></span></div></div>
-ICON_MYLISTS_REQUEST=<span class="button"><img src="/screens/ico_checkmark_16px.gif" alt=""><span class="buttonText">Request</span></span>
-ICON_MYLISTS_REMOVE_DUPLICATES=<div onmousedown="this.className='pressedState';" onmouseout="this.className='';" onmouseup="this.className='';"><div class="buttonSpriteDiv"><span class="buttonSpriteSpan1"><span class="buttonSpriteSpan2">Remove Duplicates</span></span></div></div>
-ICON_MYLISTS_RENAME=<div onmousedown="this.className='pressedState';" onmouseout="this.className='';" onmouseup="this.className='';"><div class="buttonSpriteDiv"><span class="buttonSpriteSpan1"><span class="buttonSpriteSpan2">Change Name/Description</span></span></div></div>
+ICON_MYLISTS_EXPORT=<span class="button">Export List</span>
+ICON_MYLISTS_MOVE=<span class="button">Move Marked</span>
+ICON_MYLISTS_REQUEST=<span class="button">Request</span>
+ICON_MYLISTS_REMOVE_DUPLICATES=<span class="button">Remove Duplicates</span>
+ICON_MYLISTS_RENAME=<span class="button">Change Name/Description</span>
 ICON_MYLISTS_SAVE=<span class="button">Add to My Lists</span>
 ICON_MYLISTS_SAVE_TO_LIST=<span class="button">Add Marked Records to My Lists</span>
 ICON_MYLISTS_BRIEF=<span class="button">Add to My Lists</span>
-ICON_BACK_TO_MYLISTS=<div onmousedown="this.className='pressedState';" onmouseout="this.className='';" onmouseup="this.className='';"><div class="buttonSpriteDiv"><span class="buttonSpriteSpan1"><span class="buttonSpriteSpan2">Back to My Lists</span></span></div></div>
+ICON_BACK_TO_MYLISTS=<span class="button">Back to My Lists</span>
 ICON_MYLISTS_RECORD=<span class="button">Add to My Lists</span>
 
 # Saving and Exporting
