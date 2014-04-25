@@ -238,7 +238,7 @@ ICON_MYLISTS_EXPORT=<span class="button">Export List</span>
 ICON_MYLISTS_MOVE=<span class="button">Move Marked</span>
 ICON_MYLISTS_REQUEST=<span class="button">Request</span>
 ICON_MYLISTS_REMOVE_DUPLICATES=<span class="button">Remove Duplicates</span>
-ICON_MYLISTS_RENAME=<span class="button">Change Name/Description</span>
+ICON_MYLISTS_RENAME=<span class="button">Edit List Details</span>
 ICON_MYLISTS_SAVE=<span class="button">Add to My Lists</span>
 ICON_MYLISTS_SAVE_TO_LIST=<span class="button">Add Marked Records to My Lists</span>
 ICON_MYLISTS_BRIEF=<span class="button">Add to My Lists</span>
