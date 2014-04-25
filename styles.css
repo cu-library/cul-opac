@@ -960,6 +960,11 @@ span.patFunc {
 .showInlineElem textarea {
   min-width: 30%;
 }
+.mylistsSavePage a > span.button {
+  /* can't replace 'submit' link. Aim for consistent placement,	at least */
+  display: block;
+}
+
 /* =============================================================================
  *   Sidebar: other searches & related resources
  * ========================================================================== */
