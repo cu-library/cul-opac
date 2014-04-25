@@ -922,6 +922,9 @@ table.patFunc {
 .patFunc td {
   border-bottom: 1px solid #CECECE; /* undo ProStyles */
 }
+span.patFunc {
+  border: none; /* undo ProStyles */
+}
 .confirmationprompt { /* confirm items to be renewed */
   font-size: 100%; /* undo ProStyles */
 }
