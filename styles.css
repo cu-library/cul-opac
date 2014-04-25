@@ -452,9 +452,9 @@ h6 {
   color: #186D92;
 }
 
-#content, #bibDisplayBody {
+#content, #bibDisplayBody, .mylistsSavePage {
   /* #content wraps custom (i.e., non-iii generated) content inside toplogo */
-  /* #bibDisplayBody added by iii */
+  /* #bibDisplayBody, .myListsSavePage added by iii */
   margin: 1em 20px;
 }
 
@@ -480,7 +480,8 @@ div.search-limits { /* .search-limits: advanced search optional limits */
   width: 45%;
 }
 div.search-limits label,
-div.limitSortSearch label { /* .limitSortSearch: limit/sort search results */
+div.limitSortSearch label,   /* .limitSortSearch: limit/sort search results */
+div.mylistsSavePage label {  /* .mylistsSavePage: save records to my list */
   display: inline-block;
   min-width: 125px;
 }
@@ -934,6 +935,27 @@ table.patFunc {
 }
 .patFuncConfirm .patFuncCallNo {
   width: 15%;
+}
+/* My Lists pages, iii-generated */
+.mylistsSavePage .pageMainAreaHeader { 
+  /* Make the header div look like an h2 */
+  font-size: 1.5em;
+  margin: 0.83em 0;
+  font-weight: bold;
+}
+.mylistsSavePage label {
+  /* adjust label alignment for textarea */
+  vertical-align: top;
+}
+.mylistsSavePage select { 
+  margin: 1em 0;
+}
+.showInlineElem {
+  display: block;
+}
+.showInlineElem input,
+.showInlineElem textarea {
+  min-width: 30%;
 }
 /* =============================================================================
  *   Sidebar: other searches & related resources
