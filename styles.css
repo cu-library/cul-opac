@@ -881,7 +881,6 @@ span.loggedInMessage + br,
 span.loggedInMessage + br + br { /* drop line breaks after span */
   display: none;
 }
-
 .patNameAddress {
   /* undo ProStyles */
   border: none;
@@ -896,12 +895,10 @@ span.loggedInMessage + br + br { /* drop line breaks after span */
   float: left;
   width: 22%;
 }
-
 #content .patActionsLinks ul {
   list-style: none;
   margin: 0; /* fix this: undone by #content ul */
 }
-
 .patFuncArea {
   float: left;
   width: 77%;
@@ -924,7 +921,9 @@ table.patFunc {
 .patFunc td {
   border-bottom: 1px solid #CECECE; /* undo ProStyles */
 }
-
+.confirmationprompt { /* confirm items to be renewed */
+  font-size: 100%; /* undo ProStyles */
+}
 
 /* =============================================================================
  *   Sidebar: other searches & related resources
