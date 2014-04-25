@@ -918,9 +918,13 @@ table.patFunc { /* patron function table */
 table.patFunc {
   border: 1px solid #CECECE; /* undo ProStyles */
 }
+.patFunc tr.patFuncTitle th, /* nnnngh. */
 .patFunc th.patFuncTitle,
 .patFunc td {
   border-bottom: 1px solid #CECECE; /* undo ProStyles */
+}
+td.patFuncMark {
+  text-align: center;
 }
 span.patFunc {
   border: none; /* undo ProStyles */
