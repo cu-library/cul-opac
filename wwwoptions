@@ -321,9 +321,9 @@ TIMEOUT_POPUP=600
 
 # My Millennium
 # BUT_LOGOUT=/screens/logout.gif
-ICON_BUT_PAT_PSEARCH_REMOVE=<div onmousedown="this.className='pressedState';" onmouseout="this.className='';" onmouseup="this.className='';"><div class="buttonSpriteDiv"><span class="buttonSpriteSpan1"><span class="buttonSpriteSpan2">Delete All Searches</span></span></div></div>
+ICON_BUT_PAT_PSEARCH_REMOVE=<span class="button">Delete All Searches</span>
 BUT_PAT_PSEARCH_UPDATE=/screens/updatelist.gif" class="button
-ICON_BUT_PAT_PSEARCH_UPDATE=<div onmousedown="this.className='pressedState';" onmouseout="this.className='';" onmouseup="this.className='';"><div class="buttonSpriteDiv"><span class="buttonSpriteSpan1"><span class="buttonSpriteSpan2">Update List</span></span></div></div>
+ICON_BUT_PAT_PSEARCH_UPDATE=<span class="button">Update List</span>
 BUT_PAT_SEARCH=/screens/pat_search.gif
 ICON_BUT_PAT_GETPSAVEDRECS=<span class="button">Preferred Searches</span>
 CIRC_HIST_LIMIT_TEXT=Limit to titles which aren't in my Reading History
