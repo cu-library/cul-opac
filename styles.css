@@ -924,7 +924,17 @@ table.patFunc {
 .confirmationprompt { /* confirm items to be renewed */
   font-size: 100%; /* undo ProStyles */
 }
-
+.patFuncArea.patFuncConfirm {
+  /* Table of items in renewal confirmation. No sidebar of patron actions,
+   * so extend to full width. */
+  width: 100%;
+}
+.patFuncConfirm .patFuncStatus { /* give status, call number room to spead out */
+  width: 10%;
+}
+.patFuncConfirm .patFuncCallNo {
+  width: 15%;
+}
 /* =============================================================================
  *   Sidebar: other searches & related resources
  * ========================================================================== */
