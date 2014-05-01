@@ -10,25 +10,32 @@
 <body>
 <!--{toplogo}-->
 <div id="content">
-  <div id="search-box">
-    <h2>Search the Catalogue</h2>
-    <form action="/search/" method="get" name="search" id="search" onSubmit="return iiiSearchValidate();">      
-      <input type="hidden" id="iiiFormHandle_1">
-      <select id="searchtype" name="searchtype" title="Search type">
-        <option selected="selected" value="X">Keyword</option>
-        <option value="t">Title</option>
-        <option value="a">Author</option>
-        <option value="d">Subject</option>
-        <option value="c">Call Number</option>
-        <option value="h">CODOC Number</option>
-        <option value="i">ISBN/ISSN</option>
-      </select>        
+  <div id="search-box-wrapper">
+    <div id="search-box">
+      <h2>Search the Catalogue</h2>
+      <form action="/search/" method="get" name="search" id="search" onSubmit="return iiiSearchValidate();">      
+        <input type="hidden" id="iiiFormHandle_1">
+        <select id="searchtype" name="searchtype" title="Search type">
+          <option selected="selected" value="X">Keyword</option>
+          <option value="t">Title</option>
+          <option value="a">Author</option>
+          <option value="d">Subject</option>
+          <option value="c">Call Number</option>
+          <option value="h">CODOC Number</option>
+          <option value="i">ISBN/ISSN</option>
+        </select>        
 <!--{nosort}-->
-      <input type="text" id="searcharg" name="searcharg" size="30" title="Search terms" autofocus/>
+        <input type="text" id="searcharg" name="searcharg" size="30" title="Search terms" autofocus/>
 <!--{scope}-->
-      <input type="submit" value="Submit" name="submit">
-    </form>
-  </div>
+        <input type="submit" value="Submit" name="submit">
+      </form>
+    </div><!-- /end #search-box -->
+    <p>
+      <a href="/patroninfo">Library account login</a> |
+      <a href="/search/X">Advanced search</a> |
+      <a href="http://www.library.carleton.ca/help/library-catalogue/keyword-and-advanced-keyword-searching">Search help</a>
+    </p>    
+  </div><!--- /end #search-box-wrapper -->
 </div>
 <!-- Use page-specific footer instead of {botlogo} -->
                     </div><!-- /end #main-content -->

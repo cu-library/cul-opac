@@ -474,6 +474,18 @@ form div {
   margin: 0 0 1em;
 }
 /* =============================================================================
+ *   Forms: Basic search
+ * ========================================================================== */
+#search-box-wrapper {
+  width: 65%;
+  padding: 20px 20px 60px;
+  background: url("ml_night2_bg2.jpg") no-repeat scroll 0 0 #9F9F9F;
+}
+#search-box {
+  background-color: rgba(228, 228, 228, 0.84) !important;
+  padding: 5px 20px;
+}
+/* =============================================================================
  *   Forms: Advanced search, limit/sort search, patron login
  * ========================================================================== */
 div.search-limits { /* .search-limits: advanced search optional limits */
