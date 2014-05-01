@@ -957,11 +957,11 @@ span.patFunc {
 .mylistsSavePage select { 
   margin: 1em 0;
 }
-.showInlineElem {
+.mylistsSavePage .showInlineElem {
   display: block;
 }
-.showInlineElem input,
-.showInlineElem textarea {
+.mylistsSavePage .showInlineElem input,
+.mylistsSavePage .showInlineElem textarea {
   min-width: 30%;
 }
 .mylistsSavePage form a > span.button {
