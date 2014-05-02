@@ -1,6 +1,6 @@
 <!--{toplogo}-->
 <div id="content">
-  <h2>Place a booking</h2>
+  <h2>Book an Item</h2>
 
 <!--{record_info}-->
 
@@ -10,12 +10,23 @@
   </div>
 <!--{xif}-->
 
+  <h3>Item Availability</h3>
+  <p>
+<!--{calendar_legend}-->
+  </p>
+  <div class="bookingsCalendar">
+<!--{calendar}-->
+  </div><!-- /end .bookingsCalendar -->
+  <div class="bookingsCalendarType">
+<!--{calendar_type}-->
+  </div><!-- /end .bookingsCalendarType -->
+
 <!--{formbegin}-->
 
   <div class="formLeft">
     <fieldset>
       <div class="formEntryArea">
-        <h2>Start</h2>
+        <h3>Start</h3>
 <!--{timedayhour}-->
       </div><!-- /end .formEntryArea -->
     </fieldset>
@@ -34,18 +45,6 @@
     </div><!-- /end .formButtonArea -->
   </div><!-- /end .formLeft -->
 
-  <div class="formRight">
-    <div class="formEntryArea">
-      <p>
-<!--{calendar_legend}-->
-      </p>
-
-      <div class="bookingsCalendar">
-<!--{calendar}-->
-      </div><!-- /end bookingsCalendar -->
-<!--{calendar_type}-->
-    </div><!-- /end .formEntryArea -->
-  </div><!-- /end .formRight -->
 <!--{formend}-->
 
   <div class="clearfix"></div>
