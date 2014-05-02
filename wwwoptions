@@ -381,8 +381,8 @@ ICON_PAY_CONTINUE=<div onmousedown="this.className='pressedState';" onmouseout="
 
 # Bookings
 BOOKINGS=no|true|true|false
-BOOKINGS_DAY_LEGEND=<span class="bookingsLegend">The maximum booking period is three days. The library is closed during hours marked with an <span id="closed">X</span>. Items are not available for booking during <span id="unavailable">grayed out</span> hours.</span>
-BOOKINGS_MONTH_LEGEND=<span class="bookingsLegend">The library is closed on days marked with an <span id="closed">X</span>. Items are not available for booking on days that are <span id="unavailable">grayed out</span>.</span>
+BOOKINGS_DAY_LEGEND=<span class="bookingsLegend">The library is closed during hours marked with an <span id="closed">X</span>. Items are not available for booking during <span id="unavailable">grayed out</span> hours.</span>
+BOOKINGS_MONTH_LEGEND=<span class="bookingsLegend">The library is closed on days marked with an <span id="closed">X</span>. Items are not available for booking on days that are <span id="unavailable">grayed out</span>. The maximum booking period is three days.</span>
 BOOKINGS_REPEAT=true
 ICON_BOOKINGS_HEADER=<span class="button">Book This Title</span>
 ICON_DAILYCAL=View Daily Calendar
