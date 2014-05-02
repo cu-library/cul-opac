@@ -983,7 +983,12 @@ span.patFunc {
 /* =============================================================================
  *   Hold/Request
  * ========================================================================== */
-.holdRequest font {
+.holdRequestSelect input[type="submit"] {
+  margin: 1em 0;
+}
+
+.holdRequestSelect font,
+.holdRequestResult font {
   font-size: 100% !important; /* force down element-level embiggening */
 }
 /* =============================================================================
