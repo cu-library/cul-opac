@@ -1000,6 +1000,18 @@ span.patFunc {
 .bookingsCalendar td {
   text-align: right;
 }
+.errormessage {
+  margin: 1em 0;
+}
+.bookingStart legend,
+.bookingEnd legend {
+  display: none;
+}
+.bookingStart select,
+.bookingEnd select {
+  margin: 0 15px 0 5px;
+}
+
 /* =============================================================================
  *   Sidebar: other searches & related resources
  * ========================================================================== */
