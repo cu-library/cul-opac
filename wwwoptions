@@ -49,9 +49,9 @@ ICON_CANCEL=<span class="button">Cancel</span>
 ICON_OK=<span class="button">OK</span>
 ICON_PREVPAGE=<span class="button"><img src="/screens/ico_back.gif" alt=""><span class="buttonText">Previous Screen</span></span>
 ICON_SUBMIT=<span class="button">Submit</span>
-ICON_UPDATELIST=<div onmousedown="this.className='pressedState';" onmouseout="this.className='';" onmouseup="this.className='';"><div class="buttonSpriteDiv"><span class="buttonSpriteSpan1"><span class="buttonSpriteSpan2">Update List</span></span></div></div>
+ICON_UPDATELIST=<span class="button">Update List</span>
 ICON_CLEAR_ALL=<span class="button">Clear All</span>
-ICON_CLEAR_FORM=<div onmousedown="this.className='pressedState';" onmouseout="this.className='';" onmouseup="this.className='';"><div class="buttonSpriteDiv"><span class="buttonSpriteSpan1"><span class="buttonSpriteSpan2">Clear Form</span></span></div></div>
+ICON_CLEAR_FORM=<span class="button">Clear Form</span>
 ICON_DELETE_SELECTED=<span class="button">Delete Selected</span>
 ICON_SELECT_ALL=<span class="button">Save All</span>
 # RESOURCETABLE=valign="top"|cellpadding="0" cellspacing="0" border="0"||Quick Links
@@ -295,11 +295,11 @@ CHANGE_HOLD_LOC=true
 ICON_CLOSEWINDOW=<span class="button"><img src="/screens/ico_x.gif" alt=""><span class="buttonText">Close Window</span></span>
 ICON_CONFIRM_YES=<span class="button">Yes</span>
 ICON_CONFIRM_NO=<span class="button">No</span>
-ICON_PAT_CANCELALL=<div onmousedown="this.className='pressedState';" onmouseout="this.className='';" onmouseup="this.className='';"><div class="buttonSpriteDiv"><span class="buttonSpriteSpan1"><span class="buttonSpriteSpan2">Cancel All</span></span></div></div>
-ICON_PAT_CANCELMARK=<div onmousedown="this.className='pressedState';" onmouseout="this.className='';" onmouseup="this.className='';"><div class="buttonSpriteDiv"><span class="buttonSpriteSpan1"><span class="buttonSpriteSpan2">Cancel Selected</span></span></div></div>
+ICON_PAT_CANCELALL=<span class="button">Cancel All</span>
+ICON_PAT_CANCELMARK=<span class="button">Cancel Selected</span><
 ICON_PIN_RESET=<span class="button"><img src="/screens/ico_questionmark.gif" alt=""><span class="buttonText">Forget Your PIN?</span></span>
-ICON_SORTPUDATE=<div onmousedown="this.className='pressedState';" onmouseout="this.className='';" onmouseup="this.className='';"><div class="buttonSpriteDiv"><span class="buttonSpriteSpan1"><span class="buttonSpriteSpan2">Sort by Pickup</span></span></div></div>
-ICON_SORTREQDATE=<div onmousedown="this.className='pressedState';" onmouseout="this.className='';" onmouseup="this.className='';"><div class="buttonSpriteDiv"><span class="buttonSpriteSpan1"><span class="buttonSpriteSpan2">Sort by Request</span></span></div></div>
+ICON_SORTPUDATE=<span class="button">Sort by Pickup</span>
+ICON_SORTREQDATE=<span class="button">Sort by Request</span>
 MIN_PIN_LENGTH=6
 MODIFY_PFLDS=z
 # MODIFY_PFLDS=ahtpzHx
