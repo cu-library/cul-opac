@@ -271,10 +271,10 @@ REQUEST_ARTICLE_IFCHKIN=Y
 REQUEST_MULTI=Request All Items in Book Cart|bib|ask
 
 # Patron Record
-ICON_BUT_PAT_CANCEL=<div onmousedown="this.className='pressedState';" onmouseout="this.className='';" onmouseup="this.className='';"><div class="buttonSpriteDiv"><span class="buttonSpriteSpan1"><span class="buttonSpriteSpan2">Cancel</span></span></div></div>
-ICON_BUT_PAT_CANCELALL=<div onmousedown="this.className='pressedState';" onmouseout="this.className='';" onmouseup="this.className='';"><div class="buttonSpriteDiv"><span class="buttonSpriteSpan1"><span class="buttonSpriteSpan2">Cancel All</span></span></div></div>
+ICON_BUT_PAT_CANCEL=<span class="button">Cancel</span>
+ICON_BUT_PAT_CANCELALL=<span class="button">Cancel All</span>
 BUT_PAT_CANCELMARK=/screens/pat_cancelmark.gif
-ICON_BUT_PAT_CANCELMARK=<div onmousedown="this.className='pressedState';" onmouseout="this.className='';" onmouseup="this.className='';"><div class="buttonSpriteDiv"><span class="buttonSpriteSpan1"><span class="buttonSpriteSpan2">Cancel Selected</span></span></div></div>
+ICON_BUT_PAT_CANCELMARK=<span class="button">Cancel Selected</span>
 # ICON_BUT_PAT_CHKOUTS=
 # ICON_BUT_PAT_FINES=<span class="button"><img src="/screens/ico_payment.gif" alt=""><span class="buttonText">Fines</span></span>
 # ICON_BUT_PAT_HOLDS=
