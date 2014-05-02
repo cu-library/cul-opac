@@ -980,7 +980,29 @@ span.patFunc {
   /* can't replace 'submit' link. Aim for consistent placement,	at least */
   display: block;
 }
-
+/* =============================================================================
+ *   Bookings
+ * ========================================================================== */
+.bookingsCalendar table em {
+  font-style: normal;
+}
+.bookingsCalendar th, 
+.bookingsCalendar td {
+  padding: 5px;
+  border: 1px solid #CFCFCF;
+}
+.bookingsCalendar th {
+  text-align: center;
+}
+.bookingsCalendar th a {
+  margin: 0 5px;
+}
+.bookingsCalendar td {
+  text-align: right;
+}
+.bookingsCalendarType {
+  margin: 1em 0;
+}
 /* =============================================================================
  *   Sidebar: other searches & related resources
  * ========================================================================== */
