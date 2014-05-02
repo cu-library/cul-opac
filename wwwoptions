@@ -289,7 +289,7 @@ ICON_BUT_PAT_SUBMIT=<div onmousedown="this.className='pressedState';" onmouseout
 ICON_BUT_PSTARTOVER=<span class="button"><img src="/screens/ico_startover.gif" alt=""><span class="buttonText">Start Over</span></span>
 # BUT_RET2PREC=
 ICON_BUT_RET2PREC=My Account
-ICON_BUT_UPDATE_HOLDS=<div onmousedown="this.className='pressedState';" onmouseout="this.className='';" onmouseup="this.className='';"><div class="buttonSpriteDiv"><span class="buttonSpriteSpan1"><span class="buttonSpriteSpan2">Update List</span></span></div></div>
+ICON_BUT_UPDATE_HOLDS=<span class="button">Update List</span>
 CHANGE_HOLD_LOC=true
 # FREEZE_HOLDS=true
 ICON_CLOSEWINDOW=<span class="button"><img src="/screens/ico_x.gif" alt=""><span class="buttonText">Close Window</span></span>
