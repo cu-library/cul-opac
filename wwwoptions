@@ -46,7 +46,7 @@ ICON_BUT_RET2CAT=<span class="button"><img src="/screens/ico_back.gif" alt=""><s
 ICON_BUT_STARTOVER=<span class="button">New Search</span>
 FORM_FOCUS=true
 ICON_CANCEL=<span class="button">Cancel</span>
-ICON_OK=<div onmousedown="this.className='pressedState';" onmouseout="this.className='';" onmouseup="this.className='';"><div class="buttonSpriteDiv"><span class="buttonSpriteSpan1"><span class="buttonSpriteSpan2">OK</span></span></div></div>
+ICON_OK=<span class="button">OK</span>
 ICON_PREVPAGE=<span class="button"><img src="/screens/ico_back.gif" alt=""><span class="buttonText">Previous Screen</span></span>
 ICON_SUBMIT=<span class="button">Submit</span>
 ICON_UPDATELIST=<div onmousedown="this.className='pressedState';" onmouseout="this.className='';" onmouseup="this.className='';"><div class="buttonSpriteDiv"><span class="buttonSpriteSpan1"><span class="buttonSpriteSpan2">Update List</span></span></div></div>
