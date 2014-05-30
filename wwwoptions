@@ -475,16 +475,6 @@ AIRPAC_PORT=6060
 SELFREG_TEMPLATE=webpat
 TIMEOUT_SELFREG=600
 
-# My Federated Search (Research Pro or MetaFind)
-ICON_MFFAVS_HOME=<span class="button"><img src="/screens/ico_up.gif" alt=""><span class="buttonText">Home</span></span>
-ICON_MFFAVS_SEARCH=<span class="button"><img src="/screens/ico_magnifyingglass.gif" alt=""><span class="buttonText">Search</span></span>
-ICON_PAT_MFFAVS=<span class="button"><img src="/screens/ico_globe.gif" alt=""><span class="buttonText">My Research Pro</span></span>
-MFFAVS_CONFIRM=Your group, %s, has been saved successfully.
-MFFAVS_DENY=This function is not available. Please contact a librarian for further assistance.
-# MFFAVS_HOME=http://researchpro-[SITECODE]:[PORT]/iii/mfrpro-[SITECODE]/loadSearchPage.do?searchtype=simple&amp;searchpage=simple&amp;accountid=[ACCOUNT]&amp;accountpassword=[ACCOUNT]&amp;language=eng
-# MFFAVS_URL=true|[ACCOUNT]|[ACCOUNT]|/mfgo/http://researchpro-[SITECODE]:[PORT]/iii/mfrpro-[SITECODE]/search.do
-MFFAVS_ALL=TRUE
-
 # WebPAC Pro
 BROWSE50=true
 ICON_SPELLCHECK_MORE=<span class="spellcheckToolMore">more&nbsp;&raquo;</span>
