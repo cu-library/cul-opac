@@ -401,9 +401,6 @@ ICON_BUT_PAT_ILL=<span class="button"><img src="/screens/ico_gear.gif" alt=""><s
 ILL_CONF_EMAIL_SUBJECT=Library notification of Inter-library Loan request
 ILL_HOME=/screens/ill.html
 
-# INN-Reach
-IR_PLACEMENT=1
-
 # Media Management
 ICON_BUT_RET2CRS=<span class="button">Return to Course</span>
 ERESERVE=[0123456789]
