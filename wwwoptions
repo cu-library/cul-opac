@@ -446,7 +446,7 @@ Z39BROADCAST=Z39.50 Broadcast Search:Please select the Z39.50 servers to which y
 Z39MULTI=500:100
 
 # AirPAC
-AIRPAC_PORT=6060
+# AIRPAC_PORT=6060
 
 # WebPAC Pro
 BROWSE50=true
