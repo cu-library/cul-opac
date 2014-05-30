@@ -453,12 +453,12 @@ PATFEED_PROGRAM_SESSION_TOMORROW=An event that you have registered for is coming
 PATFEED_PROGRAM_SESSION_TODAY=An event that you have registered for is coming up today. Please log on to My Account for the event date, time and location.
 
 # Z39.50
-ICON_BUT_EMAIL=Email
-ICON_BUT_NEXTREC=<span class="button"><span class="buttonText" id="buttonNextRecord">Next Record</span><img src="/screens/ico_next.gif" alt=""></span>
-ICON_BUT_PREVREC=<span class="button"><img src="/screens/ico_previous.gif" alt=""><span class="buttonText">Previous Record</span></span>
-ICON_BUT_Z39_ANOTHER=Another Database
-ICON_BUT_Z39_REQUEST=<span class="button"><img src="/screens/ico_checkbox.gif" alt=""><span class="buttonText">Request</span></span>
-ICON_BUT_Z39SEARCH=<span class="button"><img src="/screens/ico_magnifyingglass.gif" alt=""><span class="buttonText">Search Other Libraries</span></span>
+ICON_BUT_EMAIL=<span class="button">Email</span>
+ICON_BUT_NEXTREC=<span class="button" id="buttonNextRecord">Next Record</span>
+ICON_BUT_PREVREC=<span class="button">Previous Record</span>
+ICON_BUT_Z39_ANOTHER=<span class="button">Another Database</span>
+ICON_BUT_Z39_REQUEST=<span class="button">Request</span>
+ICON_BUT_Z39SEARCH=<span class="button">Search Other Libraries</span>
 Z39BROADCAST=Z39.50 Broadcast Search:Please select the Z39.50 servers to which you want to send your search
 Z39MULTI=500:100
 
