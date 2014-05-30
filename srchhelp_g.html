@@ -1,78 +1,50 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<!DOCTYPE html>
 <html lang="en">
-<!-- Rel 2009B Example Set -->
-<!-- This File Last Changed: 23 Mar 2010 -->
-<head>
-<title>MacOdrum Library Catalogue | Carleton University Library</title>
-<meta name="robots" content="noindex" />
-<script language="JavaScript">
-<!-- Hide the JS
-startTimeout(600000, "/");
-// -->
-
-</script>
-<noscript>
-<meta http-equiv="Refresh" content="600;URL=/" />
-</noscript>
-<meta http-equiv="X-UA-Compatible" content="IE=8;FF=3;OtherUA=4">
-<link rel="icon" href="/screens/CU_icon.gif" type="image/gif"/>
-<link rel="stylesheet" type="text/css" href="/screens/styles_print.css" media="print">
-<script type="text/javascript" src="/screens/iiilangswitch.js"></script> 
-</head>
+  <head>
+    <meta charset="utf-8"/>
+    <title>Goverment Documents: SuDoc Number Search | MacOdrum Library Catalogue</title>
+    <meta name="robots" content="noindex" />
+    <script src="/screens/iii.js"></script>
+    <link rel="icon" href="/screens/CU_icon.gif"/>    
+  </head>
 <body>
 <!--{toplogo}-->
-<div class="pageContentInner">
-
-<h1 class="pageHeader">Government Document Number Search</h1>
-
-<div id="accessibleForm" class="form2Part">
-<div class="formLeft">
-<form method="get">
-<fieldset>
-<legend class="accessibleAddInfo">Type the call number you want to find, then press the Enter key or click Submit.</legend>
-<div class="formEntryArea">
-  <span class="formLabel"><label for="SEARCH">Search for:</label></span>
-  <!-- begin {search} replacement -->  
-  <input id="SEARCH" name="SEARCH" size="48" value="" type="text"/>
-  <!-- end {search} replacement -->
-</div>
-<div class="formEntryArea">
-<span class="formLabel">
-<label for="sortdropdown">Sort by:</label>
-</span>
+<div id="content">
+  <h2>Government Documents: SUDOC Number Search</h2>
+  <div id="accessibleForm" class="form2Part">
+    <div class="formLeft">
+      <form method="get">
+        <p>American government documents, collected under the Federal Depository Library Program, 
+          are organized using the SuDoc (Superintendent of Documents) Classification System.</p>
+        <div class="formEntryArea">
+          <span class="formLabel"><label for="SEARCH">Search for:</label></span>
+          <input id="SEARCH" name="SEARCH" size="48" value="" type="text"/><!-- {search} replacement -->
+        </div>
+        <div class="formEntryArea">
+          <span class="formLabel">
+            <label for="sortdropdown">Sort by:</label>
+          </span>
 <!--{indexsort}-->
-</div>
-<div class="formEntryArea formScopeSearch">
-<span class="formLabel">
-<label for="searchscope">Search in the:</label>
-</span>
+        </div>
+        <div class="formEntryArea formScopeSearch">
+          <span class="formLabel">
+            <label for="searchscope">Search in the:</label>
+          </span>
 <!--{scope}-->
-</div>
-
-<div class="formButtonArea">
-  <!-- begin {submit} replacement -->
-  <input type="submit" value="Submit"/>
-  <!-- end {submit} replacement -->
-</div>
-</fieldset>
-</form>
-</div><!--formLeft -->
-
-<div class="formRight">
-<p>Type as much or as little of the government document or SUDOC number as you want. Type punctuation for SUDOC number exactly as it appears. For example:</p>
-<ul>
-<li>NAS</li>
-<li>NAS 1.2:AM 3/994</li>
-</ul>
-</div><!--formRight -->
-
-</div><!--form2Part -->
-</div><!--pageContentInner -->
-
+        </div>
+        <div class="formButtonArea">
+          <input type="submit" value="Submit"/><!-- {submit} replacement -->
+        </div>
+      </form>
+    </div><!--formLeft -->
+    <div class="formRight">
+      <p>
+      <p>Type as much or as little of the SuDoc number as you want. Type punctuation for SuDoc numbers exactly as it appears. For example:</p>
+      <ul>
+        <li><a href="/search/g?SEARCH=NAS">NAS</a></li>
+        <li><a href="/search/g?SEARCH=NAS+1.2%3AAM+3%2F994">NAS 1.2:AM 3/994</a></li>
+      </ul>
+    </div><!--formRight -->
+  </div><!--form2Part -->
+</div><!--/end #content -->
 <!--{botlogo}-->
-<script type="text/javascript"><!--//--><![CDATA[//><!--
-try { document.forms[0].SEARCH.focus(); }
-catch(err) {}
-//--><!]]></script>
-</body>
-</html>
