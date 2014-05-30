@@ -33,8 +33,10 @@
 # My Federated Search (Research Pro or MetaFind)
 # WebPAC Pro
 # Research Pro
-# Program Registration
+# Program Registration *
 # Copy Location Codes Links
+#
+# * These products or features are not in use 
 
 # General Display and Behavior
 # AVAILLIM=<span class="availLimMessage">Limit search to available items</span>|<span class="availLimMessage">Search results limited to available items</span>
@@ -523,21 +525,6 @@ MF_SEARCHINDEX=Keywords,Keywords|:CREATOR,Author|:TITLE,Title|:SUBJECT,Subject
 MF_STYLESHEET=/screens/styles.css
 MF_TOPLOGO=@screens/toplogo.html
 
-# Program Display
-PROG_AVS_TAG=PHJQIL
-PROGRAM_SECTION_FIELDS=Date/Time:VsT|Meets:Vss|Location:Fs285|Instructor:Vsn|Status:VsS
-ICON_BUT_PAT_PROGRAMS=<span class="button"><img src="/screens/ico_calendar.gif" alt=""><span class="buttonText">Library Events</span></span>
-ICON_BUT_PAT_SORTBYDATE=<div onmousedown="this.className='pressedState';" onmouseout="this.className='';" onmouseup="this.className='';"><div class="buttonSpriteDiv"><span class="buttonSpriteSpan1"><span class="buttonSpriteSpan2">Sort by Date</span></span></div></div>
-ICON_BUT_PAT_SORTBYNAME=<div onmousedown="this.className='pressedState';" onmouseout="this.className='';" onmouseup="this.className='';"><div class="buttonSpriteDiv"><span class="buttonSpriteSpan1"><span class="buttonSpriteSpan2">Sort by Name</span></span></div></div>
-ICON_RET2PROG=<span class="button"><img src="/screens/ico_back.gif" alt=""><span class="buttonText">Return to Programs</span></span>
-ICON_REGISTER=<br><strong>Click to Register</strong>
-ICON_ADD_TO_WAITLIST=<br><strong>Add to Waitlist</strong>
-ICON_VIEW_ADDITIONAL_SESSIONS=<span class="button"><span class="buttonText">View Additional Sessions</span></span>
-ICON_HIDE_ADDITIONAL_SESSIONS=<span class="button"><span class="buttonText">Hide Additional Sessions</span></span>
-ICON_PROGRAM_CAL=<span class="button"><img src="/screens/ico_calendar.gif" alt=""><span class="buttonText">Events Calendar</span></span>
-TABLEPARAM_PROG_SECTIONS=width="100%" border="0" cellspacing="0" align="center"
-# WEBADDRESS=
-#
 # Copy Location Codes (Links)
 LOC_flr5=http://www.library.carleton.ca/floor-maps?quicktabs_floor_maps=4#quicktabs-floor_maps" target="_blank
 LOC_vid=http://www.library.carleton.ca/floor-maps?quicktabs_floor_maps=1#quicktabs-floor_maps" target="_blank
