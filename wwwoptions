@@ -405,10 +405,8 @@ ILL_HOME=/screens/ill.html
 IR_PLACEMENT=1
 
 # Media Management
-ICON_BUT_RET2CRS=<span class="button"><img src="/screens/ico_back.gif" alt=""><span class="buttonText">Return to Course</span></span>
+ICON_BUT_RET2CRS=<span class="button">Return to Course</span>
 ERESERVE=[0123456789]
-# IMAGE_PRINT=yes
-# IMAGE_SAVE=yes
 
 # Reserves
 RSRV_FORMAT=true
