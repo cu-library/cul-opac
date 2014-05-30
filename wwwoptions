@@ -462,9 +462,6 @@ ICON_BUT_Z39SEARCH=<span class="button"><img src="/screens/ico_magnifyingglass.g
 Z39BROADCAST=Z39.50 Broadcast Search:Please select the Z39.50 servers to which you want to send your search
 Z39MULTI=500:100
 
-# Partner
-ICON_BUT_RETHOME=<span class="button"><img src="/screens/ico_up.gif" alt=""><span class="buttonText">Home</span></span>
-
 # AirPAC
 AIRPAC_PORT=6060
 
