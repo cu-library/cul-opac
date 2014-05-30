@@ -124,19 +124,14 @@ ICON_BUT_LIMIT=<span class="button">Limit/Sort Search</span>
 ICON_BUT_UNLIMAVAIL=<span class="button">Show All</span>
 DISPLAY_245=atd
 EXTENDED=CT
-HEADING_LENGTH=100
-ICON_856LINK=<img src="/screens/bullet.gif" alt="" border="0" style="margin-right:5px">Connect online
-ICON_962LINK=<img src="/screens/bullet.gif" alt="" border="0" style="margin-right:5px">Digital Image
-# ICON_BOOKCART=<span class="button"><img src="/screens/ico_bag_add.gif" alt=""><span class="buttonText">Save Marked Records</span></span>
+HEADING_LENGTH=150
+ICON_BOOKCART=<span class="button">Save Marked Records</span>
 ICON_BOOKCART_SAVED=<span class="button">Unsave this record</span>
 ICON_FULLRECORD=See Full Record
-# Use default submit button instead of links / image-based buttons
-# ICON_LOCATEINRESULTS=<div onmousedown="this.className='pressedState';" onmouseout="this.className='';" onmouseup="this.className='';"><div class="buttonSpriteDiv"><span class="buttonSpriteSpan1"><span class="buttonSpriteSpan2">Locate in results</span></span></div></div>
 ICON_PAGING_CAPTION=Result Page&nbsp;
 ICON_PAGING_NEXT=Next
 ICON_PAGING_PREV=Prev
-ICON_PROGRAM=<img src="/screens/media_program.gif" border="0" alt="Library Event">
-ICON_RESOURCE=<img src="/screens/media_resource.gif" alt="Internet Resource">
+ICON_RESOURCE=<img src="/screens/media_resource.gif" alt="Internet Resource"/>
 ICON_SAVEALLPAGE=<span class="button">Save All Records On Page</span>
 ICON_SAVEMARKED=<span class="button">Save Marked Records</span>
 IMAGE_MATTYPE-=/screens/media_book.gif
@@ -163,10 +158,10 @@ IMAGE_MATTYPEv=/screens/media_vhs.gif
 IMAGE_MATTYPEw=/screens/media_periodical.gif
 IMAGE_MATTYPEz=/screens/media_bestseller.gif
 IMAGE_MATTYPE2=/screens/media_article.gif
-INDEX_EXT=coi
-MEDIA=2
+INDEX_EXT=mcoi
+MEDIA=true
 NO_COPIES=Currently no copies available
-SORT_BROWSE=t:Title|a:Author|c:Year|r:Reverse Year|n:Call Number|m:Material Type
+SORT_BROWSE=t:Title|a:Author|r:Year (newest)|c:Year (oldest)|n:Call Number|m:Material Type
 SORT_MEDIA=@amcdji
 SUPPRESS_YEAR=False
 TABLEPARAM_BRIEFCIT=true|border="0" cellpadding="0" width="100%"
