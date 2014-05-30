@@ -92,7 +92,7 @@ OFFER_HISTORY=true
 
 # Advanced Searching
 AVS_MODIFY_TAG=X
-AVS_TAG=XYZ
+AVS_TAG=X
 ICON_BUT_MODIFY=<span class="button">Modify Search</span>
 ICON_BUT_SHOWSIM=<span class="button">Show similar items</span>
 ICON_REL_GROUP_1=<img src="/screens/relevance5.gif" alt="Most relevant">&nbsp;<h1 class="browseSuperEntryTitle">Most relevant titles</h1>&nbsp;
@@ -105,9 +105,6 @@ IMAGE_AVS2=/screens/relevance2.gif
 IMAGE_AVS3=/screens/relevance3.gif
 IMAGE_AVS4=/screens/relevance4.gif
 IMAGE_AVS5=/screens/relevance5.gif
-# ICON_AWS_BYRELEVANCE_LINK=
-# ICON_AWS_BYDATE_LINK=
-# ICON_AWS_BYTITLE_LINK=
 RELSEARCH=restable||<span class="button"><img src="/screens/ico_magnifyingglass.gif" border="0" alt=""><span class="buttonText">Related Searches</span>
 
 # Search Results
