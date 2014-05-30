@@ -368,19 +368,6 @@ ICON_PATREVIEW=<span class="button"><img src="/screens/ico_review.gif" alt=""><s
 ICON_PATREVIEW_ADD=<span class="button"><img src="/screens/ico_review_sm.gif" alt=""><span class="buttonText">Add a Review</span></span>
 PATREVIEW_ABUSE_NOTIFY=Review abuse reported|Example Library|web@example.org
 
-# Ecommerce
-CC_APPROVED=Your payment has been approved.
-CC_DECLINED=Sorry. Your payment has been declined. Please confirm your information is entered correctly or pay at the library.
-# CC_EMAIL_RECEIPT=Receipt for payment to Your Library|circadm@example.org|onlinepayments@example.org
-# DONATE_NOTIFY=A new donation has been received|circadm@example.org|donormgmt@example.org
-ICON_PAY=<span class="button"><img src="/screens/ico_payment.gif" alt=""><span class="buttonText">Pay Online</span></span>
-ICON_PAY_CLEAR_ALL=<div onmousedown="this.className='pressedState';" onmouseout="this.className='';" onmouseup="this.className='';"><div class="buttonSpriteDiv"><span class="buttonSpriteSpan1"><span class="buttonSpriteSpan2">Clear All</span></span></div></div>
-ICON_PAY_SELECT_ALL=<div onmousedown="this.className='pressedState';" onmouseout="this.className='';" onmouseup="this.className='';"><div class="buttonSpriteDiv"><span class="buttonSpriteSpan1"><span class="buttonSpriteSpan2">Select All</span></span></div></div>
-ICON_PRINT=<span class="button"><img src="/screens/ico_printer_alt.gif" alt=""><span class="buttonText">Print</span></span>
-ICON_PAY_CONTINUE=<div onmousedown="this.className='pressedState';" onmouseout="this.className='';" onmouseup="this.className='';"><div class="buttonSpriteDiv"><span class="buttonSpriteSpan1"><span class="buttonSpriteSpan2">Continue</span></span></div></div>
-# MINDONATE=1000|Donations must be at least $10.00 to cover processing costs. Thank you.
-# PAYAMTS=500|Please visit the library to pay this amount|00
-
 # Bookings
 BOOKINGS=no|true|true|false
 BOOKINGS_DAY_LEGEND=<span class="bookingsLegend">The library is closed during hours marked with an <span id="closed">X</span>. Items are not available for booking during <span id="unavailable">grayed out</span> hours.</span>
