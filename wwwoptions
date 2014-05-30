@@ -492,39 +492,6 @@ ICON_SPELLCHECK_SEARCH=<img src="/screens/ico_go.gif" class="button" border="0" 
 INNOVATIVE_FOOTER=center|b
 SPELLCHECK=<span class="spellcheckTool">Did you mean %a? %s </span>
 
-# Research Pro
-# MF_BIBIMAGE=http://syndetics.com/index.aspx/?isbn=%s/SC.gif&amp;client=PUTACCOUNTHERE&amp;type=hw7|i|http://syndetics.com/index.aspx/?isbn=%s/SC.gif&amp;client=PUTACCOUNTHERE&amp;type=hw7
-# MF_BIBIMAGE=http://www.TheContentServer.com/bin/cntsvr.dll?GetImage&amp;SysID=PUTACCOUNTHERE&amp;CustID=PUTACCOUNTHERE&amp;ISBN=%s&amp;Type=S&amp;Return=0|I|http://www.TheContentServer.com/bin/cntsvr.dll?GetImage&amp;SysID=PUTACCOUNTHERE&amp;CustID=PUTACCOUNTHERE&amp;ISBN=%s&amp;Type=L&amp;Return=1
-MF_BOTLOGO=@screens/botlogo.html
-MF_EMAIL_SENDER=researchpro@iii.com
-MF_ICON_ADVANCED_SEARCH=Advanced Search
-MF_ICON_CLEAR=Clear Form
-MF_ICON_CLOSE=Close Window
-MF_ICON_DESELECTALL=Clear All
-MF_ICON_EMAIL=Email
-MF_ICON_HELP=Help
-MF_ICON_LOGOFFACCOUNT=Logout
-MF_ICON_MFFAVS_GROUP=Save Group
-MF_ICON_NEW_SEARCH=New Search
-MF_ICON_PATRON_REC=Return to Patron Record
-MF_ICON_PATSUBMIT=Submit
-MF_ICON_PREVSEARCH=Previous Search
-MF_ICON_PRINT=Print
-MF_ICON_RET2CAT=Back to Catalog
-MF_ICON_RETHOME=Home
-MF_ICON_SEARCH=Search Research Pro
-MF_ICON_SELECTALL=Select All
-MF_ICON_SIMPLE_SEARCH=Simple Search
-MF_ICON_STOP=Stop Search
-MF_ICON_UPDATELIST=Update List
-MF_ICON_VIEWSAVED=View Saved
-MF_RESULTSVIEW=tabbed,View Results Tabbed By Resource|standard,View All Results Interfiled
-MF_RETURN=true
-MF_RETURN_URL=http://researchpro-[SITECODE]:[PORT]/iii/mfrpro-[SITECODE]/loadSearchPage.do?searchtype=simple&amp;searchpage=simple&amp;accountid=[ACCOUNT]&amp;accountpassword=[ACCOUNT]
-MF_SEARCHINDEX=Keywords,Keywords|:CREATOR,Author|:TITLE,Title|:SUBJECT,Subject
-MF_STYLESHEET=/screens/styles.css
-MF_TOPLOGO=@screens/toplogo.html
-
 # Copy Location Codes (Links)
 LOC_flr5=http://www.library.carleton.ca/floor-maps?quicktabs_floor_maps=4#quicktabs-floor_maps" target="_blank
 LOC_vid=http://www.library.carleton.ca/floor-maps?quicktabs_floor_maps=1#quicktabs-floor_maps" target="_blank
