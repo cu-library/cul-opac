@@ -275,50 +275,27 @@ REQUEST_MULTI=Request All Items in Book Cart|bib|ask
 # Patron Record
 ICON_BUT_PAT_CANCEL=<span class="button">Cancel</span>
 ICON_BUT_PAT_CANCELALL=<span class="button">Cancel All</span>
-BUT_PAT_CANCELMARK=/screens/pat_cancelmark.gif
 ICON_BUT_PAT_CANCELMARK=<span class="button">Cancel Selected</span>
-# ICON_BUT_PAT_CHKOUTS=
-# ICON_BUT_PAT_FINES=<span class="button"><img src="/screens/ico_payment.gif" alt=""><span class="buttonText">Fines</span></span>
-# ICON_BUT_PAT_HOLDS=
-ICON_BUT_PAT_INFO=<span class="button"><img src="/screens/ico_patron.gif" alt=""><span class="buttonText">Modify Personal Information</span></span>
-ICON_BUT_PAT_MSGS=<span class="button"><img src="/screens/ico_browse_brief.gif" alt=""><span class="buttonText">Message from the library</span></span>
-ICON_BUT_PAT_PIN=<span class="button"><img src="/screens/ico_pin.gif" alt=""><span class="buttonText">Modify PIN</span></span>
+ICON_BUT_PAT_MSGS=<span class="button">Message from the library</span>
 ICON_BUT_PAT_RENEWALL=<span class="button">Renew All</span>
 ICON_BUT_PAT_RENEWMARK=<span class="button">Renew Marked</span>
 ICON_BUT_PAT_SORTBYCHKOUT=<span class="button">Sort by Checkout</span>
 ICON_BUT_PAT_SORTBYDUE=<span class="button">Sort by Due Date</span>
-ICON_BUT_PAT_SUBMIT=<div onmousedown="this.className='pressedState';" onmouseout="this.className='';" onmouseup="this.className='';"><div class="buttonSpriteDiv"><span class="buttonSpriteSpan1"><span class="buttonSpriteSpan2">Submit</span></span></div></div>
-ICON_BUT_PSTARTOVER=<span class="button"><img src="/screens/ico_startover.gif" alt=""><span class="buttonText">Start Over</span></span>
-# BUT_RET2PREC=
-ICON_BUT_RET2PREC=My Account
+ICON_BUT_PAT_SUBMIT=<span class="button">Submit</span>
+ICON_BUT_PSTARTOVER=<span class="button">Start Over</span>
+ICON_BUT_RET2PREC=<span class="button">My Account</span>
 ICON_BUT_UPDATE_HOLDS=<span class="button">Update List</span>
-CHANGE_HOLD_LOC=true
-# FREEZE_HOLDS=true
-ICON_CLOSEWINDOW=<span class="button"><img src="/screens/ico_x.gif" alt=""><span class="buttonText">Close Window</span></span>
+ICON_CLOSEWINDOW=<span class="button">Close Window</span>
 ICON_CONFIRM_YES=<span class="button">Yes</span>
 ICON_CONFIRM_NO=<span class="button">No</span>
 ICON_PAT_CANCELALL=<span class="button">Cancel All</span>
 ICON_PAT_CANCELMARK=<span class="button">Cancel Selected</span><
-ICON_PIN_RESET=<span class="button"><img src="/screens/ico_questionmark.gif" alt=""><span class="buttonText">Forget Your PIN?</span></span>
 ICON_SORTPUDATE=<span class="button">Sort by Pickup</span>
 ICON_SORTREQDATE=<span class="button">Sort by Request</span>
-MIN_PIN_LENGTH=6
-MODIFY_PFLDS=z
-# MODIFY_PFLDS=ahtpzHx
 MY_WEBPAC=false,3,0-4,8-10,33,99
-NEWPIN_MSG=Please enter a Personal Identification Number (PIN)
 PATRON_FIELDS=n/a|b/a|t/a|z/a
-# Note that in the PATRON_MSG web option you should replace z with the field tag used on your system for messages.
-# PATRON_MSG=z|Message from the library
-# PATRON_NOTICES=apz
-PIN_ALPHA_NUM=true
-PIN_NUM_ONLY=false
-PIN_RESET=true
-# PIN_RESET_EMAIL=Request to reset your library PIN|INSERT LIBRARY FROM EMAIL HERE|INSERT LIBRARY REPLY-TO EMAIL HERE
 PSTARTOVER=/search
 SEEPUDATE=true
-TABLEPARAM_PATDISP=border="0"|border="0"|border="0"
-TABLEPARAM_PATFUNC=border="0"|border="0"|border="0"
 TIMEOUT_POPUP=600
 
 # My Millennium
