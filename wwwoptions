@@ -435,23 +435,6 @@ ICON_BUT_RET2RESOURCE=<div id="resourcelink"><span class="button"><img src="/scr
 RESLINK=bibresourcetop|browseresourcetop||
 # WBHEADERTEXT=The following resources may provide additional information about<br>#HEADER#
 
-# Patron Feeds
-RSS_MIN_TTL=10
-ICON_PATFEED=<span class="button">My Record Feeds</span>
-PATFEED_CONFIG=Your Library Record News|Follow links to library record for full details.
-PATFEED_FINES_INCURRED_RECENTLY=You have new fines or fees
-PATFEED_HOLDS_READY=Your materials are ready to be picked up
-# PATFEED_IMAGE=/screens/rss.gif|Subscribe to a feed of your library record.|88|31
-PATFEED_ITEMS_BOOKED_TOMORROW=Materials booked tomorrow
-PATFEED_ITEMS_DUE_SOON=Materials due soon
-PATFEED_ITEMS_DUE_TODAY=Materials due today
-PATFEED_ITEMS_OVERDUE=Materials overdue
-PATFEED_ITEMS_RECALLED=Materials recalled
-PATFEED_LIVE_BOOKMARKS=T
-PATFEED_PROGRAM_SESSION_SOON=An event that you have registered for is coming up soon. Please log on to My Account for the event date, time and location.
-PATFEED_PROGRAM_SESSION_TOMORROW=An event that you have registered for is coming up tomorrow. Please log on to My Account for the event date, time and location.
-PATFEED_PROGRAM_SESSION_TODAY=An event that you have registered for is coming up today. Please log on to My Account for the event date, time and location.
-
 # Z39.50
 ICON_BUT_EMAIL=<span class="button">Email</span>
 ICON_BUT_NEXTREC=<span class="button" id="buttonNextRecord">Next Record</span>
