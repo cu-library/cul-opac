@@ -15,9 +15,4 @@ new_wr
 nt
 subjectNewTitle
 
-# Backup directory of staging/screens directory. Keep this while we're working
-# on the new example site. 
-_stagingScreensBackup-2012-12-03
 
-# Copies of downloaded files for local testing
-local
