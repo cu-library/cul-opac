@@ -6,13 +6,4 @@ webpac.crt*
 scopes.sh
 buildpages
 
-# Symbolic links that may be needed by local processes
-missingCallno
-inprocess
-subjectJournals
-wr
-new_wr
-nt
-subjectNewTitle
-
 
