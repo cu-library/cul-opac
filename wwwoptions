@@ -252,7 +252,7 @@ ICON_BUT_CLEAR_MARKED=<span class="button">Clear Saved Records</span>
 ICON_BUT_EXPORT_MULTI=<span class="button">Export Saved</span>
 ICON_BUT_EXPORT_VIEW_SAVES=<span class="button">View/Export Saved Records</span>
 ICON_BUT_VIEW_SAVES=<span class="button">View/Export Saved Records</span>
-EMAILOP=From the library catalog|exporter|
+EMAILOP=From the Library Catalogue|recordexport@library.carleton.ca|
 EXPORT_SELECT_TABLE=Sendto:browser,email,local|Format:full,brief,marc,procite,endnote
 XRECTYPE=boi
 
