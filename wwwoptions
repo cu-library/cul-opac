@@ -186,7 +186,7 @@ ICON_BIB_PAGING_PREV=<span class="button browsePrevious">&laquo; Previous</span>
 ICON_RECORDLINK=Link to this record: <span class="bibRecordLink"><a id="recordnum" href="%s">%s</a></span>
 LINK856TEXT=Connect to
 MARC=yes
-SHOWOREC=no_cdate
+#SHOWOREC=no_cdate
 TABLEPARAM_BIB=width="100%" cellpadding="0" cellspacing="0" border="0"|cellpadding="0" cellspacing="0" border="0" align="center"
 TABLEPARAM_BIB_DETAIL=width="100%" border="0" cellspacing="0" cellpadding="0"
 TABLEPARAM_BIB_HOLDINGS=width="100%" cellspacing="0" cellpadding="0"
