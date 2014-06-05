@@ -122,7 +122,7 @@ ICON_BUT_LIMIT=<span class="button">Limit/Sort Search</span>
 ICON_BUT_UNLIMAVAIL=<span class="button">Show All</span>
 DISPLAY_245=atd
 EXTENDED=CT
-HEADING_LENGTH=100
+HEADING_LENGTH=150
 ICON_856LINK=<img src="/screens/bullet.gif" alt="" border="0" style="margin-right:5px">Connect online
 ICON_962LINK=<img src="/screens/bullet.gif" alt="" border="0" style="margin-right:5px">Digital Image
 # ICON_BOOKCART=<span class="button"><img src="/screens/ico_bag_add.gif" alt=""><span class="buttonText">Save Marked Records</span></span>
