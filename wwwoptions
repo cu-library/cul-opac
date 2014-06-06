@@ -228,7 +228,9 @@ CHECKIN_FONTCOLOR=ARRIVED=GREEN|EXPECTED=BLACK|TO BIND/BOUND=RED|LATE=BLACK|OTHE
 CHECKIN_STATUS=ARRIVED=Here|EXPECTED=Coming soon|TO BIND/BOUND=Being bound|LATE=Late|Other=See staff
 DISPLAY_CHECKIN_856=z
 HOLDINGS_REQ=Deliver this article to me
-SORT_ITEMS=true
+# If SORT_ITEMS is true, attached items are sorted by location, then by the order
+# in which they were attached to the bib record. No other options are possible. 
+# SORT_ITEMS=true
 SUPPRESS_CARD=UI
 
 # My Lists
