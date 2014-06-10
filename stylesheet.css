@@ -1,0 +1,167 @@
+/*  stylesheet.css  2012 Jan 11 */
+/* FAQ:  http://csdirect.iii.com/documentation/stylesheets.shtml */
+/* items in this stylesheet override ProStyles.css */
+/* this filename set in wwwoptions */
+
+body {
+      color:            "black";
+      background-color: "white";
+      font-family:      "Arial, Helvetica, sans-serif";
+      font-style:       "normal";
+      font-weight:      "normal";
+}
+
+A:link    {color: "blue"; text-decoration: "none";}
+A:visited {color: "blue"; text-decoration: "none";}
+A:active  {color: "blue"; text-decoration: "none";}
+A:hover   {color: "blue"; text-decoration: "none";}
+
+
+TR.browseHeader     {background-color: #e0e0e0; color: "black";}
+
+TH { 
+    font-family: Arial, Helvetica, sans-serif; 
+}
+TD { 
+    font-family: Arial, Helvetica, sans-serif;  
+    font-style:  normal; 
+    font-weight: normal;
+}
+
+TD.browseHeaderNum  {vertical-align: middle;}
+TD.browseHeaderYear {text-align: center; vertical-align: middle;}
+TD.browseHeaderMark {vertical-align: middle;}
+TD.browseEntryYear  {text-align: center;}
+TD.browseEntryData  {font: "Arial, Helvetica, sans-serif";}
+
+/*
+TR.browsesub-entry  {background-color: "#fffff0";}
+TR.browseSuperEntry {background-color: "#fffff0";}
+*/
+
+TD.bibInfoEntry     {font: "Arial, Helvetica, sans-serif";}
+TD.bibInfoLabel     {font: "Arial, Helvetica, sans-serif";}
+TD.bibInfoData      {font: "Arial, Helvetica, sans-serif";}
+
+.bibRecordLink {
+    font-family: Arial, Helvetica, sans-serif;
+    font-style:  normal;
+    font-weight: normal;
+}
+
+.pageMainArea {
+      color:            "black";
+      background-color: "white";
+      font-family:      "Arial, Helvetica, sans-serif";
+      font-style:       "normal";
+      font-weight:      "normal";
+}
+.pageDirectoryArea {
+      color:            "black";
+      background-color: "white";
+      font-family:      "Arial, Helvetica, sans-serif";
+      font-style:       "normal";
+      font-weight:      "normal";
+}
+.pageMainAreaHeader {
+      color:            "black";
+      background-color: "white";
+      font-family:      "Arial, Helvetica, sans-serif";
+      font-style:       "normal";
+      font-weight:      "normal";
+}
+.pageSearchArea {
+      color:            "black";
+      background-color: "white";
+      font-family:      "Arial, Helvetica, sans-serif";
+      font-style:       "normal";
+      font-weight:      "normal";
+}
+.pageDataAreaHeading {
+      color:            "black";
+      background-color: "white";
+      font-family:      "Arial, Helvetica, sans-serif";
+      font-style:       "normal";
+      font-weight:      "normal";
+}
+.pageDataArea {
+      color:            "black";
+      background-color: "white";
+      font-family:      "Arial, Helvetica, sans-serif";
+      font-style:       "normal";
+      font-weight:      "normal";
+}
+.pageInfoAreaHeader {
+      color:            "black";
+      background-color: "white";
+      font-family:      "Arial, Helvetica, sans-serif";
+      font-style:       "normal";
+      font-weight:      "normal";
+}
+.pageInfoArea {
+      color:            "black";
+      background-color: "white";
+      font-family:      "Arial, Helvetica, sans-serif";
+      font-style:       "normal";
+      font-weight:      "normal";
+}
+.pageNavArea {
+      color:            "black";
+      background-color: "white";
+      font-family:      "Arial, Helvetica, sans-serif";
+      font-style:       "normal";
+      font-weight:      "normal";
+}
+.pageNavAreaText {
+      color:            "black";
+      background-color: "white";
+      font-family:      "Arial, Helvetica, sans-serif";
+      font-style:       "normal";
+      font-weight:      "normal";
+}
+
+/* from styles.css in 2006classic_20060713.zip */
+.bibTOC { width: 100%; font-size: 100%; margin-left: 3px; 
+          border: 2px solid black; padding: 3px; margin-bottom: 3px; }
+
+.bibTOC td { border-bottom: 1px solid grey; }
+
+
+/* 2005 Mar 22: IUG INNOPAC List Edward Spodick <lbspodic@ust.hk> */
+div#patfunc form, div#patfunc p { display: inline; }
+
+/*
+.navigationRow    {text-align: center; }
+.bibSearchtool    {text-align: center; }
+*/
+
+/* 2012 Jan 11 */
+.bibResourceLicense td { padding-bottom:5px; }
+.bibResourceEntry td { font-weight:bold; }
+
+
+/* 2007 May 18: ERM resource records */
+.resourceBib { }
+.resourceBibEntry  {font: "Arial, Helvetica, sans-serif";}
+
+.resourceBibHeader {font-weight: bold; text-align: left;
+                    font: "Arial, Helvetica, sans-serif";}
+
+.resourceInfoData  {width: 85%; vertical-align: top;
+                    font-style: normal; font-weight: normal;
+                    font: "Arial, Helvetica, sans-serif";}
+
+.resourceInfoLabel {width: 15%; vertical-align: top;
+                    font-style: normal; font-weight: bold;
+                    font: "Arial, Helvetica, sans-serif";}
+
+.resourceLicense       {vertical-align: top; }
+.resourceLicenseEntry  {vertical-align: top; text-align: left; }
+.resourceLicenseHeader {vertical-align: top; text-align: left; }
+.resourceLinkEntry     { }
+.resourceResource      { }
+.resourceTableDiv { width: 15%; _width:0; float: right; text-align: center; }
+
+.clsResourceLicense {border: 2px solid black; }
+
+.fontbig { font-size: 1.2em; }

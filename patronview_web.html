@@ -1,0 +1,78 @@
+<HTML>
+<HEAD>
+<TITLE>Patron Record Display</TITLE>
+</HEAD>
+
+<BODY>
+<!--{toplogo}-->
+<font face="Arial, Helvetica, sans-serif">
+<center>
+<font size=4>My Account and Renewals</font>
+</center>
+
+<table border align="center" cellpadding="2" cellspacing="0" bordercolor="#333333" bgcolor="#FFFFFF">
+<tr>
+<td width=75% align=center>
+<p><strong> *** <span class="style4 style1">HANDY CATALOGUE FEATURES</span> ***</strong></p>
+<p class="style1">Receive <a href="http://www.library.carleton.ca/help/library-catalogue/searches-alerts">email alerts</a> of new material. </p>
+<p class="style1">Turn on <a href="http://www.library.carleton.ca/help/library-catalogue/enable-reading-history">Reading History</a> to keep track of all titles that you borrow. </p></td>
+</tr></table>
+
+
+<font size=4>
+<TABLE WIDTH="100%">
+<TR>
+<TD>
+<TABLE BORDER="0">
+<TR>
+<TD>
+<!--{patroninfo}-->
+<p>
+<!--{ifmymil}-->
+<!--{searchbtn}-->
+  &nbsp;
+<!--{xif}-->
+<!--{ifpsearch}-->
+<!--{psearchbtn}-->
+<!--{xif}-->
+<br />
+
+<!--{startover}-->
+
+</P>
+</TD>
+</TR>
+</TABLE>
+</td>
+<td>
+ <!--{xif}-->
+<!--{ifchkouts}-->
+<!--{chkoutsbtn}-->
+<br>
+<!--{xif}-->
+<!--{ifholds}-->
+<!--{holdsbtn}-->
+<br>
+<!--{xif}-->
+<!--{iffines}-->
+<!--{finesbtn}-->
+<!--{xif}-->
+<br>
+<!--{ifbookings}-->
+<!--{bookingsbtn}-->
+<!--{xif}-->
+<br>
+<!--{ifcirchist}-->
+<!--{circhistbtn}-->
+<!--{xif}-->
+
+</TD>
+</TR>
+</TABLE>
+<div id="patfunc">
+<!--{patfunc}-->
+</div>
+<!--{botlogo}-->
+</font>
+</BODY>
+</HTML>

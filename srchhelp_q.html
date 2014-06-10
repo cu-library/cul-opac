@@ -1,0 +1,242 @@
+<html>
+<head>
+<title>Carleton University Library Catalogue: Author Search</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+
+<style>
+<!--
+BODY,TD {
+    font: "Verdana, Arial, Helvetica, sans-serif"; 
+    color: "#000099";
+    bgcolor: "#fffff0"
+}
+H1 {
+    font: "Verdana, Arial, Helvetica, sans-serif"; 
+    color: "#000099"
+}
+-->
+</style>
+
+<script language="JavaScript">
+<!--
+function FocusSearch() {
+  document.forms[0].SEARCH.focus(); document.forms[0].SEARCH.select();
+}
+
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+
+function MM_preloadImages() { //v3.0
+  document.forms[0].SEARCH.focus(); document.forms[0].SEARCH.select();
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.0
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && document.getElementById) x=document.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+-->
+</script>
+</head>
+
+<body bgcolor="#fffff0" text="#000099" 
+      link=#000099 alink=#000099 vlink=#000099
+      onLoad="MM_preloadImages('../screens/images/cnum_link2.gif',
+                               '../screens/images/cr_link2.gif',
+                               '../screens/images/gov_link2.gif',
+                               '../screens/images/keyword_link2.gif',
+                               '../screens/images/author_link2.gif',
+                               '../screens/images/subject_link2.gif',
+                               '../screens/images/title_link2.gif',
+                               '../screens/images/restart2.gif')">
+
+<div align="center">
+<h1>
+Carleton University Library Catalogue<br>
+Author Search
+</h1>
+
+<table width=100%>
+<tr><td colspan=2 align=center>
+
+<a href="http://catalogue.library.carleton.ca/search/X"
+   onMouseOut="MM_swapImgRestore()" 
+   onMouseOver="MM_swapImage('Keyword','','../screens/images/keyword_link2.gif',1)">
+   <img name="Keyword" border="0" src="../screens/images/keyword_link.gif" 
+        width="72" height="18"></a>
+
+<a href="http://catalogue.library.carleton.ca/search/t"
+   onMouseOut="MM_swapImgRestore()" 
+   onMouseOver="MM_swapImage('Title','','../screens/images/title_link2.gif',1)">
+   <img name="Title" border="0" src="../screens/images/title_link.gif" 
+        width="72" height="18"></a>
+
+<a href="http://catalogue.library.carleton.ca/search/d"
+   onMouseOut="MM_swapImgRestore()" 
+   onMouseOver="MM_swapImage('Subject','','../screens/images/subject_link2.gif',1)">
+   <img name="Subject" border="0" src="../screens/images/subject_link.gif" 
+        width="72" height="18"></a>
+
+<a href="http://catalogue.library.carleton.ca/search/r"
+   onMouseOut="MM_swapImgRestore()" 
+   onMouseOver="MM_swapImage('Reserves','','../screens/images/cr_link2.gif',1)">
+   <img name="Reserves" border="0" src="../screens/images/cr_link.gif" 
+        width="126" height="18"></a>
+
+<a href="http://catalogue.library.carleton.ca/search/m"
+   onMouseOut="MM_swapImgRestore()" 
+   onMouseOver="MM_swapImage('Govdoc','','../screens/images/gov_link2.gif',1)">
+   <img name="Govdoc" border="0" src="../screens/images/gov_link.gif" 
+        width="126" height="18"></a>
+
+<a href="http://catalogue.library.carleton.ca/screens/callno.html"
+   onMouseOut="MM_swapImgRestore()" 
+   onMouseOver="MM_swapImage('Callno','','../screens/images/cnum_link2.gif',1)">
+   <img name="Callno" border="0" src="../screens/images/cnum_link.gif" 
+        width="101" height="18"></a>
+
+<a href="http://catalogue.library.carleton.ca/"
+   onMouseOut="MM_swapImgRestore()" 
+   onMouseOver="MM_swapImage('Start','','../screens/images/restart2.gif',1)">
+   <img name="Start" border="0" src="../screens/images/restart1.gif" 
+        width="101" height="18"></a>
+</td></tr>
+</table>
+
+<table width=100% border>
+<tr>
+<!-- left side -->
+<td align=left width=30% valign=top>
+
+<table>
+<tr><td> </td></tr>
+<tr><td> </td></tr>
+<tr><td>
+    <img src="../screens/images/info.gif" width="235" height="19"> 
+</td></tr>
+<tr><td>
+    <a href="http://www.library.carleton.ca/refsrv/maincd.html">
+            Web & CD-ROM Databases</a>
+</td></tr>
+<tr><td>
+    <a href="http://www.library.carleton.ca/refsrv/ebooks/ebooks.html">
+            E-Books</a> 
+    |
+    <a href="http://www.library.carleton.ca/refsrv/ejournals.html">E-Journals</a>
+</td></tr>
+<tr><td>
+    <a href="http://www.library.carleton.ca/refsrv/guides/sguides.html">
+            Resources by Subject</a>
+</td></tr>
+<!--
+<tr><td>
+    <a href="http://woscanada.isihost.com">Web of Science</a>
+</td></tr>
+-->
+<tr><td>
+    <a href="http://137.122.27.60/">University of Ottawa</a>
+</td></tr>
+<tr><td>
+<a href="http://cat.cisti.nrc.ca/">CISTI</a>
+</td></tr>
+<tr><td>
+    <a href="http://www.library.carleton.ca/cihm.html">
+            CIHM</a>
+</td></tr>
+<tr><td>
+<a href="http://www.library.carleton.ca/refsrv/libcatalogs1.html">Other 
+              Libraries</a>
+</td></tr>
+<tr><td>
+<a href="http://www.library.carleton.ca/data/ill/index.html">
+              ILL / Document Delivery</a>
+</td></tr>
+
+<tr><td> </td></tr>
+<tr><td> </td></tr>
+</table>
+
+<table>
+<tr><td>
+    <img src="../screens/images/general.gif" width="235" height="19"> 
+</td></tr>
+
+<tr><td>
+    <a href="http://www.library.carleton.ca/help/location.html">Help (locations)</a>
+</td></tr>
+<tr><td>
+    <a href="http://www.library.carleton.ca/data/termhours.html">Hours</a> 
+    | 
+    <a href="http://www.library.carleton.ca/data/news/news1.html">
+        News</a>
+</td></tr>
+<tr><td>
+<!--
+    <a href="http://www.library.carleton.ca/form/ill.html">
+            Interlibrary Loan Form</a>
+-->
+    <a href="http://www.library.carleton.ca/form/formsstart.html">
+    Online Forms</a>
+</td></tr>
+<tr><td>
+    <a href="http://www.library.carleton.ca/form/suggest.html">Suggestions</a> 
+    | 
+    <a href="http://www.library.carleton.ca/replies/replies.html">
+        Replies</a>
+</td></tr>
+
+<tr><td>
+    <a href="http://www.library.carleton.ca/">
+            <img src="../screens/images/llibhome.gif" 
+                 width="144" height="18" border="0">
+    </a>
+</td></tr>
+</table>
+</td>
+
+<!-- right side -->
+<td width=70% valign=top>
+<table width=100% border="0">
+<tr><td>
+<p>
+<form name="form1" action="/search/a">
+    <input type="text" size="60" name="SEARCH">
+    <input type="submit" value="Search">
+</form>
+<p>
+Type the AUTHOR, last name first, and press ENTER or click on SEARCH 
+<p><font size="-1">
+<b>Example:</b> atwood margaret
+</font>
+<p>
+For material about a person, search by 
+<a href="http://catalogue.library.carleton.ca/search/d">Subject</a>.
+Conferences, companies, governments and universities are types of
+bodies, which may be authors 
+<p><font size="-1">
+<b>Examples:</b> <br>
+   custom integrated circuits conference (2001 : San Diego, Calif.)<br>
+   economist intelligence unit<br>
+   ontario ministry of education<br>
+   Carleton University<br>
+</font>
+</td></tr>
+</table>
+
+</td></tr>
+</table>
+
+</div>
+</body>
+</html>

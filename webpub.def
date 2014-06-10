@@ -1,0 +1,229 @@
+# file: /iiidb/http/screens/webpub.def  library7        [2013 July25]
+#
+# -----------------------------------------------------
+# Converted by cvpubdef from pubdef
+# -----------------------------------------------------
+#
+#
+# converted by cvpubdef from HOLDINGS_POS: atpeR
+#
+#
+# converted from HOLDINGS_POS field tag: 'a'
+#
+#record type|field tag|marctag|subfields|label|column%|record display|append
+#      1        2         3       4        5     6           7           8
+#
+#
+b|a|110|-6e|Author||b|
+b|a|111|-6e|Conference||b|
+b|a||-6e|Author||b|
+#
+# converted from HOLDINGS_POS field tag: 't'
+#
+b|t|240|-6|Uniform Title||b|
+b|t||-6|Title||b|
+#
+# converted from HOLDINGS_POS field tag: 'p'
+#
+b|p|260|-6|Publisher||b|
+b|p||-6|Imprint||b|
+#
+# converted from HOLDINGS_POS field tag: 'e'
+#
+b|e|250|-6|Edition||b|
+b|e|254|-6|Music Format||b|
+b|e||-6|Edition||b|
+#
+# 2012 Nov 16 these changes to go into production next Tuesday afternoon 20th
+b|p|264 0||Production||b|
+b|p|264 1||Publisher||b|
+b|p|264 2||Distributor||b|
+b|p|264 3||Manufacturer||b|
+b|p|264 4||Copyright||b|
+# default any other 264 ind combination to Publisher
+b|p|264[0-9].||Publisher||b|
+b|p|264  ||Publisher||b|
+b|p|264 [5-9]||Publisher||b|
+#
+# end HOLDINGS_POS
+#
+#
+# Holdings: location|call# + item opacmsg|status
+# next line added by cvpubdef
+b|H||||||
+#
+b|y|006|u|||b|
+b|y|222|u|Marc||b|
+b|y|856|u|Url||b|
+b|y|[^8][^5][^6]|u|||b|
+b|y|970|u|Table Of Contents||b|
+b|y||u|Marc||b|
+b|h||-6|Lib Has||b|
+b|r|034|-6|||b|
+b|r|255|-6|Map Data||b|
+b|r|300|-6|Description||b|
+b|r|306|-6|Playing Time||b|
+b|r|307|-6|Duration||b|
+b|r|310|-6|Frequency||b|
+b|r|320|-6|Frequency||b|
+b|r|321|-6|Frequency||b|
+b|r|340|-6|Description||b|
+b|r|35[0-7]|-6|Description||b|
+b|r|362|-6|Date||b|
+#b|r||-6|Description||b|
+# suppress all other field group r entries
+b|r||&|||b|
+#
+b|s|4[0-1]0|-6|Series||b|
+b|s|411|-6|Conference||b|
+b|s|4[4-9]0|-6|Series||b|
+b|s|8[0-1]0|-6|Series||b|
+b|s|811|-6|Conference||b|
+b|s|830|-6|Series||b|
+b|s||-6|Series||b|
+b|n|500|-56|Notes||b|
+b|n|501|-56|With:||b|
+b|n|502|-56|Thesis||b|
+b|n|504|-56|Bibliography||b|
+b|n|505|-56|Contents||b|
+b|n|506|-56|Access||b|
+b|n|507|-56|Notes||b|
+b|n|508|-56|Credits||b|
+b|n|510|-56|Indexes In||b|
+b|n|511|-56|Performer||b|
+b|n|5111|-56|Cast||b|
+b|n|51[3-5]|-56|Notes||b|
+b|n|516|-56|File Type||b|
+b|n|518|-56|Notes||b|
+b|n|520|-56|Summary||b|
+b|n|521|-56|Audience||b|
+b|n|522|-56|Geographic Coverage||b|
+b|n|524|-56|Cite as||b|
+b|n|52[5-9]|-56|Notes||b|
+b|n|530|-56|Notes||b|
+b|n|533|-56|Reproduction||b|
+b|n|53[4-9]|-56|Notes||b|
+b|n|540||Usage and Reproduction Terms||b|
+b|n|54[1-7]|-56|Notes||b|
+b|n|550|-56|Issued By||b|
+b|n|552|-56|Notes||b|
+b|n|555|-56|Indexes||b|
+b|n|5550|-56|Finding Aids||b|
+b|n|556|-56|Notes||b|
+b|n|561|-56|Provenance||b|
+b|n|5[6-8]2|-56|Notes||b|
+b|n|58[3-5]|-56|Notes||b|
+b|n|586|-56|Awards||b|
+b|n|590|-56|Local Notes||b|
+b|n|591|-56||b|
+b|n||-56|Note||b|
+b|d|6[0-5]0|-26|Subject||b|
+b|d|651|-26|Subject||b|
+b|d|653|-26|Gov Subject||b|
+b|d|69[0-9]|-26|Subject||b|
+b|d||-26|Subject||b|
+b|b|7[0-1]0|-56|Added Author||b|
+b|b||-56|Alt Author||b|
+b|u|130|-56|Uniform Title||b|
+b|u|210|-56|Title||b|
+b|u|242|-56|Added Title||b|
+b|u|243|-56|Added Title||b|
+#
+# Sept.25'07 added new 246 tag lines
+#b|u|2460|-56|Notes||b|
+#b|u|2461|-56|Notes||b|
+b|u|246[0-1]0||Title portion||b|
+b|u|246[0-1]1||Parallel Title||b|
+b|u|246[0-1]2||Distinctive Title||b|
+b|u|246[0-1]3||Other Title||b|
+b|u|246[0-1]4||Cover Title||b|
+b|u|246[0-1]5||Added Titlepage Title||b|
+b|u|246[0-1]6||Caption Title||b|
+b|u|246[0-1]7||Running Title||b|
+b|u|246[0-1]8||Spine Title||b|
+#
+b|u|246|-56|Added Title||b|
+b|u|247|-56|Former Title||b|
+b|u|7[3-4]0|-56|Added Title||b|
+b|u||-56|Add Title||b|
+b|q|7[6-7][0-7]|-w6|Related to||b|
+b|q|787|-w6|Related to||b|
+b|q||-w6|Link||b|
+b|x|780.0|-w6|Continues||b|
+b|x|780.1|-w6|Continues in part||b|
+b|x|780.2|-w6|Supersedes||b|
+b|x|780.3|-w6|Supersedes in part||b|
+b|x|780.4|-w6|Formed by the union of||b|
+b|x|780.5|-w6|Absorbed||b|
+b|x|780.6|-w6|Absorbed in Part||b|
+b|x|780.7|-w6|Separated from||b|
+b|x||-w6|Continues||b|
+b|z|785.0|-w6|Continued by||b|
+b|z|785.1|-w6|Continued in Part By||b|
+b|z|785.2|-w6|Superseded by ||b|
+b|z|785.3|-w6|Superseded in part by||b|
+b|z|785.4|-w6|Absorbed by||b|
+b|z|785.5|-w6|Absorbed in part by||b|
+b|z|785.6|-w6|Split into||b|
+b|z|785.7|-w6|Merged with||b|
+b|z|785.8|-w6|Changed back to||b|
+b|z||-w6|Continued by||b|
+b|i|020|-6c|ISBN||b|
+b|i|022|-6c|ISSN||b|
+b|i|0284.||Videorecording#||b|
+b|i|028|-6c|Music#||b|
+b|i||-6c|||b|
+b|f|9[1-7][0-7]|-6|Local Notes||b|
+b|f||-6|Local||b|
+# 20070731: add identity for non-MARC field (can't do both?)
+c|i|843||Identity||b|
+#c|i|||Identity||b|
+c|C||&|||b|
+c|Q||||b|
+c|$||+|Location||b|
+c|h||-8x|||b|
+c|2||+|Latest Received||b|
+c|3||+|Latest Received||b|
+c|Q||||b|
+#
+# end pubdef
+#
+#
+# -----------------------------------------------------
+# Converted by cvpubdef from item_col_width: 1(23),Cv#(30),%
+# -----------------------------------------------------
+i|1||||29|b|
+i|C||||0|b|&nbsp;
+i|v||||0|b|&nbsp;
+i|#||||38|b|&nbsp;
+i|!||||0|b|
+i|Q||||b|
+i|%||||0|b|
+#
+#end converted webpub.def
+#
+#record type|field tag|marctag|subfields|label|column%|record display|append
+#      1        2         3       4        5     6           7           8
+#
+#-------------------------------
+# Resource record
+#-------------------------------
+e|t|||Resource Title||e|
+#e|x|||Alternate Title||e|
+e|a|||Author||e|
+e|e|||Description||e|
+#e|v|||Type||e|
+#e|b|||Format||e|
+e|k|||Advisory||e|
+e|n|||Note||e|
+#e|d|||Category||e|
+#e|p|||Resource ID||e|
+#e|u|||Trial Information||e|
+e|j|||Access Information||e|
+#e|g|||User Support||e|
+#e|m|||Administration||e|
+#e|f|||Public Note||e|
+#e|y|||URL||e|
+#
+#
+#end webpub.def

@@ -1,0 +1,148 @@
+<!--{toplogo}-->
+<font face="Arial, Helvetica, sans-serif">
+<center>
+<h3>Hold/Request</h3>
+</center>
+
+<!--{reqmsg}-->
+
+<FORM METHOD=POST>
+<!--{iferrmsg}-->
+<FONT COLOR=RED SIZE=+2><EM>
+<!--{iferrmsgisPIN}-->
+<!--{newpinmsg}-->
+<!--{else}-->
+<!--{errmsg}-->
+<!--{xif}-->
+</EM></FONT><BR><BR>
+<!--{xif}-->
+<!--{ifrequestmoney}-->
+<FONT SIZE=+1 COLOR=RED>
+<!--{requestmoney}-->
+</FONT><BR>
+<!--{xif}-->
+   <!--{enterinfo}-->
+<TABLE WIDTH=100%>
+<!--{ifneedpatronname}-->
+<TR><TD WIDTH=30%></TD><TD><FONT SIZE=-1>
+<!--{nameexample}-->
+</FONT></TD></TR><TR><TD>
+<!--{nameprompt}-->
+</TD><TD>
+<!--{name}-->
+</TD></TR>
+<!--{xif}-->
+<!--{ifneedpatronverify}-->
+<TR><TD></TD><TD><FONT SIZE=-1>
+
+<font size=4><!--{barcodeexample}-->
+
+</font>
+</FONT></TD></TR>
+<TR><TD>
+<font size=4>Barcode:</font><!--{barcodeprompt}-->
+</TD><TD>
+<input NAME=code TYPE=text VALUE="" SIZE=40 MAXLENGTH=40><!--{barcode}-->
+</TD></TR>
+<!--{ifneedspin}-->
+<!--{iferrmsgisPIN}-->
+<TR><TD COLSPAN=2>
+<!--{newpinmsg}-->
+</TD></TR><TR><TD>
+<!--{pin1prompt}-->
+</TD><TD>
+<!--{pin1}-->
+</TD></TR><TR><TD>
+<!--{pin2prompt}-->
+</TD><TD>
+<!--{pin2}-->
+</TD></TR>
+<!--{else}-->
+<TR><TD></TD><TD><FONT SIZE=-1><!--{pininstructions}-->
+<font size=3>
+
+This is the number found under the barcode on your Library or campus card.
+<br>e.g. <br>
+<img src="/screens/images/barcode3.jpg" alt="barcode vertical lines" width="275" height="65">
+<br>If your barcode ends in an X, enter the X in upper-case.
+</br><br>
+</font>
+</FONT></TD></TR><TR><TD>
+<font size=4>PIN:</font><!--{pinprompt}-->
+</TD><TD>
+<!--{pin}-->
+</TD></TR>
+
+<tr><td></td><td><font size=3><p><b>Students:</b> First 6-digits of your <a href="http://www.central.carleton.ca">Carleton Central</a> PIN<br><b>Other registered users:</b> 4-digit PIN chosen when setting up your account at the
+Circulation Desk.</p></font></td></tr>
+
+<!--{xif}-->
+<!--{xif}-->
+<!--{xif}-->
+</TABLE>
+<!--{ifcampus}-->
+<!--{campus}-->
+<!--{else}-->
+<!--{holdshelfmenu}-->
+<!--{xif}-->
+<!--{ifreqischeckin}-->
+Fill in the following only if you are requesting an
+   article from this journal.
+<!--{ifcheckinhasvols}-->
+If you do not fill in the information below, you will be
+   asked to indicate which volume of the journal you want.
+<!--{xif}-->
+<TABLE WIDTH=100%>
+<TR><TD WIDTH=30%>Article Author</TD><TD>
+<!--{author}-->
+</TD></TR>
+<TR><TD>Article Title</TD><TD>
+<!--{title}-->
+</TD></TR>
+<TR><TD>Date, Volume, Issue & Page of Article</TD><TD>
+<!--{pubinfo}-->
+</TD></TR>
+<TR><TD>Other Info</TD><TD>
+<!--{other}-->
+</TD></TR>
+</TABLE>
+<!--{xif}-->
+
+<!--{ifreqinst}-->
+<!--{reqinst}-->
+
+<!--{inst}-->
+
+<!--{xif}-->
+<!--{ifillreq}-->
+<!--{illreq}-->
+
+<!--{xif}-->
+<!--{ifneedNNA}-->
+<!--{needbyprompt}-->
+<!--{needby}-->
+
+<!--{xif}-->
+<table border="0">
+<tr><td align="left">
+<!--{submit}-->
+&nbsp;&nbsp;
+</td><td align="right">
+&nbsp;&nbsp;
+<!--{startover}-->
+</td></tr></table>
+</FORM>
+<DIV>
+<ul>
+<font size=3>
+<li><strong>External borrowers</strong> have no Hold/Request privileges and must complete this 
+<a href=http://www.library.carleton.ca/services/storage-facility/storage-facility-retrieval-request title="Storage Facility form"> form</a> to
+ request an item from
+the Library's Storage Facility.
+<li> Information on <a href="http://www.library.carleton.ca/services/borrowing/holds-requests-and-recalls"> holds & requests.</a>
+</ul>
+Problems with your account? <a href="http://www.library.carleton.ca/help/support/account-assistance">Contact us</a>
+<p>
+
+</BODY>
+</HTML>

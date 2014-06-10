@@ -1,0 +1,91 @@
+<HTML>
+	<HEAD>
+	    <TITLE>Cookie Pickup</TITLE>
+		<META HTTP-EQUIV="Content-Script-Type" CONTENT="text/javascript">
+		<META HTTP-EQUIV="Pragma" CONTENT="no-cache">
+		<META HTTP-EQUIV="expires" CONTENT="-1">
+        <SCRIPT language="JavaScript1.1">
+function performCookiePickup()
+{
+    var debug = false;
+    var destinationURL;
+    var searchString = document.location.search;
+    if ( searchString.length == 1 )
+    {
+        // nothing to do
+        return;
+    }
+
+    // strip off the leading '?'
+    searchString = searchString.substring( 1 );
+
+    // split the string on '&'
+    var searchParameters = searchString.split( '&' );
+    for ( i=0; i<searchParameters.length; i++ )
+    {
+        // split the name value pairs
+        var nvPair = searchParameters[i].split( "=" );
+        if ( nvPair.length < 2 )
+        {
+            if ( nvPair.length == 1 &&
+                 nvPair[0] == "debug" )
+            {
+                debug = true;
+            }
+            else
+            {
+                if ( debug )
+                    document.write( "Received Parameter -> " + name + "<br>" );
+            }
+        }
+        else
+        {
+            var name = nvPair[0];
+            var value = nvPair[1];
+
+            if ( name == "cookie" )
+            {
+                var cookie = unescape( value );
+                if ( debug )
+                    document.write( "Setting cookie -> " + cookie + "<br>" );
+                document.cookie = cookie;
+            }
+            else if ( name == "dest" )
+            {
+                destinationURL = unescape( value );
+                if ( debug )
+                    document.write( "Destination URL -> " + destinationURL + "<br>" );
+            }
+            else if ( name == "debug" )
+            {
+                debug = true;
+            }
+            else
+            {
+                if ( debug )
+                    document.write( "Received Parameter -> " + name +
+                        " = " + value + "<br>" );
+            }
+        }
+    }
+    
+    if ( destinationURL )
+    {
+        if ( debug )
+            window.alert( "Redirecting to -> " + destinationURL );
+        document.location.replace(destinationURL);
+    }
+    else
+    {
+        // must be a debug session that is dead ending :)
+    }
+}
+
+performCookiePickup();
+
+        </SCRIPT>
+    </HEAD>
+    <BODY>
+&nbsp;
+    </BODY>
+</HTML>

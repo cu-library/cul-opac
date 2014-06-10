@@ -1,0 +1,467 @@
+# library7 file: /iiidb/http/screens/wwwoptions
+# revised to include Rel 2009B Example Set wwwoptions structure
+# See also: http://csdirect.iii.com/manual/rmil_alpha_wwwoption_list.html
+# 20090602: prefered searches email for ptypes 0,1,9,10
+# 20080910: library staff continuing patron type 33
+#
+#
+#Directory:
+# General Display and Behavior
+# Staff
+# General and Phrase Searching
+# Advanced Searching
+# Search Results
+# Record Displays
+# Electronic Resource Management
+# Holdings
+# My Lists
+# Saving and Exporting
+# Requesting
+# Patron Record
+# My Millennium
+# Patron Ratings
+# Ecommerce
+# Bookings
+# Media Management
+# Reserves
+# Featured Lists
+# Content Linking and Other Resources
+# Patron Feeds
+# Z39.50
+# Partner
+# AirPAC
+# Patron Registration
+# WebPAC Pro
+#
+# General Display and Behavior
+#
+INSERTTAG_INHEAD=<link rel="icon" href="/screens/images/CU_icon.gif" type="image/gif">
+SSLPORT=80:443|8080:444
+STYLESHEET=/screens/stylesheet.css
+BODYPARAM=BGCOLOR="white" LINK=#000099 VLINK=#000099
+SUPPRESS_OPTION=ENCYCPD,WORDSRCH
+STATGROUP=login
+NOSEARCH=nub
+STARTOVER=/search
+PSTARTOVER=/search
+XSTARTOVER=/search
+# 20110830
+# TOPLOGO_LOGGEDIN=True
+TOPLOGO=@screens/toplogo.html
+BOTLOGO=@screens/botlogo.html
+#
+TOPLOGO1=@screens/toplogo1.html
+BOTLOGO1=@screens/botlogo1.html
+#
+TOPLOGO2=@screens/toplogo2.html
+BOTLOGO2=@screens/botlogo2.html
+#
+TOPLOGO3=@screens/toplogo3.html
+BOTLOGO3=@screens/botlogo3.html
+#
+TOPLOGO4=@screens/toplogo4.html
+BOTLOGO4=@screens/botlogo4.html
+#
+TOPLOGO5=@screens/toplogo5.html
+BOTLOGO5=@screens/botlogo5.html
+#
+TOPLOGO6=@screens/toplogo6.html
+BOTLOGO6=@screens/botlogo6.html
+#
+TOPLOGO7=@screens/toplogo7.html
+BOTLOGO7=@screens/botlogo7.html
+#
+TOPLOGO8=@screens/toplogo8.html
+BOTLOGO8=@screens/botlogo8.html
+#
+RESET_SCOPE=Yes
+#
+# on timeout return to mainmenu @ unscope the catalogue
+TIMEOUT=610;URL=http://catalogue.library.carleton.ca/
+#
+#2003 Nov 25: added timeout multiplier
+#This optional timeout value is multiplied by the value set with the TIMEOUT 
+#option for these pages only (note: a semicolon separates the <Percentage> 
+#from <Timeout>). 
+#
+FRAMEURL=25;3
+FRAMEURL_PAT=40
+#
+# General and Phrase Searching
+#
+KEYWORD_COLOR=Y|all|red
+# Indexes available on the drop down search menu (X for advanced keyword)
+DROP_DOWN=Xtadchi
+#
+# Patron Record
+#
+MY_WEBPAC=false,3,0-4,8-10,33,99
+#
+# Staff
+#
+STAFF=99
+STAFF_LOGGEDIN_MSG=<center>STAFF logged in %s</center>
+#
+# My Millennium
+#
+LOGGEDIN_MSG=<center>Logged in to %s as %s</center>
+# NO_REVERIFY=req
+NO_REVERIFY=req,book
+# PREF_SEARCHES[_P#]=<NumSearches>|<EmailOpt>
+# 0: Undergrad, 1: 4th Year, 2: Graduate, 3: Staff, 4: Staff Non-Continuing,
+# 8: CU SLALS, 9: OU Joint Undergrad, 10: OU Joint Grad, 33: Library Staff,
+# 34: CIDA staff
+PREF_SEARCHES_P0=15|Y
+PREF_SEARCHES_P1=15|Y
+PREF_SEARCHES_P2=20|Y
+PREF_SEARCHES_P3=20|Y
+PREF_SEARCHES_P4=20|Y
+PREF_SEARCHES_P8=15|Y
+PREF_SEARCHES_P9=20|Y
+PREF_SEARCHES_P10=20|Y
+PREF_SEARCHES_P33=20|Y
+PREF_SEARCHES_P34=15|Y
+PREFTEXT=Save Search
+#
+# Saving and Exporting
+#
+EXPORT_SELECT_TABLE=Sendto:browser,email,local|Format:full,brief,marc,endnote,procite
+EMAILOP=From the Library Catalogue|recordexport@library.carleton.ca|
+#
+# Requesting
+#
+# BIBREQUEST=1
+REQUEST=Place a hold on this item|item|home
+#
+# Media Management
+#
+ERESERVE=[0123456789]
+#
+#
+# General and Phrase Searching
+#
+OFFER_HISTORY=true
+#
+#
+# Advanced Searching
+#
+AVS_TAG=X
+# don't use relevence
+AVS_RELEVANCE_FORMAT=0
+# AUTHOR_TITLE_TAG=a
+#
+# Search results
+#
+# Index Browse and Record Browse display
+# BROWSE_HEADERS=<Select>|<Format>|<Number>
+# BROWSE_HEADERS=Mark|Medium|Num
+BROWSE_HEADERS=Mark|Material Type|^
+# SORT_BROWSE=<code>:<label>|<code>:<label>|<code>:<label>|...
+SORT_BROWSE=t:Title|a:Author|r:Year (newest)|c:Year (oldest)|n:Call Number
+#
+# changed 2003 May 5 (U added)
+# EXTENDED controls the second line of two-line displays.
+EXTENDED=AUCT
+#
+# This option forces browse screens for particular indexes to default to the
+# extended (two-line) browse format rather than the brief browse format.
+# This option is typically used with call number indexes.
+# Browse display defaults to two-line mode if the user is searching in the
+# index associated with tag 'c'
+INDEX_EXT=mcoi
+#
+#
+MEDIA=true
+#
+# IMAGE_MATTYPEx option for the particular material type. The 'x' in 
+# IMAGE_MATTYPEx specifies the code for the material type.
+IMAGE_MATTYPEa=/screens/mattype_blank/media_book_blank.gif
+IMAGE_MATTYPEm=/screens/mattype_blank/media_cdrom_blank.gif
+IMAGE_MATTYPEe=/screens/mattype_blank/media_map_blank.gif
+IMAGE_MATTYPEc=/screens/mattype_blank/media_printedmusic_blank.gif
+IMAGE_MATTYPEg=/screens/mattype_blank/media_film_blank.gif
+IMAGE_MATTYPEj=/screens/mattype_blank/media_cdmusic_blank.gif
+IMAGE_MATTYPEi=/screens/mattype_blank/media_cdbook_blank.gif
+#
+#
+# Record Displays
+#
+# DISPLAY_856=<subfield list>|<open in new tab/window> (new in release 2007)
+DISPLAY_856=z|true
+LINK856TEXT=Available online via:
+MARC=yes
+HOLDINGS_POS=atpR
+# Use /iiidb/marc/webpub.def for bibliographic record display. 
+WEBPUBDEF=true
+BIB_TOC_HEADER=<strong>Table of Contents</strong><br><br>
+# ICON_RECORDLINK=<a href="javascript:open_refworks_win('http://refworks.scholarsportal.info/express/ExpressImport.asp?vendor=Refworks%%20Tagged%%20Format&url=http://refworks.library.carleton.ca/cgi-bin/refworks/refworks.php?recordnum');"><img src="/screens/buttons/refworks2.gif" alt="Export to Refworks" border="0"></a><div class="bibRecordLink"><a id="recordnum" href="%s"><img src="/screens/images/blank.gif" border="0"></a></div>
+# 2010 June 15 when switching to bib_display.html use:
+ICON_RECORDLINK=<font size="-2">Link to this record: <span class="bibRecordLink"><a id="recordnum" href="%s">%s</a></span></font>
+# Order records
+# SHOWOREC=no_cdate
+#
+#
+# Holdings
+DISPLAY_CHECKIN_856=z|true
+#
+# Patron Record
+#
+# fields and subfields to present
+# name, barcode, phone#, & email
+PATRON_FIELDS=n/a|b/a|t/a|z/a
+#
+#
+# z39.50 parameters
+#
+# Z39PORT=80:211
+# must exactly match the definitions (case) in the Z39.50 servers file
+# Z39RESTRICT=TESTPAC/INNOPAC,CARLT/INNOPAC
+# Z39IPOK=134.117.10.33,134.117.10.91,134.117.40.51
+# Z39SEARCH=TESTPAC:INNOPAC,CARLT:INNOPAC,CISTI:INNOPAC
+Z39BROADCAST=Z39.50 Broadcast Search:Please select the Z39.50 servers to which you want to send your search
+Z39MULTI=500:100
+#
+XRECTYPE=bi
+#
+# Partner
+#
+# PARTNER=catalogue.library.carleton.ca&<img border=0 src="/screens/buttons/partner1.gif" alt="(University of Ottawa)">@orbis.uottawa.ca/
+#
+# Content Linking and Other Resources
+#
+# BIBIMAGE=<URL>|<tag>|<full-sized URL>
+# BIBIMAGE_TEXT=Book Jacket
+#
+# Syndetics.com: client code "carletonu" SC=>small MC=>medium LC=>large image
+# BIBIMAGE=http://www.syndetics.com/index.aspx?isbn=%s/SC.GIF&client=carletonu|i|http://www.syndetics.com/index.aspx?isbn=%s/LC.GIF&client=carletonu
+BIBIMAGE=https://secure.syndetics.com/index.aspx?isbn=%s/SC.GIF&client=carletonu|i|https://secure.syndetics.com/index.aspx?isbn=%s/LC.GIF&client=carletonu
+#
+#
+# Featured Lists
+#
+FEATURED_LIST=1
+#
+#
+# Bookings
+#
+# BOOKINGS=[limit]|[patron cancel]|[items] default=no|false|true
+BOOKINGS=no|true|true
+BOOKINGS_MONTH_LEGEND=<span class="bookingsLegend">Video unavailable for bookings on <span class="closed">X</span> days. &nbsp;&nbsp;Video already booked on <span class="unavailable">grayed out</span> days.
+#
+BOOK_CAL_AVAIL=black
+BOOK_CAL_BKGRD=white
+BOOK_CAL_CLOSE=red
+BOOK_CAL_UNAVAIL=blue
+#
+#
+# OPTION BUTTONS
+BUT_ANOTHER=/screens/buttons/another.gif
+BUT_BIBEXPORT=/screens/buttons/bibexport.gif
+BUT_BRIEF=/screens/buttons/brief.gif
+BUT_CLEAR_MARKED=/screens/buttons/clear_marked.gif
+BUT_EXPORT_VIEW_SAVES=/screens/buttons/export_view_saves.gif
+BUT_EMAIL=/screens/buttons/email.gif
+BUT_EXTENDED=/screens/buttons/extended.gif
+BUT_LIMIT=/screens/buttons/limit.gif
+BUT_LOGOUT=/screens/buttons/logout.gif
+# BUT_PLOGOUT=/screens/buttons/ret2prec.gif
+BUT_PSTARTOVER=/screens/buttons/cathome.gif
+BUT_MARC_DISPLAY=/screens/buttons/marc_display.gif
+BUT_MODIFY=/screens/buttons/limit.gif
+BUT_NEWSRCH=/screens/buttons/newsrch.gif
+BUT_NEXTPAGE=/screens/buttons/nextpage.gif
+BUT_NEXTREC=/screens/buttons/nextrec.gif
+BUT_PREVPAGE=/screens/buttons/prevpage.gif
+BUT_PREVREC=/screens/buttons/prevrec.gif
+BUT_PREVSCRN=/screens/buttons/prevscrn.gif
+BUT_REGULAR_DISPLAY=/screens/buttons/regular_display.gif
+BUT_REQUEST=/screens/buttons/request.gif
+BUT_RETHOME=/screens/buttons/rethome.gif
+BUT_RTRNTB=/screens/buttons/rtrntb.gif
+BUT_RET2CAT=/screens/buttons/ret2cat.gif
+BUT_RET2CRS=/screens/buttons/ret2crs.gif
+BUT_SHOWSIM=/screens/buttons/showsim.gif
+BUT_STARTOVER=/screens/buttons/rethome.gif
+BUT_CARDFORM_LIN=/screens/buttons/cardform_lin.gif
+BUT_CARDFORM_BOX=/screens/buttons/cardform_box.gif
+BUT_WORDSRCH=/screens/buttons/wordsrch.gif
+BUT_Z39_REQUEST=/screens/buttons/request.gif
+BUT_Z39SEARCH=/screens/buttons/z39search.gif
+BUT_Z39_ANOTHER=/screens/buttons/z39_another.gif
+#
+BUT_STAFF=/screens/buttons/staff.gif
+BUT_PUBLIC=/screens/buttons/public.gif
+BUT_CLOSEWN=/screens/buttons/closewn.gif
+BUT_LIMAVAIL=/screens/buttons/limavail.gif
+BUT_UNLIMAVAIL=/screens/buttons/unlimavail.gif
+BUT_RET2PREC=/screens/buttons/ret2pat.gif
+#
+BUT_PAT_SEARCH=/screens/buttons/pat_search.gif
+# BUT_PAT_HOLDS=/screens/buttons/pat_holds.gif
+BUT_PAT_RENEWMARK=/screens/buttons/pat_renewmark.gif
+BUT_PAT_RENEWALL=/screens/buttons/pat_renewall.gif
+BUT_PAT_SORTBYCHKOUT=/screens/buttons/pat_sortbychkout.gif
+BUT_PAT_SORTBYDUE=/screens/buttons/pat_sortbydue.gif
+BUT_PAT_CANCELALL=/screens/buttons/pat_cancelall.gif
+BUT_PAT_CANCELMARK=/screens/buttons/pat_cancelmark.gif
+BUT_PAT_GETPSAVEDRECS=/screens/buttons/getpsavedrecs.gif
+BUT_PAT_PSEARCH_REMOVE=/screens/buttons/pat_psearch_remove.gif
+BUT_PAT_PSEARCH_UPDATE=/screens/buttons/psearch_updatelist.gif
+#
+BUT_BOOKING=/screens/bookitem.gif
+BUT_ENCYCPD=/screens/encycpd.gif
+BUT_FULL_TEXT=/screens/fulltxt.gif
+BUT_RET2FEAT=/screens/ret2feat.gif
+BUT_ILL_HOME=/screens/illano.gif
+BUT_ILL_CANCEL=/screens/illcan.gif
+BUT_ILL_FORM=/screens/illform.gif
+BUT_VIEW_SAVES=/screens/b_bookcart.gif
+#
+# icons
+ICON_BOOKCART_SAVED=<img src="/screens/buttons/bookcart_saved.gif" alt="Remove from BookCart" border=0>
+ICON_BOOKINGS_HEADER=<img src="/screens/buttons/bookings_header.gif" alt="Book This Title" border=0>
+ICON_SORTPUDATE=<img src="/screens/buttons/sortpudate.gif" alt="Sort By Pickup Date" border=0>
+ICON_SORTREQDATE=<img src="/screens/buttons/sortreqdate.gif" alt="Sort By Request Date" border=0>
+#
+ICON_OK=<img src="/screens/buttons/confirm.gif" alt="Confirm" border=0>
+ICON_SUBMIT=<img src="/screens/buttons/submit.gif" alt="Submit" border=0>
+ICON_CANCEL=<img src="/screens/buttons/cancel.gif" alt="Cancel" border=0>
+#
+ICON_READING_HISTORY=My Reading History
+ICON_PAT_DELETE_ALL=<img src="/screens/buttons/delete_All.gif" alt="Delete All" border="0"/>
+ICON_PAT_DELETE_MARKED=<img src="/screens/buttons/delete_marked.gif" alt="Delete Marked" border="0"/>
+ICON_READING_HISTORY_OPTIN=<img src="/screens/buttons/opt_in.gif" alt="Optin to Reading History" border="0"/>
+ICON_READING_HISTORY_OPTOUT=<img src="/screens/buttons/opt_out.gif" alt="Optout of My Reading History" border="0"/>
+ICON_READING_HISTORY_EXPORT=<img src="/screens/buttons/export.gif" alt="Export My Reading History" border="0"/>
+READING_HISTORY_DELETE=true
+#
+#
+# urls for location code links
+LOC_flr5=http://www.library.carleton.ca/floor-maps?quicktabs_floor_maps=4#quicktabs-floor_maps" target="_blank
+LOC_vid=http://www.library.carleton.ca/floor-maps?quicktabs_floor_maps=1#quicktabs-floor_maps" target="_blank
+LOC_itv=http://www2.library.carleton.ca/help/FloorPages/CampusLoeb.html
+LOC_itc=http://www2.library.carleton.ca/help/FloorPages/CampusLoeb.html
+LOC_ite=http://www2.library.carleton.ca/help/FloorPages/CampusLoeb.html
+LOC_flr1=http://www.library.carleton.ca/floor-maps?quicktabs_floor_maps=0#quicktabs-floor_maps" target="_blank
+LOC_fol1=http://www.library.carleton.ca/floor-maps?quicktabs_floor_maps=2#quicktabs-floor_maps" target="_blank
+LOC_nsm=http://www.library.carleton.ca/floor-maps?quicktabs_floor_maps=1#quicktabs-floor_maps" target="_blank
+LOC_ser1=http://www.library.carleton.ca/floor-maps?quicktabs_floor_maps=0#quicktabs-floor_maps" target="_blank
+LOC_mcr=http://www.library.carleton.ca/floor-maps?quicktabs_floor_maps=0#quicktabs-floor_maps" target="_blank
+LOC_mfi=http://www.library.carleton.ca/floor-maps?quicktabs_floor_maps=0#quicktabs-floor_maps" target="_blank
+LOC_mfl=http://www.library.carleton.ca/floor-maps?quicktabs_floor_maps=1#quicktabs-floor_maps" target="_blank
+LOC_stw=http://www.library.carleton.ca/floor-maps?quicktabs_floor_maps=1#quicktabs-floor_maps" target="_blank
+LOC_rsv=http://www.library.carleton.ca/floor-maps?quicktabs_floor_maps=1#quicktabs-floor_maps" target="_blank
+LOC_ref=http://www.library.carleton.ca/floor-maps?quicktabs_floor_maps=1#quicktabs-floor_maps" target="_blank
+LOC_rrf=http://www.library.carleton.ca/floor-maps?quicktabs_floor_maps=1#quicktabs-floor_maps" target="_blank
+LOC_mdc=http://www.library.carleton.ca/floor-maps?quicktabs_floor_maps=0#quicktabs-floor_maps" target="_blank
+LOC_mdr=http://www.library.carleton.ca/floor-maps?quicktabs_floor_maps=0#quicktabs-floor_maps" target="_blank
+LOC_mrr=http://www.library.carleton.ca/floor-maps?quicktabs_floor_maps=0#quicktabs-floor_maps" target="_blank
+LOC_ddr=http://www.library.carleton.ca/floor-maps?quicktabs_floor_maps=0#quicktabs-floor_maps" target="_blank
+LOC_mpt=http://www.library.carleton.ca/floor-maps?quicktabs_floor_maps=0#quicktabs-floor_maps" target="_blank
+LOC_mde=http://www.library.carleton.ca/floor-maps?quicktabs_floor_maps=0#quicktabs-floor_maps" target="_blank
+LOC_ddv=http://www.library.carleton.ca/floor-maps?quicktabs_floor_maps=0#quicktabs-floor_maps" target="_blank
+LOC_ddn=http://www.library.carleton.ca/floor-maps?quicktabs_floor_maps=0#quicktabs-floor_maps" target="_blank
+LOC_ddf=http://www.library.carleton.ca/floor-maps?quicktabs_floor_maps=0#quicktabs-floor_maps" target="_blank
+LOC_ddm=http://www.library.carleton.ca/floor-maps?quicktabs_floor_maps=0#quicktabs-floor_maps" target="_blank
+LOC_mpm=http://www.library.carleton.ca/floor-maps?quicktabs_floor_maps=0#quicktabs-floor_maps" target="_blank
+LOC_mph=http://www.library.carleton.ca/floor-maps?quicktabs_floor_maps=0#quicktabs-floor_maps" target="_blank
+LOC_mpl=http://www.library.carleton.ca/floor-maps?quicktabs_floor_maps=0#quicktabs-floor_maps" target="_blank
+LOC_mpa=http://www.library.carleton.ca/floor-maps?quicktabs_floor_maps=0#quicktabs-floor_maps" target="_blank
+LOC_mpg=http://www.library.carleton.ca/floor-maps?quicktabs_floor_maps=0#quicktabs-floor_maps" target="_blank
+LOC_mpf=http://www.library.carleton.ca/floor-maps?quicktabs_floor_maps=0#quicktabs-floor_maps" target="_blank
+LOC_mpp=http://www.library.carleton.ca/floor-maps?quicktabs_floor_maps=0#quicktabs-floor_maps" target="_blank
+LOC_flr3=http://www.library.carleton.ca/floor-maps?quicktabs_floor_maps=2#quicktabs-floor_maps" target="_blank
+LOC_fol3=http://www.library.carleton.ca/floor-maps?quicktabs_floor_maps=2#quicktabs-floor_maps" target="_blank
+LOC_flr4=http://www.library.carleton.ca/floor-maps?quicktabs_floor_maps=3#quicktabs-floor_maps" target="_blank
+LOC_fol4=http://www.library.carleton.ca/floor-maps?quicktabs_floor_maps=3#quicktabs-floor_maps" target="_blank
+LOC_flr5=http://www.library.carleton.ca/floor-maps?quicktabs_floor_maps=4#quicktabs-floor_maps" target="_blank
+LOC_fol5=http://www.library.carleton.ca/floor-maps?quicktabs_floor_maps=4#quicktabs-floor_maps" target="_blank
+LOC_vid2=http://www.library.carleton.ca/floor-maps?quicktabs_floor_maps=1#quicktabs-floor_maps" target="_blank
+LOC_nsp=http://www.library.carleton.ca/floor-maps?quicktabs_floor_maps=2#quicktabs-floor_maps" target="_blank
+LOC_arc=http://www.library.carleton.ca/floor-maps?quicktabs_floor_maps=4#quicktabs-floor_maps" target="_blank
+LOC_raf=http://www.library.carleton.ca/floor-maps?quicktabs_floor_maps=4#quicktabs-floor_maps" target="_blank
+LOC_rar=http://www.library.carleton.ca/floor-maps?quicktabs_floor_maps=4#quicktabs-floor_maps" target="_blank
+LOC_sco=http://www.library.carleton.ca/floor-maps?quicktabs_floor_maps=4#quicktabs-floor_maps" target="_blank
+LOC_spc=http://www.library.carleton.ca/floor-maps?quicktabs_floor_maps=4#quicktabs-floor_maps" target="_blank
+LOC_ltp=http://www.library.carleton.ca/floor-maps?quicktabs_floor_maps=1#quicktabs-floor_maps" target="_blank
+LOC_acq=http://www.library.carleton.ca/floor-maps?quicktabs_floor_maps=1#quicktabs-floor_maps" target="_blank
+LOC_cat=http://www.library.carleton.ca/floor-maps?quicktabs_floor_maps=1#quicktabs-floor_maps" target="_blank
+LOC_ddo=http://www.library.carleton.ca/floor-maps?quicktabs_floor_maps=1#quicktabs-floor_maps" target="_blank
+LOC_ill=http://www.library.carleton.ca/floor-maps?quicktabs_floor_maps=1#quicktabs-floor_maps" target="_blank
+LOC_lof=http://www.library.carleton.ca/floor-maps?quicktabs_floor_maps=1#quicktabs-floor_maps" target="_blank
+LOC_mdo=http://www.library.carleton.ca/floor-maps?quicktabs_floor_maps=0#quicktabs-floor_maps" target="_blank
+LOC_reo=http://www.library.carleton.ca/floor-maps?quicktabs_floor_maps=1#quicktabs-floor_maps" target="_blank
+LOC_sdo=http://www.library.carleton.ca/floor-maps?quicktabs_floor_maps=1#quicktabs-floor_maps" target="_blank
+LOC_sys=http://www.library.carleton.ca/floor-maps?quicktabs_floor_maps=1#quicktabs-floor_maps" target="_blank
+LOC_cdm=http://www.library.carleton.ca/floor-maps?quicktabs_floor_maps=2#quicktabs-floor_maps" target="_blank
+LOC_stg=http://www.library.carleton.ca/services/storage-facility/storage-facility-appointment-request "target="_blank
+LOC_ths=http://www.library.carleton.ca/forms/thesis-storage-retrieval-request "target="_blank
+# LOC_stv=http://www.library.carleton.ca/floor-maps?quicktabs_floor_maps=1#quicktabs-floor_maps" target="_blank
+LOC_stp=http://www.library.carleton.ca/services/interlibrary-loans/racer-eligibility
+LOC_stm=http://www.library.carleton.ca/forms/storage-facility-microfilm-request" target="_blank
+LOC_ors=http://www2.library.carleton.ca/help/FloorPages/OrderRec.html
+LOC_orm=http://www2.library.carleton.ca/help/FloorPages/OrderRec.html
+#
+#
+# Electronic Resource Management
+#
+# BIB_LICENSE_FIELDS=Permitted:Vlw|Restricted:Vlx
+BIB_LICENSE_FIELDS_BRIEF=<strong>Authorized Users</strong>,Vlu|<strong>Terms of Use</strong>,Vlt
+# BIB_RESOURCE_CAPTION=<strong>This title is available electronically via:</strong>
+BIB_RESOURCE_FIELDS=:VeT|:VeE|:Vek
+BIB_RESOURCE_FIELDS_BRIEF=:VcY|:Vch|:VeE
+BIB_RESOURCE_NUM_BRIEF=A
+# ICON_BIB_RESOURCE_DETAILS=<img src="/screens/bib_resource_details.gif" class="button" border="0" alt="Full Details" />
+# ICON_RESOURCE_RECORD=<img src="/screens/resource_record.gif" class="button" border="0" alt="About This Resource" />
+# ICON_RESOURCE_RECORD=About This Resource
+# ICON_VIEW_ADDITIONAL_ITEMS=<img src="/screens/view_additional_items.gif" border="0" alt="View Additional Items" />
+RESOURCE_ADVISORY=k
+RESOURCE_HOLDINGS_FIELDS=Title:VbT|Coverage:Vch|Link:VcY
+RESOURCE_HOLDINGS_MAX=12
+RESOURCE_LICENSE_FIELDS=Authorized users:Vlu|Access notes:Vla|Max. Simultaneous Users:Fl232|Terms of Use:Vlt
+TABLEPARAM_BIB_LICENSE=width="100%" border="0" cellpadding="2"
+TABLEPARAM_BIB_RESOURCE=border="0" cellspacing="1" cellpadding="2"
+TABLEPARAM_BIB_RESOURCE_BRIEF=border="0" cellspacing="1" cellpadding="2"
+TABLEPARAM_RESOURCE_BIB=width="100%" border="0" cellpadding="2"
+TABLEPARAM_RESOURCE_LICENSE=width="100%" border="0" cellpadding="2" class="clsresourceLicense"
+TABLEPARAM_RESOURCE_RESOURCE=width="100%" border="0" cellspacing="1" cellpadding="2"
+#
+#
+# WebPAC Pro
+#
+# Added for Pro Conversion
+# C0981267 relevance wording on a browse screen: 
+#          change the wording by modifying the value in the "alt" tag of 
+#          the ICON_REL_GROUP
+#
+BROWSE50=true
+TABLEPARAM_BRIEFCIT=True|border="0" cellpadding="3" width="100%"
+ICON_REL_GROUP_1=<img src="/screens/relevance5.gif" alt="">&nbsp;Most relevant&nbsp;
+ICON_REL_GROUP_2=<img src="/screens/relevance4.gif" alt="">&nbsp;Highly relevant&nbsp;
+ICON_REL_GROUP_3=<img src="/screens/relevance3.gif" alt="">&nbsp;Very relevant&nbsp;
+ICON_REL_GROUP_4=<img src="/screens/relevance2.gif" alt="">&nbsp;Relevant&nbsp;
+ICON_REL_GROUP_5=<img src="/screens/relevance1.gif" alt="">&nbsp;Other relevant&nbsp;
+#
+#
+RSRV_ITEMTYPE=t
+# RSRV_HEADER=what your prof really wants you to read
+HEADING_LENGTH=150
+ICON_RESOURCE_RECORD=<em>details
+BIB_RESOURCE_CAPTION=<strong>Available online via:</strong>
+IMAGE_MATTYPEr=/screens/mattype_blank/media_puzzlepiece_blank.gif
+#
+#
+# Patron Feeds
+#
+FEEDS_PORT=63200
+# IPSSO_USEHTML=T
+
+# AirPAC
+#
+# AIRPAC_PORT=6060
+
+# Unfiled
+#
+# Next variable is not in manual anymore
+INNOVATIVE_FOOTER=center|b
+CUSTOM_MESSAGES=false

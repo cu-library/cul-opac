@@ -1,0 +1,155 @@
+<!--{toplogo}-->
+<font face="Arial, Helvetica, sans-serif">
+<center>
+<h3>Book this Title</h3>
+</center>
+<font size=4>
+
+<!--{record_info}-->
+<br>
+<font size=2>
+Videos may be booked and borrowed only by Carleton students, faculty and staff.
+<br>
+</font>
+
+
+<FORM target="_self" name="webbookform" method="POST">
+<input type="hidden" name="webbook_pagen" value="1">
+<!--{reqmsg}-->
+
+<!--{iferrmsg}-->
+<FONT COLOR=RED SIZE=+2><EM>
+<!--{iferrmsgisPIN}-->
+<!--{newpinmsg}-->
+<!--{else}-->
+<!--{errmsg}-->
+<!--{xif}-->
+</EM></FONT><BR><BR><BR>
+<!--{xif}-->
+<TABLE WIDTH=100%>
+<!--{ifneedpatronname}-->
+<TR><TD WIDTH=30%></TD><TD><FONT SIZE=-1>
+<!--{nameexample}-->
+</FONT></TD></TR><TR><TD>
+<!--{nameprompt}-->
+</TD><TD>
+<!--{name}-->
+</TD></TR>
+<!--{xif}-->
+<!--{ifneedpatronverify}-->
+<TR><TD></TD><TD>
+<font size=4>
+
+</font>
+</FONT></TD></TR>
+<TR><TD>
+<font size=4>Barcode:</font>
+</TD><TD>
+<input NAME=code TYPE=text VALUE="" SIZE=40 MAXLENGTH=40><!--{barcode}-->
+</TD></TR>
+<!--{ifneedspin}-->
+<!--{iferrmsgisPIN}-->
+<TR><TD COLSPAN=2>
+<!--{newpinmsg}-->
+</TD></TR><TR><TD>
+</TD><TD>
+<!--{pin1}-->
+</TD></TR><TR><TD>
+<!--{pin2prompt}-->
+</TD><TD>
+<!--{pin2}-->
+</TD></TR>
+<!--{else}-->
+<TR><TD></TD><TD><FONT SIZE=-1><!--{pininstructions}-->
+<font size=3>
+
+This is the number found under the barcode on your Library or campus card.
+<br>e.g. <br>
+<img src="/screens/images/barcode3.jpg" alt="barcode vertical lines" width="275" height="65"> <br>
+If your barcode end in an X, enter the X in upper-case.
+<br><br>
+</font>
+</FONT></TD></TR><TR><TD>
+<font size=4> PIN:</font>
+</TD><TD>
+<!--{pin}-->
+</TD></TR>
+<tr> <td></td><td><b> Students: </b>First 6-digits of your
+<a href="http://www.central.carleton.ca">Carleton Central</a> 
+PIN. <br>
+<b>Faculty and staff: </b>4-digit PIN chosen when setting up your account at the Circulation Desk.
+</td></tr>
+<!--{xif}-->
+<!--{xif}-->
+<!--{xif}-->
+</TABLE>
+<P>
+<!--
+<button type="submit" value="submit">
+<img src="/screens/buttons/submit.gif" width="88" height="28" alt="submit"/>
+</button>
+-->
+<input NAME="submit" TYPE="submit" VALUE="Book Item">
+</FORM>
+
+
+<DIV ALIGN=LEFT>
+
+<FORM>
+<SCRIPT LANGUAGE="javascript" >
+
+<!-- Hide the JS
+function replace_or_redraw( new_URL )
+{
+if( navigator.appVersion.charAt( 0 ) < '3' )
+        location = new_URL;
+else
+        location.replace( new_URL );
+}
+
+function replace_or_redraw_parent( new_URL )
+{
+if( navigator.appVersion.charAt( 0 ) < '3' )
+        parent.location = new_URL;
+else
+        parent.location.replace( new_URL );
+}
+
+// Unhide the JS -->
+
+</SCRIPT>
+<NOSCRIPT><P><FONT COLOR=RED SIZE=+2>
+    To enable secure viewing of your record, this page requires JavaScript.
+    Please enable JavaScript in your browser and reload this page.
+</FONT><P></NOSCRIPT>
+
+<!--
+<button type="reset" value="start over" 
+OnCLICK="replace_or_redraw_parent( '/search' )">
+<img src="/screens/buttons/newsrch.gif" width="88" height="28" alt="start over"/>
+</button>
+-->
+<INPUT TYPE="button" NAME=startOver VALUE="Catalogue Home" 
+       OnCLICK="replace_or_redraw_parent( '/search' ) " >
+
+<BR>
+
+</FORM>
+<!--
+<font size=5 color=red>
+<br>
+In your patron record, do not modify your PIN.  
+Changes will be over-written by data from the Administration System.
+</font>
+-->
+<DIV>
+<DIV>
+<ul>
+<font face="Arial, Helvetica, sans-serif" size=3>
+<li> Information on <a href="http://www.library.carleton.ca/howdoI/findvideos.html#borrow">booking & borrowing videos 
+</a>
+</ul>
+Problems with your account? <a href="http://www.library.carleton.ca/borrowing/circ/fines.html">Contact us</a>
+</font><br>
+</BODY>
+</HTML>

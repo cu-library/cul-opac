@@ -1,0 +1,419 @@
+<html>
+<head>
+<title>Keyword Search Help</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+</head>
+
+<body bgcolor="#FFFFFF" text="#000000">
+<p>&nbsp;</p>
+<p align="center"><b><font face="Arial, Helvetica, sans-serif">KEYWORD SEARCH 
+  HELP TOPICS </font></b></p>
+<table width="90%" align="center" cellspacing="10" border="1">
+  <tr> 
+    <td bgcolor="#e0e0e0"> 
+      <div align="center"><font face="Arial, Helvetica, 
+	sans-serif"><a href="#phrase">Searching Phrases</a></font></div>
+    </td>
+    <td bgcolor="#e0e0e0"> 
+      <div align="center"><font face="Arial, 
+	Helvetica, sans-serif"><a href="#boolean">Using  
+        Boolean Operators</a><br> (and, or, not)</font></div>
+    </td>
+    <td bgcolor="#e0e0e0"> 
+      <div align="center"><font face="Arial, 
+	Helvetica, sans-serif"><a href="#proximity">Using
+        Proximity Operators</a> <br>(near, within, before, after)</font></div>
+    </td>
+    <td bgcolor="#e0e0e0"> 
+      <div align="center"><font face="Arial, Helvetica, 
+	sans-serif"><a href="#trunc">Truncation</a></font></div>
+    </td>
+    <td bgcolor="#e0e0e0"> 
+      <div align="center"><font face="Arial, Helvetica, 
+	sans-serif"><a href="#common">Searching Common Words</a></font></div>
+    </td>
+    <td bgcolor="#e0e0e0"> 
+      <div align="center"><font face="Arial, Helvetica, 
+	sans-serif"><a href="#fields">Searching Specific 
+        Fields</a></font></div>
+    </td>
+  </tr>
+ 
+  <tr>
+    <td bgcolor="#e0e0e0">
+      <div align="center"><font face="Arial, Helvetica, sans-serif">
+        Limiting by <a href="#lang">Language</a></font></div>
+    </td>
+    <td bgcolor="#e0e0e0"> 
+      <div align="center"><font 
+	face="Arial, Helvetica, sans-serif">Limiting by <a href="#mattype">Material
+        Type</a></font></div>
+    </td>
+    <td bgcolor="#e0e0e0"> 
+      <div align="center"><font face="Arial, 
+	Helvetica, sans-serif">Limiting by <a href="#loc">Location</a></font></div>
+    </td>
+    <td bgcolor="#e0e0e0"> 
+      <div align="center"><font face="Arial, Helvetica, 
+	sans-serif">Limiting by <a href="#pub">Publisher</a></font></div>
+    </td>
+    <td bgcolor="#e0e0e0"> 
+      <div align="center"><font face="Arial, Helvetica, 
+	sans-serif">Limiting by <a href="#year">Year</a></font></div>
+    </td>
+    <td bgcolor="#e0e0e0"> 
+      <div align="center"><font face="Arial, 
+	Helvetica, sans-serif"><a href="#sort">Sorting results
+	</a></font></div></td>
+	</table>
+<p align="center"><font face="Arial, Helvetica, sans-serif"><b>
+ </b></font></p>
+
+<table border width="98%">
+  <tr> 
+    <td width=15% height="149"> 
+      <div align="center"><font face="Arial, Helvetica, 
+	sans-serif"><b>Adjacency, or Searching Phrases</b> 
+        </font></div>
+    </td>
+    <td width=50% valign=top height="149"> 
+      <div align="left">
+       
+        <p><font face="Arial, Helvetica, sans-serif"><a 
+	name="phrase"></a></font></p>
+        <p><font face="Arial, Helvetica, sans-serif">Multiple words are searched 
+          together as one phrase.If no match is found, the search will automatically 
+          be repeated inserting the boolean operator AND between the words. </font><br>
+          <br>
+          <font face="Arial, Helvetica, sans-serif">A search for a phrase may 
+          be entered in quotation marks. If no match is found, the system will 
+          not automatically search this as individual words.</font> </p>
+      </div>
+    </td>
+    <td width=35% height="149"> 
+      <p><font face="Arial, Helvetica, sans-serif">Examples:</font></p>
+      <ul>
+        <li><font face="Arial, Helvetica, sans-serif"> Medical care</font></li>
+        <li><font face="Arial, Helvetica, sans-serif">Cold war</font></li>
+        <li><font face="Arial, Helvetica, sans-serif">planet jupiter (no matches 
+          found, the system returns results for planet AND jupiter)</font></li>
+        <li><font face="Arial, Helvetica, sans-serif">&quot;series in computer 
+          graphics&quot;</font></li>
+      </ul>
+    </td>
+  </tr>
+  <tr> 
+    <td> 
+      <div align="center"><font face="Arial, Helvetica, sans-serif"><b>Boolean 
+        operators </b></font></div>
+    </td>
+    <td> 
+      <p><font face="Arial, Helvetica, sans-serif"><a 
+		name="boolean"></a></font></p>
+      <p><font face="Arial, Helvetica, sans-serif">To search multiple words not 
+        as a phrase use:</font></p>
+      <ul>
+        <li><font face="Arial, Helvetica, sans-serif"> AND to find all of the 
+          words in any order </font></li>
+        <li><font face="Arial, Helvetica, sans-serif"> OR to find any of the words 
+          </font></li>
+        <li><font face="Arial, Helvetica, sans-serif">AND NOT to exclude one or 
+          more words</font></li>
+      </ul>
+      <p><font face="Arial, Helvetica, sans-serif">When using more than one operator, 
+        use parentheses to group words.</font></p>
+      <p><font face="Arial, Helvetica, sans-serif">To search operators as words, 
+        enter them in quotation marks.</font></p>
+      <p><font face="Arial, Helvetica, sans-serif">Synonyms: &amp; can be 
+	used for AND 
+        ; | can be used for OR.</font></p>
+    </td>
+    <td>
+<p><font face="Arial, Helvetica, sans-serif">Examples:</font></p>
+      <ul>
+        <li><font face="Arial, Helvetica, sans-serif">law and youth</font></li>
+        <li><font face="Arial, Helvetica, sans-serif">polar and not bear</font></li>
+        <li><font face="Arial, Helvetica, sans-serif">(capital punishment or death 
+          penalty) and Canada</font></li>
+        <li><font face="Arial, Helvetica, sans-serif">art and (mexico and not 
+          new) </font></li>
+        <li><font face="Arial, Helvetica, sans-serif"> War &quot;and&quot; peace, 
+          or &quot;War and peace&quot;</font><font face="Arial, Helvetica, sans-serif"></font></li>
+        <li><font face="Arial, Helvetica, sans-serif"> (art | painting) & 
+	mexico </font><font face="Arial, Helvetica, sans-serif"><br>
+          <br>
+          </font></li>
+      </ul>
+    </td>
+  </tr>
+  <tr> 
+    <td> 
+      <div align="center"><font face="Arial, Helvetica, sans-serif"><b>Proximity 
+        operators</b></font></div>
+    </td>
+    <td valign=top> 
+      <p><font face="Arial, Helvetica, sans-serif"><a name="proximity"></a></font></p>
+      <p><font face="Arial, Helvetica, sans-serif">Refine your search by using:</font></p>
+      <ul>
+        <li><font face="Arial, Helvetica, sans-serif"> NEAR to specify words within 
+          10 words of each other, in any order,</font></li>
+        <li><font face="Arial, Helvetica, sans-serif">WITHIN # to specify words 
+          which occur within a set range of each other,</font></li>
+        <li><font face="Arial, Helvetica, sans-serif">BEFORE to specify that a 
+          word must precede another,</font></li>
+        <li><font face="Arial, Helvetica, sans-serif"> AFTER to indicate that 
+          a word must follow another.</font></li>
+      </ul>
+      <p><font face="Arial, Helvetica, sans-serif">To search operators as words, 
+        enter them in quotation marks.</font><br>
+        <br>
+        <font face="Arial, Helvetica, sans-serif">Synonym: ~ replaces NEAR</font> 
+      </p>
+      </td>
+    <td valign=top> 
+      <p><font face="Arial, Helvetica, sans-serif">Examples:</font></p>
+      <ul>
+        <li><font face="Arial, Helvetica, sans-serif"> women near men</font></li>
+        <li><font face="Arial, Helvetica, sans-serif"> canada within 11 peace-keeping 
+          operations</font></li>
+        <li><font face="Arial, Helvetica, sans-serif">sunday before 
+	school</font></li>
+	<li><font face="Arial, Helvetica, sans-serif">school after 
+	sunday</font></li>
+        <li><font face="Arial, Helvetica, sans-serif">&quot;Near&quot; east, or 
+          &quot;Near east&quot;</font></li>
+        <li><font face="Arial, Helvetica, sans-serif">&quot;Before&quot; time 
+          began, or &quot;Before time began&quot;</font></li>
+	<li><font face="Ariel, Helvetica, sans-serif"> women ~ men </font></li>
+      </ul>
+    </td>
+  </tr>
+  <tr> 
+    <td> 
+      <div align="center"><font face="Arial, Helvetica, sans-serif"><b>Truncation 
+        or Wildcarding </b></font></div>
+    </td>
+    <td valign=top> 
+      <p><font face="Arial, Helvetica, sans-serif"><a name="trunc"></a>Words may 
+        be internally or right-hand truncated by using:</font></p>
+      <ul>
+        <li><font face="Arial, Helvetica, sans-serif"> * (single asterisk) for 
+          zero to five characters,</font></li>
+        <li><font face="Arial, Helvetica, sans-serif"> ** (double asterisks) for 
+          any number of characters. </font></li>
+      </ul>
+      </td>
+    <td valign=top> 
+      <p><font face="Arial, Helvetica, sans-serif">Examples:</font></p>
+      <ul>
+        <li><font face="Arial, Helvetica, sans-serif"> wom*n and child*</font></li>
+        <li><font face="Arial, Helvetica, sans-serif"> ontario near econom*</font></li>
+        <li><font face="Arial, Helvetica, sans-serif"> teen** and mass media </font></li>
+        <li><font face="Arial, Helvetica, sans-serif">Elizabeth Anders*n</font></li>
+        <li><font face="Arial, Helvetica, sans-serif">lab*r</font></li>
+      </ul>
+    </td>
+  </tr>
+  <tr> 
+    <td> 
+      <div align="center"><font face="Arial, Helvetica, sans-serif"><b>Common 
+        words and initial articles </b></font></div>
+    </td>
+    <td valign=top> 
+      <p>&nbsp;</p>
+      <p><font face="Arial, Helvetica, sans-serif"><a name="common"></a>All words, 
+        including one and two letter words and initial articles, are indexed and 
+        should be included in a search.</font></p>
+      <p><font face="Arial, Helvetica, sans-serif">Initial articles (a, an, the, 
+        le, la, les) are ignored only if they are the first word in a search, 
+        but will be included if enclosed in quotation marks,</font></p>
+      <p>&nbsp;</p>
+    </td>
+    <td valign=top> 
+      <p>&nbsp;</p>
+      <p><font face="Arial, Helvetica, sans-serif">Examples:</font></p>
+      <ul>
+        <li><font face="Arial, Helvetica, sans-serif">Gone with the wind</font></li>
+        <li><font face="Arial, Helvetica, sans-serif">&quot;Le Blanc&quot; or 
+          &quot;Le&quot; Blanc</font></li>
+        <li><font face="Arial, Helvetica, sans-serif"> b flat</font></li>
+        <li><font face="Arial, Helvetica, sans-serif">&quot;a&quot; flat, or &quot;a 
+          flat&quot; </font></li>
+      </ul>
+    </td>
+  </tr>
+  <tr> 
+    <td> 
+      <div align="center"><font face="Arial, Helvetica, sans-serif"><b>Field specifiers</b></font></div>
+    </td>
+    <td valign=top> 
+      <p>&nbsp;</p>
+      <p><font face="Arial, Helvetica, sans-serif"><a name="fields"></a>Specify 
+        fields to search, using the following field abbreviations:</font></p>
+      <ul>
+        <li><font face="Arial, Helvetica, sans-serif">a: (for author field),</font></li>
+        <li><font face="Arial, Helvetica, sans-serif">t: (for title field), </font></li>
+        <li><font face="Arial, Helvetica, sans-serif">s: (for subject heading 
+          field) </font></li>
+        <li><font face="Arial, Helvetica, sans-serif">n: (for notes field)</font></li>
+      </ul>
+      <p><font face="Arial, Helvetica, sans-serif">Multiple words will only be 
+        searched as a phrase. To search as words repeat the field abbreviation.</font></p>
+      <p>&nbsp;</p>
+    </td>
+    <td valign=top> 
+      <p>&nbsp;</p>
+      <p><font face="Arial, Helvetica, sans-serif">Examples:</font></p>
+      <ul>
+        <li><font face="Arial, Helvetica, sans-serif">t: Greenhouse gas and a: 
+          Canada</font></li>
+        <li><font face="Arial, Helvetica, sans-serif">a: shakespeare and t: macbeth 
+          and recording</font></li>
+        <li><font face="Arial, Helvetica, sans-serif">a: canada and a: industry 
+          and s: indust**</font></li>
+        <li><font face="Arial, Helvetica, sans-serif">a: asimov and s: astronomy</font></li>
+      </ul>
+      </td>
+  </tr>
+</table>
+<p align="center">&nbsp;</p>
+<p align="center"><font face="Arial, Helvetica, sans-serif"><b>LIMITING A KEYWORD 
+  SEARCH </b></font></p>
+<p align="center"><font face="Arial, Helvetica, sans-serif">To perform ONLY A 
+  SEARCH USING LIMITS without entering any keywords, enter ** in the keyword 
+  box, pick or enter a limit and click on Search</font></p>
+<able width="100%" border="1">
+  <tr> 
+    <td>&nbsp;</td>
+  </tr>
+<table width="99%" border="1">
+  <tr>
+    <td width="18%"> 
+      <div align="center"><b><font face="Arial, Helvetica, sans-serif">Language</font></b></div>
+    </td>
+    <td width="82%">
+      <p>&nbsp;</p>
+      <p><font face="Arial, Helvetica, sans-serif"><a name="lang"></a>Choose the 
+        language of publication, multilingual works are included: </font> </p>
+      <ul>
+        <li><font face="Arial, Helvetica, sans-serif">ANY (default)</font></li>
+        <li><font face="Arial, Helvetica, sans-serif">English</font></li>
+        <li><font face="Arial, Helvetica, sans-serif">French </font></li>
+        <li><font face="Arial, Helvetica, sans-serif">German </font></li>
+        <li><font face="Arial, Helvetica, sans-serif">Italian </font></li>
+        <li><font face="Arial, Helvetica, sans-serif">Spanish</font></li>
+        <li><font face="Arial, Helvetica, sans-serif"> Russian</font></li>
+      </ul>
+    </td>
+  </tr>
+  <tr>
+    <td width="18%"> 
+      <div align="center"><b><font face="Arial, Helvetica, sans-serif"><b>Material 
+        Type</b></font></b></div>
+    </td>
+    <td width="82%"> 
+      <p>&nbsp;</p>
+      <p><font face="Arial, Helvetica, sans-serif"><a name="mattype"></a>Choose 
+        the type of material:</font></p>
+      <ul>
+        <li><font face="Arial, Helvetica, sans-serif">ANY (default)</font></li>
+        <li><font face="Arial, Helvetica, sans-serif">Computer File - includes 
+          Web Resources, titles on CD-ROM </font></li>
+        <li><font face="Arial, Helvetica, sans-serif">Print Map</font></li>
+        <li><font face="Arial, Helvetica, sans-serif">Books/Serials</font></li>
+        <li><font face="Arial, Helvetica, sans-serif">Printed Music - Scores,</font></li>
+        <li><font face="Arial, Helvetica, sans-serif">Film/Video, etc. - includes 
+          videorecordings, videocassettes</font></li>
+        <li><font face="Arial, Helvetica, sans-serif">Sound Recording - Music 
+          CD sound recordings</font></li>
+        <li><font face="Arial, Helvetica, sans-serif">Spoken Recording - Speech 
+          sound recordings</font></li>
+      </ul>
+    </td>
+  </tr>
+  <tr>
+    <td width="18%"> 
+      <div align="center"><font face="Arial, Helvetica, sans-serif"><b>Location</b></font></div>
+    </td>
+    <td width="82%"> 
+      <p>&nbsp;</p>
+      <p><font face="Arial, Helvetica, sans-serif"><a name="loc"></a>Location 
+        from the bibliographic record. Note that when there are multiple copies 
+        with different locations, such as a newspaper that we also have a copy 
+        in microfiche, these titles may not be included.</font></p>
+      <ul>
+        <li><font face="Arial, Helvetica, sans-serif">ANY (default)</font></li>
+        <li><font face="Arial, Helvetica, sans-serif">AUDIO VISUAL - DVD, Videocassette(videorecording) 
+          CD </font></li>
+        <li><font face="Arial, Helvetica, sans-serif">DATA CENTRE - part of MADGIC 
+          ( Maps, Data and Government Information Centre)</font></li>
+        <li><font face="Arial, Helvetica, sans-serif">FOLIO - Oversize</font></li>
+        <li><font face="Arial, Helvetica, sans-serif">GOVERNMENT DOCUMENTS</font></li>
+        <li><font face="Arial, Helvetica, sans-serif">JOURNALS (in SER) - Print 
+          journals in the SER location sequence</font></li>
+        <li><font face="Arial, Helvetica, sans-serif">MADGIC REFERENCE - Maps, 
+          Data and Government Information Reference</font></li>
+        <li><font face="Arial, Helvetica, sans-serif">MAPS AND ATLASES</font></li>
+        <li><font face="Arial, Helvetica, sans-serif">MICROFORM - Microfiche, 
+          microfilm </font></li>
+        <li><font face="Arial, Helvetica, sans-serif">NEWSPAPERS </font></li>
+        <li><font face="Arial, Helvetica, sans-serif">OPEN SHELF</font></li>
+        <li><font face="Arial, Helvetica, sans-serif">REFERENCE COLLECTION</font></li>
+        <li><font face="Arial, Helvetica, sans-serif">RESERVES - Course Reserves 
+          held at Circulation Desk (Selective)</font></li>
+        <li><font face="Arial, Helvetica, sans-serif">SPECIAL COLLECTIONS - Includes 
+          rare books,</font></li>
+        <li><font face="Arial, Helvetica, sans-serif">STORAGE </font></li>
+        <li><font face="Arial, Helvetica, sans-serif">THESES - Carleton University 
+          Dissertations </font></li>
+      </ul>
+    </td>
+  </tr>
+  <tr>
+    <td width="18%"> 
+      <div align="center"><font face="Arial, Helvetica, sans-serif"><b>Publisher</b></font></div>
+    </td>
+    <td width="82%">
+      <p>&nbsp;</p>
+      <p><font face="Arial, Helvetica, sans-serif"><a name="pub"></a>Enter one 
+        or more words from the name of the publisher</font></p>
+      <p> </p>    </td>
+  </tr>
+  <tr>
+    <td width="18%"> 
+      <div align="center"><font face="Arial, Helvetica, sans-serif"><b>Year: After 
+        and Before</b></font></div>
+    </td>
+    <td width="82%">
+      <p> </p>      <p><font face="Arial, Helvetica, sans-serif"><a name="year"></a>Enter the 
+        publication range of dates. For a single date, enter the same year for 
+        Before and After.</font></p>
+      <p>&nbsp;</p>
+    </td>
+  </tr>
+  <tr>
+    <td width="18%">
+      <div align="center"><font face="Arial, Helvetica, sans-serif"><b>Search 
+        and Sort</b></font></div>
+    </td>
+    <td width="82%"> 
+      <p><font face="Arial, Helvetica, sans-serif"><a name="sort"></a>Three sort 
+        options are available:</font> </p>
+      <ul>
+        <li><font face="Arial, Helvetica, sans-serif">Date (default) : sorts in 
+          reverse order of date of publication, i.e. latest date first</font></li>
+        <li><font face="Arial, Helvetica, sans-serif">Alphabetical: by title</font></li>
+        <li><font face="Arial, Helvetica, sans-serif">Relevance: Relevancy of 
+          a record is indicated by a one to five star display. Ranking occurs 
+          on the fields that include the search term. The title field is most 
+          relevant, followed by author, subject and notes. All records with search 
+          terms in the same field are ranked according to the position of those 
+          terms and a variety of other factors.</font> </li>
+      </ul>
+    </td>
+  </tr>
+</table>
+<p><font face="Arial, Helvetica, sans-serif"><small> Last 
+	rev. Sept. 8, 2004</font></p>
+</body>
+</html>

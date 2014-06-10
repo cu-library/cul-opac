@@ -1,0 +1,209 @@
+<style> 
+   <!--
+	fieldset {
+		padding: 1em;
+		font:80%/1 sans-serif;
+		border:0px solid black;
+		width:675px;
+		margin:auto;
+	}
+	label {
+		float:left;
+		width:200px;
+		margin-right:0.5em;
+		padding-top:0.8em;
+		padding-bottom:0.8em;
+		padding-left:0.8em;
+		font-weight:bold;
+	}
+
+	legend {
+		  padding: 0.2em 0.5em;
+		  font:110% sans-serif;
+		  font-weight:bold;
+		  border:0px solid black;
+		  color:black;
+		  text-align:left;
+
+	}
+
+#page-wrap {
+width: 750px;
+margin: 0 auto;
+}
+
+.mc1-login	{ border:1px solid #000; background-color:#fff; padding:0.5em 1em; width:300px; height: 240px; float:left; cursor:default; display:block; }
+
+.pin-login	{ border:1px solid #E4E4E4; background-color:#E4E4E4; padding:0.5em 1em; width: 300px; height: 240px; float:left; display:block; }
+
+.well { border:0 background-color:#fff; padding:0; width:16px; float:left; display:block; }
+
+.login {padding: 0 0 5 0; }
+
+.button {padding:0 20 0 0; border: 0; }
+
+div.notice { border-style: solid; border-color: #b94a48; border-width: 3px; padding: 0 10px; margin-bottom: 20px; }
+div.notice h2 { margin: 10px 0 15px; }
+    -->
+</style>
+<div id="page-wrap">
+<!--{toplogo}-->
+
+
+<div class="pageContentInner">
+<div class="form1Part formLogin" id="accessibleForm">
+<!-- Begin phishing warning notice -->
+<!--
+<div class="notice">  
+  <h2>Notice: Phishing Attempt</h2>
+  <p>Many people at Carleton have received an email with the subject of ‘Library Account’ that appears to be from Carleton University. Do not click on the link in the message and do not reply to it.  This is a phishing email and should be deleted immediately. <a href="http://www.carleton.ca/ccs/2014/phishing-attempt-appears-library-staff-carleton/" target="_blank">More information about this phishing attempt</a>.</p>
+  <p>If you have already clicked on the link or have already responded to this email, please change your password immediately.</p>
+</div>
+-->
+<!-- End phishing warning notice -->
+<!--{formbegin}-->
+<!--{iferrmsg}-->
+<span class="errormessage">
+<!--{iferrmsgisPIN}-->
+<!--{newpinmsg}-->
+<!--{else}-->
+<!--{errmsg}-->
+<!--{xif}-->
+</span>
+<!--{xif}-->
+<fieldset>
+<legend>
+Login to your Library Catalogue account
+</legend>
+
+
+<!--{ifextpat}-->
+<div class="mc1-login">
+<h3>Current Carleton students, faculty, staff</h3>
+<div class="formEntryArea">
+<div class="login">
+<label for="extpatid"><span class="formLabel">
+<a href="http://www1.carleton.ca/mycarletonone/">MyCarletonOne</a> username:
+</span></label>
+<input name="extpatid" id="extpatid" value="" size="20" maxlength="70" tabindex ="1">
+</div>
+<div class="login">
+<label for="extpatpw"><span class="formLabel">
+<a href="http://www1.carleton.ca/mycarletonone/">MyCarletonOne</a> password: 
+</span></label>
+<input name="extpatpw" id="extpatpw" type="PASSWORD" value="" size="20" maxlength="70" tabindex ="2">
+</div>
+</div>
+</br>
+<div class="formButtonArea">
+<!--{ifneedspin}-->
+<!--{pinresetrequest}-->
+<!--{xif}-->
+<label for ="submit"><span class="formLabel">
+<span class="button"><input type="image" src="/screens/buttons/submit.gif" border="0"
+       name="submit" value="submit" /></span>
+<a href="/screens/login_help.html">Help </a>
+</span></label>
+</div>
+</div>
+
+<div class="well">&nbsp;</div>
+
+<div class="pin-login">
+<h3>Other Library Users</h3>
+<!--{xif}-->
+
+<!--{ifneedpatronname}-->
+<div class="formEntryArea">
+<!--{nameprompt}-->
+<!--{name}-->
+<span class="formLabelExample">
+<!--{nameexample}-->
+</span>
+</div>
+</div>
+<!--{xif}-->
+
+
+<!--{ifneedpatronverify}-->
+<div class="formEntryArea">
+<div class="login">
+<label for="barcode"><span class="formLabel">
+Barcode:
+</span></label>
+<input NAME=code TYPE=text VALUE="" SIZE=35 MAXLENGTH=35><!--{barcode}-->
+</div>
+<span class="formLabelExample">
+<!--{barcodeexample}-->
+</span>
+</div>
+
+<!--{ifneedspin}-->
+
+<!--{iferrmsgisPIN}-->
+<p>
+<!--{newpinmsg}-->
+</p>
+<div class="formEntryArea">
+<label for="pin1"><span class="formLabel">
+PIN:
+</span></label>
+<!--{pin1}-->
+<!-- </label> -->
+</div>
+
+<div class="formEntryArea">
+<!-- <label for="pin2"> -->
+<span class="formLabel">
+<!--{pin2prompt}-->
+</span>
+<!--{pin2}-->
+<!-- </label> -->
+</div>
+
+<!--{else}-->
+<div class="formEntryArea">
+<div class="login">
+<label for="pin1"><span class="formLabel">
+PIN:
+</span></label>
+<!--{pin}-->
+</div>
+<span class="formLabelExample"><!-- removed pinprompt-->
+</span>
+</div>
+</br>
+<div class="formButtonArea">
+<!--{ifneedspin}-->
+<!--{pinresetrequest}-->
+<!--{xif}-->
+<label for ="submit"><span class="formLabel">
+<span class="button">
+<input type="image" src="/screens/buttons/submit.gif" border="0"
+       name="submit" value="submit" /></span>
+<a href="/screens/login_help.html">Help </a>
+</span></label>
+</div>
+</div>
+<!--{xif}-->
+<!--{xif}-->
+<!--{xif}-->
+
+    <!--{ifalternate_id}-->
+    <!--{user_name}-->
+    <!--{xif}-->
+</br>
+
+</fieldset>
+<!--{formend}-->
+
+</div>
+</div>
+
+</div><!-- pageContentInner -->
+<!-- current botlogo displays Suggest a Purchase 	  Report a Missing Item  --> <!--{botlogo}-->
+<script type="text/javascript"><!--//--><![CDATA[//><!--
+try { document.forms[0].elements[1].focus(); }
+catch(err) {}
+//--><!]]></script>
+
