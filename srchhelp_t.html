@@ -22,19 +22,19 @@
       <p>Type (in exact order) the first few words of a title. Omit initial
         articles like "The" or "A". If you're not sure of the exact title, 
         try a <a href="/search">keyword search</a>.</p>
+      <form method="get" action="/search/t">
+        <input id="SEARCH" name="SEARCH" size="48" value="" type="text" title="Search for" autofocus/><!-- {search} replacement --> 
+<!--{indexsort}-->
+<!--{scope}-->
+        <input type="submit" value="Submit"/><!-- {submit} replacement -->
+      </form>
       <p>Examples:</p>
       <ul>
         <li><a href="/search/t?SEARCH=Carleton+mathematical+series">Carleton mathematical series</a></li>
         <li><a href="/search/t?SEARCH=Carleton+mathematical">Carleton mathematical</a></li>
         <li><a href="/search/t?SEARCH=10+women+of+mystery">10 women of mystery</a></li>
         <li><a href="/search/t?SEARCH=cica+handbook">cica handbook</a></li>
-      </ul>
-      <form method="get" action="/search/t">
-        <input id="SEARCH" name="SEARCH" size="48" value="" type="text" title="Search for"/><!-- {search} replacement --> 
-<!--{indexsort}-->
-<!--{scope}-->
-        <input type="submit" value="Submit"/><!-- {submit} replacement -->
-      </form>
+      </ul>      
     </div><!-- /end #content -->
 <!--{botlogo}-->
 
