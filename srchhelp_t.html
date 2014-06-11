@@ -17,35 +17,11 @@
   </head>
   <body>
 <!--{toplogo}-->
-<div id="content">
-  <h2>Title Search</h2>
-  <div id="accessibleForm" class="form2Part">
-    <div class="formLeft">
-      <form method="get">
-        <div class="formEntryArea">
-          <span class="formLabel"><label for="SEARCH">Search for:</label></span>
-          <input id="SEARCH" name="SEARCH" size="48" value="" type="text"/><!-- {search} replacement -->  
-        </div>
-        <div class="formEntryArea">
-          <span class="formLabel">
-            <label for="sortdropdown">Sort by:</label>
-          </span>
-<!--{indexsort}-->
-        </div>
-        <div class="formEntryArea formScopeSearch">
-          <span class="formLabel">
-            <label for="searchscope">Search in the:</label>
-          </span>
-<!--{scope}-->
-        </div>
-        <div class="formButtonArea">
-          <input type="submit" value="Submit"/><!-- {submit} replacement -->
-        </div>
-      </form>
-    </div><!--formLeft -->
-    <div class="formRight">
+    <div id="content">
+      <h2>Title Search</h2>
       <p>Type (in exact order) the first few words of a title. Omit initial
-        articles. If you're not sure of the exact title, try a <a href="/search">keyword search</a>.</p>
+        articles like "The" or "A". If you're not sure of the exact title, 
+        try a <a href="/search">keyword search</a>.</p>
       <p>Examples:</p>
       <ul>
         <li><a href="/search/t?SEARCH=Carleton+mathematical+series">Carleton mathematical series</a></li>
@@ -53,8 +29,12 @@
         <li><a href="/search/t?SEARCH=10+women+of+mystery">10 women of mystery</a></li>
         <li><a href="/search/t?SEARCH=cica+handbook">cica handbook</a></li>
       </ul>
-    </div><!--formRight -->
-  </div><!--form2Part -->
-</div><!-- content -->
+      <form method="get" action="/search/t">
+        <input id="SEARCH" name="SEARCH" size="48" value="" type="text" title="Search for"/><!-- {search} replacement --> 
+<!--{indexsort}-->
+<!--{scope}-->
+        <input type="submit" value="Submit"/><!-- {submit} replacement -->
+      </form>
+    </div><!-- /end #content -->
 <!--{botlogo}-->
 
