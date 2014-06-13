@@ -6,4 +6,9 @@ webpac.crt*
 scopes.sh
 buildpages
 
+# Ignore new titles, web resources pages
+nt/
+wr/
+
+
 
