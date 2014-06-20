@@ -268,7 +268,7 @@ ICON_BUT_REQUEST_SELECTED=<div onmousedown="this.className='pressedState';" onmo
 ICON_REQUEST=<img style="margin-right:5px" alt=" " src="/screens/bullet.gif">Hold/Request
 # REQFILLTIME=14|<br>Request available in approximately %d days|<br>Current estimated availability: approximately %d days|<br>This material may be immediately available
 REQUEST=Place a hold on this item|item|home
-REQUEST_ARTICLE_IFCHKIN=Y
+REQUEST_ARTICLE_IFCHKIN=f|f
 # REQUEST_INSTRUCTION=Please enter any special instructions: 
 REQUEST_MULTI=Request All Items in Book Cart|bib|ask
 
