@@ -70,8 +70,8 @@ UPDATECIRC=true
 XSTARTOVER=/search
 
 # Staff
-ICON_BUT_PUBLIC=<span class="button"><img src="/screens/ico_patron.gif" alt=""><span class="buttonText">Patron View</span></span>
-ICON_BUT_STAFF=<span class="button"><img src="/screens/ico_gear.gif" alt=""><span class="buttonText">Staff View</span></span>
+ICON_BUT_PUBLIC=<span class="button">Patron View</span>
+ICON_BUT_STAFF=<span class="button">Staff View</span>
 STAFF=99
 STAFF_LOGGEDIN_MSG=<span class="loggedInMessage">You are logged into staff mode at %s as %s</span>
 
