@@ -675,7 +675,6 @@ h1.browseSuperEntryTitle {
   /* Wraps:
     h2.briefcitTitle
     some HTML
-    briefcitRatings
     briefcitRequest
     briefcitStatus
     briefcitActions */
@@ -683,9 +682,6 @@ h1.browseSuperEntryTitle {
 .briefcitTitle { /* h2-level bibrecord title*/
   font-size: 1em;
   margin: 1em 0 0;
-}
-.briefcitRatings { /* @todo do we ever display ratings? */
-  display: none;
 }
 .briefcitRequest { /* wraps Hold/Request link */
   margin: 1em 0 .2em 12%;  
