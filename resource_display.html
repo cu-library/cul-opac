@@ -1,30 +1,32 @@
 <!--{toplogo}-->
-
 <div id="bibDisplayBody">
-<div align="center">
+  <div class="navigationRowRecord">
 <!--{navrow}-->
-</div> 
-<div id="bibDisplayContent">
-<div class="bibSearch">
+  </div> 
+  <div id="bibDisplayContent">
+    <div class="bibSearch">
 <!--{searchtool}-->
-</div><!-- close tool -->
-<div class="bibHistoryRow">
-<div class="resourceHistory">
+      <div class="bibHistoryRow">
 <!--{searchhistory}-->
-</div>
-</div>
-<div>
+      </div>
+    </div><!-- // end .bibSearch -->
+
+<!-- .bibActions, custom div: wraps hard-coded replacement for resource table -->
+<div class="bibActions">
+  <div class="bibResourceList">
+    <span class="label">Quick links:</span>
+    <ul class="menu">
+      <li><span class="button"><a href="javascript:open_refworks_win('http://proxy.library.carleton.ca/login?url=http://refworks.scholarsportal.info/express/expressimport.asp?vendor=Carleton%20University&filter=Refworks%20Tagged%20Format&url=http://refworks.library.carleton.ca/cgi-bin/refworks/refworks.php?recordnum');">Export to RefWorks</a></span></li>
+      <li><span class="button"><a href="http://www.library.carleton.ca/forms/connection-problems">Report a Connection Problem</a></span></li>
+      <li><span class="button"><a href="http://www.library.carleton.ca/contact/missing-item-report">Report a Missing Item</a></span></li>
+    </ul>
+  </div>
+  <div class="bibPager">
 <!--{pager}-->
-</div>
+  </div>
+</div><!-- /end .bibActions -->
 
-
-<div class="bibClear"></div>
-
-<div class="bibResourceSidebar">
-<!--{ifhasresourcetable}-->
-<!--{resourcetable}-->
-<!--{xif}-->
-</div>
+<div class="clearfix"></div>
 
 <div class="bibDisplayJacket">
 <!--{bibimage}-->
