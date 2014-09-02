@@ -563,6 +563,7 @@ LOC_mpg=http://www.library.carleton.ca/floor-maps/floor-1" target="_blank
 LOC_mpf=http://www.library.carleton.ca/floor-maps/floor-1" target="_blank
 LOC_mpp=http://www.library.carleton.ca/floor-maps/floor-1" target="_blank
 LOC_mdo=http://www.library.carleton.ca/floor-maps/floor-1" target="_blank
+LOC_ottr=http://www.library.carleton.ca/floor-maps/floor-1" target="_blank
 
 # Floor 2
 LOC_acq=http://www.library.carleton.ca/floor-maps/floor-2" target="_blank
@@ -574,6 +575,7 @@ LOC_ltp=http://www.library.carleton.ca/floor-maps/floor-2" target="_blank
 LOC_mfl=http://www.library.carleton.ca/floor-maps/floor-2" target="_blank
 LOC_mrr=http://www.library.carleton.ca/floor-maps/floor-2" target="_blank
 LOC_nsm=http://www.library.carleton.ca/floor-maps/floor-2" target="_blank
+LOC_nsp=http://www.library.carleton.ca/floor-maps/floor-2" target="_blank
 LOC_ref=http://www.library.carleton.ca/floor-maps/floor-2" target="_blank
 LOC_reo=http://www.library.carleton.ca/floor-maps/floor-2" target="_blank
 LOC_rrf=http://www.library.carleton.ca/floor-maps/floor-2" target="_blank
@@ -588,7 +590,6 @@ LOC_vid2=http://www.library.carleton.ca/floor-maps/floor-2" target="_blank
 LOC_cdm=http://www.library.carleton.ca/floor-maps/floor-3" target="_blank
 LOC_flr3=http://www.library.carleton.ca/floor-maps/floor-3" target="_blank
 LOC_fol3=http://www.library.carleton.ca/floor-maps/floor-3" target="_blank
-LOC_nsp=http://www.library.carleton.ca/floor-maps/floor-3" target="_blank
 
 # Floor 4
 LOC_flr4=http://www.library.carleton.ca/floor-maps/floor-4" target="_blank
