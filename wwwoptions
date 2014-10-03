@@ -324,10 +324,10 @@ TIMEOUT_POPUP=600
 # My Millennium
 # BUT_LOGOUT=/screens/logout.gif
 ICON_BUT_PAT_PSEARCH_REMOVE=<span class="button">Delete All Searches</span>
-BUT_PAT_PSEARCH_UPDATE=/screens/updatelist.gif" class="button
-ICON_BUT_PAT_PSEARCH_UPDATE=<span class="button">Update List</span>
+BUT_PAT_PSEARCH_UPDATE=/screens/updatelist.gif"
+ICON_BUT_PAT_PSEARCH_UPDATE=<span class="button">Delete Marked Searches</span>
 BUT_PAT_SEARCH=/screens/pat_search.gif
-ICON_BUT_PAT_GETPSAVEDRECS=<span class="button">Preferred Searches</span>
+ICON_BUT_PAT_GETPSAVEDRECS=<span class="button">Saved Searches</span>
 # CIRC_HIST_LIMIT_TEXT=Limit to titles which aren't in my Reading History
 HAS_ALTERNATE_ID=false
 ALTERNATE_ID_EMAIL=username@replacesitename.com|Your login name has changed
