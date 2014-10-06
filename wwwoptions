@@ -325,14 +325,14 @@ TIMEOUT_POPUP=600
 # BUT_LOGOUT=/screens/logout.gif
 ICON_BUT_PAT_PSEARCH_REMOVE=<span class="button">Delete All Searches</span>
 BUT_PAT_PSEARCH_UPDATE=/screens/updatelist.gif"
-ICON_BUT_PAT_PSEARCH_UPDATE=<span class="button">Delete Marked Searches</span>
+ICON_BUT_PAT_PSEARCH_UPDATE=<span class="button">Update Marked Searches</span>
 BUT_PAT_SEARCH=/screens/pat_search.gif
 ICON_BUT_PAT_GETPSAVEDRECS=<span class="button">Saved Searches</span>
 # CIRC_HIST_LIMIT_TEXT=Limit to titles which aren't in my Reading History
 HAS_ALTERNATE_ID=false
 ALTERNATE_ID_EMAIL=username@replacesitename.com|Your login name has changed
 ICON_PAT_DELETE_ALL=<span class="button">Delete All</span>
-ICON_PAT_DELETE_MARKED=<span class="button">Delete Marked</span>
+ICON_PAT_DELETE_MARKED=<span class="button">Update List</span>
 ICON_READING_HISTORY=<span class="button">Reading History</span>
 ICON_READING_HISTORY_OPTIN=<span class="button">Opt In</span>
 ICON_READING_HISTORY_OPTOUT=<span class="button">Opt Out</span>
