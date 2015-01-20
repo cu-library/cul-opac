@@ -542,28 +542,29 @@ TABLEPARAM_PROG_SECTIONS=width="100%" border="0" cellspacing="0" align="center"
 #
 # Copy Location Codes (Links)
 # Floor 1
-LOC_fol1=http://www.library.carleton.ca/floor-maps/floor-1" target="_blank
-LOC_ser1=http://www.library.carleton.ca/floor-maps/floor-1" target="_blank
-LOC_mcr=http://www.library.carleton.ca/floor-maps/floor-1" target="_blank
-LOC_mfi=http://www.library.carleton.ca/floor-maps/floor-1" target="_blank
-LOC_mdc=http://www.library.carleton.ca/floor-maps/floor-1" target="_blank
-LOC_mdr=http://www.library.carleton.ca/floor-maps/floor-1" target="_blank
-LOC_ddr=http://www.library.carleton.ca/floor-maps/floor-1" target="_blank
-LOC_mpt=http://www.library.carleton.ca/floor-maps/floor-1" target="_blank
-LOC_mde=http://www.library.carleton.ca/floor-maps/floor-1" target="_blank
-LOC_ddv=http://www.library.carleton.ca/floor-maps/floor-1" target="_blank
-LOC_ddn=http://www.library.carleton.ca/floor-maps/floor-1" target="_blank
 LOC_ddf=http://www.library.carleton.ca/floor-maps/floor-1" target="_blank
 LOC_ddm=http://www.library.carleton.ca/floor-maps/floor-1" target="_blank
-LOC_mpm=http://www.library.carleton.ca/floor-maps/floor-1" target="_blank
+LOC_ddn=http://www.library.carleton.ca/floor-maps/floor-1" target="_blank
+LOC_ddr=http://www.library.carleton.ca/floor-maps/floor-1" target="_blank
+LOC_ddv=http://www.library.carleton.ca/floor-maps/floor-1" target="_blank
+LOC_flr1=http://www.library.carleton.ca/floor-maps/floor-1" target="_blank
+LOC_fol1=http://www.library.carleton.ca/floor-maps/floor-1" target="_blank
+LOC_mcr=http://www.library.carleton.ca/floor-maps/floor-1" target="_blank
+LOC_mdc=http://www.library.carleton.ca/floor-maps/floor-1" target="_blank
+LOC_mde=http://www.library.carleton.ca/floor-maps/floor-1" target="_blank
+LOC_mdo=http://www.library.carleton.ca/floor-maps/floor-1" target="_blank
+LOC_mdr=http://www.library.carleton.ca/floor-maps/floor-1" target="_blank
+LOC_mfi=http://www.library.carleton.ca/floor-maps/floor-1" target="_blank
+LOC_mpa=http://www.library.carleton.ca/floor-maps/floor-1" target="_blank
+LOC_mpf=http://www.library.carleton.ca/floor-maps/floor-1" target="_blank
+LOC_mpg=http://www.library.carleton.ca/floor-maps/floor-1" target="_blank
 LOC_mph=http://www.library.carleton.ca/floor-maps/floor-1" target="_blank
 LOC_mpl=http://www.library.carleton.ca/floor-maps/floor-1" target="_blank
-LOC_mpa=http://www.library.carleton.ca/floor-maps/floor-1" target="_blank
-LOC_mpg=http://www.library.carleton.ca/floor-maps/floor-1" target="_blank
-LOC_mpf=http://www.library.carleton.ca/floor-maps/floor-1" target="_blank
+LOC_mpm=http://www.library.carleton.ca/floor-maps/floor-1" target="_blank
 LOC_mpp=http://www.library.carleton.ca/floor-maps/floor-1" target="_blank
-LOC_mdo=http://www.library.carleton.ca/floor-maps/floor-1" target="_blank
+LOC_mpt=http://www.library.carleton.ca/floor-maps/floor-1" target="_blank
 LOC_ottr=http://www.library.carleton.ca/floor-maps/floor-1" target="_blank
+LOC_ser1=http://www.library.carleton.ca/floor-maps/floor-1" target="_blank
 
 # Floor 2
 LOC_acq=http://www.library.carleton.ca/floor-maps/floor-2" target="_blank
@@ -605,8 +606,7 @@ LOC_sco=http://www.library.carleton.ca/floor-maps/floor-5" target="_blank
 LOC_spc=http://www.library.carleton.ca/floor-maps/floor-5" target="_blank
 
 # Request forms
-LOC_ths=http://www.library.carleton.ca/forms/thesis-storage-retrieval-request "target="_blank
 LOC_stg=http://www.library.carleton.ca/services/storage-facility/storage-facility-appointment-request "target="_blank
 LOC_stm=http://www.library.carleton.ca/forms/storage-facility-microfilm-request" target="_blank
 LOC_stp=http://www.library.carleton.ca/services/interlibrary-loans
-
+LOC_ths=http://www.library.carleton.ca/forms/thesis-storage-retrieval-request "target="_blank
