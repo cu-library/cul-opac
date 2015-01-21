@@ -333,7 +333,7 @@ ICON_BUT_PAT_GETPSAVEDRECS=<span class="button">Saved Searches</span>
 HAS_ALTERNATE_ID=false
 ALTERNATE_ID_EMAIL=username@replacesitename.com|Your login name has changed
 ICON_PAT_DELETE_ALL=<span class="button">Delete All</span>
-ICON_PAT_DELETE_MARKED=<span class="button">Update List</span>
+ICON_PAT_DELETE_MARKED=<span class="button">Delete Marked</span>
 ICON_READING_HISTORY=<span class="button">Reading History</span>
 ICON_READING_HISTORY_OPTIN=<span class="button">Opt In</span>
 ICON_READING_HISTORY_OPTOUT=<span class="button">Opt Out</span>
