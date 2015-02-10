@@ -2,6 +2,12 @@
  * JQuery-powered customizations of bib record display page
  */
 $(document).ready(function() {
+  // Remove default port & all scopes from persistent record link
+  $("a#recordnum").attr('href', function(i, attrValue) {
+    return attrValue.replace(/~S\d+$/,'');
+  });
+  $("a#recordnum").text($("a#recordnum").text().replace(/\:80\//, '/').replace(/~S\d+$/,''));
+  
   // Add title & call number as query parameters to 'Report Missing Item' form
   $("a#form-missing-item").attr('href', function(i, attrValue) {
     var params = {
