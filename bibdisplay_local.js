@@ -9,13 +9,13 @@ $(document).ready(function() {
    */
   // Highlight alternate entries in keyword search results.
   // Replaces stripeTables()
-  $('td.briefcitCell').filter(':odd').addClass('odd');
+  $('table.browseScreen td.briefcitCell').filter(':odd').addClass('odd');
 
   // Highlight alternate entries in brief and explanded browse tables.
   // Unusual sibling selection made necessary by awkward HTML used in expanded display.
   // Replaces stripeBrowse() and stripeBrowseTables()
-  $('tr.browseEntry').filter(':odd').addClass('odd');
-  $('tr.browseEntry.odd').each(function() {
+  $('table.browseScreen tr.browseEntry').filter(':odd').addClass('odd');
+  $('table.browseScreen tr.browseEntry.odd').each(function() {
     var rowspan = $('td:first', this).attr('rowspan');
     if (rowspan) {
         $('~ tr.browseSubEntry', this).slice(0,(rowspan-1)).addClass('odd');
