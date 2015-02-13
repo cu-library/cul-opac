@@ -5,7 +5,6 @@
     <title>Catalogue | MacOdrum Library</title>
     <meta name="robots" content="noindex" />
     <link rel="shortcut icon" type="ximage/icon" href="/screens/favicon.ico"/>    
-    <script src="/screens/iii.js"></script>
     <script>
        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -21,7 +20,7 @@
   <div id="search-box-wrapper">
     <div id="search-box">
       <h2>Search the Catalogue</h2>
-      <form action="/search/" method="get" name="search" id="search" onSubmit="return iiiSearchValidate();">      
+      <form action="/search/" method="get" name="search" id="search">      
         <input type="hidden" id="iiiFormHandle_1">
         <select id="searchtype" name="searchtype" title="Search type">
           <option selected="selected" value="X">Keyword</option>
@@ -95,6 +94,10 @@
         </div>
       </div>
     </div>
-  </body>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script type="text/javascript">
+      $('document').ready(function(){$('#search').submit(function(event){if(!$('#searcharg').val().trim()){$('#searcharg').val('');event.preventDefault();}});});
+    </script>
+</body>
 </html>
 
