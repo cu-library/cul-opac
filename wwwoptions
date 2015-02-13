@@ -56,7 +56,7 @@ ICON_DELETE_SELECTED=<span class="button">Delete Selected</span>
 ICON_SELECT_ALL=<span class="button">Save All</span>
 # RESOURCETABLE=valign="top"|cellpadding="0" cellspacing="0" border="0"||Quick Links
 INSERTTAG_HTML=<!DOCTYPE html><html lang="en">
-INSERTTAG_INHEAD=<meta charset="utf-8"/><script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script><script src="/screens/iii.js"></script><script src="/screens/bibdisplay_local.js"></script><script>(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,'script','//www.google-analytics.com/analytics.js','ga');ga('create', 'UA-7179023-11', 'carleton.ca'); ga('send', 'pageview');</script>
+INSERTTAG_INHEAD=<meta charset="utf-8"/><script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script><script src="/screens/bibdisplay_local.js"></script><script>(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,'script','//www.google-analytics.com/analytics.js','ga');ga('create', 'UA-7179023-11', 'carleton.ca'); ga('send', 'pageview');</script>
 RIGHT_CELL_WIDTH=18|25
 SSLPORT=80:443|2082:444
 CUSTOM_MESSAGES=T
