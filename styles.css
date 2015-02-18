@@ -755,6 +755,12 @@ tr.odd, td.odd { /* table striping */
 .browseSubEntry .browseSubEntryYear {
   vertical-align: top;
 }
+.browseSubEntryData {
+  padding: 0 0 0 1em;
+}
+.browseSubEntryMedia img {
+  margin: 0 0 0.2em 0.6em;
+}
 /* =============================================================================
  *   Search results: view/save/export marked results
  * ========================================================================== */

@@ -4,6 +4,13 @@
  */
 $(document).ready(function() {
   /**
+   * Remove forced indent in index browse tables and fix punctuation spacing.
+   */
+  $('#main-content').find('td.browseSubEntryData').each(function(){
+    $(this).html( $(this).html().replace(/&nbsp;/g, '').replace(/:/g, ': ').replace(/[,.\s]+;/g, ';'));
+  });
+
+  /**
    * Add classes to keyword search result and browse lists.
    * Replaces iii-provided bib_display.js.
    */
