@@ -121,7 +121,8 @@ ICON_BUT_LIMAVAIL=<span class="button">Limit to Available</span>
 ICON_BUT_LIMIT=<span class="button">Limit/Sort Search</span>
 ICON_BUT_UNLIMAVAIL=<span class="button">Show All</span>
 DISPLAY_245=atd
-EXTENDED=CT
+EXTENDED=AUCT
+EXTENDED_j=AUT
 HEADING_LENGTH=150
 ICON_856LINK=<img src="/screens/bullet.gif" alt="" border="0" style="margin-right:5px">Connect online
 ICON_962LINK=<img src="/screens/bullet.gif" alt="" border="0" style="margin-right:5px">Digital Image
@@ -161,7 +162,7 @@ IMAGE_MATTYPEv=/screens/media_vhs.gif
 IMAGE_MATTYPEw=/screens/media_periodical.gif
 IMAGE_MATTYPEz=/screens/media_bestseller.gif
 IMAGE_MATTYPE2=/screens/media_article.gif
-INDEX_EXT=mcoi
+INDEX_EXT=mcoij
 MEDIA=2
 NO_COPIES=Currently no copies available
 SORT_BROWSE=t:Title|a:Author|c:Year|r:Reverse Year|n:Call Number|m:Material Type
