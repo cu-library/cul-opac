@@ -112,7 +112,14 @@ RELSEARCH=restable||<span class="button"><img src="/screens/ico_magnifyingglass.
 AUTHMSG=<h2 class="briefcitTitle"><em>%u</em> -- See %w <strong>%a</strong></h2><span class="authPublicNote">%p</span>|<h2 class="briefcitTitle">%u -- See Also %w %a </h2><span class="authPublicNote">%p</span>
 AUTHMSG_SR=athe later heading|bthe earlier heading|dthe full form of the heading|fa musical composition based on this work|gthe narrower term|hthe broader term
 # BODYPARAM
+# Browse tables: show author after matched term in 1st line of browse table
+# Suppress additional information in 1st line of index browses that default to extended display
 BRIEF=A
+BRIEF_c=
+BRIEF_h=
+BRIEF_i=
+BRIEF_j=
+BRIEF_o=
 BROWSE_t=245/abhnp/0|240/afklmnopr/0|700/tmnr/0|970/t/0|/abhnpv/0
 BROWSE_HEADERS=Mark|Media
 ICON_BUT_BRIEF=<span class="button">Brief Display</span>
@@ -121,7 +128,10 @@ ICON_BUT_LIMAVAIL=<span class="button">Limit to Available</span>
 ICON_BUT_LIMIT=<span class="button">Limit/Sort Search</span>
 ICON_BUT_UNLIMAVAIL=<span class="button">Show All</span>
 DISPLAY_245=atd
+# Default extended display: show author, title, call number, status & location
+# Suppress repeated call number for Gov Doc number (h) and  Other Call Number (j) indexes
 EXTENDED=AUCT
+EXTENDED_h=AUT
 EXTENDED_j=AUT
 HEADING_LENGTH=150
 ICON_856LINK=<img src="/screens/bullet.gif" alt="" border="0" style="margin-right:5px">Connect online
@@ -162,7 +172,7 @@ IMAGE_MATTYPEv=/screens/media_vhs.gif
 IMAGE_MATTYPEw=/screens/media_periodical.gif
 IMAGE_MATTYPEz=/screens/media_bestseller.gif
 IMAGE_MATTYPE2=/screens/media_article.gif
-INDEX_EXT=mcoij
+INDEX_EXT=chijmo
 MEDIA=2
 NO_COPIES=Currently no copies available
 SORT_BROWSE=t:Title|a:Author|c:Year|r:Reverse Year|n:Call Number|m:Material Type
