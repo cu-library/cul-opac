@@ -792,16 +792,17 @@ tr.odd, td.odd { /* table striping */
 .bibDisplayContentMain, .bibDisplayContentMore {
   border-top: 1px solid #CECECE;
 }
-.bibDetail {
- /* limit width of bib detail table to allow room for book jacket, media icon */
- max-width: 90%;
-}
 .bibInfoLabel,         /* Bib display: metadata label */
 .resourceInfoLabel {   /* Resource display: metadata label */
   color: #1A1A1A;
   text-align: right; 
   padding: .7em .7em 0 0; 
+  width: 10%;
 }
+.bibDisplayContentMore .bibInfoLabel {
+  width: 15%;
+}
+
 h1.bibDisplayTitle {
   font-size: 1em;
   margin: 0;
@@ -876,9 +877,11 @@ h1.bibDisplayTitle {
 .bibPager {
   width: 30%;
 }
-#bibDisplayContent .bibDisplayJacket { /* wraps linked jacket image (no classes!) and .bibMedia */
-  padding: 20px 0 0; /* top padding = #bibDisplayBody padding right */
-}
+#bibMedia, #bibDisplayJacket { display: none; }
+.bibIcon { vertical-align: top; padding: .8em .4em; }
+#bibMediaIcon { width: 45px; }
+#bibJacketIcon { text-align: right; }
+
 /* =============================================================================
  *   Login / My Account
  * ========================================================================== */

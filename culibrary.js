@@ -32,6 +32,12 @@ $(document).ready(function() {
   /**
    * Bib & eresource record display customizations.
    */
+  // Show bib media icon & book jacket
+  $('#bibDisplayContent').find('.bibDetail:first tr:first').prepend('<td id="bibMediaIcon" class="bibIcon"></td>');
+  $('#bibMediaIcon').append( $('#bibMedia img') );
+  $('#bibDisplayContent').find('.bibDetail:first tr:first').append('<td id="bibJacketIcon" class="bibIcon"></td>');
+  $('#bibJacketIcon').append( $('#bibDisplayJacket img') );
+  
   // Remove default port & all scopes from persistent record link
   $("a#recordnum").attr('href', function(i, attrValue) {
     return attrValue.replace(/~S\d+$/,'');
