@@ -26,12 +26,12 @@
   font-style: normal;
   font-weight: 600;
   src: local('Open Sans Semibold'), local('OpenSans-Semibold'), url(/screens/OpenSansSemibold.woff) format('woff');
-} 
+}
 
 /**
  * html5doctor.com Reset Stylesheet v1.6.1
  * Last Updated: 2010-09-17
- * Author: Richard Clark - http://richclarkdesign.com 
+ * Author: Richard Clark - http://richclarkdesign.com
  *
  * Modified for use with WebPAC Pro at Carleton University Library
  */
@@ -44,7 +44,7 @@ b, i,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, figcaption, figure, 
+article, aside, canvas, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section, summary,
 time, mark, audio, video {
   margin:0;
@@ -65,11 +65,11 @@ body {
   min-height: 100%;
   font-size: 87.5%;
   font-family: 'Open Sans',Helvetica,Arial,sans-serif;
-  background: none repeat scroll 0 0 #E6E6E6;  
+  background: none repeat scroll 0 0 #E6E6E6;
 }
 
 article,aside,details,figcaption,figure,
-footer,header,hgroup,menu,nav,section { 
+footer,header,hgroup,menu,nav,section {
   display:block;
 }
 nav ul, ul.menu {
@@ -108,7 +108,7 @@ ins {
 /* change colours to suit your needs */
 mark {
   background-color:#ff9;
-  color:#000; 
+  color:#000;
   font-style:italic;
   font-weight:bold;
 }
@@ -130,7 +130,7 @@ th, td { /* undo ProStyles */
 hr {
   display:block;
   height:1px;
-  border:0;   
+  border:0;
   border-top:1px solid #cccccc;
   margin:1em 0;
   padding:0;
@@ -189,7 +189,7 @@ h6 {
 }
 
 /* =============================================================================
- *   Layout Helpers 
+ *   Layout Helpers
    ========================================================================== */
 
 /* Center layout be default */
@@ -214,7 +214,7 @@ h6 {
 .clearfix:after {
   display: block;
   height: 0;
-  visibility: hidden;  
+  visibility: hidden;
   content: "";
   display: table;
   clear: both;
@@ -225,7 +225,7 @@ h6 {
 }
 
 .sidebar {
-  width: 25%; 
+  width: 25%;
   margin: 20px 0 0 -25%;
 }
 
@@ -338,7 +338,7 @@ h6 {
   background-color: #393939;
   color: #EFEFEF;
 }
-    
+
 #leaderboard-left a:hover {
   text-decoration: none;
   background-color: #FFFFFF;
@@ -354,7 +354,7 @@ h6 {
  * ========================================================================== */
 
 #header {
-  padding-left: 5px;  
+  padding-left: 5px;
   text-align: center;
 }
 
@@ -371,7 +371,7 @@ h6 {
 #header li.highlight a:hover {
   background: none repeat scroll 0 0 #BBD3DF;
   color: #1A1A1A;
-  text-decoration: none;  
+  text-decoration: none;
 }
 #header-left {
   float: left;
@@ -400,7 +400,7 @@ h6 {
   line-height: 34px;
   padding-top: 5px;
   line-height: 2.8rem;
-  margin: 0;  
+  margin: 0;
 }
 #header-right {
   float: right;
@@ -445,7 +445,7 @@ h6 {
 .content-inner {
   min-height: 1px;
   overflow: visible;
-  word-wrap: break-word;  
+  word-wrap: break-word;
 }
 
 #main-content a { /* last div added by toplogo */
@@ -463,12 +463,12 @@ h6 {
 }
 /* =============================================================================
  *   Forms
- * ========================================================================== */ 
+ * ========================================================================== */
 #form-wrapper {
   margin: 10px;
 }
 form, fieldset legend {
-  margin: 0 0 1.5em;  
+  margin: 0 0 1.5em;
 }
 form div {
   margin: 0 0 1em;
@@ -552,7 +552,7 @@ div.browseSearchtool form div,  /* search results */
 div.bibSearch form div {        /* bib display */
   margin: 1em 0 0;
 }
-.availLimMessage, 
+.availLimMessage,
 div.browseSearchtoolMessage i,
 div.bibSearchtoolMessage i { /* undo ProStyles */
   font-style: normal;
@@ -609,23 +609,23 @@ td.browseSaveJump { /* Header, footer mark save links wrapped in td */
  *   Search results: header, search type & number of results
  * ========================================================================== */
 .browseHeaderData {
-  background: #e8f2f9; 
+  background: #e8f2f9;
   border-bottom: 1px dotted #ECECEC;
   font-weight: normal; /* undo ProStyles */
   padding-left: 10px; /* align with .browseSaveJump */
-  text-align: left; 
+  text-align: left;
 }
 /* =============================================================================
  *   Search results: header, relevancy sorting notice
  * ========================================================================== */
 .browseSuperEntry {
-  background: #FFFFFF url('tile_browsesuperentry.jpg') repeat-x bottom left; 
-  border-bottom:1px solid #D3D3D3; 
-  text-align:center; 
-}  
-h1.browseSuperEntryTitle { 
-  font-size: 1.1em; 
-  display: inline; 
+  background: #FFFFFF url('tile_browsesuperentry.jpg') repeat-x bottom left;
+  border-bottom:1px solid #D3D3D3;
+  text-align:center;
+}
+h1.browseSuperEntryTitle {
+  font-size: 1.1em;
+  display: inline;
 }
 /* =============================================================================
  *   Search results: extended display (keyword)
@@ -633,7 +633,7 @@ h1.browseSuperEntryTitle {
 .briefcitCell {
   border-bottom: 1px solid #D3D3D3;
 }
-.briefcitLeft, .briefcitResourceLeft { 
+.briefcitLeft, .briefcitResourceLeft {
   /* wraps div.briefcitEntryNum, div.briefcitMark, div.briefcitMedia */
   width: 8%;
   float: left;
@@ -665,39 +665,33 @@ h1.browseSuperEntryTitle {
   /* Book jacket images are inconsistently sized; float & pad right */
   width: 100px;
   float: right;
-  text-align: right;    
+  text-align: right;
   padding-right: 1em;
 }
 .briefcitDetail { /* Wraps .briefcitDetailMain, .briefcitItems */
 }
 
-.briefcitDetailMain { 
+.briefcitDetailMain {
   /* Wraps:
     h2.briefcitTitle
     some HTML
     briefcitRequest
-    briefcitStatus
-    briefcitActions */
+    briefcitStatus */
 }
 .briefcitTitle { /* h2-level bibrecord title*/
   font-size: 1em;
   margin: 1em 0 0;
 }
 .briefcitRequest { /* wraps Hold/Request link */
-  margin: 1em 0 .2em 12%;  
+  margin: 1em 0 .2em 12%;
 }
-.briefcitStatus { 
-  /* 
+.briefcitStatus {
+  /*
     @todo is this field ever populated? span.briefcitStatus is between
     request & actions, so needs to be block display & formatted the same
-  */  
-  font-weight: 400;  
+  */
+  font-weight: 400;
 }
-.briefcitActions { /* 'Connect online,' etc. */
-  text-align: left; /* undo ProStyles */
-  margin: .2em 0 1em 12%; /* align with .briefcitRequest */
-}
-
 .briefcitItems {
   /* wraps .briefcitItemsMain */
 }
@@ -705,7 +699,7 @@ h1.browseSuperEntryTitle {
   /* wraps table.bibItems */
 }
 .briefcitItems table { /* two tables: item locations & 'additional copies' notice */
-  margin: 0 0 1em 12%; /* align with .briefcitRequest, .briefcitActions */
+  margin: 0 0 1em 12%; /* align with .briefcitRequest */
   width: 78%;
 }
 .bibItems {
@@ -728,7 +722,7 @@ h1.browseSuperEntryTitle {
   padding: 3px 0;
 }
 tr.odd, td.odd { /* table striping */
-  background: #F8F8F8; 
+  background: #F8F8F8;
 }
 .briefcitClear { /* always empty, clears floating content */
 }
@@ -751,7 +745,7 @@ tr.odd, td.odd { /* table striping */
 /* =============================================================================
  *   Search results: extended display (browseable)
  * ========================================================================== */
-.browseSubEntry .browseSubEntryMedia, 
+.browseSubEntry .browseSubEntryMedia,
 .browseSubEntry .browseSubEntryYear {
   vertical-align: top;
 }
@@ -795,8 +789,8 @@ tr.odd, td.odd { /* table striping */
 .bibInfoLabel,         /* Bib display: metadata label */
 .resourceInfoLabel {   /* Resource display: metadata label */
   color: #1A1A1A;
-  text-align: right; 
-  padding: .7em .7em 0 0; 
+  text-align: right;
+  padding: .7em .7em 0 0;
   width: 10%;
 }
 .bibDisplayContentMore .bibInfoLabel {
@@ -847,7 +841,7 @@ h1.bibDisplayTitle {
 #main-content pre {
   /* MARC display. It's not possible create a more specific selector */
   font-size: 120%;
-  margin: 1em 1.5em;  
+  margin: 1em 1.5em;
 }
 /* =============================================================================
  *   Eresource record: details
@@ -859,8 +853,8 @@ h1.bibDisplayTitle {
 /* =============================================================================
  *   Sidebar: Bib record display, "Quick Links"
  * ========================================================================== */
-.bibActions { 
-  /* custom div wraps hard-coded replacement for resource table & iii-generated 
+.bibActions {
+  /* custom div wraps hard-coded replacement for resource table & iii-generated
      .bibPager */
   margin: 1.5em 0 .5em;
 }
@@ -928,7 +922,7 @@ span.loggedInMessage + br + br { /* drop line breaks after span */
 .patFuncArea form {
   padding: 1em 0;
   margin: 0;
-} 
+}
 table.patFunc { /* patron function table */
   margin: 1em 0;
 }
@@ -961,7 +955,7 @@ span.patFunc {
   width: 15%;
 }
 /* My Lists pages, iii-generated */
-.mylistsSavePage .pageMainAreaHeader { 
+.mylistsSavePage .pageMainAreaHeader {
   /* Make the header div look like an h2 */
   font-size: 1.5em;
   margin: 0.83em 0;
@@ -971,7 +965,7 @@ span.patFunc {
   /* adjust label alignment for textarea */
   vertical-align: top;
 }
-.mylistsSavePage select { 
+.mylistsSavePage select {
   margin: 1em 0;
 }
 .mylistsSavePage .showInlineElem {
@@ -1002,7 +996,7 @@ span.patFunc {
 .bookingsCalendar table em {
   font-style: normal;
 }
-.bookingsCalendar th, 
+.bookingsCalendar th,
 .bookingsCalendar td {
   padding: 5px;
   border: 1px solid #CFCFCF;
@@ -1050,7 +1044,7 @@ div.sidebar .block-title {
 }
 
 #footer-wrapper a {
-  color: #DEDFD7;      
+  color: #DEDFD7;
 }
 
 #footer-wrapper a.title {
@@ -1063,8 +1057,8 @@ div.sidebar .block-title {
   margin-right: 1rem;
   top: -1rem;
   background: white;
-  font-size: 95%;  
-  color: #DEDFD7;    
+  font-size: 95%;
+  color: #DEDFD7;
 }
 
 #footer .region-footer {
@@ -1075,7 +1069,7 @@ div.sidebar .block-title {
 }
 
 #footer div.address {
-  float: left; 
+  float: left;
   width: 40%;
 }
 
@@ -1086,15 +1080,15 @@ div.sidebar .block-title {
 }
 
 #footer .branding h1 {
-  font-weight: 400;  
-  line-height: 34px;  
+  font-weight: 400;
+  line-height: 34px;
   margin: 0;
 }
 
 #footer .branding h2 {
-  font-family: 'open sans',Helvetica,Arial,sans-serif; 
+  font-family: 'open sans',Helvetica,Arial,sans-serif;
   font-weight: normal;
-  font-style: italic; 
+  font-style: italic;
   margin: 0;
 }
 
