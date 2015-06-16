@@ -191,7 +191,7 @@ HOLDINGS_POS=atpR
 # HOTLINK=i^020,c^09,n^505
 ICON_BIB_HOLDINGS_ITEMS=View Copies
 # ICON_NEARBY=<img src="/screens/bullet.gif" alt="Nearby on shelf" border="0">
-ICON_BIB_PAGING_CAPTION=Browse search results: 
+ICON_BIB_PAGING_CAPTION=Browse search results:
 ICON_BIB_PAGING_NEXT=<span class="button browseNext">Next &raquo;</span>
 ICON_BIB_PAGING_PREV=<span class="button browsePrevious">&laquo; Previous</span>
 ICON_RECORDLINK=Link to this record: <span class="bibRecordLink"><a id="recordnum" href="%s">%s</a></span>
@@ -236,11 +236,11 @@ ICON_BUT_CARDFORM_BOX=<span class="button">Show Cards in Box Format</span>
 ICON_BUT_CARDFORM_LIN=<span class="button">Show Cards in Line Format</span>
 CHECKIN_BGCOLOR=ARRIVED=#FFFFFF|EXPECTED=#FFFFFF|TO BIND/BOUND=#FFFFFF|LATE=#FFFFFF|OTHER=#FFFFFF
 CHECKIN_FONTCOLOR=ARRIVED=GREEN|EXPECTED=BLACK|TO BIND/BOUND=RED|LATE=BLACK|OTHER=BLACK
-CHECKIN_STATUS=ARRIVED=Here|EXPECTED=Coming soon|TO BIND/BOUND=Being bound|LATE=Late|Other=See staff
+CHECKIN_STATUS=A=Here|C=Late|E=Coming soon|L=Late|M=Missing|N=Not published|O=Out of print
 DISPLAY_CHECKIN_856=z
 HOLDINGS_REQ=Deliver this article to me
 # If SORT_ITEMS is true, attached items are sorted by location, then by the order
-# in which they were attached to the bib record. No other options are possible. 
+# in which they were attached to the bib record. No other options are possible.
 # SORT_ITEMS=true
 SUPPRESS_CARD=UI
 

@@ -1023,6 +1023,19 @@ span.patFunc {
 }
 
 /* =============================================================================
+ *   Checkin cards
+ * ========================================================================== */
+#main-content .checkinCardTable td { /* make checkin cards slightly more readable */
+  padding: .4em;
+}
+#main-content .checkinInfoLabel { /* undo prostyles, center & add margin */
+  float: none;
+  width: initial;
+  text-align: center;
+  margin: 1em;
+}    
+
+/* =============================================================================
  *   Sidebar: other searches & related resources
  * ========================================================================== */
 div.sidebar {
