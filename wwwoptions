@@ -581,6 +581,7 @@ LOC_ser1=http://www.library.carleton.ca/floor-maps/floor-1" target="_blank
 # Floor 2
 LOC_acq=http://www.library.carleton.ca/floor-maps/floor-2" target="_blank
 LOC_cat=http://www.library.carleton.ca/floor-maps/floor-2" target="_blank
+LOC_cdm=http://www.library.carleton.ca/floor-maps/floor-2" target="_blank
 LOC_ddo=http://www.library.carleton.ca/floor-maps/floor-2" target="_blank
 LOC_ill=http://www.library.carleton.ca/floor-maps/floor-2" target="_blank
 LOC_lof=http://www.library.carleton.ca/floor-maps/floor-2" target="_blank
@@ -600,7 +601,6 @@ LOC_vid=http://www.library.carleton.ca/floor-maps/floor-2" target="_blank
 LOC_vid2=http://www.library.carleton.ca/floor-maps/floor-2" target="_blank
 
 # Floor 3
-LOC_cdm=http://www.library.carleton.ca/floor-maps/floor-3" target="_blank
 LOC_flr3=http://www.library.carleton.ca/floor-maps/floor-3" target="_blank
 LOC_fol3=http://www.library.carleton.ca/floor-maps/floor-3" target="_blank
 
