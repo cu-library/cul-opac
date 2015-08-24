@@ -346,7 +346,6 @@ LOGGEDIN_MSG=<span class="loggedInMessage">You are logged in <span class="logged
 NO_REVERIFY=book,req
 # PATRONVIEW_START=holds,ill,mylists,fines,chkouts,bookings,psearch,mffavs,readhist,patrate,patreview,programs,irnr
 PREFTEXT=Save as preferred search
-READING_HISTORY=optin|true|
 TOPLOGO_LOGGEDIN=Y
 PREF_SEARCHES_P0=15|Y
 PREF_SEARCHES_P1=15|Y
