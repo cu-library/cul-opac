@@ -19,7 +19,6 @@
 # Ecommerce
 # Bookings
 # ILL
-# INN-Reach
 # Media Management
 # Reserves
 # Featured Lists
@@ -402,9 +401,6 @@ ICON_BUT_ILL_HOME=<span class="button"><img src="/screens/ico_up.gif" alt=""><sp
 ICON_BUT_PAT_ILL=<span class="button"><img src="/screens/ico_gear.gif" alt=""><span class="buttonText">Interlibrary Loan</span></span>
 ILL_CONF_EMAIL_SUBJECT=Library notification of Inter-library Loan request
 ILL_HOME=/screens/ill.html
-
-# INN-Reach
-IR_PLACEMENT=1
 
 # Media Management
 ICON_BUT_RET2CRS=<span class="button"><img src="/screens/ico_back.gif" alt=""><span class="buttonText">Return to Course</span></span>
