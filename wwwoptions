@@ -27,7 +27,6 @@
 # WebBridge/Pathfinder Pro
 # Patron Feeds
 # Z39.50
-# Partner
 # AirPAC
 # Patron Registration
 # My Federated Search (Research Pro or MetaFind)
@@ -463,9 +462,6 @@ ICON_BUT_Z39_REQUEST=<span class="button"><img src="/screens/ico_checkbox.gif" a
 ICON_BUT_Z39SEARCH=<span class="button"><img src="/screens/ico_magnifyingglass.gif" alt=""><span class="buttonText">Search Other Libraries</span></span>
 Z39BROADCAST=Z39.50 Broadcast Search:Please select the Z39.50 servers to which you want to send your search
 Z39MULTI=500:100
-
-# Partner
-ICON_BUT_RETHOME=<span class="button"><img src="/screens/ico_up.gif" alt=""><span class="buttonText">Home</span></span>
 
 # AirPAC
 AIRPAC_PORT=6060
