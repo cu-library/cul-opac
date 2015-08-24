@@ -20,7 +20,6 @@
 # Bookings
 # Media Management
 # Reserves
-# Featured Lists
 # Content Linking and Other Resources
 # WebBridge/Pathfinder Pro
 # Z39.50
@@ -403,11 +402,6 @@ RSRV_FORMAT=true
 # RSRV_HEADER=Materials for this Course
 # RSRV_HEADER=Featured Titles This Month
 TABLEPARAM_RSRV_BIBS=width="100%" border="0" cellpadding="0" cellspacing="0"
-
-# Featured Lists
-ICON_BUT_PREVSCRN=<span class="button">Back</span>
-ICON_BUT_RET2FEAT=<span class="button">Back</span>
-# FEATURED_LIST=01,02,03|FEATURED LISTS|CATEGORY|# of Titles
 
 # Content Linking and Other Resources
 # If your system uses SSL, use the https example, to avoid secure/nonsecure warning on Internet Explorer.
