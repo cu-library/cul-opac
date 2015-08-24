@@ -400,7 +400,6 @@ ICON_PREVCAL=Previous
 ICON_BUT_ILL_CANCEL=<div onmousedown="this.className='pressedState';" onmouseout="this.className='';" onmouseup="this.className='';"><div class="buttonSpriteDiv"><span class="buttonSpriteSpan1"><span class="buttonSpriteSpan2">Cancel</span></span></div></div>
 ICON_BUT_ILL_FORM=<span class="button"><img src="/screens/ico_gear.gif" alt=""><span class="buttonText">Interlibrary Loan Form</span></span>
 ICON_BUT_ILL_HOME=<span class="button"><img src="/screens/ico_up.gif" alt=""><span class="buttonText">New Request</span></span>
-ICON_BUT_PAT_ILL_FORM=<span class="button"><img src="/screens/ico_gear.gif" alt=""><span class="buttonText">Interlibrary Loan Form</span></span>
 ICON_BUT_PAT_ILL=<span class="button"><img src="/screens/ico_gear.gif" alt=""><span class="buttonText">Interlibrary Loan</span></span>
 ILL_CONF_EMAIL_SUBJECT=Library notification of Inter-library Loan request
 ILL_HOME=/screens/ill.html
