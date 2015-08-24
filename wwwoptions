@@ -18,7 +18,6 @@
 # Patron Ratings
 # Ecommerce
 # Bookings
-# Media Management
 # Reserves
 # Content Linking and Other Resources
 # WebBridge/Pathfinder Pro
@@ -390,12 +389,6 @@ ICON_DAILYCAL=View Daily Calendar
 ICON_HOURLYCAL=View Hourly Calendar
 ICON_NEXTCAL=Next
 ICON_PREVCAL=Previous
-
-# Media Management
-ICON_BUT_RET2CRS=<span class="button"><img src="/screens/ico_back.gif" alt=""><span class="buttonText">Return to Course</span></span>
-ERESERVE=[0123456789]
-# IMAGE_PRINT=yes
-# IMAGE_SAVE=yes
 
 # Reserves
 RSRV_FORMAT=true
