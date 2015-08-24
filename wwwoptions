@@ -428,7 +428,6 @@ ICON_BUT_RET2FEAT=<span class="button">Back</span>
 # If your system uses SSL, use the https example, to avoid secure/nonsecure warning on Internet Explorer.
 BIBIMAGE=https://secure.syndetics.com/index.aspx?isbn=%s/SC.GIF&client=carletonu|i|https://secure.syndetics.com/index.aspx?isbn=%s/LC.GIF&client=carletonu
 BUT_ENCYCPD=/screens/encycpd.gif
-BUT_FULL_TEXT=/screens/full_text.gif
 # WEBADDRESS=http://carletonu.summon.serialssolutions.com/#!/search?ho=t&q=%s&l=en|I|http://carletonu.summon.serialssolutions.com/#!/search?ho=t&q=ISBN:%s|<span class="button"><span class="buttonText">Broaden your search in Summon</span></span>|<span class="button"><span class="buttonText">Broaden your search in Summon</span></span>|-1
 
 # WebBridge/Pathfinder Pro
