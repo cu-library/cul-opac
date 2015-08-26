@@ -359,9 +359,9 @@ ICON_NEXTCAL=Next
 ICON_PREVCAL=Previous
 
 # Reserves
-RSRV_FORMAT=true
-# RSRV_HEADER=Materials for this Course
-# RSRV_HEADER=Featured Titles This Month
+RSRV_FORMAT=false
+RSRV_HEADER=Materials for this course
+RSRV_ITEMTYPE=true
 TABLEPARAM_RSRV_BIBS=width="100%" border="0" cellpadding="0" cellspacing="0"
 
 # Content Linking and Other Resources
