@@ -365,10 +365,8 @@ RSRV_ITEMTYPE=true
 TABLEPARAM_RSRV_BIBS=width="100%" border="0" cellpadding="0" cellspacing="0"
 
 # Content Linking and Other Resources
-# If your system uses SSL, use the https example, to avoid secure/nonsecure warning on Internet Explorer.
 BIBIMAGE=https://secure.syndetics.com/index.aspx?isbn=%s/SC.GIF&client=carletonu|i|https://secure.syndetics.com/index.aspx?isbn=%s/LC.GIF&client=carletonu
-BUT_ENCYCPD=/screens/encycpd.gif
-# WEBADDRESS=http://carletonu.summon.serialssolutions.com/#!/search?ho=t&q=%s&l=en|I|http://carletonu.summon.serialssolutions.com/#!/search?ho=t&q=ISBN:%s|<span class="button"><span class="buttonText">Broaden your search in Summon</span></span>|<span class="button"><span class="buttonText">Broaden your search in Summon</span></span>|-1
+BIBIMAGE_TEXT=Book jacket
 
 # Z39.50
 ICON_BUT_EMAIL=Email
