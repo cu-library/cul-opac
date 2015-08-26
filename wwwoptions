@@ -22,7 +22,6 @@
 # Content Linking and Other Resources
 # Z39.50
 # AirPAC
-# Patron Registration
 # My Federated Search (Research Pro or MetaFind)
 # WebPAC Pro
 # Research Pro
@@ -409,13 +408,6 @@ Z39MULTI=500:100
 
 # AirPAC
 AIRPAC_PORT=6060
-
-# Patron Registration
-# SELFREG_ERROR_EMAIL=circadm|example@example.org|Self Registration Error|example@example.org
-# SELFREG_INFO_EMAIL=circadm|example@example.org|New Patron Registration|example@example.org
-# SELFREG_NAME_ORDER=1|2|3|,
-SELFREG_TEMPLATE=webpat
-TIMEOUT_SELFREG=600
 
 # My Federated Search (Research Pro or MetaFind)
 ICON_MFFAVS_HOME=<span class="button"><img src="/screens/ico_up.gif" alt=""><span class="buttonText">Home</span></span>
