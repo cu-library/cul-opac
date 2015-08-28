@@ -239,15 +239,14 @@ ICON_BACK_TO_MYLISTS=<span class="button">Back to My Lists</span>
 ICON_MYLISTS_RECORD=<span class="button">Add to My Lists</span>
 
 # Saving and Exporting
-# BRIEF_EXPORT=c|a|t|p
-ICON_BUT_BIBEXPORT=<span class="button">Save Marked Records</span>
+ICON_BUT_BIBEXPORT=<span class="button">Save Record</span>
 ICON_BUT_CLEAR_MARKED=<span class="button">Clear Saved Records</span>
-ICON_BUT_EXPORT_MULTI=<span class="button">Export Saved</span>
-ICON_BUT_EXPORT_VIEW_SAVES=<span class="button">View/Export Saved Records</span>
-ICON_BUT_VIEW_SAVES=<span class="button">View/Export Saved Records</span>
+ICON_BUT_EXPORT_MULTI=<span class="button">Export Saved Records</span>
+ICON_BUT_EXPORT_VIEW_SAVES=<span class="button">Export Saved Records</span>
+ICON_BUT_VIEW_SAVES=<span class="button">View Saved Records</span>
 EMAILOP=From the Library Catalogue|recordexport@library.carleton.ca|
 EXPORT_SELECT_TABLE=Sendto:browser,email,local|Format:full,brief,marc,procite,endnote
-XRECTYPE=boi
+XRECTYPE=bi
 
 # Requesting
 # Suppress request option on bibliographic records with no attached items or orders
