@@ -39,6 +39,7 @@ ICON_PREVPAGE=<span class="button">Previous Screen</span>
 ICON_SELECT_ALL=<span class="button">Save All</span>
 ICON_SUBMIT=<span class="button">Submit</span>
 ICON_UPDATELIST=<span class="button">Update List</span>
+INNOVATIVE_FOOTER=center|b
 INSERTTAG_HTML=<!DOCTYPE html><html lang="en">
 INSERTTAG_INHEAD=<meta charset="utf-8"/><script>(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,'script','//www.google-analytics.com/analytics.js','ga');ga('create', 'UA-7179023-11', 'carleton.ca'); ga('send', 'pageview');</script>
 RIGHT_CELL_WIDTH=18|25
@@ -350,7 +351,6 @@ AIRPAC_PORT=6060
 BROWSE50=true
 ICON_SPELLCHECK_MORE=<span class="spellcheckToolMore">more&nbsp;&raquo;</span>
 ICON_SPELLCHECK_SEARCH=<img src="/screens/ico_go.gif" class="button" border="0" alt="Search">
-INNOVATIVE_FOOTER=center|b
 SPELLCHECK=<span class="spellcheckTool">Did you mean %a? %s </span>
 
 # Copy Location Codes (Links)
