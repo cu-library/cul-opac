@@ -244,19 +244,16 @@ EXPORT_SELECT_TABLE=Sendto:browser,email,local|Format:full,brief,marc,procite,en
 XRECTYPE=bi
 
 # Requesting
-# Suppress request option on bibliographic records with no attached items or orders
-# BIBREQUEST=true
+BIBREQUEST=false
 ICON_BUT_REQUEST=<span class="button">Hold/Request</span>
-ICON_BUT_REQUEST_ALL=<div onmousedown="this.className='pressedState';" onmouseout="this.className='';" onmouseup="this.className='';"><div class="buttonSpriteDiv"><span class="buttonSpriteSpan1"><span class="buttonSpriteSpan2">Request Available</span></span></div></div>
+ICON_BUT_REQUEST_ALL=<span class="button">Request Available</span>
 ICON_BUT_REQUEST_MULTI=<span class="button">Request Saved</span>
-ICON_BUT_REQUEST_RESET=<div onmousedown="this.className='pressedState';" onmouseout="this.className='';" onmouseup="this.className='';"><div class="buttonSpriteDiv"><span class="buttonSpriteSpan1"><span class="buttonSpriteSpan2">Reset Form</span></span></div></div>
-ICON_BUT_REQUEST_SELECTED=<div onmousedown="this.className='pressedState';" onmouseout="this.className='';" onmouseup="this.className='';"><div class="buttonSpriteDiv"><span class="buttonSpriteSpan1"><span class="buttonSpriteSpan2">Request Selected</span></span></div></div>
+ICON_BUT_REQUEST_RESET=<span class="button">Reset Form</span>
+ICON_BUT_REQUEST_SELECTED=<span class="button">Request Selected</span>
 ICON_REQUEST=<img style="margin-right:5px" alt=" " src="/screens/bullet.gif">Hold/Request
-# REQFILLTIME=14|<br>Request available in approximately %d days|<br>Current estimated availability: approximately %d days|<br>This material may be immediately available
 REQUEST=Place a hold on this item|item|home
+REQUEST_MULTI=Place a hold on all items|bib|ask
 REQUEST_ARTICLE_IFCHKIN=f|f
-# REQUEST_INSTRUCTION=Please enter any special instructions: 
-REQUEST_MULTI=Request All Items in Book Cart|bib|ask
 
 # Patron Record
 ICON_BUT_PAT_CANCEL=<span class="button">Cancel</span>
