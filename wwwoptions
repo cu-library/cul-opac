@@ -88,10 +88,6 @@ IMAGE_AVS2=/screens/relevance2.gif
 IMAGE_AVS3=/screens/relevance3.gif
 IMAGE_AVS4=/screens/relevance4.gif
 IMAGE_AVS5=/screens/relevance5.gif
-# ICON_AWS_BYRELEVANCE_LINK=
-# ICON_AWS_BYDATE_LINK=
-# ICON_AWS_BYTITLE_LINK=
-RELSEARCH=restable||<span class="button"><img src="/screens/ico_magnifyingglass.gif" border="0" alt=""><span class="buttonText">Related Searches</span>
 
 # Search Results
 AUTHMSG=<h2 class="briefcitTitle"><em>%u</em> -- See %w <strong>%a</strong></h2><span class="authPublicNote">%p</span>|<h2 class="briefcitTitle">%u -- See Also %w %a </h2><span class="authPublicNote">%p</span>
