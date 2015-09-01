@@ -252,9 +252,6 @@ REQUEST_ARTICLE_IFCHKIN=f|f
 ICON_BUT_PAT_CANCEL=<span class="button">Cancel</span>
 ICON_BUT_PAT_CANCELALL=<span class="button">Cancel All</span>
 ICON_BUT_PAT_CANCELMARK=<span class="button">Cancel Selected</span>
-ICON_BUT_PAT_CHKOUTS=<span class="button">Checked Out Items</span>
-ICON_BUT_PAT_FINES=<span class="button">Fines</span>
-ICON_BUT_PAT_HOLDS=<span class="button">Requests</span>
 ICON_BUT_PAT_RENEWALL=<span class="button">Renew All</span>
 ICON_BUT_PAT_RENEWMARK=<span class="button">Renew Marked</span>
 ICON_BUT_PAT_SORTBYCHKOUT=<span class="button">Sort by Checkout</span>
