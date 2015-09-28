@@ -19,7 +19,6 @@
 # Reserves
 # Content Linking and Other Resources
 # AirPAC
-# WebPAC Pro
 # Copy Location Codes Links
 
 # General Display and Behavior
@@ -90,34 +89,24 @@ IMAGE_AVS5=/screens/relevance5.gif
 # Search Results
 AUTHMSG=<h2 class="briefcitTitle"><em>%u</em> -- See %w <strong>%a</strong></h2><span class="authPublicNote">%p</span>|<h2 class="briefcitTitle">%u -- See Also %w %a </h2><span class="authPublicNote">%p</span>
 AUTHMSG_SR=athe later heading|bthe earlier heading|dthe full form of the heading|fa musical composition based on this work|gthe narrower term|hthe broader term
-# BODYPARAM
 # BRIEF=U
 # BROWSE_t=245/abhnp/0|240/afklmnopr/0|700/tmnr/0|970/t/0|/abhnpv/0
+BROWSE50=true
 BROWSE_HEADERS=Mark|Media
-ICON_BUT_BRIEF=<span class="button">Brief Display</span>
-ICON_BUT_EXTENDED=<span class="button">Extended Display</span>
-ICON_BUT_LIMAVAIL=<span class="button">Limit to Available</span>
-ICON_BUT_LIMIT=<span class="button">Limit/Sort Search</span>
-ICON_BUT_UNLIMAVAIL=<span class="button">Show All</span>
+# CALLNUM_INDEX_TAGS=coi
 # DISPLAY_245=atd
-# Default extended display: show author, title, call number, status & location
-# Suppress repeated call number for Gov Doc number (h) and  Other Call Number (j) indexes
 EXTENDED=AUCT
 EXTENDED_h=AUT
 EXTENDED_j=AUT
 HEADING_LENGTH=150
-ICON_856LINK=<img src="/screens/bullet.gif" alt="" border="0" style="margin-right:5px">Connect online
-ICON_962LINK=<img src="/screens/bullet.gif" alt="" border="0" style="margin-right:5px">Digital Image
-# ICON_BOOKCART=<span class="button"><img src="/screens/ico_bag_add.gif" alt=""><span class="buttonText">Save Marked Records</span></span>
-ICON_BOOKCART_SAVED=<span class="button">Unsave this record</span>
-ICON_FULLRECORD=See Full Record
-# Use default submit button instead of links / image-based buttons
-# ICON_LOCATEINRESULTS=<div onmousedown="this.className='pressedState';" onmouseout="this.className='';" onmouseup="this.className='';"><div class="buttonSpriteDiv"><span class="buttonSpriteSpan1"><span class="buttonSpriteSpan2">Locate in results</span></span></div></div>
+ICON_BOOKCART_SAVED=<span class="button">Unsave Record</span>
+ICON_BUT_BRIEF=<span class="button">Brief Display</span>
+ICON_BUT_EXTENDED=<span class="button">Extended Display</span>
+ICON_BUT_LIMIT=<span class="button">Limit/Sort Search</span>
 ICON_PAGING_CAPTION=Result Page&nbsp;
-ICON_PAGING_NEXT=Next
-ICON_PAGING_PREV=Prev
-ICON_PROGRAM=<img src="/screens/media_program.gif" border="0" alt="Library Event">
-ICON_RESOURCE=<img src="/screens/media_resource.gif" alt="Internet Resource">
+ICON_PAGING_NEXT=Next&nbsp;&raquo;
+ICON_PAGING_PREV=&laquo;&nbsp;Previous
+ICON_RESOURCE=<img src="/screens/media_resource.gif" alt="Internet Resource"/>
 ICON_SAVEALLPAGE=<span class="button">Save All Records On Page</span>
 ICON_SAVEMARKED=<span class="button">Save Marked Records</span>
 IMAGE_MATTYPE-=/screens/media_book.gif
@@ -145,11 +134,11 @@ IMAGE_MATTYPEw=/screens/media_periodical.gif
 IMAGE_MATTYPEz=/screens/media_bestseller.gif
 IMAGE_MATTYPE2=/screens/media_article.gif
 INDEX_EXT=chijmo
-MEDIA=2
+MEDIA=true
 NO_COPIES=Currently no copies available
 SORT_BROWSE=t:Title|a:Author|c:Year|r:Reverse Year|n:Call Number|m:Material Type
 SORT_MEDIA=@amcdji
-SUPPRESS_YEAR=False
+SUPPRESS_YEAR=false
 TABLEPARAM_BRIEFCIT=true|border="0" cellpadding="0" width="100%"
 TABLEPARAM_BROWSE=width="100%" cellpadding="0" cellspacing="0" border="0"|align="center" cellpadding="0" cellspacing="0"|width="100%" cellpadding="0" cellspacing="0" border="0"|cellpadding="0" cellspacing="0" border="0"
 
@@ -326,12 +315,6 @@ BIBIMAGE_TEXT=Book jacket
 
 # AirPAC
 AIRPAC_PORT=6060
-
-# WebPAC Pro
-BROWSE50=true
-ICON_SPELLCHECK_MORE=<span class="spellcheckToolMore">more&nbsp;&raquo;</span>
-ICON_SPELLCHECK_SEARCH=<img src="/screens/ico_go.gif" class="button" border="0" alt="Search">
-SPELLCHECK=<span class="spellcheckTool">Did you mean %a? %s </span>
 
 # Copy Location Codes (Links)
 # Floor 1
