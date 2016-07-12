@@ -97,7 +97,7 @@ BROWSE_HEADERS=Mark|Media
 EXTENDED=AUCT
 EXTENDED_h=AUT
 EXTENDED_j=AUT
-HEADING_LENGTH=150
+HEADING_LENGTH=1000
 ICON_BOOKCART_SAVED=<span class="button">Unsave Record</span>
 ICON_BUT_BRIEF=<span class="button">Brief Display</span>
 ICON_BUT_EXTENDED=<span class="button">Extended Display</span>
