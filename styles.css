@@ -876,9 +876,10 @@ h1.bibDisplayTitle {
   width: 30%;
 }
 #bibMedia, #bibDisplayJacket { display: none; }
-.bibIcon { vertical-align: top; padding: .8em .4em; }
+.bibIcon { vertical-align: top; padding: .8em 0 .8em .8em; }
 #bibMediaIcon { width: 45px; }
 #bibJacketIcon { text-align: right; }
+#bibJacketIcon img { max-width: none; }
 
 /* =============================================================================
  *   Login / My Account
