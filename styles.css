@@ -686,7 +686,7 @@ h1.browseSuperEntryTitle {
   margin: 1em 0 0;
 }
 .briefcitRequest { /* wraps Hold/Request link */
-  margin: 1em 0 .2em 0;
+  margin: 1em 0;
 }
 .briefcitStatus {
   /*
