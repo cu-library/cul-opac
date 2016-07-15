@@ -633,32 +633,18 @@ h1.browseSuperEntryTitle {
 .briefcitCell {
   border-bottom: 1px solid #D3D3D3;
 }
-.briefcitLeft, .briefcitResourceLeft {
+.briefcitLeft {
   /* wraps div.briefcitEntryNum, div.briefcitMark, div.briefcitMedia */
   width: 8%;
   float: left;
   margin: 1em 2em 0 1em; /* align top with .briefcitDetail .briefcitJacket */
-}
-.briefcitEntryNum, .briefcitMark {
-  float: right;
-  width: 46%;
-  min-height: 30px;
-  margin: 0 1px 1em 1px;
-}
-.briefcitMark {
-  text-align: right;
+  text-align: center;
 }
 .briefcitEntryNum {
   color: #767C70;
-  margin-top: 1px;
-  word-wrap: normal;
 }
-.briefcitMedia, .briefcitResourceMedia { /* Media icons for books, etc. */
-  clear: right;
-  padding-left: 15px;
-}
-.briefcitResourceMedia {
-  margin: 0 0 1em;
+.briefcitMedia { /* Media icons for books, etc. */
+  margin: 0.6em 0 1em;
 }
 .briefcitJacket,    /* search results */
 .bibDisplayJacket { /* Bib display */
