@@ -637,7 +637,7 @@ h1.browseSuperEntryTitle {
   /* wraps div.briefcitEntryNum, div.briefcitMark, div.briefcitMedia */
   width: 8%;
   float: left;
-  margin: 0 2em 0 1em;
+  margin: 1em 2em 0 1em; /* align top with .briefcitDetail .briefcitJacket */
 }
 .briefcitEntryNum, .briefcitMark {
   float: right;
@@ -667,8 +667,11 @@ h1.browseSuperEntryTitle {
   float: right;
   text-align: right;
   padding-right: 1em;
+  margin: 1em 0;
 }
 .briefcitDetail { /* Wraps .briefcitDetailMain, .briefcitItems */
+  float: left;
+  width: 88%;
 }
 
 .briefcitDetailMain {
@@ -680,10 +683,10 @@ h1.browseSuperEntryTitle {
 }
 .briefcitTitle { /* h2-level bibrecord title*/
   font-size: 1em;
-  margin: 1em 0 0;
+  margin: 1em 1em .6em 0;
 }
 .briefcitRequest { /* wraps Hold/Request link */
-  margin: 1em 0 .2em 12%;
+  margin: 1em 0;
 }
 .briefcitStatus {
   /*
@@ -699,7 +702,7 @@ h1.browseSuperEntryTitle {
   /* wraps table.bibItems */
 }
 .briefcitItems table { /* two tables: item locations & 'additional copies' notice */
-  margin: 0 0 1em 12%; /* align with .briefcitRequest */
+  margin: 0 0 1em 0; /* align with .briefcitRequest */
   width: 78%;
 }
 .bibItems {
@@ -725,6 +728,7 @@ tr.odd, td.odd { /* table striping */
   background: #F8F8F8;
 }
 .briefcitClear { /* always empty, clears floating content */
+  clear: both;
 }
 /* =============================================================================
  *   Search results: compact display (browseable)
@@ -872,9 +876,10 @@ h1.bibDisplayTitle {
   width: 30%;
 }
 #bibMedia, #bibDisplayJacket { display: none; }
-.bibIcon { vertical-align: top; padding: .8em .4em; }
+.bibIcon { vertical-align: top; padding: .8em 0 .8em .8em; }
 #bibMediaIcon { width: 45px; }
 #bibJacketIcon { text-align: right; }
+#bibJacketIcon img { max-width: none; }
 
 /* =============================================================================
  *   Login / My Account
@@ -1033,7 +1038,7 @@ span.patFunc {
   width: initial;
   text-align: center;
   margin: 1em;
-}    
+}
 
 /* =============================================================================
  *   Sidebar: other searches & related resources
