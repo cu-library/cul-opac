@@ -683,7 +683,7 @@ h1.browseSuperEntryTitle {
 }
 .briefcitTitle { /* h2-level bibrecord title*/
   font-size: 1em;
-  margin: 1em 0 0;
+  margin: 1em 1em .4em 0;
 }
 .briefcitRequest { /* wraps Hold/Request link */
   margin: 1em 0;
