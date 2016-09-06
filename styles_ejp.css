@@ -1,0 +1,39 @@
+/* CSS for ProQuest 360 Core E-Journal Portal 2.0 */
+#carletonu-header {
+  padding: 10px 0 0 60px;
+}
+#carletonu-header a {
+  color: black;
+}
+#carletonu-logo {
+  float: left;
+  height: 1px;
+  margin-right: 0.3rem;
+  padding-bottom: 0;
+  text-align: center;
+}
+#carletonu-logo img {
+  width: 60px;
+  padding-top: 5px;
+  vertical-align: bottom;
+}
+#carletonu-header hgroup {
+  float: left;
+  clear: right;
+}
+#carletonu-header hgroup h1,
+#carletonu-header hgroup h2 {
+  margin: 0;
+}
+#carletonu-header hgroup h1 {
+  margin-bottom: .2em;
+}
+#carletonu-header hgroup h2 {
+  font-size: 24px;
+}
+#carletonu-help {
+  padding: 30px 30px 0 80px;
+}
+h1.search-page-header {
+  display: none; /* suppress disappearing title */
+}
