@@ -1,4 +1,27 @@
 /* CSS for ProQuest 360 Core E-Journal Portal 2.0 */
+#carletonu-topmenu-wrapper {
+  height: 40px;
+  background: #1a1a1a none repeat scroll 0 0;
+  border-bottom: 3px solid #ccc;
+  color: white;
+}
+#carletonu-topmenu-wrapper a {
+  color: #fff;
+}
+
+#carletonu-topmenu-right {
+  float: right;
+}
+#carletonu-topmenu-wrapper ul {
+  margin: 0.8rem 0.8rem 0.6rem 0.6rem;
+  padding: 0rem;
+  list-style: none;
+}
+#carletonu-topmenu-wrapper ul > li {
+  padding: 0rem 0.6rem;
+  float: left;
+  position: relative;
+}
 #carletonu-header {
   padding: 10px 0 0 60px;
 }
