@@ -14,13 +14,13 @@
 #      1        2         3       4        5     6           7           8
 #
 #
-b|a|110|-6e|Author||b|
-b|a|111|-6e|Conference||b|
-b|a||-6e|Author||b|
+b|a|110|-06e|Author||b|
+b|a|111|-06e|Conference||b|
+b|a||-06e|Author||b|
 #
 # converted from HOLDINGS_POS field tag: 't'
 #
-b|t|240|-6|Uniform Title||b|
+b|t|240|-06|Uniform Title||b|
 b|t||-6|Title||b|
 #
 # converted from HOLDINGS_POS field tag: 'p'
@@ -67,7 +67,7 @@ b|r|307|-6|Duration||b|
 b|r|310|-6|Frequency||b|
 b|r|320|-6|Frequency||b|
 b|r|321|-6|Frequency||b|
-b|r|340|-6|Description||b|
+b|r|340|-06|Description||b|
 b|r|35[0-7]|-6|Description||b|
 b|r|362|-6|Date||b|
 #b|r||-6|Description||b|
@@ -77,9 +77,9 @@ b|r||&|||b|
 b|s|4[0-1]0|-6|Series||b|
 b|s|411|-6|Conference||b|
 b|s|4[4-9]0|-6|Series||b|
-b|s|8[0-1]0|-6|Series||b|
-b|s|811|-6|Conference||b|
-b|s|830|-6|Series||b|
+b|s|8[0-1]0|-06|Series||b|
+b|s|811|-06|Conference||b|
+b|s|830|-06|Series||b|
 b|s||-6|Series||b|
 b|n|500|-56|Notes||b|
 b|n|501|-56|With:||b|
@@ -94,7 +94,7 @@ b|n|511|-56|Performer||b|
 b|n|5111|-56|Cast||b|
 b|n|51[3-5]|-56|Notes||b|
 b|n|516|-56|File Type||b|
-b|n|518|-56|Notes||b|
+b|n|518|-056|Notes||b|
 b|n|520|-56|Summary||b|
 b|n|521|-56|Audience||b|
 b|n|522|-56|Geographic Coverage||b|
@@ -117,13 +117,13 @@ b|n|586|-56|Awards||b|
 b|n|590|-56|Local Notes||b|
 b|n|591|-56||b|
 b|n||-56|Note||b|
-b|d|6[0-5]0|-26|Subject||b|
-b|d|651|-26|Subject||b|
-b|d|653|-26|Gov Subject||b|
-b|d|69[0-9]|-26|Subject||b|
-b|d||-26|Subject||b|
-b|b|7[0-1]0|-56|Added Author||b|
-b|b||-56|Alt Author||b|
+b|d|6[0-5]0|-026|Subject||b|
+b|d|651|-026|Subject||b|
+b|d|653|-026|Gov Subject||b|
+b|d|69[0-9]|-026|Subject||b|
+b|d||-026|Subject||b|
+b|b|7[0-1]0|-056|Added Author||b|
+b|b||-056|Alt Author||b|
 b|u|130|-56|Uniform Title||b|
 b|u|210|-56|Title||b|
 b|u|242|-56|Added Title||b|
