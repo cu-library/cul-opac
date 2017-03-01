@@ -382,3 +382,9 @@ LOC_stg=http://www.library.carleton.ca/services/storage-facility/storage-facilit
 LOC_stm=http://www.library.carleton.ca/forms/storage-facility-microfilm-request" target="_blank
 LOC_stp=http://www.library.carleton.ca/services/interlibrary-loans
 LOC_ths=http://www.library.carleton.ca/forms/thesis-storage-retrieval-request "target="_blank
+
+# For Encore
+PATFEEDS_MT=134.117.10.163
+#BOTLOGO_ENCORE=
+#STYLESHEET_ENCORE=
+WEBLINKS_ENCORE=2
