@@ -179,7 +179,7 @@ ICON_RESOURCE_RECORD=View Resource Record
 RESOURCE_ADVISORY=k
 RESOURCE_HOLDINGS_FIELDS=Title:VbT|Coverage:Vch|Full Text:VcY
 RESOURCE_HOLDINGS_MAX=12
-RESOURCE_LICENSE_FIELDS=Authorized users:Vlu|Access notes:Vla|Max. Simultaneous Users:Fl232|Terms of Use:Vlt
+RESOURCE_LICENSE_FIELDS=Authorized users:Vlu|Simultaneous users:Fl232|Terms of Use:Vlt
 TABLEPARAM_BIB_LICENSE=width="100%" border="0" cellpadding="0"
 TABLEPARAM_BIB_RESOURCE=width="100%" border="0" cellspacing="0" cellpadding="0"
 TABLEPARAM_BIB_RESOURCE_BRIEF=width="100%" border="0" cellspacing="0" cellpadding="0"
