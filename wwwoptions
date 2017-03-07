@@ -169,7 +169,7 @@ TABLEPARAM_BIB_THUMBNAILS=align="center" cellspacing="0" cellpadding="0"
 TABLEPARAM_BIB_TOC=border="0" cellspacing="0"
 
 # Electronic Resource Management
-BIB_LICENSE_FIELDS_BRIEF=<span class="label">Authorized Users</span>,Vlu|<span class="label">Terms of Use</span>,Vlt
+BIB_LICENSE_FIELDS_BRIEF=<span class="label">Authorized users</span>,Vlu|<span class="label">Simultaneous users</span>,Fl232|<span class="label">Terms of use</span>,Vlt
 BIB_RESOURCE_CAPTION=This title is available electronically via:
 BIB_RESOURCE_FIELDS=:VeT|:VeE|:Vek
 BIB_RESOURCE_FIELDS_BRIEF=:VcY|:Vch|:VeE
@@ -179,7 +179,7 @@ ICON_RESOURCE_RECORD=View Resource Record
 RESOURCE_ADVISORY=k
 RESOURCE_HOLDINGS_FIELDS=Title:VbT|Coverage:Vch|Full Text:VcY
 RESOURCE_HOLDINGS_MAX=12
-RESOURCE_LICENSE_FIELDS=Authorized users:Vlu|Simultaneous users:Fl232|Terms of Use:Vlt
+RESOURCE_LICENSE_FIELDS=Authorized users:Vlu|Simultaneous users:Fl232|Terms of use:Vlt
 TABLEPARAM_BIB_LICENSE=width="100%" border="0" cellpadding="0"
 TABLEPARAM_BIB_RESOURCE=width="100%" border="0" cellspacing="0" cellpadding="0"
 TABLEPARAM_BIB_RESOURCE_BRIEF=width="100%" border="0" cellspacing="0" cellpadding="0"
