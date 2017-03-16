@@ -90,6 +90,8 @@ AUTHMSG=<h2 class="briefcitTitle"><em>%u</em> -- See %w <strong>%a</strong></h2>
 AUTHMSG_SR=athe later heading|bthe earlier heading|dthe full form of the heading|fa musical composition based on this work|gthe narrower term|hthe broader term
 # BRIEF=U
 # BROWSE_t=245/abhnp/0|240/afklmnopr/0|700/tmnr/0|970/t/0|/abhnpv/0
+# Browse specification for d-tagged (subject) fields: suppress control fields 0 & above
+BROWSE_d=/a-z
 BROWSE50=true
 BROWSE_HEADERS=Mark|Media
 # CALLNUM_INDEX_TAGS=coi
