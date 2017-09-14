@@ -19,6 +19,7 @@
 # Reserves
 # Content Linking and Other Resources
 # AirPAC
+# WebPAC Pro
 # Copy Location Codes Links
 
 # General Display and Behavior
@@ -92,21 +93,30 @@ AUTHMSG_SR=athe later heading|bthe earlier heading|dthe full form of the heading
 # BROWSE_t=245/abhnp/0|240/afklmnopr/0|700/tmnr/0|970/t/0|/abhnpv/0
 # Browse specification for d-tagged (subject) fields: suppress control fields 0 & above
 BROWSE_d=/a-z
-BROWSE50=true
 BROWSE_HEADERS=Mark|Media
-# CALLNUM_INDEX_TAGS=coi
+ICON_BUT_BRIEF=<span class="button">Brief Display</span>
+ICON_BUT_EXTENDED=<span class="button">Extended Display</span>
+ICON_BUT_LIMAVAIL=<span class="button">Limit to Available</span>
+ICON_BUT_LIMIT=<span class="button">Limit/Sort Search</span>
+ICON_BUT_UNLIMAVAIL=<span class="button">Show All</span>
 # DISPLAY_245=atd
+# Default extended display: show author, title, call number, status & location
+# Suppress repeated call number for Gov Doc number (h) and  Other Call Number (j) indexes
 EXTENDED=AUCT
 EXTENDED_h=AUT
 EXTENDED_j=AUT
 HEADING_LENGTH=1000
+ICON_856LINK=<img src="/screens/bullet.gif" alt="" border="0" style="margin-right:5px">Connect online
+ICON_962LINK=<img src="/screens/bullet.gif" alt="" border="0" style="margin-right:5px">Digital Image
+# ICON_BOOKCART=<span class="button"><img src="/screens/ico_bag_add.gif" alt=""><span class="buttonText">Save Marked Records</span></span>
 ICON_BOOKCART_SAVED=<span class="button">Unsave Record</span>
-ICON_BUT_BRIEF=<span class="button">Brief Display</span>
-ICON_BUT_EXTENDED=<span class="button">Extended Display</span>
-ICON_BUT_LIMIT=<span class="button">Limit/Sort Search</span>
+ICON_FULLRECORD=See Full Record
+# Use default submit button instead of links / image-based buttons
+# ICON_LOCATEINRESULTS=Locate in Results
 ICON_PAGING_CAPTION=Result Page&nbsp;
-ICON_PAGING_NEXT=Next&nbsp;&raquo;
-ICON_PAGING_PREV=&laquo;&nbsp;Previous
+ICON_PAGING_NEXT=Next
+ICON_PAGING_PREV=Previous
+ICON_PROGRAM=<img src="/screens/media_program.gif" alt="Library Event"/>
 ICON_RESOURCE=<img src="/screens/media_resource.gif" alt="Internet Resource"/>
 ICON_SAVEALLPAGE=<span class="button">Save All Records On Page</span>
 ICON_SAVEMARKED=<span class="button">Save Marked Records</span>
@@ -145,19 +155,21 @@ TABLEPARAM_BROWSE=width="100%" cellpadding="0" cellspacing="0" border="0"|align=
 
 # Record Displays
 BIB_TOC_HEADER=<strong>Table of Contents</strong>
+ICON_BUT_MARC_DISPLAY=<span class="button">MARC Display</span>
+ICON_BUT_REGULAR_DISPLAY=<span class="button">Regular Display</span>
+ICON_BUT_RTRNTB=<span class="button">Return to Browse</span>
 DISPLAY_856=z|true
 HOLDINGS_POS=atpR
 # HOTLINK=i^020,c^09,n^505
 ICON_BIB_HOLDINGS_ITEMS=View Copies
+# ICON_NEARBY=<img src="/screens/bullet.gif" alt="Nearby on shelf" border="0">
 ICON_BIB_PAGING_CAPTION=Browse search results:
 ICON_BIB_PAGING_NEXT=<span class="button browseNext">Next &raquo;</span>
 ICON_BIB_PAGING_PREV=<span class="button browsePrevious">&laquo; Previous</span>
-ICON_BUT_MARC_DISPLAY=<span class="button">MARC Display</span>
-ICON_BUT_REGULAR_DISPLAY=<span class="button">Regular Display</span>
-ICON_BUT_RTRNTB=<span class="button">Return to Browse</span>
 ICON_RECORDLINK=Link to this record: <span class="bibRecordLink"><a id="recordnum" href="%s">%s</a></span>
 LINK856TEXT=Connect to
 MARC=true
+# SHOWOREC=no_cdate
 TABLEPARAM_BIB=width="100%" cellpadding="0" cellspacing="0" border="0"|cellpadding="0" cellspacing="0" border="0" align="center"
 TABLEPARAM_BIB_DETAIL=width="100%" border="0" cellspacing="0" cellpadding="0"
 TABLEPARAM_BIB_HOLDINGS=width="100%" cellspacing="0" cellpadding="0"
@@ -169,6 +181,7 @@ TABLEPARAM_BIB_ORDER=width="100%" cellspacing="0" cellpadding="0"
 TABLEPARAM_BIB_PAGER=border="0"
 TABLEPARAM_BIB_THUMBNAILS=align="center" cellspacing="0" cellpadding="0"
 TABLEPARAM_BIB_TOC=border="0" cellspacing="0"
+# WEBPUBDEF=true
 
 # Electronic Resource Management
 BIB_LICENSE_FIELDS_BRIEF=<span class="label">Authorized users</span>,Vlu|<span class="label">Simultaneous users</span>,Fl232|<span class="label">Terms of use</span>,Vlt
@@ -314,6 +327,12 @@ BIBIMAGE_TEXT=Book jacket
 # AirPAC
 AIRPAC_PORT=6060
 
+# WebPAC Pro
+BROWSE50=true
+ICON_SPELLCHECK_MORE=<span class="spellcheckToolMore">more&nbsp;&raquo;</span>
+ICON_SPELLCHECK_SEARCH=<img src="/screens/ico_go.gif" class="button" border="0" alt="Search">
+SPELLCHECK=<span class="spellcheckTool">Did you mean %a? %s </span>
+
 # Copy Location Codes (Links)
 # Floor 1
 LOC_ddf=http://www.library.carleton.ca/floor-maps/floor-1" target="_blank
@@ -387,6 +406,8 @@ LOC_ths=http://www.library.carleton.ca/forms/thesis-storage-retrieval-request "t
 
 # For Encore
 PATFEEDS_MT=134.117.10.163
-#BOTLOGO_ENCORE=
-#STYLESHEET_ENCORE=
-WEBLINKS_ENCORE=2
+# BOTLOGO_ENCORE=
+# STYLESHEET_ENCORE=
+# WEBLINKS_ENCORE=2
+SUPPRESS_MGR_FIELDS=false
+AIRWKST_PORT=8088
