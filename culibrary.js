@@ -4,7 +4,9 @@
  */
 $(document).ready(function() {
   /**
-   * Remove forced indent in index browse tables and fix punctuation spacing.
+   * Remove forced indent on entries in extended display for index browse tables.
+   * Fix punctuation spacing on library locations, e.g.,
+   *   'Floor 5 Books:IN LIBRARY' -> 'Floor 5 Books: IN LIBRARY'
    */
   $('#main-content').find('td.browseSubEntryData').each(function(){
     $(this).html( $(this).html().replace(/&nbsp;/g, '').replace(/:/g, ': ').replace(/[,.\s]+;/g, ';'));
