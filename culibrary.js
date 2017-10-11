@@ -40,11 +40,14 @@ $(document).ready(function() {
   $('#bibDisplayContent').find('.bibDetail:first tr:first').append('<td id="bibJacketIcon" class="bibIcon"></td>');
   $('#bibJacketIcon').append( $('#bibDisplayJacket img') );
 
-  // Remove default port & all scopes from persistent record link
+  // Remove scope from persistent record URL
   $("a#recordnum").attr('href', function(i, attrValue) {
     return attrValue.replace(/~S\d+$/,'');
   });
-  $("a#recordnum").text($("a#recordnum").text().replace(/\:80\//, '/').replace(/~S\d+$/,''));
+  // Remove scope from persistent record URL text.
+  // Remove ports 80, 443 on live site pages. Leave ports 2082, 444 in
+  // persistent URL text on staging server pages
+  $("a#recordnum").text($("a#recordnum").text().replace(':80', '/').replace(':443', '').replace(/~S\d+$/,''));
 
   // Add title & call number as query parameters to 'Report Missing Item' form
   $("a#form-missing-item").attr('href', function(i, attrValue) {
