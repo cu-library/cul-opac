@@ -66,7 +66,8 @@ $(document).ready(function() {
 });
 
 /**
- * @todo describe me
+ * Finds bibliographic fields on record display page.
+ * Returns JSON object.
  */
 function getBibJSON() {
     var	bibJSON = {
@@ -74,4 +75,5 @@ function getBibJSON() {
         title: $('div.bibDisplayContentMain > table.bibDetail td').filter(function() { return $(this).text() === "Title"; }).next().text().trim(),
         call_number: $('table.bibItems tr:nth-child(2) td:nth-child(2)').text().trim()
     };
+    return bibJSON;
 }
