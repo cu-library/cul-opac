@@ -49,12 +49,29 @@ $(document).ready(function() {
   // persistent URL text on staging server pages
   $("a#recordnum").text($("a#recordnum").text().replace(':80', '/').replace(':443', '').replace(/~S\d+$/,''));
 
-  // Add title & call number as query parameters to 'Report Missing Item' form
+  // Add author, title, and call number to 'Report Missing Item' form URL as
+  // query parameters
   $("a#form-missing-item").attr('href', function(i, attrValue) {
-    var params = {
+    return attrValue + '?' + jQuery.param(getBibJSON());
+  });
+
+  // Add author, title, and call number as query parameters to thesis PDF
+  // request form, if present
+  $('#bibDisplayContent div.bibDisplayUrls a').filter(
+    function() { return $(this).attr('href') === "https://library.carleton.ca/forms/request-pdf-copy-thesis"; }
+  ).attr('href',
+    function(i, attrValue) { return attrValue + '?' + jQuery.param(getBibJSON()); }
+  ));
+
+});
+
+/**
+ * @todo describe me
+ */
+function getBibJSON() {
+    var	bibJSON = {
+        author: $('div.bibDisplayContentMain > table.bibDetail td').filter(function() { return $(this).text() === "Author"; }).next().text().trim(),
         title: $('div.bibDisplayContentMain > table.bibDetail td').filter(function() { return $(this).text() === "Title"; }).next().text().trim(),
         call_number: $('table.bibItems tr:nth-child(2) td:nth-child(2)').text().trim()
     };
-    return attrValue + '?' + jQuery.param(params);
-  });
-});
+}
