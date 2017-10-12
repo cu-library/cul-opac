@@ -56,12 +56,12 @@ $(document).ready(function() {
   });
 
   // Add author, title, and call number as query parameters to thesis PDF
-  // request form, if present
+  // request form, if present. Remove Innovative's repeated URL in onClick
+  // attribute
   $('#bibDisplayContent div.bibDisplayUrls a').filter(
-    function() { return $(this).attr('href') === "https://library.carleton.ca/forms/request-pdf-copy-thesis"; }
-  ).attr('href',
-    function(i, attrValue) { return attrValue + '?' + jQuery.param(getBibJSON()); }
-  ));
+    function() { return $(this).attr('href').trim() === "https://library.carleton.ca/forms/request-pdf-copy-thesis"; }).attr('href',
+    function(i, attrValue) { return attrValue.trim() + '?' + jQuery.param(getBibJSON()); }
+  ).removeAttr('onClick');
 
 });
 
