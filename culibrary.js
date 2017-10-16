@@ -47,7 +47,7 @@ $(document).ready(function() {
   // Remove scope from persistent record URL text.
   // Remove ports 80, 443 on live site pages. Leave ports 2082, 444 in
   // persistent URL text on staging server pages
-  $("a#recordnum").text($("a#recordnum").text().replace(':80', '/').replace(':443', '').replace(/~S\d+$/,''));
+  $("a#recordnum").text($("a#recordnum").text().replace(':80', '').replace(':443', '').replace(/~S\d+$/,''));
 
   // Add author, title, and call number to 'Report Missing Item' form URL as
   // query parameters
