@@ -59,8 +59,13 @@ $(document).ready(function() {
   // request form, if present. Remove Innovative's repeated URL in onClick
   // attribute
   $('#bibDisplayContent div.bibDisplayUrls a').filter(
-    function() { return $(this).attr('href').trim() === "https://library.carleton.ca/forms/request-pdf-copy-thesis"; }).attr('href',
-    function(i, attrValue) { return attrValue.trim() + '?' + jQuery.param(getBibJSON()); }
+    function() {
+      var formURLs = [
+        "https://library.carleton.ca/forms/request-pdf-copy-thesis",
+        "https://library.carleton.ca/forms/request-digital-copy-pdf-masters-research-essay"
+      ];
+      return ($.inArray($(this).attr('href'), formURLs) !== -1);
+    }).attr('href', function(i, attrValue) { return attrValue.trim() + '?' + jQuery.param(getBibJSON()); }
   ).removeAttr('onClick');
 
 });
