@@ -64,8 +64,7 @@ $(document).ready(function() {
         "https://library.carleton.ca/forms/request-pdf-copy-thesis",
         "https://library.carleton.ca/forms/request-digital-copy-pdf-masters-research-essay"
       ];
-      return ($.inArray() !== -1);
-      return $(this).attr('href') === "https://library.carleton.ca/forms/request-pdf-copy-thesis";
+      return ($.inArray($(this).attr('href'), formURLs) !== -1);
     }).attr('href', function(i, attrValue) { return attrValue.trim() + '?' + jQuery.param(getBibJSON()); }
   ).removeAttr('onClick');
 
