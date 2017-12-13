@@ -67,7 +67,7 @@ FRAMEURL=0
 IBROWSE_MAX=10000
 KEYWORD_COLOR=Y|all|red
 MULT_LIMITS=true
-NOSEARCH=nubf
+NOSEARCH=nubfs
 OFFER_HISTORY=true
 
 # Advanced Searching
